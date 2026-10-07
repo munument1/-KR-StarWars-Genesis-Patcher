@@ -1,0 +1,2226 @@
+{
+  "terms": [
+    {
+      "id": "929927ca9dea7841",
+      "english": "Star Wars Genesis",
+      "english_aliases": [
+        "Star Wars Genesis"
+      ],
+      "canonical_ko": "스타워즈 제네시스",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "모드팩 이름",
+      "known_variants": [
+        "스타 워즈 제네시스"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 13
+    },
+    {
+      "id": "61441838a8ab37fe",
+      "english": "Galactic Empire",
+      "english_aliases": [
+        "Galactic Empire"
+      ],
+      "canonical_ko": "은하 제국",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "Empire 단독은 제국",
+      "known_variants": [
+        "갈락틱 엠파이어"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "은하 제국",
+          "occurrences": 3,
+          "example": {
+            "sst": "starwarsgenesisoverridepatch_en_ko.sst",
+            "record": "FACT",
+            "form_id": "04000A15",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 349
+    },
+    {
+      "id": "0b807ed181f792a3",
+      "english": "Rebel Alliance",
+      "english_aliases": [
+        "Rebel Alliance"
+      ],
+      "canonical_ko": "반란군 연합",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "문맥상 약칭 반란군 허용; 반란 연합/반란군 동맹은 통일",
+      "known_variants": [
+        "반란군 동맹",
+        "반군 연합",
+        "반란 연합"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "반란군 연합",
+          "occurrences": 5,
+          "example": {
+            "sst": "freestar rebels_en_ko.sst",
+            "record": "FACT",
+            "form_id": "000638E5",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 671
+    },
+    {
+      "id": "d1df81e431b63723",
+      "english": "Shadow Collective",
+      "english_aliases": [
+        "Shadow Collective"
+      ],
+      "canonical_ko": "섀도우 콜렉티브",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "진영",
+      "known_variants": [
+        "섀도우 컬렉티브",
+        "그림자 컬렉티브",
+        "섀도 콜렉티브",
+        "그림자 집단",
+        "섀도우 조합",
+        "그림자 연합"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "그림자 집단",
+          "occurrences": 12,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "KYWD",
+            "form_id": "00028DAB",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 985
+    },
+    {
+      "id": "90a1e950dab4092f",
+      "english": "Sith Empire",
+      "english_aliases": [
+        "Sith Empire"
+      ],
+      "canonical_ko": "시스 제국",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "은하 제국과 구분",
+      "known_variants": [],
+      "observed_exact_translations": [],
+      "source_occurrences": 33
+    },
+    {
+      "id": "33263d28ed16a328",
+      "english": "Hutt Cartel",
+      "english_aliases": [
+        "Hutt Cartel"
+      ],
+      "canonical_ko": "허트 카르텔",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "진영",
+      "known_variants": [
+        "후트 카르텔",
+        "헛 카르텔",
+        "허트카르텔"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "후트 카르텔",
+          "occurrences": 3,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "FACT",
+            "form_id": "0017E225",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 148
+    },
+    {
+      "id": "77b284ae31cc145b",
+      "english": "Pyke Syndicate",
+      "english_aliases": [
+        "Pyke Syndicate"
+      ],
+      "canonical_ko": "파이크 신디케이트",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "진영",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "파이크 신디케이트",
+          "occurrences": 15,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "00229E56",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 59
+    },
+    {
+      "id": "ed2f5b59719f7f57",
+      "english": "Crimson Dawn",
+      "english_aliases": [
+        "Crimson Dawn"
+      ],
+      "canonical_ko": "크림슨 던",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "진영",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "크림슨 던",
+          "occurrences": 2,
+          "example": {
+            "sst": "sw gangs_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "001D6F96",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 125
+    },
+    {
+      "id": "0b0e48747027a29d",
+      "english": "Jedi",
+      "english_aliases": [
+        "Jedi"
+      ],
+      "canonical_ko": "제다이",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "인물·집단",
+      "known_variants": [],
+      "observed_exact_translations": [],
+      "source_occurrences": 103
+    },
+    {
+      "id": "a199d5daa83bac0e",
+      "english": "Sith",
+      "english_aliases": [
+        "Sith"
+      ],
+      "canonical_ko": "시스",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "인물·집단",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "시스",
+          "occurrences": 19,
+          "example": {
+            "sst": "shatteredspace_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "002F100A",
+            "field": "LNAM"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 1052
+    },
+    {
+      "id": "32fb6196ff8af0ed",
+      "english": "Inquisitor",
+      "english_aliases": [
+        "Inquisitor",
+        "Inquisitors"
+      ],
+      "canonical_ko": "인퀴지터",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": true,
+      "label_only": false,
+      "note": "제국 조직의 직함인지 확인",
+      "known_variants": [
+        "심문관"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 9
+    },
+    {
+      "id": "a5f6ad23dd79358a",
+      "english": "Mandalorian",
+      "english_aliases": [
+        "Mandalorian",
+        "Mandalorians"
+      ],
+      "canonical_ko": "만달로리안",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "인물·문화",
+      "known_variants": [
+        "맨달로리안",
+        "만달로어인"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "만달로리안",
+          "occurrences": 2,
+          "example": {
+            "sst": "sfbgs003_en_ko.sst",
+            "record": "MESG",
+            "form_id": "FD000EAB",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 222
+    },
+    {
+      "id": "93079e2f7d73d480",
+      "english": "Yuuzhan Vong",
+      "english_aliases": [
+        "Yuuzhan Vong"
+      ],
+      "canonical_ko": "유우잔 봉",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "종족",
+      "known_variants": [
+        "유우잔 본",
+        "유우잔봉",
+        "유잔 봉"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "유우잔 봉",
+          "occurrences": 13,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "QUST",
+            "form_id": "0013FA50",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 387
+    },
+    {
+      "id": "c6537c33e038815e",
+      "english": "Rakghoul",
+      "english_aliases": [
+        "Rakghoul",
+        "Rakghouls"
+      ],
+      "canonical_ko": "락굴",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이번 추가 번역의 표기; 라크굴 변형은 확인 후 통일",
+      "known_variants": [
+        "라크구울",
+        "락구울",
+        "라크굴"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "라크굴",
+          "occurrences": 37,
+          "example": {
+            "sst": "rakghoulinfestation_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "00001BB6",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "락굴",
+          "occurrences": 2,
+          "example": {
+            "sst": "starwarsgenesislocations_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0300177C",
+            "field": "SHRT"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 879
+    },
+    {
+      "id": "c2b0c8f98a37bf8e",
+      "english": "Grand Admiral",
+      "english_aliases": [
+        "Grand Admiral"
+      ],
+      "canonical_ko": "대제독",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "Admiral은 제독",
+      "known_variants": [
+        "그랜드 어드미럴",
+        "그랜드 애드미럴",
+        "그랜드 제독",
+        "대장군"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 44
+    },
+    {
+      "id": "4effd077d6484099",
+      "english": "Grand Moff",
+      "english_aliases": [
+        "Grand Moff"
+      ],
+      "canonical_ko": "대총독",
+      "category": "진영·세계관",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "직함",
+      "known_variants": [
+        "그랜드 모프"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 23
+    },
+    {
+      "id": "2ee37a21e9e7a955",
+      "english": "Coruscant",
+      "english_aliases": [
+        "Coruscant"
+      ],
+      "canonical_ko": "코러산트",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "코러스칸트 등의 표기 혼용 점검",
+      "known_variants": [
+        "코루스칸트",
+        "코러스칸트",
+        "코르산트"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "코러산트",
+          "occurrences": 20,
+          "example": {
+            "sst": "du_overtime_en_ko.sst",
+            "record": "QUST",
+            "form_id": "010009BF",
+            "field": "QMDP"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 357
+    },
+    {
+      "id": "69680e00e40913c9",
+      "english": "Nar Shaddaa",
+      "english_aliases": [
+        "Nar Shaddaa"
+      ],
+      "canonical_ko": "나르 샤다",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "도시·위성",
+      "known_variants": [
+        "나르 샤다아",
+        "나 샤다오",
+        "나 샤다",
+        "나르샤다",
+        "날 샤다"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "나 샤다",
+          "occurrences": 10,
+          "example": {
+            "sst": "sfbgs003_en_ko.sst",
+            "record": "WRLD",
+            "form_id": "0027CF9E",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 1164
+    },
+    {
+      "id": "06e786151e98c307",
+      "english": "Mandalore",
+      "english_aliases": [
+        "Mandalore"
+      ],
+      "canonical_ko": "만달로어",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": true,
+      "label_only": false,
+      "note": "지명과 지도자 칭호를 구분",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "만달로어",
+          "occurrences": 8,
+          "example": {
+            "sst": "starwarsgenesisgalaxypatcher_en_ko.sst",
+            "record": "STDT",
+            "form_id": "03000D19",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 347
+    },
+    {
+      "id": "c24e970214f5ff8b",
+      "english": "Dantooine",
+      "english_aliases": [
+        "Dantooine"
+      ],
+      "canonical_ko": "단투인",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "행성",
+      "known_variants": [
+        "댄투인",
+        "타투인"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "단투인",
+          "occurrences": 8,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "00061572",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 354
+    },
+    {
+      "id": "a1b911e88e4876e1",
+      "english": "Tatooine",
+      "english_aliases": [
+        "Tatooine"
+      ],
+      "canonical_ko": "타투인",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "행성",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "타투인",
+          "occurrences": 9,
+          "example": {
+            "sst": "moseisley___en_ko.sst",
+            "record": "PNDT",
+            "form_id": "030010FD",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 22
+    },
+    {
+      "id": "2f85e38b680a11c3",
+      "english": "Geonosis",
+      "english_aliases": [
+        "Geonosis"
+      ],
+      "canonical_ko": "지오노시스",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "행성",
+      "known_variants": [
+        "게오노시스",
+        "제오노시스",
+        "게오노시",
+        "지오노시",
+        "지오노스",
+        "게오노스"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "지오노시스",
+          "occurrences": 13,
+          "example": {
+            "sst": "clonewarremnants_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "0003F59A",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 704
+    },
+    {
+      "id": "b0811640abba6bd1",
+      "english": "Tython",
+      "english_aliases": [
+        "Tython"
+      ],
+      "canonical_ko": "타이손",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "행성",
+      "known_variants": [
+        "타이트온",
+        "타이톤",
+        "타이돈"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "타이톤",
+          "occurrences": 9,
+          "example": {
+            "sst": "forcepowertrainer_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "0005E294",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 21
+    },
+    {
+      "id": "e5de27f696051005",
+      "english": "Korriban",
+      "english_aliases": [
+        "Korriban"
+      ],
+      "canonical_ko": "코리반",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "행성",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "코리반",
+          "occurrences": 11,
+          "example": {
+            "sst": "shatteredspace_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "01003757",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 146
+    },
+    {
+      "id": "edf0d5bb5147f5ab",
+      "english": "Rhen Var",
+      "english_aliases": [
+        "Rhen Var"
+      ],
+      "canonical_ko": "렌 바",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "지명",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "렌 바르",
+          "occurrences": 11,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "0001A5E2",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 15
+    },
+    {
+      "id": "7b7279cbe3208ab3",
+      "english": "Dreshdae",
+      "english_aliases": [
+        "Dreshdae"
+      ],
+      "canonical_ko": "드레스데",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "기존 변형 보정 규칙에 포함",
+      "known_variants": [
+        "드레슈다이",
+        "드레쉬다이",
+        "드레슈다내",
+        "드레시다에",
+        "드레슈다에",
+        "드레쉬다에",
+        "드레시다이",
+        "드레시다",
+        "드레시데",
+        "드레쉬데"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "드레스데",
+          "occurrences": 3,
+          "example": {
+            "sst": "shatteredspace_en_ko.sst",
+            "record": "MESG",
+            "form_id": "010949A4",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 572
+    },
+    {
+      "id": "b81a74089547569f",
+      "english": "Londinion",
+      "english_aliases": [
+        "Londinion"
+      ],
+      "canonical_ko": "론디니온",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "원문에 실제로 있을 때 유지",
+      "known_variants": [
+        "런디니온"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "론디니온",
+          "occurrences": 7,
+          "example": {
+            "sst": "arc_vault_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "00016012",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 125
+    },
+    {
+      "id": "5396d71de397dae0",
+      "english": "Scaled Citadel",
+      "english_aliases": [
+        "Scaled Citadel"
+      ],
+      "canonical_ko": "비늘 성채",
+      "category": "장소",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "기존 변형 보정 규칙에 포함",
+      "known_variants": [
+        "스케일드 시타델",
+        "비늘의 성채",
+        "비늘 시타델",
+        "비늘 성체"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "비늘 성채",
+          "occurrences": 3,
+          "example": {
+            "sst": "shatteredspace_en_ko.sst",
+            "record": "MESG",
+            "form_id": "0102494F",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 107
+    },
+    {
+      "id": "836c10848a5bb3a5",
+      "english": "Thrawn",
+      "english_aliases": [
+        "Thrawn"
+      ],
+      "canonical_ko": "쓰론",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이번 추가 번역 기준",
+      "known_variants": [
+        "쓰라운",
+        "트론",
+        "스론"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 59
+    },
+    {
+      "id": "489c79f78de62efd",
+      "english": "Kallus",
+      "english_aliases": [
+        "Kallus"
+      ],
+      "canonical_ko": "칼러스",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이번 추가 번역 기준",
+      "known_variants": [
+        "칼루스"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 23
+    },
+    {
+      "id": "44f28c05e16831fd",
+      "english": "Keth",
+      "english_aliases": [
+        "Keth"
+      ],
+      "canonical_ko": "케스",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이번 추가 번역 기준",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "케스",
+          "occurrences": 1,
+          "example": {
+            "sst": "starwarsgenesisoverridepatch_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "00005996",
+            "field": "SHRT"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 21
+    },
+    {
+      "id": "c39f5f979115a6ce",
+      "english": "Levat",
+      "english_aliases": [
+        "Levat"
+      ],
+      "canonical_ko": "레바트",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이번 추가 번역 기준",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "레바트",
+          "occurrences": 2,
+          "example": {
+            "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "00005787",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 20
+    },
+    {
+      "id": "7110ee065f78f935",
+      "english": "Sana Starros",
+      "english_aliases": [
+        "Sana Starros"
+      ],
+      "canonical_ko": "사나 스타로스",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이번 추가 번역 기준",
+      "known_variants": [],
+      "observed_exact_translations": [],
+      "source_occurrences": 0
+    },
+    {
+      "id": "d87b7123448d4552",
+      "english": "Sidon Ithano",
+      "english_aliases": [
+        "Sidon Ithano"
+      ],
+      "canonical_ko": "시돈 이타노",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이번 추가 번역 기준",
+      "known_variants": [],
+      "observed_exact_translations": [],
+      "source_occurrences": 0
+    },
+    {
+      "id": "6864c18f65fe857f",
+      "english": "Janese",
+      "english_aliases": [
+        "Janese"
+      ],
+      "canonical_ko": "제니스",
+      "category": "인물",
+      "status": "provisional",
+      "context_required": false,
+      "label_only": false,
+      "note": "잠정 표기; 화자·음성 확인",
+      "known_variants": [
+        "자니스",
+        "자네스"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "자니스",
+          "occurrences": 1,
+          "example": {
+            "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0000598C",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 12
+    },
+    {
+      "id": "e4adfe92701f697e",
+      "english": "Shanni",
+      "english_aliases": [
+        "Shanni"
+      ],
+      "canonical_ko": "샤니",
+      "category": "인물",
+      "status": "provisional",
+      "context_required": false,
+      "label_only": false,
+      "note": "잠정 표기; 화자·음성 확인",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "샤니",
+          "occurrences": 9,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "STAT",
+            "form_id": "0017EC71",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 50
+    },
+    {
+      "id": "7321db00da704611",
+      "english": "Alira",
+      "english_aliases": [
+        "Alira"
+      ],
+      "canonical_ko": "알리라",
+      "category": "인물",
+      "status": "provisional",
+      "context_required": false,
+      "label_only": false,
+      "note": "잠정 표기; 화자·음성 확인",
+      "known_variants": [],
+      "observed_exact_translations": [],
+      "source_occurrences": 77
+    },
+    {
+      "id": "0cab0b91df1a6367",
+      "english": "Drekk",
+      "english_aliases": [
+        "Drekk"
+      ],
+      "canonical_ko": "드렉",
+      "category": "인물",
+      "status": "provisional",
+      "context_required": false,
+      "label_only": false,
+      "note": "잠정 표기; 화자·음성 확인",
+      "known_variants": [],
+      "observed_exact_translations": [],
+      "source_occurrences": 0
+    },
+    {
+      "id": "5e9a717bbcf40ebc",
+      "english": "Percival / Pervical",
+      "english_aliases": [
+        "Percival",
+        "Pervical"
+      ],
+      "canonical_ko": "퍼시벌",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "원문의 철자 차이도 기록",
+      "known_variants": [
+        "퍼시발"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "퍼시벌",
+          "occurrences": 2,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0029D01D",
+            "field": "SHRT"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 174
+    },
+    {
+      "id": "abf727aa2796d778",
+      "english": "Hadrian",
+      "english_aliases": [
+        "Hadrian"
+      ],
+      "canonical_ko": "헤이드리안",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "원문에 실제로 있을 때 유지",
+      "known_variants": [
+        "하드리아누스",
+        "해드리아스",
+        "헤이드리언",
+        "해드라이언",
+        "하드리아",
+        "해드리언",
+        "헤드리안",
+        "해드리안",
+        "하드리안",
+        "해드런"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "헤이드리안",
+          "occurrences": 6,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "MESG",
+            "form_id": "00146116",
+            "field": "NNAM"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 320
+    },
+    {
+      "id": "d9e65001c448065f",
+      "english": "Orlase",
+      "english_aliases": [
+        "Orlase"
+      ],
+      "canonical_ko": "올레이즈",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "원문에 실제로 있을 때 유지",
+      "known_variants": [
+        "올레이스",
+        "올라스"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "올레이즈",
+          "occurrences": 1,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "00248C08",
+            "field": "SHRT"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 104
+    },
+    {
+      "id": "1ebf7fc7fc9bb0db",
+      "english": "Jinan",
+      "english_aliases": [
+        "Jinan"
+      ],
+      "canonical_ko": "지난",
+      "category": "인물",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "원문에 실제로 있을 때 유지",
+      "known_variants": [
+        "진안",
+        "지넌"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "지난",
+          "occurrences": 1,
+          "example": {
+            "sst": "shatteredspace_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0111B664",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 255
+    },
+    {
+      "id": "6774bf610b6e6f09",
+      "english": "Hyperdrive",
+      "english_aliases": [
+        "Hyperdrive"
+      ],
+      "canonical_ko": "하이퍼드라이브",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "Grav Drive가 원문에 남으면 문맥 확인",
+      "known_variants": [
+        "초공간 추진기 엔진",
+        "그라브 드라이브",
+        "초공간 추진기",
+        "중력 드라이브",
+        "중력 구동기",
+        "중력구동기"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "하이퍼드라이브",
+          "occurrences": 6,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "STAT",
+            "form_id": "00045DCE",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 511
+    },
+    {
+      "id": "34fcbd3a3b9891e5",
+      "english": "hyperspace",
+      "english_aliases": [
+        "hyperspace"
+      ],
+      "canonical_ko": "초공간",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "일반적인 공간과 구분",
+      "known_variants": [
+        "하이퍼 스페이스",
+        "하이퍼스페이스",
+        "초광속 도약",
+        "중력 도약"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 270
+    },
+    {
+      "id": "f6b14498303776e7",
+      "english": "lightsaber",
+      "english_aliases": [
+        "lightsaber",
+        "lightsabers"
+      ],
+      "canonical_ko": "광선검",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이름·에디터 ID는 별도",
+      "known_variants": [
+        "라이트 세이버",
+        "라이트세이버",
+        "광검"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 50
+    },
+    {
+      "id": "2961c5a0feb2a8c9",
+      "english": "blaster",
+      "english_aliases": [
+        "blaster",
+        "blasters"
+      ],
+      "canonical_ko": "블라스터",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "무기 분류",
+      "known_variants": [
+        "블래스터"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 511
+    },
+    {
+      "id": "fab16132ae80815d",
+      "english": "droid",
+      "english_aliases": [
+        "droid",
+        "droids"
+      ],
+      "canonical_ko": "드로이드",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "인물인지 장비인지 확인",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "드로이드",
+          "occurrences": 23,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "PERK",
+            "form_id": "0021B8CD",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 1071
+    },
+    {
+      "id": "2c96c4dc757597cc",
+      "english": "jetpack",
+      "english_aliases": [
+        "jetpack"
+      ],
+      "canonical_ko": "제트팩",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "장비",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "제트팩",
+          "occurrences": 2,
+          "example": {
+            "sst": "mojo_jetpackcontroller_en_ko.sst",
+            "record": "ENCH",
+            "form_id": "003CEE46",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 54
+    },
+    {
+      "id": "2a6b24ad28722034",
+      "english": "Credits",
+      "english_aliases": [
+        "Credits"
+      ],
+      "canonical_ko": "크레딧",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": true,
+      "label_only": false,
+      "note": "화폐; 제작진 메뉴는 제작진",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "크레딧",
+          "occurrences": 2,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "MISC",
+            "form_id": "0000000F",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 1615
+    },
+    {
+      "id": "5223995dbd967422",
+      "english": "Force Sensitive",
+      "english_aliases": [
+        "Force Sensitive"
+      ],
+      "canonical_ko": "포스 감응",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": true,
+      "label_only": false,
+      "note": "특성은 포스 감응; 인물·전용 조건은 포스 감응자",
+      "known_variants": [],
+      "observed_exact_translations": [
+        {
+          "ko": "포스 센서티브",
+          "occurrences": 1,
+          "example": {
+            "sst": "starwarsgenesislightsabers_en_ko.sst",
+            "record": "PERK",
+            "form_id": "09000803",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 6
+    },
+    {
+      "id": "5982fbbd1749f90b",
+      "english": "Force Essence",
+      "english_aliases": [
+        "Force Essence"
+      ],
+      "canonical_ko": "포스 정수",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "이번 UI 번역 기준",
+      "known_variants": [
+        "포스 에센스"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "포스 정수",
+          "occurrences": 1,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "SPEL",
+            "form_id": "001447B9",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 9
+    },
+    {
+      "id": "cd4307fb35b56e9a",
+      "english": "Force Reflexes",
+      "english_aliases": [
+        "Force Reflexes"
+      ],
+      "canonical_ko": "포스 리플렉스",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": true,
+      "label_only": false,
+      "note": "기능 이름",
+      "known_variants": [],
+      "observed_exact_translations": [],
+      "source_occurrences": 0
+    },
+    {
+      "id": "ec3d5a8397c6b38b",
+      "english": "Aceles",
+      "english_aliases": [
+        "Aceles"
+      ],
+      "canonical_ko": "아셀리스",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "기존 변형 보정 규칙에 포함",
+      "known_variants": [
+        "아실리스",
+        "아셀레스",
+        "아세레스",
+        "아세셀",
+        "아셀스",
+        "아셀"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "아셀리스",
+          "occurrences": 25,
+          "example": {
+            "sst": "ascension_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0010478A",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "Aceles",
+          "occurrences": 1,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "ARMO",
+            "form_id": "00203C2C",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 152
+    },
+    {
+      "id": "7b186aaf815451ab",
+      "english": "Vigilance",
+      "english_aliases": [
+        "Vigilance"
+      ],
+      "canonical_ko": "비질런스",
+      "category": "기술·능력·장비",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "원문에 해당 이름이 있을 때",
+      "known_variants": [
+        "비질런트"
+      ],
+      "observed_exact_translations": [],
+      "source_occurrences": 192
+    },
+    {
+      "id": "a320d2621c607a05",
+      "english": "Gamorrean Guard",
+      "english_aliases": [
+        "Gamorrean Guard"
+      ],
+      "canonical_ko": "가모리안 경비병",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "가모리안 가드와 통일",
+      "known_variants": [
+        "가모리안 가드"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "가모리안 경비병",
+          "occurrences": 13,
+          "example": {
+            "sst": "starwarsfactionexpansion_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0026FDB3",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "가모리안 가드",
+          "occurrences": 8,
+          "example": {
+            "sst": "sw gangs_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "010008C9",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 25
+    },
+    {
+      "id": "997c105177654370",
+      "english": "Hutt Clan",
+      "english_aliases": [
+        "Hutt Clan"
+      ],
+      "canonical_ko": "허트 클랜",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "헛/후트 표기와 통일",
+      "known_variants": [
+        "후트 클랜",
+        "헛 카르텔",
+        "헛 가문",
+        "헛 클랜"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "헛 클랜",
+          "occurrences": 4,
+          "example": {
+            "sst": "starwarsgenesisoverridepatch_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0015E249",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 40
+    },
+    {
+      "id": "b306f96e7996301f",
+      "english": "Hutt Clan Enforcer",
+      "english_aliases": [
+        "Hutt Clan Enforcer"
+      ],
+      "canonical_ko": "허트 클랜 집행자",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "엔포서와 통일",
+      "known_variants": [
+        "허트 클랜 엔포서",
+        "헛 클랜 집행자",
+        "헛 클랜 엔포서"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "헛 클랜 집행자",
+          "occurrences": 4,
+          "example": {
+            "sst": "starwarsfactionexpansion_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0026FDB4",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "헛 클랜 엔포서",
+          "occurrences": 1,
+          "example": {
+            "sst": "sw gangs_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "00270270",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 5
+    },
+    {
+      "id": "5067233055895dee",
+      "english": "Hutt Clan Crimelord",
+      "english_aliases": [
+        "Hutt Clan Crimelord"
+      ],
+      "canonical_ko": "허트 클랜 범죄 조직 두목",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "NPC 이름",
+      "known_variants": [
+        "헛 클랜 범죄 조직 두목",
+        "헛 클랜 범죄 두목"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "헛 클랜 범죄 조직 두목",
+          "occurrences": 2,
+          "example": {
+            "sst": "starwarsfactionexpansion_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0011DDCA",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "헛 클랜 범죄 두목",
+          "occurrences": 1,
+          "example": {
+            "sst": "tatooine_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "04001C3B",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 3
+    },
+    {
+      "id": "d2623d94dee9ac9b",
+      "english": "Hutt Clan Hitman",
+      "english_aliases": [
+        "Hutt Clan Hitman"
+      ],
+      "canonical_ko": "허트 클랜 청부업자",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "NPC 이름",
+      "known_variants": [
+        "헛 클랜 청부업자",
+        "헛 클랜 킬러"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "헛 클랜 청부업자",
+          "occurrences": 2,
+          "example": {
+            "sst": "sw gangs_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "00270271",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "헛 클랜 킬러",
+          "occurrences": 1,
+          "example": {
+            "sst": "starwarsfactionexpansion_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "00270271",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 3
+    },
+    {
+      "id": "cf81d96c82a699d5",
+      "english": "Partisan Heavy Soldier",
+      "english_aliases": [
+        "Partisan Heavy Soldier"
+      ],
+      "canonical_ko": "파르티잔 중화기병",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "파르티잔 중병과 통일",
+      "known_variants": [
+        "파르티잔 중병"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "파르티잔 중병",
+          "occurrences": 1,
+          "example": {
+            "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0026FB3C",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "파르티잔 중화기병",
+          "occurrences": 1,
+          "example": {
+            "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+            "record": "NPC_",
+            "form_id": "0028B4D9",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 2
+    },
+    {
+      "id": "fec28ecb6e03e816",
+      "english": "Dromund",
+      "english_aliases": [
+        "Dromund"
+      ],
+      "canonical_ko": "드로먼드",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "드러먼드/드루먼드/드로문드와 통일",
+      "known_variants": [
+        "드로문드",
+        "드러먼드",
+        "드루먼드"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "드로문드",
+          "occurrences": 2,
+          "example": {
+            "sst": "starwarsgenesisgalaxypatcher_en_ko.sst",
+            "record": "STDT",
+            "form_id": "03000FE9",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "드로먼드",
+          "occurrences": 1,
+          "example": {
+            "sst": "starwarsgenesisoverridepatch_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "0006156A",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "드러먼드",
+          "occurrences": 1,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02001007",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 56
+    },
+    {
+      "id": "3d0942038fd537a9",
+      "english": "Bonagal",
+      "english_aliases": [
+        "Bonagal"
+      ],
+      "canonical_ko": "보나갈",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "보나가/보나가르와 통일",
+      "known_variants": [
+        "보나가르",
+        "보나가"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "보나가",
+          "occurrences": 2,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000DF4",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "보나갈",
+          "occurrences": 2,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "02000D52",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 24
+    },
+    {
+      "id": "410b781d9cbad098",
+      "english": "Bubbok",
+      "english_aliases": [
+        "Bubbok"
+      ],
+      "canonical_ko": "버복",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "부복과 통일",
+      "known_variants": [
+        "부복"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "버복",
+          "occurrences": 2,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000F99",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "부복",
+          "occurrences": 2,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000F8B",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 16
+    },
+    {
+      "id": "67e9600795d16aba",
+      "english": "Casna Aure",
+      "english_aliases": [
+        "Casna Aure"
+      ],
+      "canonical_ko": "카스나 아우레",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "카스나 오레와 통일",
+      "known_variants": [
+        "카스나 오레"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "카스나 아우레",
+          "occurrences": 4,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "0200141D",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 28
+    },
+    {
+      "id": "faba491c85df9518",
+      "english": "Centax",
+      "english_aliases": [
+        "Centax"
+      ],
+      "canonical_ko": "센택스",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "센탁스와 통일",
+      "known_variants": [
+        "센탁스"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "센택스",
+          "occurrences": 4,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "0005E312",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 16
+    },
+    {
+      "id": "6a59f8e0ceac5c06",
+      "english": "Jum",
+      "english_aliases": [
+        "Jum"
+      ],
+      "canonical_ko": "줌",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": true,
+      "note": "행성명; 일반 명사 점은 치환하지 않음",
+      "known_variants": [
+        "점"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "점",
+          "occurrences": 3,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000E64",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "줌",
+          "occurrences": 1,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "02000D92",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 16
+    },
+    {
+      "id": "1b1eae5c8120dbd1",
+      "english": "Karaan",
+      "english_aliases": [
+        "Karaan"
+      ],
+      "canonical_ko": "카란",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "카라안과 통일",
+      "known_variants": [
+        "카라안"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "카란",
+          "occurrences": 3,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000E76",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "카라안",
+          "occurrences": 1,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "02000D72",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 20
+    },
+    {
+      "id": "a37a1f1a66749363",
+      "english": "Kuhurrik",
+      "english_aliases": [
+        "Kuhurrik"
+      ],
+      "canonical_ko": "쿠루릭",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "쿠후릭과 통일",
+      "known_variants": [
+        "쿠후릭"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "쿠후릭",
+          "occurrences": 2,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "02000A72",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "쿠루릭",
+          "occurrences": 2,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000B1C",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 16
+    },
+    {
+      "id": "96d8a0637df8e9ee",
+      "english": "Ordaj",
+      "english_aliases": [
+        "Ordaj"
+      ],
+      "canonical_ko": "오르다즈",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "오르다이와 통일",
+      "known_variants": [
+        "오르다지",
+        "오르다이",
+        "올다즈"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "오르다지",
+          "occurrences": 8,
+          "example": {
+            "sst": "starfield_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "0001B2C3",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 40
+    },
+    {
+      "id": "3c261eb0f5b52738",
+      "english": "Ronay",
+      "english_aliases": [
+        "Ronay"
+      ],
+      "canonical_ko": "로네이",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "로나이와 통일",
+      "known_variants": [
+        "로나이"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "로네이",
+          "occurrences": 3,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "02001440",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "로나이",
+          "occurrences": 1,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02001464",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 4
+    },
+    {
+      "id": "c481c73d6eb51220",
+      "english": "Stentat",
+      "english_aliases": [
+        "Stentat"
+      ],
+      "canonical_ko": "스텐탓",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "스텐탯과 통일",
+      "known_variants": [
+        "스텐탯"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "스텐탯",
+          "occurrences": 3,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "0200114E",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "스텐탓",
+          "occurrences": 1,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "PNDT",
+            "form_id": "02001116",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 28
+    },
+    {
+      "id": "b96f7d7e5edca010",
+      "english": "Tann",
+      "english_aliases": [
+        "Tann"
+      ],
+      "canonical_ko": "탄",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": false,
+      "note": "탠과 통일",
+      "known_variants": [
+        "탠"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "탄",
+          "occurrences": 3,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000E40",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        },
+        {
+          "ko": "탠",
+          "occurrences": 1,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000E4F",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 4
+    },
+    {
+      "id": "1d2b1a1cca1f6428",
+      "english": "Undar",
+      "english_aliases": [
+        "Undar"
+      ],
+      "canonical_ko": "운다르",
+      "category": "제네시스 이름·공통 직함",
+      "status": "project_standard",
+      "context_required": false,
+      "label_only": true,
+      "note": "운다와 통일",
+      "known_variants": [
+        "운다"
+      ],
+      "observed_exact_translations": [
+        {
+          "ko": "운다르",
+          "occurrences": 4,
+          "example": {
+            "sst": "swnewgalaxy_en_ko.sst",
+            "record": "LCTN",
+            "form_id": "02000F87",
+            "field": "FULL"
+          },
+          "approved_alias": false
+        }
+      ],
+      "source_occurrences": 12
+    }
+  ]
+}

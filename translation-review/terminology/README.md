@@ -1,5 +1,7 @@
 # 통일 용어집과 ESM/SST 용어 재검수
 
+최신 v0.2.2의 최종 판정·전체 재검색 결과는 [`../terminology-complete/README.md`](../terminology-complete/README.md)를 참고하세요. 이 폴더는 초기 감사와 v0.2.1 적용 기록을 유지합니다.
+
 ## 기준 및 범위
 
 - 사람용 기준: [`../GLOSSARY.md`](../GLOSSARY.md), 73항목.

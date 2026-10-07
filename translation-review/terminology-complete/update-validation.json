@@ -1,0 +1,12 @@
+{
+  "all_previous_versions_match_clean_install": {
+    "d620a47": 17,
+    "0daea94": 17,
+    "56712c0": 17
+  },
+  "statuses": {
+    "prepared": 73,
+    "already_applied": 112
+  },
+  "game_modified": false
+}

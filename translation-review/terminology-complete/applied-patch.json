@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "review_manifest_sha256": "d900d13263fd2d5eac09f5399d256a2b8e59468f5eaa196e2a4ebda8001cfada",
+  "glossary_sha256": "b8ce91155cfb591fc811e1ba88868d0f75957c3378ce36c6c0b022717b9fa062",
+  "dispositions": {
+    "context_validated": 1365
+  },
+  "changed_locations": 1365,
+  "changed_plugin_files": 11,
+  "changed_strings_files": 6,
+  "results": [
+    {
+      "target": "mods/Star Wars Genesis - Locations/StarWarsGenesisLocations.esm",
+      "kind": "plugin",
+      "changed_locations": 1,
+      "output_sha256": "a240bad0accbf9165f90a4fed0dae37cdd7b15d297f47c6e62f9c9fbca97cd3d"
+    },
+    {
+      "target": "mods/Mini Places Of Intrigue- GRiNDTerra POI/GrindTerralocations.esm",
+      "kind": "plugin",
+      "changed_locations": 4,
+      "output_sha256": "6312ee5d8d771b8dbc534df60d590b008b108c3377888bbd5b2dbe7d7d545ea3"
+    },
+    {
+      "target": "mods/Dark Universe - Takeover/du_takeover.esm",
+      "kind": "plugin",
+      "changed_locations": 10,
+      "output_sha256": "3dead82f5640abaa052d98430af2c9cca89ee57ffc36938a060843a881950b47"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/SW Spacer Overhaul.esm",
+      "kind": "plugin",
+      "changed_locations": 14,
+      "output_sha256": "78d1a6db3396c90bfed741b4efca8cddc5d6a52eb6525a1b2e10b4c9c8f13a13"
+    },
+    {
+      "target": "mods/Mandalore Fix - Rock Galaxy/SWNewGalaxy.esm",
+      "kind": "plugin",
+      "changed_locations": 2,
+      "output_sha256": "33720146bfc7f8263ea2451a9709d5d9e265e0199df92d27ba795cd672df4227"
+    },
+    {
+      "target": "mods/Star Wars - Tython Force Power Trainer/ForcePowerTrainer.esm",
+      "kind": "plugin",
+      "changed_locations": 3,
+      "output_sha256": "c88da4be64760214bdb7ed049188bbce46c801c31c9e617f1ec1f24029647ca0"
+    },
+    {
+      "target": "mods/Kellic - Bounty Hunter Veteran Outfit/Kellic.esm",
+      "kind": "plugin",
+      "changed_locations": 1,
+      "output_sha256": "d705c7cb82c5a3be0b555e52f47168713d83866455df3a9193f6983ee90d376b"
+    },
+    {
+      "target": "mods/Trackers Alliance HQ - Star Wars Overhaul/TrackerAlliance_HQ_Overhaul.esm",
+      "kind": "plugin",
+      "changed_locations": 4,
+      "output_sha256": "2c11fafe381e43e7a229f444495e522c1a229952a8522aac4f258433237db1bb"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/StarWarsGenesisArmorCompendium.esm",
+      "kind": "plugin",
+      "changed_locations": 13,
+      "output_sha256": "2322a67bb3bcb989e6b212cbb92e774885edf4037e77a24095f05ddb5ef3f5d9"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/StarWarsFactionExpansion.esm",
+      "kind": "plugin",
+      "changed_locations": 9,
+      "output_sha256": "64ddeb29a39fe8d28340dc5b042b1d85927b5b81def8436ed4c79714698cff57"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
+      "kind": "plugin",
+      "changed_locations": 1,
+      "output_sha256": "39a59a6913f03a79887d5d0e7207e0e286a1cde81583bcf67419feceb344269c"
+    },
+    {
+      "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.dlstrings",
+      "kind": ".dlstrings",
+      "changed_locations": 4,
+      "output_sha256": "87418412f1560f73909d89b1771e80f02cab81a898bc2901d0617784f45fca80"
+    },
+    {
+      "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.ilstrings",
+      "kind": ".ilstrings",
+      "changed_locations": 1,
+      "output_sha256": "7624a07774aa29b22c678e3bf6303f905074f3bdeaa4db88199cca96e2a81c97"
+    },
+    {
+      "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.strings",
+      "kind": ".strings",
+      "changed_locations": 4,
+      "output_sha256": "6823177cbf85e76144a2b7c6f68259bdd39a69d1734eaaf4e792b571ea9e0654"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.dlstrings",
+      "kind": ".dlstrings",
+      "changed_locations": 199,
+      "output_sha256": "908d27d5a3559354e0f9361143a1a34e641297e9f8988998560474901de961ef"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+      "kind": ".ilstrings",
+      "changed_locations": 788,
+      "output_sha256": "85d4aefcef6ffcfb0e86d033e03fae2d42f19fcc60d481d1d2fa9b3715cd55ab"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+      "kind": ".strings",
+      "changed_locations": 307,
+      "output_sha256": "e72045c148364cccf26f93ede38bb74734dff84251e088599a8227f16f35349b"
+    }
+  ],
+  "clean_and_upgrade_outputs_identical": true,
+  "game_modified": false
+}

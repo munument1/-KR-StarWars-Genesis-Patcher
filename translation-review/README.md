@@ -17,6 +17,7 @@
 - [`GLOSSARY.md`](GLOSSARY.md): 기존 추가 번역의 작업 용어집과 문체·태그 규칙.
 - [`terminology/README.md`](terminology/README.md): 통일 용어집 JSON과 전체 SST·현재 ESM별 용어 재검수 결과.
 - [`terminology-followup/README.md`](terminology-followup/README.md): 과거 SST 보류 항목의 추가 규칙 검사·Gemini 검수 및 독립 검사 결과. 현재 패처에 자동 적용하지 않습니다.
+- [`terminology-complete/README.md`](terminology-complete/README.md): 초기 보류를 포함한 전체 용어 검수의 최종 판정과 v0.2.2 반영 결과. 최신 판정은 이 자료를 사용합니다.
 - [`three-way/README.md`](three-way/README.md): 바닐라 영어·기존 한패·제네시스 영어의 3자 대조 및 재사용·이름 교체 후보. 기존 검수 큐와 별도로 보관합니다.
 - [`legacy/manifest.json`](legacy/manifest.json): 총량, 출처 해시, 배치 파일과 초기 체크섬.
 - `legacy/batches/legacy-0001.json`부터: 수정 가능한 번역·검수 항목.

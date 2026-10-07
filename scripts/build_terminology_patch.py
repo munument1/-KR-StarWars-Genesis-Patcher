@@ -3,13 +3,13 @@ import argparse,gzip,hashlib,json,shutil,sys
 from collections import Counter,defaultdict
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from patch_engine import patch_plugin,check_translation
+from patch_engine import patch_plugin,patch_strings,check_translation
 from installer_backend import safe
 
 def sha(raw):return hashlib.sha256(raw).hexdigest()
-def mapping(recipe):return {tuple(k):tuple(v) for k,v in recipe['translations']}
-def blob(package,values):
-    raw=gzip.compress(json.dumps({'kind':'plugin','translations':sorted(values.items())},ensure_ascii=False,separators=(',',':')).encode(),mtime=0)
+def mapping(recipe):return {(tuple(k) if isinstance(k,list) else k):tuple(v) for k,v in recipe['translations']}
+def blob(package,values,kind='plugin'):
+    raw=gzip.compress(json.dumps({'kind':kind,'translations':sorted(values.items())},ensure_ascii=False,separators=(',',':')).encode(),mtime=0)
     digest=sha(raw);(package/'blobs'/digest).write_bytes(raw);return digest
 def compose(first,second):
     result=dict(first)
@@ -23,12 +23,13 @@ def compose(first,second):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--game',type=Path,required=True);ap.add_argument('--package',type=Path,required=True)
-    ap.add_argument('--review-dir',type=Path,required=True);ap.add_argument('--output-dir',type=Path,required=True);args=ap.parse_args()
+    ap.add_argument('--review-dir',type=Path,required=True);ap.add_argument('--output-dir',type=Path,required=True)
+    ap.add_argument('--completed-review',action='store_true');args=ap.parse_args()
     for protected in (args.game,args.package,args.review_dir):
         if args.output_dir.resolve().is_relative_to(protected.resolve()) or protected.resolve().is_relative_to(args.output_dir.resolve()):raise ValueError('Build must be outside inputs')
     if args.output_dir.exists():raise ValueError('Output already exists')
     audit=json.loads((args.review_dir/'manifest.json').read_text(encoding='utf-8'));selected=defaultdict(dict);dispositions=Counter()
-    for batch in audit['batches']:
+    for batch in ([] if args.completed_review else audit['batches']):
         if not batch['file'].startswith('plugin/'):continue
         path=safe(args.review_dir,batch['file']);assert sha(path.read_bytes())==batch['sha256']
         for item in json.loads(path.read_text(encoding='utf-8'))['items']:
@@ -38,6 +39,14 @@ def main():
             check_translation(item['source_en'],item['proposed_ko'])
             if key in selected[loc['target']]:raise ValueError('Duplicate target')
             selected[loc['target']][key]=item
+    if args.completed_review:
+        if audit['structural_errors']:raise ValueError('Unresolved structural errors')
+        for item in json.loads((args.review_dir/'recipe-edits.json').read_text(encoding='utf-8'))['items']:
+            if item['review_status']!='context_validated':raise ValueError('Unapproved recipe edit')
+            loc=item['location'];key=tuple(loc['key']) if isinstance(loc['key'],list) else loc['key']
+            check_translation(item['source_en'],item['proposed_ko']);dispositions['context_validated']+=1
+            if key in selected[loc['target']]:raise ValueError('Duplicate target')
+            selected[loc['target']][key]=item
     manifest=json.loads((args.package/'manifest.json').read_text(encoding='utf-8'))
     args.output_dir.mkdir(parents=True);output=args.output_dir/'installer-data';shutil.copytree(args.package,output)
     backups=list((args.game/'.genesis-kr-backups').glob('*/originals'));operations=[];results=[];seen=set()
@@ -45,7 +54,8 @@ def main():
         op=dict(original_op);edits=selected.get(op['target'])
         if not edits:operations.append(op);continue
         seen.add(op['target']);recipe=json.loads(gzip.decompress(safe(args.package,'blobs/'+op['blob']).read_bytes()))
-        if recipe['kind']!='plugin':raise ValueError('Review target is not plugin')
+        kind=recipe['kind']
+        patch=lambda data,values:patch_plugin(data,values) if kind=='plugin' else patch_strings(data,kind,values)
         old=mapping(recipe);new=dict(old);upgrade={}
         for key,item in edits.items():
             if key not in old or old[key][:2]!=(item['source_en'],item['current_ko']):raise ValueError('Recipe changed since review')
@@ -58,24 +68,25 @@ def main():
                 raw=path.read_bytes()
                 if sha(raw)==op['input_sha256']:source=raw;break
         if source is None:raise ValueError('Original plugin missing: '+op['target'])
-        before,_=patch_plugin(source,old)
+        before,_=patch(source,old)
         if sha(before)!=op['output_sha256']:raise ValueError('Existing recipe hash mismatch')
-        after,changed=patch_plugin(source,new)
-        upgraded,_=patch_plugin(before,upgrade)
+        after,changed=patch(source,new)
+        upgraded,_=patch(before,upgrade)
         if after!=upgraded:raise ValueError('Upgrade differs from clean output')
         upgrades=[]
         for previous in op.get('upgrade_from',[]):
             prior=json.loads(gzip.decompress(safe(args.package,'blobs/'+previous['blob']).read_bytes()))
-            upgrades.append({'input_sha256':previous['input_sha256'],'blob':blob(output,compose(mapping(prior),upgrade))})
-        upgrades.append({'input_sha256':sha(before),'blob':blob(output,upgrade)})
-        op.update(blob=blob(output,new),output_sha256=sha(after),text_changes=len(changed),upgrade_from=upgrades)
+            upgrades.append({'input_sha256':previous['input_sha256'],'blob':blob(output,compose(mapping(prior),upgrade),kind)})
+        upgrades.append({'input_sha256':sha(before),'blob':blob(output,upgrade,kind)})
+        op.update(blob=blob(output,new,kind),output_sha256=sha(after),text_changes=len(changed),upgrade_from=upgrades)
         staged=safe(args.output_dir/'preview',op['target']);staged.parent.mkdir(parents=True,exist_ok=True);staged.write_bytes(after)
-        results.append({'target':op['target'],'changed_locations':len(upgrade),'output_sha256':sha(after)})
+        results.append({'target':op['target'],'kind':kind,'changed_locations':len(upgrade),'output_sha256':sha(after)})
         operations.append(op)
     if seen!=set(selected):raise ValueError('Review targets absent from package')
     report={'schema_version':1,'review_manifest_sha256':sha((args.review_dir/'manifest.json').read_bytes()),
             'glossary_sha256':sha((args.review_dir/'glossary.json').read_bytes()),'dispositions':dict(dispositions),
-            'changed_locations':sum(r['changed_locations'] for r in results),'changed_plugin_files':len(results),
+            'changed_locations':sum(r['changed_locations'] for r in results),'changed_plugin_files':sum(r['kind']=='plugin' for r in results),
+            'changed_strings_files':sum(r['kind']!='plugin' for r in results),
             'results':results,'clean_and_upgrade_outputs_identical':True,'game_modified':False}
     manifest.update(operations=operations,release_state='TEST_BUILD',in_game_verified=False,terminology_revision=report)
     (output/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

@@ -1,0 +1,88 @@
+{
+  "initial_sst_findings_reviewed": 2988,
+  "eligible_sst_rows_rescanned": 253340,
+  "sst_findings_reviewed": 3175,
+  "sst_decisions": {
+    "context_validated": 2976,
+    "context_accepted": 199
+  },
+  "source_manifest_sha256": "fc896830893810a5e3d971956dc39af73c002cf3365a3a94fbe263d0069d7bc4",
+  "batches": [
+    {
+      "file": "sst-final-0001.json",
+      "items": 250,
+      "sha256": "b4c3711073bd9aebcb3ce3ba661762619eb8e7c6161a61f86cd9ab7ec378d0e8"
+    },
+    {
+      "file": "sst-final-0002.json",
+      "items": 250,
+      "sha256": "2f331315b4543609f09ae5990c325a1dec0c107bfe774031552bf0f21838f450"
+    },
+    {
+      "file": "sst-final-0003.json",
+      "items": 250,
+      "sha256": "fbfb0340f569b006fab3168d01fd44d855ee7d6747ac4b885b6f1a16ec96a646"
+    },
+    {
+      "file": "sst-final-0004.json",
+      "items": 250,
+      "sha256": "9ebb1c045935d8eba72d25d299da39ecc3cc466848220a74e90de6338cd5ff42"
+    },
+    {
+      "file": "sst-final-0005.json",
+      "items": 250,
+      "sha256": "2b9bed14cb91abebde2fa0dc89fed057a8e7d241a15c90a54f1f5eb4e5773cfa"
+    },
+    {
+      "file": "sst-final-0006.json",
+      "items": 250,
+      "sha256": "9499e07412cac933e2b41759afaeeefded12053429172c796cfe365ab538f2fe"
+    },
+    {
+      "file": "sst-final-0007.json",
+      "items": 250,
+      "sha256": "5be2c5038bf5b1fa095c520835dc3439a9ec2a5061c9036d77467271e411295c"
+    },
+    {
+      "file": "sst-final-0008.json",
+      "items": 250,
+      "sha256": "a919112fbb02dd90baf1583806cf34812e05228b55dc6184c149b69fe84bc704"
+    },
+    {
+      "file": "sst-final-0009.json",
+      "items": 250,
+      "sha256": "73004b21af4b8db256b95dcd5b56bacc8326545a2135e580dbd6dd4169d080cc"
+    },
+    {
+      "file": "sst-final-0010.json",
+      "items": 250,
+      "sha256": "6c001826a12f87cc9ffebe794590efe4cf244c734400d11c787a22f7fdfe9551"
+    },
+    {
+      "file": "sst-final-0011.json",
+      "items": 250,
+      "sha256": "b030569697e682a97825b026f6ab8d2e42b0175a75ed2405611c841d140c5d18"
+    },
+    {
+      "file": "sst-final-0012.json",
+      "items": 250,
+      "sha256": "48b451782ee736aa8ca010a0dff2737996c0600b4256b249443c0c9f955c7b8a"
+    },
+    {
+      "file": "sst-final-0013.json",
+      "items": 175,
+      "sha256": "07f5efab3178e9517eb886c361dcc9a8a432c371b90bbe38bebbeda2c950a635"
+    }
+  ],
+  "name_definitions_reviewed": 40,
+  "live_recipe_locations_scanned": {
+    "plugin": 37235,
+    ".dlstrings": 9191,
+    ".ilstrings": 150104,
+    ".strings": 51669
+  },
+  "live_recipe_edits": 1365,
+  "structural_errors": 0,
+  "game_modified": false,
+  "sst_modified": false
+}

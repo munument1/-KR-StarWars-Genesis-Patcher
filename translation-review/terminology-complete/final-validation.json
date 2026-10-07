@@ -1,0 +1,9 @@
+{
+  "sst_rows_validated": 3175,
+  "initial_findings_covered": 2988,
+  "api_pairs_finalized": 293,
+  "remaining_review_holds": 0,
+  "applied_recipe_edits_verified": 1365,
+  "open_interaction_labels_verified": 22,
+  "public_json_secret_patterns_absent": true
+}

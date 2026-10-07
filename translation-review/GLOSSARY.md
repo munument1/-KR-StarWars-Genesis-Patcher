@@ -129,3 +129,5 @@ United Colonies/UC, Freestar, Constellation, New Atlantis, Akila, Neon, Ecliptic
 ## 용어집 갱신
 
 새 표기에는 영문, 한국어, 발견 위치, 채택 이유, 잠정/확정 상태를 기록합니다. 승인된 표기가 바뀌면 관련 문장과 UI를 검색해 재검토하되, 원본 `legacy_ko`는 보존합니다. AI 검수를 사람 검수나 게임 내 검증으로 표시하지 않습니다.
+
+최신 추가 별칭·표시명·상호작용 기준은 [최종 통일 용어집](terminology-complete/GLOSSARY.md)을 함께 사용하세요.

@@ -1,0 +1,3677 @@
+{
+  "items": [
+    {
+      "source_en": "Geological Location",
+      "current_ko": "지리적 위치",
+      "proposed_ko": "지질학적 위치",
+      "location": {
+        "sst": "grindterralocations_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "01001F42",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Geological Location",
+      "current_ko": "지리적 위치",
+      "proposed_ko": "지질학적 위치",
+      "location": {
+        "sst": "grindterralocations_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "01004A7F",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Geological Location",
+      "current_ko": "지리적 위치",
+      "proposed_ko": "지질학적 위치",
+      "location": {
+        "sst": "grindterralocations_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "0100640B",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Agent No. 1",
+      "current_ko": "요원 1호",
+      "proposed_ko": "1호 요원",
+      "location": {
+        "sst": "kellic_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "FD000E93",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "[Extort <Global=SFBGS003_NPCDemandMoney_Small> Credits] For the right price, I never saw you.",
+      "current_ko": "[<Global=SFBGS003_NPCDemandMoney_Large> 크레딧 갈취하기] 돈만 적당히 주면 모른 척해 주지.",
+      "proposed_ko": "[<Global=SFBGS003_NPCDemandMoney_Small> 크레딧 갈취하기] 돈만 적당히 주면 모른 척해 주지.",
+      "location": {
+        "sst": "sfbgs003_en_ko.sst",
+        "record": "INFO",
+        "form_id": "FD00B94B",
+        "field": "NAM1",
+        "index": "0",
+        "group": "2",
+        "string_id": "354"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "sfbgs003_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "FD00541F",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "2350"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "sfbgs003_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "FD00541D",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "2349"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "[Extort <Global=SFBGS003_NPCDemandMoney_Medium> Credits] Sometimes the scanner picks up the wrong people.",
+      "current_ko": "[<Global=SFBGS003_NPCDemandMoney_Large> 크레딧 갈취하기] 가끔 스캐너가 엄한 사람을 잡을 때가 있지.",
+      "proposed_ko": "[<Global=SFBGS003_NPCDemandMoney_Medium> 크레딧 갈취하기] 가끔 스캐너가 엄한 사람을 잡을 때가 있지.",
+      "location": {
+        "sst": "sfbgs003_en_ko.sst",
+        "record": "INFO",
+        "form_id": "FD00F5D2",
+        "field": "NAM1",
+        "index": "0",
+        "group": "2",
+        "string_id": "353"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Charges: Heresy, property damage, assault, resisting arrest\r\nSeverity: Extreme\r\nRecommended Sentence: Death\r\n\r\nShanira Trantori was arrested at the Meat House after causing irreparable harm to both the establishment and patrons. Along with hefty fines for damages, the recommended sentence is death for intolerable acts of heresy.\r\n\r\n- Condemning the Great Serpent and House Sith.\r\n- Explicit graffiti and destruction of religious icons.\r\n- Multiple injuries to a Herald and two arresting officers.\r\n\r\nApproval: Pending\r\n",
+      "current_ko": "혐의: 이단, 재산 손괴, 폭행, 체포 저항\r\n심각성: 극도\r\n권고 형벌: 사형\r\n\r\n샤니라는 훈제소에서 기물과 영업장 손님들에게 심각한 피해를 입히고 체포되었다. 피해 보상을 위한 거액의 배상금 외에, 용인할 수 없는 이단 행위를 저지른 형벌로 사형을 선고할 것을 권고한다.\r\n\r\n- 위대한 뱀과 시스 가문을 비난함.\r\n- 종교적 상징물을 파괴하고 노골적인 낙서를 그림.\r\n- 전령과 체포를 시도하던 두 경비대원에게 여러 부상을 입힘.\r\n\r\n승인: 보류 중",
+      "proposed_ko": "혐의: 이단, 재산 손괴, 폭행, 체포 저항\r\n심각성: 극도\r\n권고 형벌: 사형\r\n\r\n샤니라는 훈제소에서 기물과 영업장 손님들에게 심각한 피해를 입히고 체포되었다. 피해 보상을 위한 거액의 배상금 외에, 용인할 수 없는 이단 행위를 저지른 형벌로 사형을 선고할 것을 권고한다.\r\n\r\n- 위대한 뱀과 시스 가문을 비난함.\r\n- 종교적 상징물을 파괴하고 노골적인 낙서를 그림.\r\n- 전령과 체포를 시도하던 두 경비대원에게 여러 부상을 입힘.\r\n\r\n승인: 보류 중\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "0115FD7E",
+        "field": "UNAM",
+        "index": "1",
+        "group": "0",
+        "string_id": "84605"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Loot name and team entrance list:\r\n\r\n- A crate of Sith bottle wine / Team C\r\n\r\n- A living and breathing Groat / Team C\r\n\r\n- Forks, Spoons... / Team B\r\n\r\n- Cheese / Team C\r\n\r\n- Paperclips / Team B\r\n\r\n- Handgun ammo / Team A\r\n\r\n- A shitload of baguettes / Team A\r\n\r\n- Circuit Boards / Team C\r\n\r\n- Too much poutine can / Team A\r\n\r\n\r\n\r\n\r\n",
+      "current_ko": "전리품 이름 및 팀 입장 목록:\r\n\r\n- 시스 포도주 병 한 상자 / C팀\r\n\r\n- 살아 숨 쉬는 그로트 / C팀\r\n\r\n- 포크 여러 개, 스푼 여러 개... / B팀\r\n\r\n- 치즈 / C팀\r\n\r\n- 종이 클립 / B팀\r\n\r\n- 권총 탄약 / A팀\r\n\r\n- 바게트 한 무더기 / A팀\r\n\r\n- 회로판 / C팀\r\n\r\n- 너무 많은 푸틴 캔 / A팀",
+      "proposed_ko": "전리품 이름 및 팀 입장 목록:\r\n\r\n- 시스 포도주 병 한 상자 / C팀\r\n\r\n- 살아 숨 쉬는 그로트 / C팀\r\n\r\n- 포크 여러 개, 스푼 여러 개... / B팀\r\n\r\n- 치즈 / C팀\r\n\r\n- 종이 클립 / B팀\r\n\r\n- 권총 탄약 / A팀\r\n\r\n- 바게트 한 무더기 / A팀\r\n\r\n- 회로판 / C팀\r\n\r\n- 너무 많은 푸틴 캔 / A팀\r\n\r\n\r\n\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "0114730F",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84185"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "As per the Council's request, an assessment of Ministry of State Operations:\r\n\r\n- Ministry Operations temporarily transferred to Keep, in light of loss of both Halls of Authority and House Veth'aal residence.\r\n\r\n- Military / Security personnel recalled from many non-critical operations outside the city in order to bolster coverage for Dreshdae.\r\n\r\n- Ongoing threat assessment of \"Phantom\" phenomenon. Tactics being adjusted to compensate. Additional security measures enacted in key locations as necessary.\r\n\r\n- Significant operations underway to reassure public that the incident was isolated and they will be safe. \r\n\r\n- Increase noted in public displays of opposition and defiance. Agitators have been detained and/or removed as necessary.\r\n\r\n\r\n",
+      "current_ko": "의회 요청에 따라 국무성 운영 현황을 보고드립니다.\r\n\r\n- 권위의 전당과 베타알 가문 거주지를 모두 잃었음을 고려하여, 국무성 운영부를 본성으로 임시 이전하였습니다.\r\n\r\n- 도시 외부에서 비중요 임무를 수행하던 군사 및 보안 인원들을 소환하여 드레스데 방어를 강화하였습니다.\r\n\r\n- '유령' 현상에 대한 위협 평가를 진행 중이며, 이에 맞게 전술을 조정 중입니다. 필요에 따라 주요 장소에 추가 보안 조치가 적용되었습니다.\r\n\r\n- 사고 내용은 보도 통제 중이며 대중을 안심시키기 위해 모두 안전할 것이라고 선전하는 중대 작전을 실행 중입니다.\r\n\r\n- 공개적으로 반대와 저항을 표출하는 사례가 증가했습니다. 선동가들은 필요에 따라 구금 또는 제거되었습니다.",
+      "proposed_ko": "의회 요청에 따라 국무성 운영 현황을 보고드립니다.\r\n\r\n- 권위의 전당과 베타알 가문 거주지를 모두 잃었음을 고려하여, 국무성 운영부를 본성으로 임시 이전하였습니다.\r\n\r\n- 도시 외부에서 비중요 임무를 수행하던 군사 및 보안 인원들을 소환하여 드레스데 방어를 강화하였습니다.\r\n\r\n- '유령' 현상에 대한 위협 평가를 진행 중이며, 이에 맞게 전술을 조정 중입니다. 필요에 따라 주요 장소에 추가 보안 조치가 적용되었습니다.\r\n\r\n- 사고 내용은 보도 통제 중이며 대중을 안심시키기 위해 모두 안전할 것이라고 선전하는 중대 작전을 실행 중입니다.\r\n\r\n- 공개적으로 반대와 저항을 표출하는 사례가 증가했습니다. 선동가들은 필요에 따라 구금 또는 제거되었습니다.\r\n\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01162DBF",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84701"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The following list includes agents formerly working in the Settled Systems, along with a recommendation for re-assignment.\r\n\r\nMilitary\r\n=============================\r\nMirsad Jokic - Background: Soldier // Recommendation: Ministry of State\r\n\r\nDesmond Taylor - Background: Soldier // Recommendation: Ministry of State\r\n\r\nAgriculture and Science\r\n=============================\r\nVisnja Medvedenko\r\nBackground: Chemist // Recommendation: House Sith\r\n\r\nSachihiro Ladipo\r\nBackground: Astrophysicist // Recommendation: House Sith\r\n\r\nSpaceport and Warehouse\r\n=============================\r\nOchim Sharon \r\nBackground: Soldier // Recommendation: Ministry of Conjunction\r\n\r\nCarmina Andajar - Background: Smuggling // Recommendation: Ministry of State\r\n",
+      "current_ko": "재배치가 필요한 개척 성계에서 임무를 수행한 적이 있는 요원들의 리스트입니다.\r\n\r\n군인\r\n=============================\r\n미르사드 요키치 - 출신: 군인 // 권장: 국무성\r\n\r\n데스몬드 테일러 - 출신: 군인 // 권장: 국무성\r\n\r\n농업 및 과학\r\n=============================\r\n비스냐 메드베덴코\r\n출신: 화학자 // 권장: 시스 가문\r\n\r\n사치히로 라디포\r\n출신: 천체 물리학자 // 권장: 시스 가문\r\n\r\n우주항 및 창고\r\n=============================\r\n오킴 샤론\r\n출신: 군인 // 권장: 결합성\r\n\r\n카르미나 안다자르 - 출신: 밀수꾼 // 권장: 국무성",
+      "proposed_ko": "재배치가 필요한 개척 성계에서 임무를 수행한 적이 있는 요원들의 리스트입니다.\r\n\r\n군인\r\n=============================\r\n미르사드 요키치 - 출신: 군인 // 권장: 국무성\r\n\r\n데스몬드 테일러 - 출신: 군인 // 권장: 국무성\r\n\r\n농업 및 과학\r\n=============================\r\n비스냐 메드베덴코\r\n출신: 화학자 // 권장: 시스 가문\r\n\r\n사치히로 라디포\r\n출신: 천체 물리학자 // 권장: 시스 가문\r\n\r\n우주항 및 창고\r\n=============================\r\n오킴 샤론\r\n출신: 군인 // 권장: 결합성\r\n\r\n카르미나 안다자르 - 출신: 밀수꾼 // 권장: 국무성\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "01045166",
+        "field": "UNAM",
+        "index": "0",
+        "group": "0",
+        "string_id": "6888"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "This system is used to track individual crates inside the warehouse. Enter a specific frequency to track a specific crate.\r\n\r\nTracking shipments routed from House Sith:\r\n\r\n05.11.2330: Resource Supply Crate HV-2294G [PINGED]\r\n\r\n05.02.2330: Medical Supplies HV-1732W [EMPTIED]\r\n04.27.2330: Weapons Crate HV-1286K [EMPTIED]\r\n04.25.2330: Munitions Crate HV-1192K [EMPTIED]\r\n04.04.2330: Ship Parts HV-0329P [EMPTIED]\r\n",
+      "current_ko": "이 시스템을 통해 창고 내의 개별 상자를 추적할 수 있습니다. 특정 상자를 추적하려면 해당하는 특정 주파수를 입력해 주세요.\r\n\r\n시스 가문으로부터 발송된 선적물을 추적하는 중...\r\n\r\n05.11.2330: 자원 물자 상자 HV-2294G [신호 추적됨]\r\n\r\n05.02.2330: 의료 용품 HV-1732W [비어졌음]\r\n04.27.2330: 무기 상자 HV-1286K [비어졌음]\r\n04.25.2330: 탄약 상자 HV-1192K [비어졌음]\r\n04.04.2330: 함선 부품 HV-0329P [비어졌음]",
+      "proposed_ko": "이 시스템을 통해 창고 내의 개별 상자를 추적할 수 있습니다. 특정 상자를 추적하려면 해당하는 특정 주파수를 입력해 주세요.\r\n\r\n시스 가문으로부터 발송된 선적물을 추적하는 중...\r\n\r\n05.11.2330: 자원 물자 상자 HV-2294G [신호 추적됨]\r\n\r\n05.02.2330: 의료 용품 HV-1732W [비어졌음]\r\n04.27.2330: 무기 상자 HV-1286K [비어졌음]\r\n04.25.2330: 탄약 상자 HV-1192K [비어졌음]\r\n04.04.2330: 함선 부품 HV-0329P [비어졌음]\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "01012B15",
+        "field": "BTXT",
+        "index": "0",
+        "group": "0",
+        "string_id": "1764"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Sidari,\r\n\r\nThe scouts are back and it seems like our luck ain't as bad as we thought. This ain't some random ball of rock, there's a whole damn Sith city here. They got food, water, ammo and all the supplies we need. \r\n\r\nGet some raiding parties together. Your toughest and meanest. No doubt these snake-lovers got weapons. Go out at night and start with the easy targets so as not to send up the alarm too quick. Essential supplies first, loot second.\r\n",
+      "current_ko": "시다리,\r\n\r\n정찰조가 돌아왔고 우리의 행운이 생각보다 나쁘지 않은 듯해. 여긴 다른 행성 따위와 달라, 여기 온통 빌어먹을 시스 도시라고. 이 작자들한테는 음식, 물, 탄약... 우리에게 필요한 모든 물자를 가지고 있어.\r\n\r\n습격대를 모아. 네 부하들 중 가장 강하고 못된 녀석들로. 의심할 여지 없이 이 뱀에 미쳐 있는 것들은 무기도 잔뜩 갖고 있겠지. 밤에 나가서 쉬운 표적부터 시작해, 경보가 너무 빨리 울리지 않게 해. 필수 물자가 먼저고 전리품은 그 다음이야.",
+      "proposed_ko": "시다리,\r\n\r\n정찰조가 돌아왔고 우리의 행운이 생각보다 나쁘지 않은 듯해. 여긴 다른 행성 따위와 달라, 여기 온통 빌어먹을 시스 도시라고. 이 작자들한테는 음식, 물, 탄약... 우리에게 필요한 모든 물자를 가지고 있어.\r\n\r\n습격대를 모아. 네 부하들 중 가장 강하고 못된 녀석들로. 의심할 여지 없이 이 뱀에 미쳐 있는 것들은 무기도 잔뜩 갖고 있겠지. 밤에 나가서 쉬운 표적부터 시작해, 경보가 너무 빨리 울리지 않게 해. 필수 물자가 먼저고 전리품은 그 다음이야.\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "010FCFA3",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "75890"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "A Tale of Two Systems\r\n\r\nBOOK THE FIRST - RECALLED TO LIFE\r\nI. THE PERIOD\r\nIt was the best of times,\r\nit was the worst of times,\r\nit was the age of wisdom,\r\nit was the age of foolishness,\r\nit was the epoch of belief,\r\nit was the epoch of incredulity,\r\nit was the season of the false gods,\r\nit was the season of the Great Serpent,\r\nit was the spring of hope in Dreshdae,\r\nit was the winter of despair in New Atlantis,\r\nwe had everything before us, they had nothing before them, we were all going direct to the bosom of the universe when comes the Shrouding, they were all going direct the other way - in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.\r\n\r\n[Charok Sith's classic novel of society, war, class, family and the celestial dominance of House Sith continues for a total of 341 pages.]",
+      "current_ko": "두 체제 이야기\r\n\r\n1부 되살아나다\r\n\r\n1장 그 시기\r\n\r\n최고의 시절이면서\r\n\r\n최악의 시절이었고,\r\n\r\n지혜의 시대이면서\r\n\r\n어리석음의 시대였고,\r\n\r\n믿음의 세기면서\r\n\r\n불신의 세기였고,\r\n\r\n거짓된 신들의 계절이면서\r\n\r\n위대한 뱀의 계절이었고,\r\n\r\n드레스데 내 희망의 봄이면서,\r\n\r\n뉴아틀란티스 내 절망의 겨울이었고,\r\n\r\n우리 앞에는 모든 것이 있었으나 저들에겐 그 어떤 것도 없었고, 장막의 날이 도래하는 날 우린 우주의 깊은 곳으로 나아가는 동안 저들은 정 반대로 가게 될 것이니... 요컨대 그 시기는 현재와 너무나 닮아 있어 가장 목청 높은 권위자들은 당대를 논할 때 좋은 쪽으로든 나쁜 쪽으로든 양극단의 형태로만 평가하려 들었다.\r\n\r\n[사회, 전쟁, 계급, 가족, 그리고 시스 가문의 우주 지배를 다룬 차록 시스의 고전 소설은 총 341페이지에 걸쳐 이어진다.]",
+      "proposed_ko": "두 체제 이야기\r\n\r\n1부 되살아나다\r\n1장 그 시기\r\n최고의 시절이면서\r\n최악의 시절이었고,\r\n지혜의 시대이면서\r\n어리석음의 시대였고,\r\n믿음의 세기면서\r\n불신의 세기였고,\r\n거짓된 신들의 계절이면서\r\n위대한 뱀의 계절이었고,\r\n드레스데 내 희망의 봄이면서,\r\n뉴아틀란티스 내 절망의 겨울이었고,\r\n우리 앞에는 모든 것이 있었으나 저들에겐 그 어떤 것도 없었고, 장막의 날이 도래하는 날 우린 우주의 깊은 곳으로 나아가는 동안 저들은 정 반대로 가게 될 것이니... 요컨대 그 시기는 현재와 너무나 닮아 있어 가장 목청 높은 권위자들은 당대를 논할 때 좋은 쪽으로든 나쁜 쪽으로든 양극단의 형태로만 평가하려 들었다.\r\n\r\n[사회, 전쟁, 계급, 가족, 그리고 시스 가문의 우주 지배를 다룬 차록 시스의 고전 소설은 총 341페이지에 걸쳐 이어진다.]",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01175C82",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84896"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "010FEBE4",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "75883"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0111C6DC",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "82162"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "010A2D35",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "85525"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0111C56C",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "82161"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0111B488",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "81753"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Everyone,\r\n\r\nThis place is ours and nobody's going to take it from us. You see any of these House Sith freaks trying to get in, you waste them quick. Same goes for any from the Fleet that ain't us. You really think Delgado's crew ain't going to try to take this operation over if they find out about it?\r\n\r\nTrust nobody, and I mean NOBODY. Kill on sight anyone that ain't in our crew. That's the only way we're going to hold on to this operation. Don't get lazy, or you'll be made an example.\r\n\r\nSpread the word.\r\n",
+      "current_ko": "모두들 주목,\r\n\r\n이곳은 이제 우리의 땅이고 그 누구도 우리한테서 빼앗을 수 없어. 시스 가문 미치광이 놈들이 여길 들어오려고 하면 즉시 쏴 죽여. 우리가 아닌 크림슨 함대 자식들도 마찬가지야. 그 델가도 녀석의 부하들이 이곳에 관한 정보를 듣고도 가만히 있을 거라 생각하는 녀석은 없겠지? 오히려 여길 전부 접수하려고 하겠지.\r\n\r\n아무도 믿지 마, 정말 그 누구라 할지라도. 우리 대원이 아닌 사람이 있으면 눈에 띄는 즉시 죽여 버려. 그것만이 우리가 이 작전을 계속 유지할 수 있는 유일한 방법이다. 농땡이를 피우면, 그땐 너까지 본보기가 될 거다.\r\n\r\n이 말을 최대한 널리 퍼트리도록.",
+      "proposed_ko": "모두들 주목,\r\n\r\n이곳은 이제 우리의 땅이고 그 누구도 우리한테서 빼앗을 수 없어. 시스 가문 미치광이 놈들이 여길 들어오려고 하면 즉시 쏴 죽여. 우리가 아닌 크림슨 함대 자식들도 마찬가지야. 그 델가도 녀석의 부하들이 이곳에 관한 정보를 듣고도 가만히 있을 거라 생각하는 녀석은 없겠지? 오히려 여길 전부 접수하려고 하겠지.\r\n\r\n아무도 믿지 마, 정말 그 누구라 할지라도. 우리 대원이 아닌 사람이 있으면 눈에 띄는 즉시 죽여 버려. 그것만이 우리가 이 작전을 계속 유지할 수 있는 유일한 방법이다. 농땡이를 피우면, 그땐 너까지 본보기가 될 거다.\r\n\r\n이 말을 최대한 널리 퍼트리도록.\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "0100229B",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84993"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Problem: \r\nWe've received multiple requests to investigate recent mysterious animal deaths. These don't appear to be limited to a single species or localized area and began very soon after the calamity in Dreshdae. That cannot be a coincidence.\r\n\r\nHypothesis: \r\nThe calamity is the root cause of these deaths. \r\n\r\nMethod: \r\nGather data, starting with tissue samples from deceased animals that died from mysterious or unknown causes. Rule out obvious signs of death, such as mutilation by predators. We will need to hire a research assistant to collect these samples, as neither Sherine nor I are of age to go wandering all over the landscape. Moreover, it's become exceptionally dangerous out there.\r\n\r\nPlan: \r\nHire a research assistant.\r\n",
+      "current_ko": "문제: \r\n최근 동물들의 기이한 죽음을 조사해 달라는 요청을 여러 번 받았다. 이는 단일 종이나 특정 지역에 국한되지 않은 것으로 보이며, 또한 드레스데에서 발생한 재난 직후에 시작되었다. 이는 우연일 수가 없다.\r\n\r\n가설: \r\n최근에 발생한 재난이 바로 이러한 사망 속출의 근본 원인이다. \r\n\r\n방법: \r\n기이하거나 알려지지 않은 원인으로 사망한 여러 동물들의 조직 샘플부터 시작하여 데이터를 수집한다. 포식자에 의한 절단과 같은 명백한 사망 징후는 배제한다. 셰린과 나는 주변 지역 전체를 돌아다닐 나이가 아니기 때문에, 이러한 샘플을 수집하기 위해 연구 조수를 고용해야 한다. 게다가 이 근방은 돌아다니기에도 매우 위험해졌다.\r\n\r\n계획: \r\n연구 조수를 고용한다.",
+      "proposed_ko": "문제: \r\n최근 동물들의 기이한 죽음을 조사해 달라는 요청을 여러 번 받았다. 이는 단일 종이나 특정 지역에 국한되지 않은 것으로 보이며, 또한 드레스데에서 발생한 재난 직후에 시작되었다. 이는 우연일 수가 없다.\r\n\r\n가설: \r\n최근에 발생한 재난이 바로 이러한 사망 속출의 근본 원인이다. \r\n\r\n방법: \r\n기이하거나 알려지지 않은 원인으로 사망한 여러 동물들의 조직 샘플부터 시작하여 데이터를 수집한다. 포식자에 의한 절단과 같은 명백한 사망 징후는 배제한다. 셰린과 나는 주변 지역 전체를 돌아다닐 나이가 아니기 때문에, 이러한 샘플을 수집하기 위해 연구 조수를 고용해야 한다. 게다가 이 근방은 돌아다니기에도 매우 위험해졌다.\r\n\r\n계획: \r\n연구 조수를 고용한다.\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "010022B1",
+        "field": "UNAM",
+        "index": "0",
+        "group": "0",
+        "string_id": "84976"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "As per the Council's request, an assessment of Ministry of Conjunction Operations:\r\n\r\n- Ministry Operations temporarily transferred to House Ka'dic housing, which remained unaffected by the incident.\r\n\r\n- Intelligence networks have been disrupted following the Citadel incident as key personnel have been re-assigned to urgent matters in Dreshdae.\r\n\r\n- No anomalous reports have arrived from agents in the field. There is no indication that word of recent events has reached anyone offworld.\r\n\r\n- One outside contact remains within Dreshdae following the incident. As instructed by the Council, usual protocols have been suspended and he will be allowed to live.\r\n\r\n- Contact has still not been regained with the Oracle, last seen within geosynchronous orbit above Dreshdae.\r\n\r\n\r\n",
+      "current_ko": "의회 요청에 따라 결합성 운영 현황을 보고드립니다.\r\n\r\n- 카딕 가문 저택이 사건의 영향을 받지 않았음을 고려하여, 결합성 운영부를 임시 이전하였습니다.\r\n\r\n- 성채에서 일어난 사건으로 인해 중요 인력들이 드레스데의 긴급한 문제들에 재배치되면서 정보 네트워크에 차질이 빚어졌습니다.\r\n\r\n- 현장 요원들로부터 보고된 이상 역장은 없습니다. 최근 사건 소식이 외부 세계에 전해졌다는 징후는 발견되지 않았습니다.\r\n\r\n- 사건 이후로 드레스데 내부에 외부 접촉자가 1명 남아 있습니다. 의회의 지시에 따라 통상적인 절차는 중단되었고, 외부인은 생존을 허가받았습니다.\r\n\r\n- 드레스데 상공 정지궤도에서 마지막으로 목격된 오라클과 교신은 아직 이루어지지 않았습니다.",
+      "proposed_ko": "의회 요청에 따라 결합성 운영 현황을 보고드립니다.\r\n\r\n- 카딕 가문 저택이 사건의 영향을 받지 않았음을 고려하여, 결합성 운영부를 임시 이전하였습니다.\r\n\r\n- 성채에서 일어난 사건으로 인해 중요 인력들이 드레스데의 긴급한 문제들에 재배치되면서 정보 네트워크에 차질이 빚어졌습니다.\r\n\r\n- 현장 요원들로부터 보고된 이상 역장은 없습니다. 최근 사건 소식이 외부 세계에 전해졌다는 징후는 발견되지 않았습니다.\r\n\r\n- 사건 이후로 드레스데 내부에 외부 접촉자가 1명 남아 있습니다. 의회의 지시에 따라 통상적인 절차는 중단되었고, 외부인은 생존을 허가받았습니다.\r\n\r\n- 드레스데 상공 정지궤도에서 마지막으로 목격된 오라클과 교신은 아직 이루어지지 않았습니다.\r\n\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01162DC1",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84704"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "I was running an infiltration job in Cydonia when I heard the news. The worst part is it came from the lips of a bloody smuggler. \r\n\r\nI ask my handler at the Ministry about it, and he says the damage was minimal. He tells me to keep my focus on the mission, but come on. I've known Mujeen Ka'dic for eight years now, I can tell when he's lying. Jinan's breath, it's my job to know.\r\n\r\nUgh. I can't keep my head straight knowing my family might be in danger.\r\n",
+      "current_ko": "사고가 터졌다는 소식을 들었을 때 나는 시도니아에서 잠입 임무를 수행 중이었다. 가장 끔찍한 건 그 얘기를 망할 밀수꾼한테 들었다는 것이다.\r\n\r\n결합성의 상급자한테 물었더니, 피해는 경미하다며 계속 임무에만 집중하라고 한다. 하지만 참 나, 내가 무진 카딕과 알고 지낸 지 8년이 넘었고 거짓말하는 건 바로 알 수 있다. 지난이시여, 내 일이 정보 수집인 걸 모르는 건가.\r\n\r\n어휴. 내 가족이 위험에 처했을 수도 있다 생각하니 도저히 집중을 못하겠다.",
+      "proposed_ko": "사고가 터졌다는 소식을 들었을 때 나는 시도니아에서 잠입 임무를 수행 중이었다. 가장 끔찍한 건 그 얘기를 망할 밀수꾼한테 들었다는 것이다.\r\n\r\n결합성의 상급자한테 물었더니, 피해는 경미하다며 계속 임무에만 집중하라고 한다. 하지만 참 나, 내가 무진 카딕과 알고 지낸 지 8년이 넘었고 거짓말하는 건 바로 알 수 있다. 지난이시여, 내 일이 정보 수집인 걸 모르는 건가.\r\n\r\n어휴. 내 가족이 위험에 처했을 수도 있다 생각하니 도저히 집중을 못하겠다.\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "0102EE87",
+        "field": "UNAM",
+        "index": "0",
+        "group": "0",
+        "string_id": "3478"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Everyone,\r\n\r\nThis place is ours and nobody's going to take it from us. You see any of these House Sith freaks trying to get in, you waste them quick. Same goes for any from the Fleet that ain't us. You all heard what happened at the Key. Just goes to show we can't afford to let our guard down.\r\n\r\nTrust nobody, and I mean NOBODY. Kill on sight anyone that ain't in our crew. That's the only way we're going to hold on to this operation. Don't get lazy, or you'll be made an example.\r\n\r\nSpread the word.\r\n",
+      "current_ko": "모두들 주목,\r\n\r\n이곳은 이제 우리의 땅이고 그 누구도 우리한테서 빼앗을 수 없어. 시스 가문 미치광이 놈들이 여길 들어오려고 하면 즉시 쏴 죽여. 우리가 아닌 크림슨 함대 자식들도 마찬가지야. 너희들 모두 더 키에서 무슨 일이 일어났는지 들었겠지? 그러니까 우린 더더욱 방심할 여유가 없는 것이다.\r\n\r\n아무도 믿지 마, 정말 그 누구라 할지라도. 우리 대원이 아닌 사람이 있으면 눈에 띄는 즉시 죽여 버려. 그것만이 우리가 이 작전을 계속 유지할 수 있는 유일한 방법이다. 농땡이를 피우면, 그땐 너까지 본보기가 될 거다.\r\n\r\n이 말을 최대한 널리 퍼트리도록.",
+      "proposed_ko": "모두들 주목,\r\n\r\n이곳은 이제 우리의 땅이고 그 누구도 우리한테서 빼앗을 수 없어. 시스 가문 미치광이 놈들이 여길 들어오려고 하면 즉시 쏴 죽여. 우리가 아닌 크림슨 함대 자식들도 마찬가지야. 너희들 모두 더 키에서 무슨 일이 일어났는지 들었겠지? 그러니까 우린 더더욱 방심할 여유가 없는 것이다.\r\n\r\n아무도 믿지 마, 정말 그 누구라 할지라도. 우리 대원이 아닌 사람이 있으면 눈에 띄는 즉시 죽여 버려. 그것만이 우리가 이 작전을 계속 유지할 수 있는 유일한 방법이다. 농땡이를 피우면, 그땐 너까지 본보기가 될 거다.\r\n\r\n이 말을 최대한 널리 퍼트리도록.\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "0100229E",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84996"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Heard some chatter through the vine about a big score, buried somewhere on Korriban. \r\n\r\nNow, I've heard a hundred drunken stories about big hauls on remote worlds to know most ain't worth the yarn that spun it. \r\n\r\nMost of the time you can tell by the details. A bad story doesn't have enough, and a good story has too many. But a real story -- that goes straight to the facts of the matter. No lies, no bluster. \r\n\r\nThe way this story goes, it's about an a Crimson Fleet pirate nicknamed \"Mrs. Goose.\" She claimed to have stashed all her belongings in one place, but since she had no one else to share it with after her death, she said whoever could find her stash was welcome to claim it. She only left one clue. A sketch of a tree, standing over a waterfall, and a name. Misthaze Cavern.\r\n\r\nUntil now, no one knew where Misthaze Cavern was. But based on the description and some scans, seems like we've found a match. Water runs through this place, and there seem to be punctures in the roof where light can slash in. \r\n\r\nMore importantly, my gut tells me this is the spot. So I put a crew together to go and have a look-see.\r\n\r\n",
+      "current_ko": "코리반 어딘가에 묻혀 있다는 큰 건수에 대한 얘기를 우연찮게 들었다.\r\n\r\n보통 외딴 세계에서 큰 건을 해냈다고 늘어놓는 술 취한 이야기는 이미 백 번이나 들었고, 대부분은 글로 쓸 가치도 없다는 것은 잘 알고 있다.\r\n\r\n대부분의 경우 세부 사항이 얼마나 확실한지로 알 수 있다. 나쁜 이야기는 충분하지 않고 좋은 이야기일수록 많아지지. 하지만 진짜 이야기는 즉각 사실로 이어진다. 거짓말, 허세 하나 없을 정도로.\r\n\r\n이 이야기는 '구스 부인'이라는 별명을 가진 크림슨 함대 해적에 대한 것이다. 이 여자는 자신의 모든 소지품을 한곳에 숨겼다고 주장했으나, 죽은 후 공유할 사람이 없었기 때문에 구스 부인의 물건을 찾는 사람은 누구나 가져가도 좋다고 전했다더군. 단서 하나만 남겼다고... 폭포 위에 서 있는 나무 스케치와 이름. 안개서린 동굴.\r\n\r\n지금까지 아무도 안개서린 동굴이 어디인지 몰랐지만 설명과 몇 가지 스캔을 바탕으로 보면, 드디어 일치한 곳을 찾은 것 같다. 이 장소는 물이 흐르고 지붕에 빛이 새어들어올 수 있는 구멍이 있는 것 같군.\r\n\r\n더 중요한 것은, 내 직감이 바로 이곳이 그 장소라고 말하고 있다는 것이다. 그래서 난 일행을 모아 가서 살펴보기로 했다.",
+      "proposed_ko": "코리반 어딘가에 묻혀 있다는 큰 건수에 대한 얘기를 우연찮게 들었다.\r\n\r\n보통 외딴 세계에서 큰 건을 해냈다고 늘어놓는 술 취한 이야기는 이미 백 번이나 들었고, 대부분은 글로 쓸 가치도 없다는 것은 잘 알고 있다.\r\n\r\n대부분의 경우 세부 사항이 얼마나 확실한지로 알 수 있다. 나쁜 이야기는 충분하지 않고 좋은 이야기일수록 많아지지. 하지만 진짜 이야기는 즉각 사실로 이어진다. 거짓말, 허세 하나 없을 정도로.\r\n\r\n이 이야기는 '구스 부인'이라는 별명을 가진 크림슨 함대 해적에 대한 것이다. 이 여자는 자신의 모든 소지품을 한곳에 숨겼다고 주장했으나, 죽은 후 공유할 사람이 없었기 때문에 구스 부인의 물건을 찾는 사람은 누구나 가져가도 좋다고 전했다더군. 단서 하나만 남겼다고... 폭포 위에 서 있는 나무 스케치와 이름. 안개서린 동굴.\r\n\r\n지금까지 아무도 안개서린 동굴이 어디인지 몰랐지만 설명과 몇 가지 스캔을 바탕으로 보면, 드디어 일치한 곳을 찾은 것 같다. 이 장소는 물이 흐르고 지붕에 빛이 새어들어올 수 있는 구멍이 있는 것 같군.\r\n\r\n더 중요한 것은, 내 직감이 바로 이곳이 그 장소라고 말하고 있다는 것이다. 그래서 난 일행을 모아 가서 살펴보기로 했다.\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "0105EAC5",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "8197"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Project Update, 2254.5.28\r\nSupervisor Hirvan Mal'een\r\n\r\n\r\nThe brilliant Jinan, exalted Speaker for the Great Serpent, has once again imparted his wisdom and counsel to further guide the bright future of House Sith.\r\nHaving relayed knowledge of the \"Vortex,\" \"the space between universes,\" Speaker Sith has instilled within the workers of this facility a burning desire to achieve new milestones in science, and has given new purpose to the goals of harnessing this great power in the name of the Great Serpent and House Sith.\r\nWork begins at once to discern the nature of this energy and to use it to bring glory to House Sith and deliver victory in the Serpent's Crusade.",
+      "current_ko": "프로젝트 업데이트, 2254.5.28\r\n감독관 히어반 마린\r\n\r\n\r\n뛰어나신 지난님, 위대한 뱀을 받드시는 명망 높으신 선지자님이 다시 한 번 시스 가문의 밝은 미래를 위해 지혜와 조언을 나누어 주셨다. '볼텍스', 또는 '우주 사이의 공간'이란 지식을 전수받으신 시스의 대변자께서는 이 시설의 모든 직원들이 과학의 새로운 장을 열려는 열망으로 가득 차오르도록 하셨다. 또한 직원들 모두 위대한 뱀과 시스 가문의 이름으로 이 강대한 힘을 다루게 할 새 목적을 부여해 주셨다.\r\n즉시 이 에너지의 특성을 분석하고 시스 가문에게 영예를 가져다 줄 작업이 개시될 것이며, 뱀의 성전을 승리로 이끌게 할 것이다.",
+      "proposed_ko": "프로젝트 업데이트, 2254.5.28\r\n감독관 히어반 마린\r\n\r\n\r\n뛰어나신 지난님, 위대한 뱀을 받드시는 명망 높으신 선지자님이 다시 한 번 시스 가문의 밝은 미래를 위해 지혜와 조언을 나누어 주셨다.\r\n'볼텍스', 또는 '우주 사이의 공간'이란 지식을 전수받으신 시스의 대변자께서는 이 시설의 모든 직원들이 과학의 새로운 장을 열려는 열망으로 가득 차오르도록 하셨다. 또한 직원들 모두 위대한 뱀과 시스 가문의 이름으로 이 강대한 힘을 다루게 할 새 목적을 부여해 주셨다.\r\n즉시 이 에너지의 특성을 분석하고 시스 가문에게 영예를 가져다 줄 작업이 개시될 것이며, 뱀의 성전을 승리로 이끌게 할 것이다.",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "010E6F30",
+        "field": "UNAM",
+        "index": "0",
+        "group": "0",
+        "string_id": "74064"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Project Update, 2261.7.10\r\nActing Supervisor Wasilav Ka'dic\r\n\r\n\r\nPer immediate order of Speaker Jinan, all managing personnel have been reassigned from this facility. A transitional team has been appointed to oversee the immediate cessation of work at this site.\r\n\r\nNo information or materials are to leave this facility under any circumstances. All current workers will be informed of their last day on site, and will be searched to ensure no unauthorized information exits the facility.\r\n\r\nTest subjects have been directed, by Jinan himself, to maintain watch over this facility after personnel departure. All workers should be advised that any attempt to re-enter beyond the date that operations are discontinued WILL BE FATAL.\r\n\r\nJinan and the High Council remain grateful for the work done here.\r\n\r\nAll Must Serve.\r\n\r\n",
+      "current_ko": "프로젝트 업데이트, 2261.7.10\r\n감독관 대행 와실라프 카딕\r\n\r\n\r\n지난 시스 대변자님의 명령으로, 현시부로 즉시 모든 관리 직원들은 본 시설에서 타 기관으로 전출될 것이다. 현장의 모든 작업 중지가 신속히 진행되도록 인계 담당 팀까지 배정되었다.\r\n\r\n그 어떤 경우라 할지라도 본 시설 내의 정보와 자료는 절대 외부로 유출되선 아니 된다. 모든 직원들은 본 시설에 머무를 수 있는 최종 기한이 통보될 것이며 인가되지 않은 정보가 시설 밖으로 반출되는 일이 없도록 전면 수색을 받을 것이다.\r\n\r\n직원들의 철수 이후에도, 피험자들은 지난 시스님이 직접적으로 내리신 명령하에 본 시설을 감시할 것이다. 직원들은 폐쇄 기한 이후에 이 시설에 진입을 시도하면 그 즉시 '즉결 처분' 조치를 당할 수 있음을 유념하라.\r\n\r\n지난 시스와 대의회 의원들께서는 이곳에서 행해진 모든 작업에 감사를 표하셨다.\r\n\r\n모두가 섬겨야 한다.",
+      "proposed_ko": "프로젝트 업데이트, 2261.7.10\r\n감독관 대행 와실라프 카딕\r\n\r\n\r\n지난 시스 대변자님의 명령으로, 현시부로 즉시 모든 관리 직원들은 본 시설에서 타 기관으로 전출될 것이다. 현장의 모든 작업 중지가 신속히 진행되도록 인계 담당 팀까지 배정되었다.\r\n\r\n그 어떤 경우라 할지라도 본 시설 내의 정보와 자료는 절대 외부로 유출되선 아니 된다. 모든 직원들은 본 시설에 머무를 수 있는 최종 기한이 통보될 것이며 인가되지 않은 정보가 시설 밖으로 반출되는 일이 없도록 전면 수색을 받을 것이다.\r\n\r\n직원들의 철수 이후에도, 피험자들은 지난 시스님이 직접적으로 내리신 명령하에 본 시설을 감시할 것이다. 직원들은 폐쇄 기한 이후에 이 시설에 진입을 시도하면 그 즉시 '즉결 처분' 조치를 당할 수 있음을 유념하라.\r\n\r\n지난 시스와 대의회 의원들께서는 이곳에서 행해진 모든 작업에 감사를 표하셨다.\r\n\r\n모두가 섬겨야 한다.\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "010E6F31",
+        "field": "UNAM",
+        "index": "0",
+        "group": "0",
+        "string_id": "74068"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "DATA: \r\nSpecimen samples of altered/abnormal flora collected from local regions around Dreshdae City.\r\n\r\nMETHOD: \r\nStandard taxonomic, morphological, and phytochemical analysis to identify divergent characteristics from baseline samples. DNA barcoding test to check plastidial and nuclear markers for evidence of toxicity.\r\n\r\nRESULTS: \r\nToxic characteristics strongly indicated. \r\n\r\nCONCLUSION: \r\nVariant species indicated, toxic characteristics suggest defensive adaptations developed in very short span of time.\r\n",
+      "current_ko": "데이터: \r\n드레스데 시티 주변 지역에서 수집한 변형/비정상 식물 표본.\r\n\r\n방법: \r\n기준 샘플과 구별되는 다른 특성을 식별하기 위한 표준 분류학, 형태학 및 식물 화학 분석. 독성 증거를 판독하도록 색소체 및 핵 DNA 마커를 확인하기 위한 DNA 바코딩 테스트.\r\n\r\n결과: \r\n독 특성이 강력히 나타남. \r\n\r\n결론: \r\n변종이 나타난 것을 확인, 독성은 매우 짧은 시간 내에 변이된 방어기제성 적응을 시사함.",
+      "proposed_ko": "데이터: \r\n드레스데 시티 주변 지역에서 수집한 변형/비정상 식물 표본.\r\n\r\n방법: \r\n기준 샘플과 구별되는 다른 특성을 식별하기 위한 표준 분류학, 형태학 및 식물 화학 분석. 독성 증거를 판독하도록 색소체 및 핵 DNA 마커를 확인하기 위한 DNA 바코딩 테스트.\r\n\r\n결과: \r\n독 특성이 강력히 나타남. \r\n\r\n결론: \r\n변종이 나타난 것을 확인, 독성은 매우 짧은 시간 내에 변이된 방어기제성 적응을 시사함.\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "010022B1",
+        "field": "UNAM",
+        "index": "2",
+        "group": "0",
+        "string_id": "84972"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The plan's come together, and the funds have been transferred to Madri as promised.\r\n\r\nQisrani has the new convert, <Alias=Player>, tracking her cousin's disappearance. With the encrypted slate in their possession, all that's left is to point them to Jandar's Rest.\r\n\r\nAs for me, my friend's hinted that I'll need to leave Korriban until the heat blows over. They say they have one last job for me though. \r\n\r\nBut I need to go to the Refugee Camp first, to say goodbye to Madri before I go.\r\n",
+      "current_ko": "계획대로 흘러가고 있고, 자금은 약속대로 마드리에게 이체되었다.\r\n\r\n키스라니는 지금 새 개종자에게 자신의 사촌이 사라진 정황을 조사해 달라 시켜둔 상태다. 그 개종자 이름은 <Alias=Player>... 그 암호화된 슬레이트를 손에 넣었으니 결국 잔다르의 안식처에 다다르고 말 것이다.\r\n\r\n한편 내 친구의 말로는 이번 조사가 끝나기 전까진 코리반를 벗어나는 게 좋겠다고 해서 곧 떠나야 할 것 같다. 다만 나에게 마지막으로 시킬 일이 하나 있다고 했다.\r\n\r\n그래도 떠나기 전에 난민촌에 가서 마드리에게 작별 인사부터 해야 할 것 같다.",
+      "proposed_ko": "계획대로 흘러가고 있고, 자금은 약속대로 마드리에게 이체되었다.\r\n\r\n키스라니는 지금 새 개종자에게 자신의 사촌이 사라진 정황을 조사해 달라 시켜둔 상태다. 그 개종자 이름은 <Alias=Player>... 그 암호화된 슬레이트를 손에 넣었으니 결국 잔다르의 안식처에 다다르고 말 것이다.\r\n\r\n한편 내 친구의 말로는 이번 조사가 끝나기 전까진 코리반를 벗어나는 게 좋겠다고 해서 곧 떠나야 할 것 같다. 다만 나에게 마지막으로 시킬 일이 하나 있다고 했다.\r\n\r\n그래도 떠나기 전에 난민촌에 가서 마드리에게 작별 인사부터 해야 할 것 같다.\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "0102EE87",
+        "field": "UNAM",
+        "index": "6",
+        "group": "0",
+        "string_id": "3466"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "It's been a rewarding experience to work with you in serving our delicious and popular brand of packaged food products here on Korriban. All good things must, however, come to an end. It is with a heavy heart that I report to you the decision to close this establishment, effective immediately.\r\n\r\nPlease see me in the next five days to collect your final pay. At the end of that time, I'll be departing for a new location.\r\n\r\nPlease know that I take great professional pride in the work we did together, especially in light of the challenges we faced. You did your best to uphold the Chunks standard, and I could not have asked for anything more.\r\n\r\nWith gratitude and humility,\r\n\r\nD. Conley, Manager\r\n",
+      "current_ko": "코리반에서 맛있고 인기 있는 포장 식품 제품을 제공하는 사업을 펼치면서 제가 여러분과 함께 일하게 된 것은 보람찬 경험이었습니다. 그러나 세상의 모든 좋은 일이 그렇듯이, 우리의 일도 끝을 맺게 되었습니다. 무거운 마음으로 이 점포를 즉시 영업 중단하기로 결정했다는 사실을 전해 드리겠습니다.\r\n\r\n5일 안에 최종 급여를 받으러 오세요. 이 기간이 끝나면 저는 새로운 위치로 전출될 것입니다.\r\n\r\n특히 우리가 직면한 여러 어려움에도 불구하고 함께 이룩한 일에 대해 저는 개인적으로 큰 자부심을 느끼고 있다는 것을 알아 주십시오. 여러분은 청크 사의 영업 방침을 유지하기 위해 최선을 다했고, 제겐 그것만으로도 더 없이 만족스럽습니다.\r\n\r\n감사와 겸손을 담아,\r\n\r\nD. 콘리, 매니저",
+      "proposed_ko": "코리반에서 맛있고 인기 있는 포장 식품 제품을 제공하는 사업을 펼치면서 제가 여러분과 함께 일하게 된 것은 보람찬 경험이었습니다. 그러나 세상의 모든 좋은 일이 그렇듯이, 우리의 일도 끝을 맺게 되었습니다. 무거운 마음으로 이 점포를 즉시 영업 중단하기로 결정했다는 사실을 전해 드리겠습니다.\r\n\r\n5일 안에 최종 급여를 받으러 오세요. 이 기간이 끝나면 저는 새로운 위치로 전출될 것입니다.\r\n\r\n특히 우리가 직면한 여러 어려움에도 불구하고 함께 이룩한 일에 대해 저는 개인적으로 큰 자부심을 느끼고 있다는 것을 알아 주십시오. 여러분은 청크 사의 영업 방침을 유지하기 위해 최선을 다했고, 제겐 그것만으로도 더 없이 만족스럽습니다.\r\n\r\n감사와 겸손을 담아,\r\n\r\nD. 콘리, 매니저\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01162DB9",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84698"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "As per the Council's request, an assessment of House Sith operations in the aftermath of the Citadel Incident follows:\r\n\r\n\r\n- All structures in the immediate vicinity of the Scaled Citadel are gone, including the Halls of Authority. All major Ministry operations have relocated, and are operating off of record backups and emergency supplies/funding.\r\n\r\n- Administrative personnel losses are still being totaled. Most key figures were present in the Citadel at the time of the incident, and are presumed missing or dead. Science team hit hardest, notable exception of Ekris Kaisir (on leave).\r\n\r\n- Military and Security forces heavily affected. Minimal personnel presence is being maintained within Dreshdae, with personnel being reassigned from outlying areas. Rumors of mass desertions are being actively countered.\r\n\r\n- Supply chain disruptions have drained already low reserves. Ministry of Commerce is attempting to compensate by establishing new connections, but time delay will exacerbate already low stockpiles.\r\n\r\n",
+      "current_ko": "의회 요청에 따라, 성채에서 일어난 사고 이후 시스 가문의 운영 현황을 보고드립니다.\r\n\r\n\r\n- 비늘 성채 바로 근처에 있던 구조물은 사라졌으며, 권위의 전당 역시 마찬가지입니다. 모든 주요 부처 운영부가 이전되었으며, 백업 기록과 긴급 물자 및 자금으로 운영 중입니다.\r\n\r\n- 행정 인력 손실은 아직 집계 중입니다. 사고 당시 중요 인원들이 대부분 성채 내부에 있었으며, 실종 혹은 사망한 것으로 추정됩니다. 과학팀의 피해가 가장 심한데, 에크리스 카이시어 정도만이 피해를 면했습니다. (휴가 중이었음)\r\n\r\n- 군사, 보안 병력에 심각한 차질이 있습니다. 드레스데 내부에는 외곽 지역에서 재배치된 인원들이 최소한으로 유지되고 있습니다. 집단 탈영에 대한 소문에는 적극적으로 대응 중입니다.\r\n\r\n- 공급망이 무너지면서 이전에도 부족했던 예비 물자가 바닥을 보이고 있습니다. 상무성이 새로운 거래처를 찾아 손실을 만회하려 하고 있지만, 시간이 지연되면 지금도 부족한 비축량이 더욱 악화될 것입니다.",
+      "proposed_ko": "의회 요청에 따라, 성채에서 일어난 사고 이후 시스 가문의 운영 현황을 보고드립니다.\r\n\r\n\r\n- 비늘 성채 바로 근처에 있던 구조물은 사라졌으며, 권위의 전당 역시 마찬가지입니다. 모든 주요 부처 운영부가 이전되었으며, 백업 기록과 긴급 물자 및 자금으로 운영 중입니다.\r\n\r\n- 행정 인력 손실은 아직 집계 중입니다. 사고 당시 중요 인원들이 대부분 성채 내부에 있었으며, 실종 혹은 사망한 것으로 추정됩니다. 과학팀의 피해가 가장 심한데, 에크리스 카이시어 정도만이 피해를 면했습니다. (휴가 중이었음)\r\n\r\n- 군사, 보안 병력에 심각한 차질이 있습니다. 드레스데 내부에는 외곽 지역에서 재배치된 인원들이 최소한으로 유지되고 있습니다. 집단 탈영에 대한 소문에는 적극적으로 대응 중입니다.\r\n\r\n- 공급망이 무너지면서 이전에도 부족했던 예비 물자가 바닥을 보이고 있습니다. 상무성이 새로운 거래처를 찾아 손실을 만회하려 하고 있지만, 시간이 지연되면 지금도 부족한 비축량이 더욱 악화될 것입니다.\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01162DA7",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84694"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "CHAPTER I\r\nIN PRAYER\r\nDreshdae. The Shrouding nearly here, and a Herald preaching in the Scaled Citadel. Implacable Korriban weather. As much dust in the streets as if the waters had but newly retired from the face of the planet, and it would not be wonderful to meet an ancient Aceles, forty feet long or so, waddling like an avatar of the Great Serpent, wandering up Jinan Plaza. Smoke lowering down from chimney-pots, falling gently to the ground, with flakes of ash and dust abundant and forlorn - gone into mourning, one might imagine, as the hulk of the Mourning blocks out the sun.\r\n\r\nGroats, undistinguishable in mire. Our own people, scarcely better; dirty to their eyeballs. Foot passengers, jostling one another in a general infection of ill temper, and losing their foot-hold at street-corners, where dozens of other foot passengers have been slipping and sliding since the day broke (if this day ever broke), adding new deposits to the crust upon crust of dirt, sticking at those points tenaciously to the pavement, and accumulating at compound interest. But praise Him! For the Great Serpent sees our glorious suffering, and tests both our humor and resolve!\r\n\r\n[Considered by some experts to be the best novel Charok Sith had ever written, Shadow House is a scathing satire of life in Dreshdae, and a true testament to our belief in, and reliance on, the infinitesimal benevolence of the Great Serpent.]",
+      "current_ko": "제1장\r\n\r\n기도문\r\n\r\n드레스데. 장막의 날도 머지않은 즈음, 전령이 비늘 성채에서 설교하고 있다. 코리반의 혹독한 날씨다. 길거리는 마치 행성 표면에서 물이 빠져 나간 듯이 진흙투성이다. 몸길이가 10미터도 넘는 고대 아셀리스가 위대한 뱀의 화신과 같이 지난 광장을 기어가는 것을 봤다고 해도 이상하지 않을 정도이다. 굴뚝마다 연기가 피어 올라 함박눈만큼 커다란 그을음이 섞인 새까맣고 축축한 안개비가 되었다. 이것은 마치 태양을 가리는 모어닝의 선체처럼 보일 정도다.\r\n\r\n그로트들은 분간이 어려울 정도로 진흙 범벅이 되어 있으며, 우리 신민들도 딱히 나을 바 없이 눈까지 흙을 뒤집어쓰고 있는 형태다. 행인들은 서로를 밀치며 불쾌한 기분에 휩싸여 거리 모퉁이를 돌아가고 있다. (날이 개었다고 할 수 있다면) 날이 개었는지조차 모를 정도로 수십 명의 행인들이 휘청거리고 미끄러지면서 바닥에 새로이 진흙을 묻히고 걸어다녀서 포장 도로는 온통 질척거린다. 그러나 뱀을 찬양할지어다! 위대한 뱀께서 우리의 엄청난 아픔을 지켜보시며 우리의 익살과 결의를 시험하시니!\r\n\r\n[일부 전문가들이 차록 시스이 쓴 소설 중 최고의 작품으로 꼽은 그림자의 집은 드레스데에서의 삶을 신랄하게 풍자하며 위대한 뱀의 무한한 자비에 대한 우리의 믿음과 의지를 보여주는 진정한 증거물이다.]",
+      "proposed_ko": "제1장\r\n기도문\r\n드레스데. 장막의 날도 머지않은 즈음, 전령이 비늘 성채에서 설교하고 있다. 코리반의 혹독한 날씨다. 길거리는 마치 행성 표면에서 물이 빠져 나간 듯이 진흙투성이다. 몸길이가 10미터도 넘는 고대 아셀리스가 위대한 뱀의 화신과 같이 지난 광장을 기어가는 것을 봤다고 해도 이상하지 않을 정도이다. 굴뚝마다 연기가 피어 올라 함박눈만큼 커다란 그을음이 섞인 새까맣고 축축한 안개비가 되었다. 이것은 마치 태양을 가리는 모어닝의 선체처럼 보일 정도다.\r\n\r\n그로트들은 분간이 어려울 정도로 진흙 범벅이 되어 있으며, 우리 신민들도 딱히 나을 바 없이 눈까지 흙을 뒤집어쓰고 있는 형태다. 행인들은 서로를 밀치며 불쾌한 기분에 휩싸여 거리 모퉁이를 돌아가고 있다. (날이 개었다고 할 수 있다면) 날이 개었는지조차 모를 정도로 수십 명의 행인들이 휘청거리고 미끄러지면서 바닥에 새로이 진흙을 묻히고 걸어다녀서 포장 도로는 온통 질척거린다. 그러나 뱀을 찬양할지어다! 위대한 뱀께서 우리의 엄청난 아픔을 지켜보시며 우리의 익살과 결의를 시험하시니!\r\n\r\n[일부 전문가들이 차록 시스이 쓴 소설 중 최고의 작품으로 꼽은 그림자의 집은 드레스데에서의 삶을 신랄하게 풍자하며 위대한 뱀의 무한한 자비에 대한 우리의 믿음과 의지를 보여주는 진정한 증거물이다.]",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01175C83",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84898"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Today a young man came by the farm. He was injured and my parents helped him. He didn't want to give his name, but was so kind and thankful. Zeni suspects he's the son of Viktor Veth'aal, but they didn't push him. It looked like he'd been through enough. \r\n\r\nRina said he reminded her of Cas so she gave him a couple of our groats and told him about the abandoned farm to the north. Maybe he'll revitalize it. It'd be nice to have a neighbor again.\r\n\r\nI miss Cas so much. We still haven't heard from him since the news about Dreshdae. I pray everyday that the Great Serpent looks over him and we hear from him soon. \r\n\r\n",
+      "current_ko": "오늘 한 젊은 청년이 농장에 찾아왔다. 청년은 부상을 입은 상태였고 부모님이 청년을 도와줬다. 청년은 자신의 이름을 밝히진 않았지만 착했고 충분히 감사해 하였다. 제니는 청년이 빅토르 베타알의 아들이라고 의심했으나, 이미 충분히 힘든 일을 겪은 것처럼 보였기에 청년을 쫓아내지는 않았다.\r\n\r\n리나는 청년을 보면 캐스가 떠오른다며 청년에게 그로트 두 마리를 주고 북쪽의 버려진 농장을 알려주었다. 그 청년이 농장을 재건할 수 있을지도. 다시 이웃이 생기면 좋을 텐데.\r\n\r\n캐스가 너무 그립다. 드레스데 사건 이후로 캐스에게 연락이 없었다. 위대한 뱀이 캐스를 굽어살피시고 연락이 오기를 매일 기도하고 있다.",
+      "proposed_ko": "오늘 한 젊은 청년이 농장에 찾아왔다. 청년은 부상을 입은 상태였고 부모님이 청년을 도와줬다. 청년은 자신의 이름을 밝히진 않았지만 착했고 충분히 감사해 하였다. 제니는 청년이 빅토르 베타알의 아들이라고 의심했으나, 이미 충분히 힘든 일을 겪은 것처럼 보였기에 청년을 쫓아내지는 않았다.\r\n\r\n리나는 청년을 보면 캐스가 떠오른다며 청년에게 그로트 두 마리를 주고 북쪽의 버려진 농장을 알려주었다. 그 청년이 농장을 재건할 수 있을지도. 다시 이웃이 생기면 좋을 텐데.\r\n\r\n캐스가 너무 그립다. 드레스데 사건 이후로 캐스에게 연락이 없었다. 위대한 뱀이 캐스를 굽어살피시고 연락이 오기를 매일 기도하고 있다.\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "010472B2",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "7486"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "By Order of the High Council:\r\n\r\nEffective immediately, the project is to be placed on indefinite suspension. Securing and rebuilding Dreshdae is of the highest priority\r\n\r\nAll personnel are directed to ensure that, upon departure, maximum feasible quantities of construction materials are transported to support the city's reconstruction efforts. Additionally, it is imperative that the bunker entrance is securely locked down before leaving the site.\r\n\r\nOperations on the Kappa Site will resume once reconstruction efforts in the capital are adequately underway and conditions allow.\r\n\r\nYour cooperation and adherence to these directives are imperative.\r\n\r\nAll Must Serve.\r\n\r\n",
+      "current_ko": "대의회의 명령을 전달한다.\r\n\r\n현 시간부로 즉시, 이 프로젝트는 무기한 보류된다. 드레스데를 보호하고 재건하는 것이 최우선이다.\r\n\r\n모든 인원은 출발 시, 도시 재건 활동을 지원하기 위해, 가능한 최대 수량의 건설 자재를 적재하고 운송하도록 한다. 또한 현장을 떠나기 전에 벙커 입구를 안전하게 폐쇄해야 한다.\r\n\r\n통제소 카파의 운영은 수도 재건 활동이 적절히 진행되고 상황이 허락되면 재개될 것이다.\r\n\r\n제군들의 협조와 명령 준수가 필요하다.\r\n\r\n모두가 섬겨야 한다.",
+      "proposed_ko": "대의회의 명령을 전달한다.\r\n\r\n현 시간부로 즉시, 이 프로젝트는 무기한 보류된다. 드레스데를 보호하고 재건하는 것이 최우선이다.\r\n\r\n모든 인원은 출발 시, 도시 재건 활동을 지원하기 위해, 가능한 최대 수량의 건설 자재를 적재하고 운송하도록 한다. 또한 현장을 떠나기 전에 벙커 입구를 안전하게 폐쇄해야 한다.\r\n\r\n통제소 카파의 운영은 수도 재건 활동이 적절히 진행되고 상황이 허락되면 재개될 것이다.\r\n\r\n제군들의 협조와 명령 준수가 필요하다.\r\n\r\n모두가 섬겨야 한다.\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01151C7E",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84305"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "STAVE ONE\r\nVAK'NAL'S GHOST\r\n \r\nVak'nal was dead, to begin with. There is no doubt whatever about that. The register of his burial was signed by the fathers and mothers of Dreshdae, as a testament to the will of the Great Serpent. Scroo'ge signed it. And Scroo'ge's name was good upon 'Change for anything he chose to put his hand to. Vak'nal was as dead as a door-nail.\r\n \r\nMind! I don't mean to say that I know, of my own knowledge, what there is particularly dead about a door-nail. I might have been inclined, myself, to regard a Sith dagger as the deadest piece of ironmongery in the trade. But the wisdom of our savior Jinan is in the simile; and my unhallowed hands shall not disturb it, or Dreshdae's done for. You will, therefore, permit me to repeat, emphatically, that Vak'nal was as dead as a door-nail.\r\n \r\n[Charok Sith's 2043 novella, considered his most famous work, chronicles the redemption of the miserly Ebenenzer Scroo'ge as he is visited by ghostly avatars of the Great Serpent, who force him to analyze his life and the ultimate decision to serve House Sith and the Great Serpent until the Shrouding.]\r\n\r\n",
+      "current_ko": "제1절\r\n\r\n바크날의 유령\r\n\r\n우선, 바크날은 이미 죽었다는 이야기를 해 두어야겠다. 그 점에 대해서는 의심할 여지가 없다. 바크날의 매장기록부에 드레스데의 부모들이 위대한 뱀의 뜻에 대한 증거로서 서명했으니까. 스크루지도 거기에 서명했었다. 스크루지의 서명은 만물 거래소에서도 통할 만큼 확실한 것이었다. 바크날은 시치미를 뗄 것도 없이 명백하게 죽었다.\r\n\r\n물론 내가...! 언제부터 시치미를 뗄 것도 없다라는 말에 확실하다는 뜻이 생겼다는 것인지 그걸 내가 알고 있다는 말은 아니다. 나였다면 사람의 죽음을 강조하기 위해 업계에서도 가장 치명적인 무기인 '시스 단검에 찔린 것처럼'이란 표현을 썼을 텐데 말이다. 하지만 우리의 구원자이신 지난 시스 님의 지혜는 보통 이러한 직유적 표현으로 기록되었으며, 나의 신성하지 않은 손은 드레스데의 운명이 경각에 달린 것처럼 자주 쓰이는 관용구에 함부로 왈가왈부하지 않을 것이다. 그러므로 독자 여러분은 부디 내가, 바크날이 시치미를 뗄 것도 없이 명백하게 죽었다는 것을 다시 한 번 강조할 수 있도록 허락해 주길 바란다.\r\n\r\n[차록 시스의 가장 대중적인 작품으로 꼽히는 이 2043년 작 소설은 인색한 에베넨제르 스크루지가 자신을 찾아온 위대한 뱀의 유령을 통해 그동안의 삶을 숙고하고 결과적으로 장막의 날이 오기 전까지 시스 가문과 위대한 뱀을 섬긴다는 결정으로 구원을 받는 과정을 그리고 있다.]",
+      "proposed_ko": "제1절\r\n바크날의 유령\r\n\r\n우선, 바크날은 이미 죽었다는 이야기를 해 두어야겠다. 그 점에 대해서는 의심할 여지가 없다. 바크날의 매장기록부에 드레스데의 부모들이 위대한 뱀의 뜻에 대한 증거로서 서명했으니까. 스크루지도 거기에 서명했었다. 스크루지의 서명은 만물 거래소에서도 통할 만큼 확실한 것이었다. 바크날은 시치미를 뗄 것도 없이 명백하게 죽었다.\r\n\r\n물론 내가...! 언제부터 시치미를 뗄 것도 없다라는 말에 확실하다는 뜻이 생겼다는 것인지 그걸 내가 알고 있다는 말은 아니다. 나였다면 사람의 죽음을 강조하기 위해 업계에서도 가장 치명적인 무기인 '시스 단검에 찔린 것처럼'이란 표현을 썼을 텐데 말이다. 하지만 우리의 구원자이신 지난 시스 님의 지혜는 보통 이러한 직유적 표현으로 기록되었으며, 나의 신성하지 않은 손은 드레스데의 운명이 경각에 달린 것처럼 자주 쓰이는 관용구에 함부로 왈가왈부하지 않을 것이다. 그러므로 독자 여러분은 부디 내가, 바크날이 시치미를 뗄 것도 없이 명백하게 죽었다는 것을 다시 한 번 강조할 수 있도록 허락해 주길 바란다.\r\n\r\n[차록 시스의 가장 대중적인 작품으로 꼽히는 이 2043년 작 소설은 인색한 에베넨제르 스크루지가 자신을 찾아온 위대한 뱀의 유령을 통해 그동안의 삶을 숙고하고 결과적으로 장막의 날이 오기 전까지 시스 가문과 위대한 뱀을 섬긴다는 결정으로 구원을 받는 과정을 그리고 있다.]\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01175C84",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84900"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Loot name and team entrance list:\r\n\r\n- A crate of Sith bottle wine / Team C\r\n\r\n- A living and breathing Groat / Team C\r\n\r\n- Forks, Spoons... / Team B\r\n\r\n- Cheese / Team C\r\n\r\n- Paperclips / Team B\r\n\r\n- Handgun ammo / Team A\r\n\r\n- A shitload of baguettes / Team A\r\n\r\n- Circuit Boards / Team C\r\n\r\n- Too much poutine can / Team A\r\n\r\n- A rifle, a Boost Pack and an Armor / Team A\r\n\r\n\r\n\r\n\r\n\r\n",
+      "current_ko": "전리품 이름 및 팀 입장 목록:\r\n\r\n- 시스 포도주 병 한 상자 / C팀\r\n\r\n- 살아 숨 쉬는 그로트 / C팀\r\n\r\n- 포크 여러 개, 스푼 여러 개... / B팀\r\n\r\n- 치즈 / C팀\r\n\r\n- 종이 클립 / B팀\r\n\r\n- 권총 탄약 / A팀\r\n\r\n- 바게트 한 무더기 / A팀\r\n\r\n- 회로판 / C팀\r\n\r\n- 너무 많은 푸틴 캔 / A팀\r\n\r\n- 소총, 부스터 팩, 방어구 / A팀",
+      "proposed_ko": "전리품 이름 및 팀 입장 목록:\r\n\r\n- 시스 포도주 병 한 상자 / C팀\r\n\r\n- 살아 숨 쉬는 그로트 / C팀\r\n\r\n- 포크 여러 개, 스푼 여러 개... / B팀\r\n\r\n- 치즈 / C팀\r\n\r\n- 종이 클립 / B팀\r\n\r\n- 권총 탄약 / A팀\r\n\r\n- 바게트 한 무더기 / A팀\r\n\r\n- 회로판 / C팀\r\n\r\n- 너무 많은 푸틴 캔 / A팀\r\n\r\n- 소총, 부스터 팩, 방어구 / A팀\r\n\r\n\r\n\r\n\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "0100AE5D",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "85064"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "CHAPTER I\r\nTREATS OF THE PLACE WHERE OLIV'ER TWIIST WAS BORN AND OF THE CIRCUMSTANCES ATTENDING HIS BIRTH\r\nAmong other public buildings in a certain town, which for many reasons it will be prudent to mention its illustrious name of Dreshdae, greatest of all cities in the Settled Systems and vast, untold reaches beyond, there is one anciently common to most towns, great or small: to wit, the temple. In this case, that temple being the mighty Scaled Citadel, tower of truth. And in this temple was born; on a day and date which I need not trouble myself to repeat, inasmuch as it can be of no possible consequence to the reader, in this stage of the business at all events; the item of mortality whose name is prefixed to the head of this chapter.\r\n\r\nFor a long time after it was ushered into this world of service and transcendent love, by Dreshdae's most eminent surgeon, it remained a matter of considerable doubt whether the child would survive to bear any name at all, for he suffered, as all the Great Serpent's children suffer, from the injustice and poverty caused by the greed of the Settled Systems' dominant castes; in which case it is somewhat more than probable that these memoirs would never have appeared; or, if they had, that being comprised within a couple of pages, they would have possessed the inestimable merit of being the most concise and faithful specimen of biography, extant in the literature of any age or country.\r\n\r\n[The subsequent chapters of Charok Sith's novel trace Oliv'er Twiist's journey from temple boy, to street thief, to happy heir and adopted son of the mighty and Serpent-blessed House Sith.]",
+      "current_ko": "제1장\r\n\r\n올리버 트위스트의 출생지와 출생을 둘러싼 환경의 특성\r\n\r\n기꺼이 이름을 밝히는 것이 여러모로 현명한 지명의 도시, 드레스데... 그것도 개척 성계 전역은 물론 그 외 드넓고 알려지지 않은 온 곳 중에서도 가장 위대한 이 도시에는 어디에나 있을 법한 사원이 하나 있었다. 그리고 여기서 말하는 그 사원이라 함은 바로 비늘 성채, 진실의 탑을 뜻한다. 그리고 이 사원에서 한 생명이 태어났다. 생일의 구체적인 요일과 날짜를 언급한다한들 독자들에게는 별다른 영향을 끼칠 것 같지는 않으니 그냥 넘어가겠다. 어찌 되었든 이 장의 제목에 쓰인 이름의 주인인 한 생명이 태어났다.\r\n\r\n드레스데의 가장 저명한 외과의에 의해 뱀을 섬기며 초월적인 사랑을 받는 세계로 인도된 후, 이 아이는 오랫동안 여타 다른 위대한 뱀의 자녀들이 모두 그렇듯이, 개척 성계 내 지배 계층의 탐욕으로 인한 불의와 빈곤으로 고통받았기 때문에 과연 이름을 가진 채 생존할 수 있을지에 대한 의심이 상당히 있었다고 할 수 있다. 이 회고록이 결코 등장하지 않았을 가능성이 어느 정도 높으며, 만약 결국 짧은 회고록이 되고 말았다면 아마 단 몇 페이지 안에 끝날 정도로 모든 시대나 국가의 문헌들을 통틀어 현존하는 전기들 중 가장 간결하고 충실한 표본이라는 헤아릴 수 없는 장점을 가지고 있었을 것이다.\r\n\r\n[차록 시스의 이 소설에서는 이어지는 장부터 올리버 트위스트가 사원의 고아에서 길거리 도둑, 행복한 상속인이자 위대한 뱀께서 축복하신 시스 가문의 입양아로 성장하는 과정을 보여준다.]",
+      "proposed_ko": "제1장\r\n올리버 트위스트의 출생지와 출생을 둘러싼 환경의 특성\r\n기꺼이 이름을 밝히는 것이 여러모로 현명한 지명의 도시, 드레스데... 그것도 개척 성계 전역은 물론 그 외 드넓고 알려지지 않은 온 곳 중에서도 가장 위대한 이 도시에는 어디에나 있을 법한 사원이 하나 있었다. 그리고 여기서 말하는 그 사원이라 함은 바로 비늘 성채, 진실의 탑을 뜻한다. 그리고 이 사원에서 한 생명이 태어났다. 생일의 구체적인 요일과 날짜를 언급한다한들 독자들에게는 별다른 영향을 끼칠 것 같지는 않으니 그냥 넘어가겠다. 어찌 되었든 이 장의 제목에 쓰인 이름의 주인인 한 생명이 태어났다.\r\n\r\n드레스데의 가장 저명한 외과의에 의해 뱀을 섬기며 초월적인 사랑을 받는 세계로 인도된 후, 이 아이는 오랫동안 여타 다른 위대한 뱀의 자녀들이 모두 그렇듯이, 개척 성계 내 지배 계층의 탐욕으로 인한 불의와 빈곤으로 고통받았기 때문에 과연 이름을 가진 채 생존할 수 있을지에 대한 의심이 상당히 있었다고 할 수 있다. 이 회고록이 결코 등장하지 않았을 가능성이 어느 정도 높으며, 만약 결국 짧은 회고록이 되고 말았다면 아마 단 몇 페이지 안에 끝날 정도로 모든 시대나 국가의 문헌들을 통틀어 현존하는 전기들 중 가장 간결하고 충실한 표본이라는 헤아릴 수 없는 장점을 가지고 있었을 것이다.\r\n\r\n[차록 시스의 이 소설에서는 이어지는 장부터 올리버 트위스트가 사원의 고아에서 길거리 도둑, 행복한 상속인이자 위대한 뱀께서 축복하신 시스 가문의 입양아로 성장하는 과정을 보여준다.]",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01175C81",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84894"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "CHAPTER 1.\r\nI AM BORN\r\nWhether I shall turn out to be the hero of my own life, or whether that station will be held by anybody else, these pages must show. To begin my life with the beginning of my life, I record that I was born (as I have been informed and believe) on a Friday, at the darkest point of night, when the Great Serpent's darkness foretold the coming of the Shrouding. It was remarked that the clock began to strike, and I began to cry for joy, simultaneously.\r\n\r\nIn consideration of the day and hour of my birth, it was declared by the nurse, and by some nobility in the Keep who had taken a lively interest in me several months before there was any possibility of our becoming personally acquainted, first, that I was destined to be lucky in life; and secondly, that I was privileged to see and feel the almighty spirit of the Great Serpent; both these gifts inevitably attaching, as they believed, to all lucky infants of any gender, born towards the small hours on a Friday night.\r\n\r\n[First published as a serial from 2049-2050, Charok Sith's Gravid Iridiumfield tells the tale of a grown man looking back on his own life, and all the events that shaped him.]\r\n\r\n",
+      "current_ko": "1장\r\n내가 태어나다\r\n내가 내 인생의 주인공이 될지, 아니면 다른 누군가가 그 자리를 차지할지는 몰라도, 이 페이지들은 반드시 보여져야 한다. 내 인생의 시작을 내 인생의 시작과 함께하기 위해, 나는 (그렇게 들었고 그렇게 믿는 대로) 내가 금요일에, 밤이 가장 어두울 순간에, 위대한 뱀의 어둠이 장막의 날의 도래를 예언했을 때 태어났다고 기록한다. 시계가 울리기 시작하자, 동시에 나는 기쁨으로 울기 시작했다고 했다.\r\n\r\n내가 태어난 날짜와 시간을 고려할 때, 간호사와, 개별적으로 친해질 가능성이 있기도 전이던 몇 달 동안 나에게 관심을 많이 보인 본성의 귀족들은, 첫째, 내가 운 좋은 인생을 살 운명이라는 것을, 둘째, 내가 위대한 뱀의 전능한 영을 보고 느낄 특권을 타고 났다는 것을, 그리고 그 자들이 믿은 것처럼, 금요일 밤 그 찰나의 시간에 태어난, 모든 성별의 행운아에게, 이 두 가지 선물은 필연적으로 함께 하는 것이라고 공표한 것이리라.\r\n\r\n[2049년부터 2050년까지 연재된 차록 시스의 '가득 찬 이리듐의 땅'은 자신의 삶을 되돌아보는 한 성인 남성의 이야기와, 그 남성을 형성시킨 모든 사건에 대한 이야기다.]",
+      "proposed_ko": "1장\r\n내가 태어나다\r\n내가 내 인생의 주인공이 될지, 아니면 다른 누군가가 그 자리를 차지할지는 몰라도, 이 페이지들은 반드시 보여져야 한다. 내 인생의 시작을 내 인생의 시작과 함께하기 위해, 나는 (그렇게 들었고 그렇게 믿는 대로) 내가 금요일에, 밤이 가장 어두울 순간에, 위대한 뱀의 어둠이 장막의 날의 도래를 예언했을 때 태어났다고 기록한다. 시계가 울리기 시작하자, 동시에 나는 기쁨으로 울기 시작했다고 했다.\r\n\r\n내가 태어난 날짜와 시간을 고려할 때, 간호사와, 개별적으로 친해질 가능성이 있기도 전이던 몇 달 동안 나에게 관심을 많이 보인 본성의 귀족들은, 첫째, 내가 운 좋은 인생을 살 운명이라는 것을, 둘째, 내가 위대한 뱀의 전능한 영을 보고 느낄 특권을 타고 났다는 것을, 그리고 그 자들이 믿은 것처럼, 금요일 밤 그 찰나의 시간에 태어난, 모든 성별의 행운아에게, 이 두 가지 선물은 필연적으로 함께 하는 것이라고 공표한 것이리라.\r\n\r\n[2049년부터 2050년까지 연재된 차록 시스의 '가득 찬 이리듐의 땅'은 자신의 삶을 되돌아보는 한 성인 남성의 이야기와, 그 남성을 형성시킨 모든 사건에 대한 이야기다.]\r\n\r\n",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "01175C80",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "84892"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The current goal of moving large objects has repeatedly proven too difficult. Properly controlling the wattage has been impossible, as evidenced by the last test that sent a \r\ncontainer through the wall. \r\n\r\n(High Council has already been appraised of this development, and refuses to allow outside personnel to enter the facility. We will have to fix this ourselves. I have no wish to burden the team with the additional task of regular repairs, not to mention the potential for catastrophic damage. Thank the Serpent, we were lucky this time)\r\n\r\nEfforts should instead be refocused to an area in which we have already demonstrated some success. Continue to work with smaller objects, but of increasing complexity and more varied properties.\r\n\r\nExample: attempt to transfer a keycard. Is the stored data retained after the process, or lost?\r\n\r\nWe must demonstrate results, and soon. All of House Sith is counting on us.",
+      "current_ko": "커다란 물체를 옮긴다는 현재 목표는 계속해서 달성하기 매우 어려운 것으로 드러났다. 마지막 시험 당시 용기가 벽을 통과하는 것을 관찰한 끝에, 전력량을 제대로 통제하는 건 불가능하다는 것이 입증됐다.\r\n\r\n(대의회는 이미 이 사실을 고려하고 있었으며 시설 내부에 외부 인원이 들어오는 것을 거부하고 있다. 그러므로 우리가 직접 해결야만 한다. 난 내 팀원들에게 이미 하고 있는 수리 업무 외에 더 큰 부담을 짊어 주긴 싫다. 끔찍한 피해가 발생할 수도 있다는 가능성도 있거니와. 위대한 뱀에게 감사하게도 이번에는 우리가 운이 좋았다.)\r\n\r\n이제 우린 이미 성공한 부분을 중점으로 좀 더 심혈을 기울여야 한다. 더 작은 물체를 갖고 계속 시도하되, 복잡성과 변수는 더욱 늘리는 선에서.\r\n\r\n예로 키카드를 옮기려고 해 보자. 해당 절차 이후에도 저장된 데이터가 그대로 남아 있을까? 아니면 전부 손실될까?\r\n\r\n우린 반드시, 그것도 빨리 결과를 창출해야 한다. 시스 가문 전체가 우리를 믿고 있으니까.",
+      "proposed_ko": "커다란 물체를 옮긴다는 현재 목표는 계속해서 달성하기 매우 어려운 것으로 드러났다. 마지막 시험 당시 용기가\r\n벽을 통과하는 것을 관찰한 끝에, 전력량을 제대로 통제하는 건 불가능하다는 것이 입증됐다.\r\n\r\n(대의회는 이미 이 사실을 고려하고 있었으며 시설 내부에 외부 인원이 들어오는 것을 거부하고 있다. 그러므로 우리가 직접 해결야만 한다. 난 내 팀원들에게 이미 하고 있는 수리 업무 외에 더 큰 부담을 짊어 주긴 싫다. 끔찍한 피해가 발생할 수도 있다는 가능성도 있거니와. 위대한 뱀에게 감사하게도 이번에는 우리가 운이 좋았다.)\r\n\r\n이제 우린 이미 성공한 부분을 중점으로 좀 더 심혈을 기울여야 한다. 더 작은 물체를 갖고 계속 시도하되, 복잡성과 변수는 더욱 늘리는 선에서.\r\n\r\n예로 키카드를 옮기려고 해 보자. 해당 절차 이후에도 저장된 데이터가 그대로 남아 있을까? 아니면 전부 손실될까?\r\n\r\n우린 반드시, 그것도 빨리 결과를 창출해야 한다. 시스 가문 전체가 우리를 믿고 있으니까.",
+      "location": {
+        "sst": "shatteredspace_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "01136E9A",
+        "field": "UNAM",
+        "index": "0",
+        "group": "0",
+        "string_id": "83556"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Charybdis VII-a",
+      "current_ko": "카리브디스 VIII-a",
+      "proposed_ko": "카리브디스 VII-a",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "0001B3AB",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "51468"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Today I am here new. They tell me I was here before, that I have been reborn.\r\nI have knowledge of a son, Kublai, and his accomplishments. Of being the founder of a great empire to rival any in history.\r\n\r\nThe droids tell me I am someone I am not.\r\n\r\nI will <b>not</b> play by their rules.",
+      "current_ko": "오늘 나는 이곳에서 새로 태어났다. 그들은 내가 전에 이곳에 있었으며, 다시 태어났다고 말한다.\r\n나는 아들 쿠빌라이와 그의 업적에 대해 알고 있다. 역사상 그 어떤 제국과도 견줄 만한 위대한 제국을 세운 창시자라는 것을.\r\n\r\n드로이드들은 내가 내가 아니라고 말한다.\r\n\r\n나는 그들의 규칙대로 하지 않을 것이다.",
+      "proposed_ko": "오늘 나는 이곳에서 새로 태어났다. 그들은 내가 전에 이곳에 있었으며, 다시 태어났다고 말한다.\r\n나는 아들 쿠빌라이와 그의 업적에 대해 알고 있다. 역사상 그 어떤 제국과도 견줄 만한 위대한 제국을 세운 창시자라는 것을.\r\n\r\n드로이드들은 내가 내가 아니라고 말한다.\r\n\r\n나는 그들의 규칙대로 <b>하지 않을</b> 것이다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "00295546",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "13073"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Truth is, the origins of hyperspace travel are as mysterious as the galaxy itself. The ancient Rakata were the first to unlock its secrets, using techniques and tools we still barely understand. Their methods seemed to rely on something innate to their species—an ability to sense and manipulate hyperspace in ways no modern technology can replicate.\r\n\r\nFor the rest of the galaxy, the path to mastering hyperspace required a different approach. Early pioneers turned to nature, observing the majestic Purrgil—massive, whale-like creatures capable of traveling through hyperspace with astonishing precision. By studying their behavior and patterns, researchers began to develop the first mechanical systems that mimicked these natural navigators.\r\n\r\nToday, hyperdrive technology is so ubiquitous that we rarely think about its origins. Yet, every jump through hyperspace is a reminder of the ingenuity—and the mysteries—behind this galaxy-spanning achievement.\r\n\r\n[Professor Hosh Venn’s Foundations of Hyperspace Navigation remains the definitive work on the hyperdrive, chronicling the ancient Rakatan breakthroughs, the influence of Purrgil studies, and the evolution of the technology that connects us all.]\r\n\r\n[Doctor Josephine Inatu's seminal work continues for another 535 pages, and has become the most highly respected text on hyperdrives and hyperspace jumping ever written.]",
+      "current_ko": "사실 초공간 도약 여행의 기원은 우리 은하계 자체만큼이나 여전히 베일에 싸여 있습니다. 고대 라카타 문명은 우리가 오늘날까지도 거의 이해하지 못하는 기술과 도구들을 사용하여 초공간의 비밀을 가장 먼저 풀어낸 선구자였습니다. 그들의 방식은 종족 고유의 선천적인 자질, 즉 현대 기술로는 도저히 흉내 낼 수 없는 방식으로 초공간을 감지하고 조율하는 능력에 크게 의존했던 것으로 보입니다.\r\n\r\n그 외 은하계의 다른 종족들이 초공간을 정복하기 위해서는 전혀 다른 접근법이 필요했습니다. 초기의 개척자들은 눈을 돌려 대자연을 관찰하기 시작했습니다. 그들은 초공간을 놀라울 정도로 정밀하게 유영하는 거대하고 웅장한 고래를 닮은 생명체, '퍼길'에 주목했습니다. 퍼길의 행동 양식과 이동 패턴을 꼼꼼히 탐구한 끝에, 과학자들은 마침내 이 자연의 길잡이들을 모방한 최초의 기계식 초공간 도약 장치를 개발해 낼 수 있었습니다.\r\n\r\n오늘날 초공간 추진기 기술은 숨 쉬는 공기처럼 도처에 널려 있어 그 기원을 깊이 생각하는 이가 거의 없습니다. 그러나 우리가 초공간을 관통해 도약하는 그 매 순간은, 온 은하를 하나로 묶어준 이 위대한 위업의 이면에 숨겨진 인류의 지혜와 깊은 신비를 일깨워 줍니다.\r\n\r\n[호쉬 벤 교수의 저서 '초공간 항법의 기초'는 고대 라카타의 비약적인 도약, 퍼길 연구가 남긴 영향, 그리고 우리 모두를 연결해 준 추진기 기술의 진화 과정을 기록한 가장 권위 있는 학술서로 굳건히 자리 잡았습니다.]\r\n\r\n[조세핀 이나투 박사의 이 전설적인 연구서는 이후 535페이지에 걸쳐 상세히 이어지며, 하이퍼드라이브 및 초공간 도약 기술에 관해 쓰인 역사상 가장 독보적이고 최고의 권위를 지닌 학술서로 평가받고 있습니다.]",
+      "proposed_ko": "사실 초공간 도약 여행의 기원은 우리 은하계 자체만큼이나 여전히 베일에 싸여 있습니다. 고대 라카타 문명은 우리가 오늘날까지도 거의 이해하지 못하는 기술과 도구들을 사용하여 초공간의 비밀을 가장 먼저 풀어낸 선구자였습니다. 그들의 방식은 종족 고유의 선천적인 자질, 즉 현대 기술로는 도저히 흉내 낼 수 없는 방식으로 초공간을 감지하고 조율하는 능력에 크게 의존했던 것으로 보입니다.\r\n\r\n그 외 은하계의 다른 종족들이 초공간을 정복하기 위해서는 전혀 다른 접근법이 필요했습니다. 초기의 개척자들은 눈을 돌려 대자연을 관찰하기 시작했습니다. 그들은 초공간을 놀라울 정도로 정밀하게 유영하는 거대하고 웅장한 고래를 닮은 생명체, '퍼길'에 주목했습니다. 퍼길의 행동 양식과 이동 패턴을 꼼꼼히 탐구한 끝에, 과학자들은 마침내 이 자연의 길잡이들을 모방한 최초의 기계식 초공간 도약 장치를 개발해 낼 수 있었습니다.\r\n\r\n오늘날 하이퍼드라이브 기술은 숨 쉬는 공기처럼 도처에 널려 있어 그 기원을 깊이 생각하는 이가 거의 없습니다. 그러나 우리가 초공간을 관통해 도약하는 그 매 순간은, 온 은하를 하나로 묶어준 이 위대한 위업의 이면에 숨겨진 인류의 지혜와 깊은 신비를 일깨워 줍니다.\r\n\r\n[호쉬 벤 교수의 저서 '초공간 항법의 기초'는 고대 라카타의 비약적인 도약, 퍼길 연구가 남긴 영향, 그리고 우리 모두를 연결해 준 하이퍼드라이브 기술의 진화 과정을 기록한 가장 권위 있는 학술서로 굳건히 자리 잡았습니다.]\r\n\r\n[조세핀 이나투 박사의 이 전설적인 연구서는 이후 535페이지에 걸쳐 상세히 이어지며, 하이퍼드라이브 및 초공간 도약 기술에 관해 쓰인 역사상 가장 독보적이고 최고의 권위를 지닌 학술서로 평가받고 있습니다.]",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "0018641F",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "14603"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "A Rakghoul has arrived at the <Alias=OE_Location>.",
+      "current_ko": "락굴이 해당 구역에 도착했다.",
+      "proposed_ko": "락굴이 <Alias=OE_Location>에 도착했다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "QUST",
+        "form_id": "00050CA4",
+        "field": "CNAM",
+        "index": "9",
+        "group": "1",
+        "string_id": "213333"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "To access your Inventory, press [DataMenu], highlight the Inventory tab at the bottom right, and press [Accept]. \r\n\r\nThe Inventory menu lets you access all of your items and equipment, such as weapons, spacesuits, and aid items. It will also show you your credits and carrying capacity at the bottom left of the screen. \r\n\r\nTo equip or unequip a piece of equipment (such as a weapon or spacesuit) select it and press [Accept]. Equipping a new piece of equipment will unequip the piece currently being used. You can drop a selected item by pressing [XButton]. Dropping or selling items will lower your carry weight, which can keep you from becoming encumbered. For more information, see the \"Mass\" entry.",
+      "current_ko": "인벤토리 창을 열고자 한다면 [DataMenu] 키를 누르고 화면 오른쪽 아래의 인벤토리 탭을 선택한 뒤 [Accept] 키를 누르십시오.<br><br>인벤토리 메뉴에서는 무기, 우주복, 회복 아이템 등의 장비와 그 외 당신이 보유한 모든 아이템을 관리할 수 있으며, 현재 보유한 크레딧과 운반 중량이 화면 왼쪽 아래에 표시됩니다.<br><br>무기나 우주복 같은 장비를 착용하거나 착용 해제하고자 한다면 해당 장비를 선택한 후 [Accept] 키를 누르십시오. 새로운 장비를 착용할 경우 현재 해당 위치에 착용 중이던 장비를 대체합니다. 아이템을 선택하고 [XButton] 키를 눌러서 아이템을 떨어뜨릴 수 있습니다. 아이템을 떨어뜨리거나 판매하면 운반 중량을 낮추어 중량 제한에 도달하는 것을 피할 수 있습니다. 이에 대해 더 알고 싶다면 '질량' 항목을 참고하십시오.",
+      "proposed_ko": "인벤토리 창을 열고자 한다면 [DataMenu] 키를 누르고 화면 오른쪽 아래의 인벤토리 탭을 선택한 뒤 [Accept] 키를 누르십시오.\r\n\r\n인벤토리 메뉴에서는 무기, 우주복, 회복 아이템 등의 장비와 그 외 당신이 보유한 모든 아이템을 관리할 수 있으며, 현재 보유한 크레딧과 운반 중량이 화면 왼쪽 아래에 표시됩니다.\r\n\r\n무기나 우주복 같은 장비를 착용하거나 착용 해제하고자 한다면 해당 장비를 선택한 후 [Accept] 키를 누르십시오. 새로운 장비를 착용할 경우 현재 해당 위치에 착용 중이던 장비를 대체합니다. 아이템을 선택하고 [XButton] 키를 눌러서 아이템을 떨어뜨릴 수 있습니다. 아이템을 떨어뜨리거나 판매하면 운반 중량을 낮추어 중량 제한에 도달하는 것을 피할 수 있습니다. 이에 대해 더 알고 싶다면 '질량' 항목을 참고하십시오.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "MESG",
+        "form_id": "0012F13C",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "35720"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Ship Builder allows you to fully design, modify, and paint your ship.\r\n\r\nThe Floor gauge to the right tells you where new modules will appear. When the Floor gauge is at 0, for example, new modules will be placed in the center mass of the ship.\r\n\r\nBuilding new ship modules will cost credits and deleting them will give you credits back. The Ship Builder will keep a running total and process the entire transaction at the end.\r\n\r\nThere is a Flight Check that will give you warnings or errors if your design is invalid for any reason.",
+      "current_ko": "함선 제작기를 통해 당신의 함선을 설계, 개조, 도색할 수 있습니다.<br><br>오른쪽의 편집 층 게이지를 통해 새 모듈이 위치하는 높이를 알 수 있습니다. 예를 들어 편집 층 게이지가 0에 위치한 상태면 새 모듈은 함선의 중간 부위에 배치됩니다.<br><br>새 함선 모듈을 제작하면 크레딧이 소모되며, 삭제하면 크레딧이 반환됩니다. 함선 제작기는 소모한 크레딧 누적 금액을 계산하여 마지막에 편집 확정 시 전체 소모 금액을 정산 처리합니다.<br><br>어떤 이유로든 설계 결과가 유효하지 않은 경우 비행 점검 시 경고 또는 오류가 표시됩니다.",
+      "proposed_ko": "함선 제작기를 통해 당신의 함선을 설계, 개조, 도색할 수 있습니다.\r\n\r\n오른쪽의 편집 층 게이지를 통해 새 모듈이 위치하는 높이를 알 수 있습니다. 예를 들어 편집 층 게이지가 0에 위치한 상태면 새 모듈은 함선의 중간 부위에 배치됩니다.\r\n\r\n새 함선 모듈을 제작하면 크레딧이 소모되며, 삭제하면 크레딧이 반환됩니다. 함선 제작기는 소모한 크레딧 누적 금액을 계산하여 마지막에 편집 확정 시 전체 소모 금액을 정산 처리합니다.\r\n\r\n어떤 이유로든 설계 결과가 유효하지 않은 경우 비행 점검 시 경고 또는 오류가 표시됩니다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "MESG",
+        "form_id": "000F89EE",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "206792"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Ship Builder allows you to fully design, modify, and paint your ship.\r\n\r\nThe Floor gauge to the right tells you where new modules will appear. When the Floor gauge is at 0, for example, new modules will be placed in the center mass of the ship.\r\n\r\nBuilding new ship modules will cost credits and deleting them will give you credits back. The Ship Builder will keep a running total and process the entire transaction at the end.\r\n\r\nThere is a Flight Check that will give you warnings or errors if your design is invalid for any reason.",
+      "current_ko": "함선 제작기를 통해 당신의 함선을 설계, 개조, 도색할 수 있습니다.<br><br>오른쪽의 편집 층 게이지를 통해 새 모듈이 위치하는 높이를 알 수 있습니다. 예를 들어 편집 층 게이지가 0에 위치한 상태면 새 모듈은 함선의 중간 부위에 배치됩니다.<br><br>새 함선 모듈을 제작하면 크레딧이 소모되며, 삭제하면 크레딧이 반환됩니다. 함선 제작기는 소모한 크레딧 누적 금액을 계산하여 마지막에 편집 확정 시 전체 소모 금액을 정산 처리합니다.<br><br>어떤 이유로든 설계 결과가 유효하지 않은 경우 비행 점검 시 경고 또는 오류가 표시됩니다.",
+      "proposed_ko": "함선 제작기를 통해 당신의 함선을 설계, 개조, 도색할 수 있습니다.\r\n\r\n오른쪽의 편집 층 게이지를 통해 새 모듈이 위치하는 높이를 알 수 있습니다. 예를 들어 편집 층 게이지가 0에 위치한 상태면 새 모듈은 함선의 중간 부위에 배치됩니다.\r\n\r\n새 함선 모듈을 제작하면 크레딧이 소모되며, 삭제하면 크레딧이 반환됩니다. 함선 제작기는 소모한 크레딧 누적 금액을 계산하여 마지막에 편집 확정 시 전체 소모 금액을 정산 처리합니다.\r\n\r\n어떤 이유로든 설계 결과가 유효하지 않은 경우 비행 점검 시 경고 또는 오류가 표시됩니다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "MESG",
+        "form_id": "00037ECC",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "206845"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Armin Petrosyan",
+      "current_ko": "아르민 페트로전",
+      "proposed_ko": "아르민 페트로잔",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0031B225",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "59879"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Lantana VII",
+      "current_ko": "란타나 VIII",
+      "proposed_ko": "란타나 VII",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "0001A78A",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "50839"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001BF7A5",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "205657"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DB02",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "59307"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0021B5A6",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "58876"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000CE957",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "206077"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001259E2",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "205180"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DB00",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "59306"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "003D9CAA",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "193605"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001BF7A6",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "205658"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00004118",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "205229"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00287C68",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "193610"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00120DD6",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "203630"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAFE",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "59327"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00120DD7",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "203624"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAEA",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "59300"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000E4D51",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "195170"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAEB",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61326"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000E4CD9",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "195154"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0012DFCC",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "57846"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAF3",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61333"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAF2",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61331"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAF1",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61329"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAFB",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "57885"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001DED73",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "195131"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000CC781",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "203857"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000CC741",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "203856"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAF0",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "57928"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAFD",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "57887"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00287C69",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "195149"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0012DFCF",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "57919"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "003CA562",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "189263"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "003CA4D4",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "189215"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0021ED3E",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "57533"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "003CA561",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "189288"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00004113",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "205228"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00004112",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "205227"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAFF",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "56818"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001EE4D6",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "57605"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000C9F52",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "211920"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAEF",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61350"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DB01",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61337"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0006D80A",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "211915"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0003909E",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "196491"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001FE25D",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "57621"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0002E97B",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61439"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001FE5FE",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61195"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00173EF3",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "199088"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAED",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "60667"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAEE",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "60650"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAEC",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "60936"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00173EF1",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "200140"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001FE60B",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "60358"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001FE21F",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "60355"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00109AFB",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "212760"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0000411A",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "205230"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0024481C",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "60233"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00109AF6",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "212759"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00054A49",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "206770"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001EE4D7",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "61125"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0021D842",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "191908"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0002B8F6",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "191923"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001A75F4",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "191903"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000FB9DD",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "211921"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0010DAFA",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "58338"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00054A48",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "206769"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "I provided medical assistance to the <Alias=Imperial FleetInjured>. Hopefully that will help if a Rakghoul shows up.",
+      "current_ko": "제국군 부상자를 치료했다. 락굴이 나타났을 때 도움이 되길 바란다.",
+      "proposed_ko": "<Alias=Imperial FleetInjured>를 치료했다. 락굴이 나타났을 때 도움이 되길 바란다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "QUST",
+        "form_id": "00050CA4",
+        "field": "CNAM",
+        "index": "0",
+        "group": "1",
+        "string_id": "213317"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Abandoned Industrial Compound",
+      "current_ko": "버려진 산업 지역",
+      "proposed_ko": "버려진 산업 단지",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "WRLD",
+        "form_id": "0023C6FF",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "64310"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Rakghoul returned to the <Alias=OE_Location>.",
+      "current_ko": "락굴이 해당 구역으로 돌아왔다.",
+      "proposed_ko": "락굴이 <Alias=OE_Location>으로 돌아왔다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "QUST",
+        "form_id": "00050CA4",
+        "field": "CNAM",
+        "index": "8",
+        "group": "1",
+        "string_id": "213334"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Thermal Craters",
+      "current_ko": "열원 분화구",
+      "proposed_ko": "열 분화구",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "WRLD",
+        "form_id": "002A31C3",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "64250"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Thermal Craters",
+      "current_ko": "열원 분화구",
+      "proposed_ko": "열 분화구",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "WRLD",
+        "form_id": "001419A6",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "64150"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Thermal Craters",
+      "current_ko": "열원 분화구",
+      "proposed_ko": "열 분화구",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "WRLD",
+        "form_id": "0029383B",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "64104"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Your automatic mortgage payment with <b>ARGOS EXTRACTORS</b> has been canceled, so your weekly payments must now be handled manually.\r\n\r\nYou have selected interest only payments. So the current loan term is indefinite. If, for any reason, you miss your payment your property will be locked until payment is resolved.\r\n\r\nThe loan's balance of <b>125,000</b> credits can be paid at InterGalactic Banking Clan's Imperial Center branch. You can also let us foreclose the property and you will have no further payments due.\r\n\r\nThanks for your business,\r\n\r\n<i>Landry Hollifeld\r\nInterGalactic Banking Clan Agent</i>",
+      "current_ko": "ARGOS EXTRACTORS와 체결한 자동 주택 담보 대출 상환이 취소되었으므로, 이제 매주 직접 상환하셔야 합니다.\r\n\r\n이자만 상환하는 방식을 선택하셨기에 현재 대출 기간은 무기한입니다. 어떤 이유로든 상환이 누락되면 상환이 완료될 때까지 귀하의 자산은 잠금 처리됩니다.\r\n\r\n대출 잔액 125,000 크레딧은 인터갤럭틱 뱅킹 클랜의 제국군 센터 지점에서 납부하실 수 있습니다. 혹은 자산을 압류하도록 두시면 더 이상의 상환 의무는 없습니다.\r\n\r\n이용해 주셔서 감사합니다.\r\n\r\n*랜드리 홀리필드*\r\n*인터갤럭틱 뱅킹 클랜 대리인*",
+      "proposed_ko": "<b>ARGOS EXTRACTORS</b>와 체결한 자동 주택 담보 대출 상환이 취소되었으므로, 이제 매주 직접 상환하셔야 합니다.\r\n\r\n이자만 상환하는 방식을 선택하셨기에 현재 대출 기간은 무기한입니다. 어떤 이유로든 상환이 누락되면 상환이 완료될 때까지 귀하의 자산은 잠금 처리됩니다.\r\n\r\n대출 잔액 <b>125,000</b> 크레딧은 인터갤럭틱 뱅킹 클랜의 제국군 센터 지점에서 납부하실 수 있습니다. 혹은 자산을 압류하도록 두시면 더 이상의 상환 의무는 없습니다.\r\n\r\n이용해 주셔서 감사합니다.\r\n\r\n<i>랜드리 홀리필드\r\n인터갤럭틱 뱅킹 클랜 대리인</i>",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "000A01D3",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "14277"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Sorry, Trevor! That's probably me. Just trying to make people laugh. I'll clean it up a bit. Were the f-bombs too much? I'll cut 'em all out. But you have to admit it's kind of hilarious to hear a droid swear. Anyway! More corny jokes it is!\r\n\r\n-Laylah\r\n\r\n>>Whoever keeps reprogramming Noam to give snarky answers, please stop. It's okay  \r\n>>to help improve his responses and other functions, but HR has asked that we please \r\n>>try to keep it work-safe. And giving him unhelpful, snarky responses makes him \r\n>>less useful. If this keeps up, we'll have to retire him to the scrap heap.\r\n>>\r\n>>-Trevor",
+      "current_ko": "미안해요, 트레버! 그거 아마 저였을 거예요. 그냥 다들 한 번씩 웃었으면 해서 그랬죠. 제가 조금 손볼게요. 욕설이 선을 너무 세게 넘었나요? 싹 다 날려버릴게요. 그래도 드로이드 입에서 육두문자가 튀어나오는 건 꽤 웃기지 않나요? 아무튼! 이제부터는 썰렁한 아재 개그 위주로 세팅해 둘게요!\r\n\r\n-라일라\r\n\r\n>>누군지 몰라도 노암이 깐족거리는 대답을 하도록 프로그램 만지는 행위는 이제 그만둬 주십시오. 응답 정밀도를 올리고 유용한 기능을 개선해 주는 건 좋지만, 인사과에서 부디 직장 내 적정 수위만큼은 지켜달라고 거듭 당부해 왔습니다. 게다가 노암이 도움도 안 되는 비꼬는 투로 일관하면 쓸모가 크게 떨어집니다. 장난질이 계속되면 녀석을 그냥 고철 더미에 처박아 폐기하는 수밖에 없습니다.\r\n>>\r\n>>-트레버",
+      "proposed_ko": "미안해요, 트레버! 그거 아마 저였을 거예요. 그냥 다들 한 번씩 웃었으면 해서 그랬죠. 제가 조금 손볼게요. 욕설이 선을 너무 세게 넘었나요? 싹 다 날려버릴게요. 그래도 드로이드 입에서 육두문자가 튀어나오는 건 꽤 웃기지 않나요? 아무튼! 이제부터는 썰렁한 아재 개그 위주로 세팅해 둘게요!\r\n\r\n-라일라\r\n\r\n>>누군지 몰라도 노암이 깐족거리는 대답을 하도록 프로그램 만지는 행위는 이제 그만둬 주십시오. \r\n>>응답 정밀도를 올리고 유용한 기능을 개선해 주는 건 좋지만, 인사과에서 부디 직장 내 적정 수위만큼은 지켜달라고 거듭 당부해 왔습니다. \r\n>>게다가 노암이 도움도 안 되는 비꼬는 투로 일관하면 \r\n>>쓸모가 크게 떨어집니다. 장난질이 계속되면 녀석을 그냥 고철 더미에 처박아 폐기하는 수밖에 없습니다.\r\n>>\r\n>>-트레버",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "TMLM",
+        "form_id": "0016C04E",
+        "field": "UNAM",
+        "index": "3",
+        "group": "0",
+        "string_id": "47217"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Scan creatures, minerals, and plants. Each unique item scanned progresses your survey data of the planet. Completed survey data can be sold for credits.\r\n\r\nThe scanner mode also unlocks additional features, such as building Outposts and using Social Skills like Diplomacy and Intimidation.",
+      "current_ko": "동물, 광물, 식물을 스캔하세요. 고유한 것을 스캔할 때마다 행성 조사 데이터 완성률이 올라갑니다. 완성한 데이터는 판매하여 크레딧을 벌 수 있습니다.<br><br>스캔 모드는 이 밖에도 전초기지 건설, 외교나 위협같은 생활 스킬 사용에도 활용됩니다.",
+      "proposed_ko": "동물, 광물, 식물을 스캔하세요. 고유한 것을 스캔할 때마다 행성 조사 데이터 완성률이 올라갑니다. 완성한 데이터는 판매하여 크레딧을 벌 수 있습니다.\r\n\r\n스캔 모드는 이 밖에도 전초기지 건설, 외교나 위협같은 생활 스킬 사용에도 활용됩니다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "MESG",
+        "form_id": "002251E2",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "35145"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Heller: Can't believe we got into this mess! \r\n\r\nBarrett: Would you be quiet? I'm trying to make out the hyperspace jump calculations before we're out of range.\r\n\r\nHeller: Out of range of what?\r\n\r\nBarrett: Out of range of the sensor array on Kessel. Would you keep up? Once we're outside the star system, the bandwidth goes from instant speed to effectively never.\r\n\r\nHeller: What good is sending a transmission down there? You going to tell Lin how royally screwed we both are? She doesn't even have a ship.\r\n\r\nBarrett: You underestimate how many of my admirers there are in the galaxy, Heller. One of them is bound to show up, looking to reunite with this handsome face.\r\n\r\nHeller: We're doomed. Capital \"D\" doomed.\r\n\r\nBarrett: Got it. Okay. Whoever finds this, I'm attaching the interstellar \r\ncoordinates to the metadata on the transmission. Rescue us. Repeat. RESCUE. US.\r\n",
+      "current_ko": "헬러: 우리가 이런 개판에 휘말리다니 진짜 믿기지 않는군! \r\n\r\n바렛: 입 좀 다물어 줄래? 신호가 끊기기 전에 초공간 도약 계산을 끝마쳐야 한단 말이야.\r\n\r\n헬러: 신호가 어디서 끊기는데?\r\n\r\n바렛: 케셀에 있는 센서 어레이 수신 반경에서 벗어난다고. 제발 흐름 좀 따라와 봐. 이 항성계를 벗어나는 순간, 전송 대역폭이 실시간 급에서 그냥 먹통 수준으로 뚝 떨어진단 말이지.\r\n\r\n헬러: 아래쪽에 전송을 보낸들 무슨 소용이야? 린한테 우리가 아주 제대로 조졌다고 일러바치기라도 하려고? 그 여자한테는 우주선도 없다고.\r\n\r\n바렛: 헬러, 이 은하계에 내 팬이 얼마나 많은지 얕보는 모양인데. 그중 한 명은 이 잘생긴 얼굴을 다시 보러 기필코 여길 찾아올걸.\r\n\r\n헬러: 우린 끝났어. 아주 확실하고 철저하게 끝났다고.\r\n\r\n바렛: 찾았다. 오케이. 이 기록을 발견하는 분은 전송 메타데이터에 첨부된 성간 좌표를 꼭 확인해 주세요. 우릴 구해주세요. 다시 말합니다. 제발. 우릴. 구해주세요.\r\n",
+      "proposed_ko": "헬러: 우리가 이런 개판에 휘말리다니 진짜 믿기지 않는군! \r\n\r\n바렛: 입 좀 다물어 줄래? 신호가 끊기기 전에 초공간 도약 계산을 끝마쳐야 한단 말이야.\r\n\r\n헬러: 신호가 어디서 끊기는데?\r\n\r\n바렛: 케셀에 있는 센서 어레이 수신 반경에서 벗어난다고. 제발 흐름 좀 따라와 봐. 이 항성계를 벗어나는 순간, 전송 대역폭이 실시간 급에서 그냥 먹통 수준으로 뚝 떨어진단 말이지.\r\n\r\n헬러: 아래쪽에 전송을 보낸들 무슨 소용이야? 린한테 우리가 아주 제대로 조졌다고 일러바치기라도 하려고? 그 여자한테는 우주선도 없다고.\r\n\r\n바렛: 헬러, 이 은하계에 내 팬이 얼마나 많은지 얕보는 모양인데. 그중 한 명은 이 잘생긴 얼굴을 다시 보러 기필코 여길 찾아올걸.\r\n\r\n헬러: 우린 끝났어. 아주 확실하고 철저하게 끝났다고.\r\n\r\n바렛: 찾았다. 오케이. 이 기록을 발견하는 분은 전송 메타데이터에 첨부된 \r\n성간 좌표를 꼭 확인해 주세요. 우릴 구해주세요. 다시 말합니다. 제발. 우릴. 구해주세요.\r\n",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "002BABEC",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "13178"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Just because it's Nar Shaddaa doesn't mean you had to be a monster too.",
+      "current_ko": "나르 샤다아라고 해서 당신까지 괴물이 될 필요는 없었잖아요.",
+      "proposed_ko": "나르 샤다라고 해서 당신까지 괴물이 될 필요는 없었잖아요.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "INFO",
+        "form_id": "002494A5",
+        "field": "NAM1",
+        "index": "0",
+        "group": "2",
+        "string_id": "130611"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "[Pay 50000 Credits] Fine. Here.",
+      "current_ko": "[<Global=NPCDemandMoney_Large> 크레딧 주기] 알았어. 여기.",
+      "proposed_ko": "[50000 크레딧 주기] 알았어. 여기.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "INFO",
+        "form_id": "002EDACF",
+        "field": "NAM1",
+        "index": "0",
+        "group": "2",
+        "string_id": "67175"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "[Lie] Made the drop off to your boss. He said you would have the payment for me: 10000 credits.",
+      "current_ko": "[거짓말] 사장님한테 물건 전달했어요. 당신이 제 돈 <Global=NPCDemandMoney_Medium> 크레딧 줄 거라고 하더라고요.",
+      "proposed_ko": "[거짓말] 사장님한테 물건 전달했어요. 당신이 제 돈 10000 크레딧 줄 거라고 하더라고요.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "INFO",
+        "form_id": "0017233A",
+        "field": "NAM1",
+        "index": "0",
+        "group": "2",
+        "string_id": "3193"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Hold Left-ALT and use [Forward][StrafeLeft][Back][StrafeRight] to switch between systems and allocate power.\r\n\r\nYou can skip the Ship Tutorial by powering up all systems, including the Hyperdrive.",
+      "current_ko": "왼쪽 ALT 키를 누른 상태에서 [앞으로][왼쪽 이동][뒤로][오른쪽 이동] 키를 사용하여 시스템 간에 전력을 전환하고 배분할 수 있습니다.\r\n\r\n하이퍼드라이브를 포함한 모든 시스템에 전력을 공급하면 함선 튜토리얼을 건너뛸 수 있습니다.",
+      "proposed_ko": "왼쪽 ALT 키를 누른 상태에서 [Forward][StrafeLeft][Back][StrafeRight] 키를 사용하여 시스템 간에 전력을 전환하고 배분할 수 있습니다.\r\n\r\n하이퍼드라이브를 포함한 모든 시스템에 전력을 공급하면 함선 튜토리얼을 건너뛸 수 있습니다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "MESG",
+        "form_id": "00115242",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "210049"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You can purchase new goods, equipment, and consumables from vendors throughout the Galaxy. You can also sell your wares for credits.\r\n\r\nWhile bartering, the merchant's inventory is displayed similarly to your own inventory. Use [Up], [Down], [Left], and [Right] to navigate between items in the merchant's Inventory. Select items you'd like to purchase with [Accept].\r\n\r\nTo sell an item, press [LShoulder] to view your inventory. Select the item from your Inventory you want to sell and press [Accept]. After selling an item, a \"Buy Back\" category will appear in the merchant's inventory. You can repurchase items you've sold to this merchant for the same amount you've sold it for. If you exit the transaction, all items in the \"Buy Back\" category will be moved to the merchant's regular inventory, and you will not be able to repurchase the items for the same price you've sold them for. \r\n\r\nUnlocking the \"Commerce\" skill from the \"Social\" skill tree decreases the price of goods at vendors, while increasing the credits you receive for sales. ",
+      "current_ko": "은하계 전역의 상인에게서 새로운 상품, 장비, 소모품을 구매할 수 있습니다. 또한 소지품을 판매하여 크레딧을 얻을 수도 있습니다.\r\n\r\n물물교환 시 상인의 인벤토리는 플레이어의 인벤토리와 유사하게 표시됩니다. [위], [아래], [왼쪽], [오른쪽] 키를 사용하여 상인의 인벤토리 내 아이템을 탐색하십시오. 구매하려는 아이템은 [수락] 키로 선택합니다.\r\n\r\n아이템을 판매하려면 [L숄더] 키를 눌러 인벤토리를 확인하십시오. 인벤토리에서 판매할 아이템을 선택하고 [수락] 키를 누릅니다. 아이템을 판매한 후에는 상인의 인벤토리에 \"되사기\" 카테고리가 나타납니다. 이 상인에게 판매한 아이템은 판매했던 가격 그대로 다시 구매할 수 있습니다. 거래를 종료하면 \"되사기\" 카테고리에 있던 모든 아이템이 상인의 일반 인벤토리로 이동하며, 판매했던 가격으로 다시 구매할 수 없게 됩니다.\r\n\r\n\"사회\" 스킬 트리의 \"상업\" 스킬을 잠금 해제하면 상인에게서 물건을 더 저렴하게 구매하고, 판매 시 더 많은 크레딧을 받을 수 있습니다. ",
+      "proposed_ko": "은하계 전역의 상인에게서 새로운 상품, 장비, 소모품을 구매할 수 있습니다. 또한 소지품을 판매하여 크레딧을 얻을 수도 있습니다.\r\n\r\n물물교환 시 상인의 인벤토리는 플레이어의 인벤토리와 유사하게 표시됩니다. [Up], [Down], [Left], [Right] 키를 사용하여 상인의 인벤토리 내 아이템을 탐색하십시오. 구매하려는 아이템은 [Accept] 키로 선택합니다.\r\n\r\n아이템을 판매하려면 [LShoulder] 키를 눌러 인벤토리를 확인하십시오. 인벤토리에서 판매할 아이템을 선택하고 [Accept] 키를 누릅니다. 아이템을 판매한 후에는 상인의 인벤토리에 \"되사기\" 카테고리가 나타납니다. 이 상인에게 판매한 아이템은 판매했던 가격 그대로 다시 구매할 수 있습니다. 거래를 종료하면 \"되사기\" 카테고리에 있던 모든 아이템이 상인의 일반 인벤토리로 이동하며, 판매했던 가격으로 다시 구매할 수 없게 됩니다.\r\n\r\n\"사회\" 스킬 트리의 \"상업\" 스킬을 잠금 해제하면 상인에게서 물건을 더 저렴하게 구매하고, 판매 시 더 많은 크레딧을 받을 수 있습니다.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "MESG",
+        "form_id": "0000017F",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "36516"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Terminology/particle or explicitly recorded source/structure correction.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Client: SyntheTech Industries - Lucas Drexler\r\nJob: #48201\r\nLocation: CM Station RC-1\r\nTarget: BioTech Rothicite Shipment\r\n\r\nInstructions:\r\n- Retrieve rothicite shipment being prepared for \r\n  BioTech Industries. \r\n\r\n- Redirect shipment to:\r\n   > Imperial Medical Space Station \r\n   > ATTN: Dr. Kendrick Lane    \r\n   > Kuat System, Rebel Alliance\r\n- Leave no witnesses.",
+      "current_ko": "의뢰인: 신세텍 인더스트리 - 루카스 드렉슬러\r\n의뢰 내용: #48201\r\n임무 위치: CM 스테이션 RC-1\r\n타격 대상: 바이오텍 사의 로시사이트 수송선\r\n\r\n상세 지침:\r\n- 바이오텍 인더스트리 측에서 선적 준비 중인 로시사이트 화물을 확보할 것.\r\n\r\n- 수송 경로 우회 인도지:\r\n   > 제국 의료 우주정거장\r\n   > 수신인: 켄드릭 레인 박사    \r\n   > 쿠아트 성계, 반란군 연합 영토\r\n- 목격자는 단 한 명도 살려두지 말 것.",
+      "proposed_ko": "의뢰인: 신세텍 인더스트리 - 루카스 드렉슬러\r\n의뢰 내용: #48201\r\n임무 위치: CM 스테이션 RC-1\r\n타격 대상: 바이오텍 사의 로시사이트 수송선\r\n\r\n상세 지침:\r\n- 바이오텍 인더스트리 측에서 선적 준비 중인 \r\n  로시사이트 화물을 확보할 것.\r\n\r\n- 수송 경로 우회 인도지:\r\n   > 제국 의료 우주정거장\r\n   > 수신인: 켄드릭 레인 박사    \r\n   > 쿠아트 성계, 반란군 연합 영토\r\n- 목격자는 단 한 명도 살려두지 말 것.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "001A9508",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "14654"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "JABR Logistics Ship A-2. Job number 146789\r\nClient: Galactic Empire \r\n\r\nImperial Center [DELIVERED]\r\nDry goods (20 Crates)\r\nMedical Supplies (4 Crates)\r\nConsumer Electronics (15 Crates)\r\nMisc. Consumer Goods (28 Crates)\r\n\r\nImperial Mining Facility [DELIVERED]\r\nMedical Supplies (15 Crates)\r\nDry Goods (16 Crates)\r\n\r\nGeonosis Excavation Site [IN TRANSIT]\r\nMisc. Consumer Goods (12 Crates)\r\nElectrical Components (2 crates)\r\nConstruction Materials (30 Crates)\r\n",
+      "current_ko": "JABR 물류 수송선 A-2. 작업 번호 146789\r\n의뢰인: 은하 제국\r\n\r\n임페리얼 센터 [배송 완료]\r\n일반 건조 화물 (20상자)\r\n의료 보급품 (4상자)\r\n가전제품 (15상자)\r\n기타 소비재 (28상자)\r\n\r\n제국 광산 시설 [배송 완료]\r\n의료 보급품 (15상자)\r\n일반 건조 화물 (16상자)\r\n\r\n지오노시스 발굴 현장 [운송 중]\r\n기타 소비재 (12상자)\r\n전자 부품 (2상자)\r\n건설 자재 (30상자)",
+      "proposed_ko": "JABR 물류 수송선 A-2. 작업 번호 146789\r\n의뢰인: 은하 제국\r\n\r\n임페리얼 센터 [배송 완료]\r\n일반 건조 화물 (20상자)\r\n의료 보급품 (4상자)\r\n가전제품 (15상자)\r\n기타 소비재 (28상자)\r\n\r\n제국 광산 시설 [배송 완료]\r\n의료 보급품 (15상자)\r\n일반 건조 화물 (16상자)\r\n\r\n지오노시스 발굴 현장 [운송 중]\r\n기타 소비재 (12상자)\r\n전자 부품 (2상자)\r\n건설 자재 (30상자)\r\n",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "BOOK",
+        "form_id": "000C139E",
+        "field": "DESC",
+        "index": "0",
+        "group": "1",
+        "string_id": "14326"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "[Pay 50000 Credits] I can cover Helgi's debts in exchange for any leads.",
+      "current_ko": "[<Global=NPCDemandMoney_Large> 크레딧 주기] 단서를 제공하면 헬기의 빚을 갚아줄 수도 있어요.",
+      "proposed_ko": "[50000 크레딧 주기] 단서를 제공하면 헬기의 빚을 갚아줄 수도 있어요.",
+      "location": {
+        "sst": "starfield_en_ko.sst",
+        "record": "INFO",
+        "form_id": "00022707",
+        "field": "NAM1",
+        "index": "0",
+        "group": "2",
+        "string_id": "67174"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Solitary Base",
+      "current_ko": "독립 기지",
+      "proposed_ko": "고립된 기지",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "03005B83",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Outer Depot",
+      "current_ko": "외부 저장소",
+      "proposed_ko": "외곽 보급소",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "03005C43",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Ignored Outpost",
+      "current_ko": "무시된 전초기지",
+      "proposed_ko": "방치된 전초기지",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "030062E3",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Encased Stronghold",
+      "current_ko": "요새화된 거점",
+      "proposed_ko": "밀폐된 요새",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "03005BE5",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Unclaimed Military Encampment",
+      "current_ko": "미점유 군사 야영지",
+      "proposed_ko": "주인 없는 군사 야영지",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "03005FAC",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Discarded Camp",
+      "current_ko": "폐기된 캠프",
+      "proposed_ko": "폐기된 야영지",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "03006599",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Lonely Holding Area",
+      "current_ko": "외딴 대기 구역",
+      "proposed_ko": "외딴 수용 구역",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "03006093",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Unprotected Post",
+      "current_ko": "보호받지 않는 초소",
+      "proposed_ko": "무방비 초소",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "0300627C",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Forsook Siege Camp",
+      "current_ko": "버려진 포위 캠프",
+      "proposed_ko": "버려진 포위 진지",
+      "location": {
+        "sst": "starwarsfactionexpansion_en_ko.sst",
+        "record": "LCTN",
+        "form_id": "030061A5",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001FE5FE",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00004113",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00004118",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001FE25D",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001FE60B",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0024481C",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "1A000BC1",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0021ED3E",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00004112",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "001FE21F",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0021B5A6",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0000411A",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0006D80A",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "starwarsgenesislocations_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "03002FDE",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You deal 20% more damage to droids andturrets. You can force simple droids to flee for a limited time.\r\n",
+      "current_ko": "드로이드와 포탑에게 주는 피해가 20% 증가한다. 제한된 시간 동안 단순한 드로이드가 도망치게 할 수 있다.",
+      "proposed_ko": "드로이드와 포탑에게 주는 피해가 20% 증가한다. 제한된 시간 동안 단순한 드로이드가 도망치게 할 수 있다.\r\n",
+      "location": {
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst",
+        "record": "PERK",
+        "form_id": "002C5553",
+        "field": "DESC",
+        "index": "2",
+        "group": "1",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Existing contextual wording retained; currency paraphrase, alias token, metaphor or abbreviation allowed.",
+        "Explicit source-backed tag/control/newline restoration; no missing paragraph hidden."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00270254",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00270253",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00270252",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "00270255",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000C66A9",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000C66A8",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0004A1B3",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0025E1A6",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0004A1B1",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0004A1B0",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000C66AA",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "000C66AB",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0025E1A5",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raider",
+      "current_ko": "레이더",
+      "proposed_ko": "습격자",
+      "location": {
+        "sst": "sw spacer overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0004A1B2",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Crashed Food Truck",
+      "current_ko": "추락한 푸드 트럭",
+      "proposed_ko": "추락한 식량 운송 트럭",
+      "location": {
+        "sst": "swnewgalaxy_en_ko.sst",
+        "record": "WRLD",
+        "form_id": "01010FB8",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Scrap Metal Foundry",
+      "current_ko": "고철 처리장",
+      "proposed_ko": "고철 주조 공장",
+      "location": {
+        "sst": "swnewgalaxy_en_ko.sst",
+        "record": "WRLD",
+        "form_id": "0103625A",
+        "field": "FULL",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Exact display label standardized; Roman numeral follows English.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "trackeralliance_hq_overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "FD00541D",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "trackeralliance_hq_overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "0400081F",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "trackeralliance_hq_overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "04000814",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Open",
+      "current_ko": "오픈",
+      "proposed_ko": "열기",
+      "location": {
+        "sst": "trackeralliance_hq_overhaul_en_ko.sst",
+        "record": "NPC_",
+        "form_id": "FD00541F",
+        "field": "ATTX",
+        "index": "0",
+        "group": "0",
+        "string_id": "0"
+      },
+      "review_status": "context_validated",
+      "review_method": "codex_complete_context_review",
+      "review_notes": [
+        "Activation verb, not a proper name.",
+        "Terminology/particle or explicitly recorded source/structure correction."
+      ],
+      "human_reviewed": false
+    }
+  ]
+}
