@@ -14,3 +14,15 @@ v0.1.0·v0.2.0·v0.2.1에서 업데이트한 결과는 각각 신규 설치와 �
 4. MO2의 Star Wars Genesis Compiler 프로필에서 SFSE로 실행합니다.
 
 [전체 검수 기록](../translation-review/terminology-complete/README.md)을 참고하세요.
+
+## xTranslator SST 원본에 검수 결과 반영
+
+개발용 `scripts/apply_reviewed_sst.py`는 검수 당시 원본과 체크섬이 일치하는 SST에만 수정안을 적용합니다. xTranslator를 저장하고 닫은 상태에서 사용하세요. 일반 패처 사용자는 이 단계를 수행할 필요가 없습니다.
+
+```powershell
+python scripts/apply_reviewed_sst.py --repo . --sst-dir "SST 폴더" --stage "새 작업 폴더"
+```
+
+기본 실행은 수정본과 원본을 작업 폴더에 준비합니다. 실제 반영하려면 다른 새 작업 폴더를 지정하고 `--apply`를 추가합니다. SST 폴더의 `.genesis-kr-sst-backups`에 원본과 작업 기록을 보관하며, 쓰기 실패 시 적용한 파일을 복구합니다. 이미 변경된 SST에는 다시 적용하지 않습니다.
+
+로컬 반영 결과는 **58개 SST, 번역 2,976곳**입니다. 별도 파서로 140개 SST의 288,054행을 다시 읽어 원문·플래그·레코드 정보 보존과 수정 대상 이외의 번역 보존을 확인했습니다. 설치된 모드 파일 73개도 v0.2.2 패키지와 일치하며, 실제 플레이 검증은 별도로 필요합니다.
