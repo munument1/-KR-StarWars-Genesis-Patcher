@@ -1,0 +1,33 @@
+{
+  "unique_pairs": 293,
+  "locations": 308,
+  "decisions": {
+    "scope_hold": 122,
+    "technical_preserved": 9,
+    "terminology_hold": 48,
+    "ai_suggestion_validated": 99,
+    "structural_hold": 6,
+    "context_accepted": 9
+  },
+  "batches": [
+    {
+      "file": "ai-review-0001.json",
+      "items": 250,
+      "sha256": "afa1cb8eb99ac7e7292ac66bbb1e89f187a4abfc6766a6fd4ea6f9afed2add61"
+    },
+    {
+      "file": "ai-review-0002.json",
+      "items": 43,
+      "sha256": "000ba1e1c72cee7481a198a140c615c3d6d0e5b438509ffb80ad431ca6f5a6ef"
+    }
+  ],
+  "input_sha256": "761b9db4fbf7f9a419da973f5408a3f758584bb4f5b3b2e75d3859c3c2aaefec",
+  "glossary_sha256": "d86f20a3c009cb17b727f28e5f0ffdcb4080765c1bf085184860cd4e22a72c83",
+  "ai_api_used": true,
+  "models": [
+    "gemini-3.5-flash-lite"
+  ],
+  "installer_modified": false,
+  "sst_modified": false,
+  "human_reviewed": false
+}

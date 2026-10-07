@@ -1,0 +1,12 @@
+{
+  "zip": "GenesisKRPatcher-v0.2.1-preview.zip",
+  "bytes": 61587602,
+  "sha256": "45fba5f25a4358306b7dc0cbe85041db96b8cb832c57d603bfb019c5a2e018cf",
+  "exe_generation_statuses": {
+    "prepared": 68,
+    "already_applied": 117
+  },
+  "exe_outputs_match_clean_install": true,
+  "embedded_payload_verified": true,
+  "game_modified": false
+}

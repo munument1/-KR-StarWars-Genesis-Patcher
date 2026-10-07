@@ -13,10 +13,16 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/GenesisFreeLanes.esm",
       "kind": "text_recipe",
-      "blob": "d6b783346719b5932b2f69e4410fa7bd220d954450ef66865803180c6810a624",
+      "blob": "77fba4231dce48fe6f63c8502210623944ecb3578b60cfa406760186a6fa5967",
       "input_sha256": "ba5fadca2ac2423c5fdae1b5433a47131e373d2cc491d368b8190557ac010e22",
-      "output_sha256": "da7a75f61316bc8aa4eca113e4aba19815a7881e2bf0342a7ce8a3889885eb03",
-      "text_changes": 130
+      "output_sha256": "bdad2a6362961e3cecfc9957ef67483d0603a2041977a2d11d22047949339c25",
+      "text_changes": 130,
+      "upgrade_from": [
+        {
+          "input_sha256": "da7a75f61316bc8aa4eca113e4aba19815a7881e2bf0342a7ce8a3889885eb03",
+          "blob": "49a59a78c530d7f3c6632aaa3516d01d304eb0f21e1ec6b8052d52885d082595"
+        }
+      ]
     },
     {
       "target": "mods/Fuck Shattered Space/FuckShatteredSpace.esm",
@@ -37,10 +43,16 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/RoyalWeathers.esm",
       "kind": "text_recipe",
-      "blob": "f06519efc92f4d47edb6e556bd6c2e44778901a4e04f4599013e27ec6c00a4f4",
+      "blob": "465d6852e6a37a3d4740b80810edcb792c98c8f75863b77a1b2b6cd4d37b2d8b",
       "input_sha256": "6541c77294f3207b22837782349368b26605ff00dc99a9827e37b34abe717bf8",
-      "output_sha256": "05c85a06e1154aa1ccc9feb6a64f0e2ef2495aa6d39a4f169f81c5f6f30416b1",
-      "text_changes": 86
+      "output_sha256": "21533a773be4681975de7f1dca2a04432a7cbe87a722fe76e47cd300e767540e",
+      "text_changes": 86,
+      "upgrade_from": [
+        {
+          "input_sha256": "05c85a06e1154aa1ccc9feb6a64f0e2ef2495aa6d39a4f169f81c5f6f30416b1",
+          "blob": "93a79d2ad39f3fa9c8d9444685e179655b483e7206ae356e0e6c160c607e45ba"
+        }
+      ]
     },
     {
       "target": "mods/Increased Asteroid Field Density/DenseAsteroidFields.esm",
@@ -53,26 +65,44 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/Ascension.esm",
       "kind": "text_recipe",
-      "blob": "6835e61c1bb4b7cd8d4b25038e801a50c768c520439e2f06eb0ae04e6fdd7aef",
+      "blob": "4ea1a5d782053380719926a521eee3cf078890275851375cf38333d20e4b0673",
       "input_sha256": "21c20a7bbbb0faa675880030216fe44ec52a9f62d9802caf1f8a38d12bacd540",
-      "output_sha256": "0ff7c8cae58d37274fc8580d96e98117fda010f6cf95d07b3a1ae3baeb77fc14",
-      "text_changes": 1966
+      "output_sha256": "50122f8865e0659e746cff1eac471fb357b446864662625ad28a542ef5d6961c",
+      "text_changes": 1966,
+      "upgrade_from": [
+        {
+          "input_sha256": "0ff7c8cae58d37274fc8580d96e98117fda010f6cf95d07b3a1ae3baeb77fc14",
+          "blob": "75c1e89c56e2c103d012bb42fa09804ee14ec5b87435ecffdace9d55c0b80232"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Resources - Blasters/SW Blasters.esm",
       "kind": "text_recipe",
-      "blob": "66a0ebd55eb7f0df404cb944c92e947d80d52728f1c95dffa5b281d9d7940444",
+      "blob": "63c9989e13056937ca756b719c4adc860d0c04cface394344e568f3290c3a06d",
       "input_sha256": "a8c92a31f61f6fbe4dd3a2e7392a82b50822ec3124b377bb6941c536f403042b",
-      "output_sha256": "924f46902f70dc39a16d3c6b90b220d1386b57714d491621d5165d545e1d37dd",
-      "text_changes": 1176
+      "output_sha256": "e0fa0827954261f4238619af62da7a7b0757961b6cf4f9d2be1bc4da2d0e678a",
+      "text_changes": 1176,
+      "upgrade_from": [
+        {
+          "input_sha256": "924f46902f70dc39a16d3c6b90b220d1386b57714d491621d5165d545e1d37dd",
+          "blob": "581ca6cc0585ac6c3fde92532df78fb9d12cc9b528edd1793db2398f6187f3c5"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Resources - Aliens and Droids/SW Resources.esm",
       "kind": "text_recipe",
-      "blob": "897e3ea15323c85fac0a3fd3258c487ca6b68df2dc066b114aa26eb2bfe3ce40",
+      "blob": "72ac627c78906cdcf0c189e748afcda0322d2a1593f601dbdbfa0e4992ecf997",
       "input_sha256": "0c608c84cf8a5aa59789ba19c4dbe0259a7c1e7ce840390aad9380bd54695cb6",
-      "output_sha256": "57144335958b02f11414e48d4a33534e7313fa62ad263f40d7638c0e63cfa264",
-      "text_changes": 846
+      "output_sha256": "dbdab4aa186a85a7281a4dd9527d3e9cc3ee1e8a5b2e23d671836be42c48af86",
+      "text_changes": 846,
+      "upgrade_from": [
+        {
+          "input_sha256": "57144335958b02f11414e48d4a33534e7313fa62ad263f40d7638c0e63cfa264",
+          "blob": "881aeae86b57d851176fddf48cc1d9cb699053cfbc93ed068d8264b7df1f4f6d"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Override Patch/SW Alien Player.esm",
@@ -93,10 +123,16 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/SW Droids.esm",
       "kind": "text_recipe",
-      "blob": "b5cda732875942d21fad8422e4dad455d70ea397065d300e3b6c90ff781da735",
+      "blob": "feed51736d444ffe5d1d3ddb3c05efa1a13e1ecfa8deaf2505a2748aff2b7d0d",
       "input_sha256": "5eeeba3d623f0b0a760d7ef56e2dd72683066a3bb2150d6b0c6344e2cb06cab0",
-      "output_sha256": "babab43d1976538256ec086fba048d685896f4b3ec0655bbc2a56c0b9d270d21",
-      "text_changes": 280
+      "output_sha256": "8c9842ec093893a440c1ef1ca7ca4317a94d500f30f5f329fb73a98a7aa98d3b",
+      "text_changes": 280,
+      "upgrade_from": [
+        {
+          "input_sha256": "babab43d1976538256ec086fba048d685896f4b3ec0655bbc2a56c0b9d270d21",
+          "blob": "5482a3e1dd41fa0d7cd971ff4fced1a41eb6f6c4d9c17157aa8d38036674c7e0"
+        }
+      ]
     },
     {
       "target": "mods/Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul/GRiNDTerraFBO.esm",
@@ -117,10 +153,16 @@
     {
       "target": "mods/Star Wars - Unique Bosses and Encounters/StarWarsUniqueBosses.esm",
       "kind": "text_recipe",
-      "blob": "5cade7b5f37888fe1a82611331d12aad29bf067f21985ae8996704f354cf895f",
+      "blob": "64ebc60de8f3fb9c1bf0cf01db5ce2fbf034704d32e1b694eee32d7c84712226",
       "input_sha256": "354f171092a176f36e895c78c79930fa25921770d0e5c975930773325eb7efba",
-      "output_sha256": "cb4339cbb8c6f5842abf535d3ae06757270d26fa6de9a740c25f8da51313e180",
-      "text_changes": 23
+      "output_sha256": "c575990b10027a25a8fc50d4169b757f980ef0508140ce03fed758e9d0468c84",
+      "text_changes": 23,
+      "upgrade_from": [
+        {
+          "input_sha256": "cb4339cbb8c6f5842abf535d3ae06757270d26fa6de9a740c25f8da51313e180",
+          "blob": "e9af516b4314f9d5e39a5d867fe024a41b3ac65e688669c8bf5d135ec3cda145"
+        }
+      ]
     },
     {
       "target": "mods/Neon Vertigo - A Neon Overhaul/Neon_Vertigo.esm",
@@ -157,10 +199,16 @@
     {
       "target": "mods/Star Wars - Ship Vendor Framework/TheSniper9-Firespray31.esm",
       "kind": "text_recipe",
-      "blob": "9f1cbbcc64098ee3e71c38e25cf6f6e78c0cbb03cb4c466e1ca49d5e553e959c",
+      "blob": "6b64eab1776ec7a98ded8683f20ddd3ee1d4fdddcc7c18b248db5b6b07bd6fd1",
       "input_sha256": "1c7d009141688975079cede83a9c3dbc197d3e834271bceeeaee3798b8f28add",
-      "output_sha256": "ee62e4dc3d4ed1cbc65b16f279e0fc54f0a7147df8069b1a7a6e3eb845b414f4",
-      "text_changes": 89
+      "output_sha256": "bc5a41228b4bb1c66ba5c66b6c37816524a5692d89a95440891687b873200361",
+      "text_changes": 89,
+      "upgrade_from": [
+        {
+          "input_sha256": "ee62e4dc3d4ed1cbc65b16f279e0fc54f0a7147df8069b1a7a6e3eb845b414f4",
+          "blob": "23b64920d82cc21707cbd64d68ebfc779c33efa5c2d93a28edd356d6a26df985"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Ship Vendor Framework/YT-1300_Millennium_Falcon_1977.esm",
@@ -205,10 +253,16 @@
     {
       "target": "mods/Star Wars - Ship Vendor Framework/Delta-7_Jedi_Starfighter_2002.esm",
       "kind": "text_recipe",
-      "blob": "1cd220cc011e3c600b33bc20cee7c68282acd53d6083f0f68d1ffa1ab645e790",
+      "blob": "13d3fb7249166a7b5dee1a405f681d8aceda1401b86625830dd19bde56dce345",
       "input_sha256": "d157532170da939c25269a8fea083421c2b4371990d40e7142aa5f0a0f20eb0f",
-      "output_sha256": "5de073233154832a55355b5cc966c63153b9346b3a4a490171a98b5d32e6534f",
-      "text_changes": 82
+      "output_sha256": "a490717eb9d81c0a2306a695be051cf9e6176c6054f6feb07d8d4f1904f06b9a",
+      "text_changes": 82,
+      "upgrade_from": [
+        {
+          "input_sha256": "5de073233154832a55355b5cc966c63153b9346b3a4a490171a98b5d32e6534f",
+          "blob": "5b6cb08c365bf661e57a55f36e04d33256ae3f14b01e94aef9a4e5513b55c0dd"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Ship Vendor Framework/Naboo_N-1_Starfighter_1999.esm",
@@ -237,10 +291,16 @@
     {
       "target": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
       "kind": "text_recipe",
-      "blob": "5a50e0e606bc25ec8cc232e59345a61fc399f51c262b4c6dbf6d5cd93947be44",
+      "blob": "fe68fd85708d07b7ead345d9462b90e65faceee719b20740af11f71760d04210",
       "input_sha256": "4ab6f0771476606f42e65072958b0ca16958e6ebe96e77e40aeb21c2a28ab8e5",
-      "output_sha256": "0d34614d075a2b00caf0396442cb3621c8be53476b19d64b990d8aadde66dbd8",
-      "text_changes": 215
+      "output_sha256": "ed30749fbd2ea45bab51dd01f807eec4b1a020757c78163325ea131703dc3c18",
+      "text_changes": 215,
+      "upgrade_from": [
+        {
+          "input_sha256": "0d34614d075a2b00caf0396442cb3621c8be53476b19d64b990d8aadde66dbd8",
+          "blob": "101ba9b9c0f7055d3843e454d21384c814d88a072122dac72d4a15b2a51449f7"
+        }
+      ]
     },
     {
       "target": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
@@ -301,10 +361,16 @@
     {
       "target": "mods/Star Wars - Ship Replacer/StarWarsShipReplacer.esm",
       "kind": "text_recipe",
-      "blob": "547eb5db95470f1d264cef44cb76949da5d78655bcf04782f62e30b02ee90248",
+      "blob": "0bbf3d28aee12fd0b83d0370004ccde95e36d34988ef028f2cd2c62b1b860f27",
       "input_sha256": "148af8776c43bbc9161a88f8fc52a2fec2a6f5696500eba3c74ec443005ee256",
-      "output_sha256": "4ae3ed25fe4f5f03678028e1ca90ba0ec7855a1b33a5666adcc9a24a989d5bcf",
-      "text_changes": 43
+      "output_sha256": "84e8600e9a091d4d87030c798031e4286c6537525839053111e6e11df0e45bd9",
+      "text_changes": 43,
+      "upgrade_from": [
+        {
+          "input_sha256": "4ae3ed25fe4f5f03678028e1ca90ba0ec7855a1b33a5666adcc9a24a989d5bcf",
+          "blob": "aafc4854af4455dfd183d8fb4659dd922b3724965e24b17ac17b1a813a2853f5"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - K79-S80 Troop Transporter/StarWars-K79-S80.esm",
@@ -325,10 +391,16 @@
     {
       "target": "mods/Coruscant City Main Plugins/CoruscantCity.esm",
       "kind": "text_recipe",
-      "blob": "51d29ef0fe1cc185a9de15b43c311fbf12ec24d673bb965842f7a0cd6a9d7f7e",
+      "blob": "81c5c9bff8a31ad93c15b286b04aafcd7f6b26c4c19a90b06bb6f822ab884bff",
       "input_sha256": "daadc9712c54bb56000bd0505802b488ab7abc656e011915f4e1985f10f2f4aa",
-      "output_sha256": "5a02ad1cd5cd582140dc8f45435ca44adbdbe2d5f192edc65718d04bb8c85c17",
-      "text_changes": 110
+      "output_sha256": "f9d1592da1d287087aeceec900ddc2e74da23f4c126894fda20f02a2b193da90",
+      "text_changes": 110,
+      "upgrade_from": [
+        {
+          "input_sha256": "5a02ad1cd5cd582140dc8f45435ca44adbdbe2d5f192edc65718d04bb8c85c17",
+          "blob": "13c2bfe7a9f7c0e956689a17053ad72c7b5b8bee9bdb10dbb51f44fe2ea19bcd"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Nar Shaddaa/NarShaddaaCity.esm",
@@ -365,10 +437,16 @@
     {
       "target": "mods/Star Wars Genesis - Companion Pack/Greedo.esm",
       "kind": "text_recipe",
-      "blob": "63c9d03a2e169e5a9f81d2a23791e8595786fd75a245b1bc78165b1e0e287e43",
+      "blob": "b090067d890425d7649fc271ec7d688caf8ac86c3383de330c5fa50f6939f577",
       "input_sha256": "bf704f9fa39e36d407495dee59edb8712bb1dc00921ae1e72c50a669fe7bfae9",
-      "output_sha256": "39b59a15b124fb4f8f2e6886da786382a6b8626e0d793e12b38987ffb1138fe3",
-      "text_changes": 34
+      "output_sha256": "6ea1423fa4179f23ae2b37c2edbef2462ef28f45c371cfd69834d509a8291c4d",
+      "text_changes": 34,
+      "upgrade_from": [
+        {
+          "input_sha256": "39b59a15b124fb4f8f2e6886da786382a6b8626e0d793e12b38987ffb1138fe3",
+          "blob": "34c64f201c758d585122ed78fe2924f4cdeec3f93b4e79f9fa841ee07d00ce87"
+        }
+      ]
     },
     {
       "target": "mods/Rancor Follower/Rancor.esm",
@@ -405,10 +483,16 @@
     {
       "target": "mods/Star Wars - Prop Replacement Pack/StarWarsPropReplacement.esm",
       "kind": "text_recipe",
-      "blob": "c4dcfed20acda112aa54f07f6797a2aea08d3c0daf9b4f85e0821593444810a0",
+      "blob": "4b10f17c0966a3a40ccd74b7b06aa4710676c241198869db135361389ec78d11",
       "input_sha256": "8cc739174165997c8ea665916fcb6debae5c611fd28d3d06e2951edffeb2c0ac",
-      "output_sha256": "a84d777f40c041200bceb3bcdc7c97b72347668664d741f7069aa7950c60b5b6",
-      "text_changes": 522
+      "output_sha256": "78aae06adf8fcaf2801584affb89e08dbf2289213e0657f9f60fe8bb514cfc1c",
+      "text_changes": 522,
+      "upgrade_from": [
+        {
+          "input_sha256": "a84d777f40c041200bceb3bcdc7c97b72347668664d741f7069aa7950c60b5b6",
+          "blob": "b96150fb7d54ad93c64d6c45c8027079e024e63e43adcd6ab3a2bba0dfebd78b"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Capital Ships and Megastructures/StarWarsCapitalShips.esm",
@@ -445,10 +529,16 @@
     {
       "target": "mods/Dark Universe - Overtime - Translation Star Wars/du_overtime.esm",
       "kind": "text_recipe",
-      "blob": "84e52a66a42b5eacf7682ef3af7fd0ed1da734598d03431e94014170ccc2b7f2",
+      "blob": "f88c281233eebea68c5d8428810fac34f07d0d79582ee66e7aaa76a5f4df0bbf",
       "input_sha256": "98138f2b463c6b3f1ecc1687dae1c4008cb8fb3156b088810ea966585505b797",
-      "output_sha256": "115f1eccb618c595dcae14619b64b235b02e301c52024237a29ae6941d8468f6",
-      "text_changes": 1809
+      "output_sha256": "87e2c02de36f56ab36e625956efa7874d6c268a38b7564d7bb909bde10985caa",
+      "text_changes": 1809,
+      "upgrade_from": [
+        {
+          "input_sha256": "115f1eccb618c595dcae14619b64b235b02e301c52024237a29ae6941d8468f6",
+          "blob": "a75bc7b1172e10650a1deb8838e0067b79d9c457e86829e1d35b22a97df25da5"
+        }
+      ]
     },
     {
       "target": "mods/Batten's Shipwrecks/BattensWrecks.esm",
@@ -509,10 +599,16 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/UC Empire.esm",
       "kind": "text_recipe",
-      "blob": "4fc68959efdff8d3e81b6afd6f56c969e5d5e785bd8a3b7f9b4763c3fef510f7",
+      "blob": "ab7e2548a3cacd0c59b9438c304b7c1b9f512d3687dcd571e2d05482e1bbe5d3",
       "input_sha256": "4d64517556952103b8ffe56b432cfd1fbe02559863ecab40714873590fbae7c6",
-      "output_sha256": "b16cd9d6340369bf25a257786a3f70d7d580950ae8e4683d9fbf5668facbde44",
-      "text_changes": 397
+      "output_sha256": "29071cb8f08aaecd4ab3035a1723afa676fc7fbbbe73c2df55bb09b1836a6868",
+      "text_changes": 397,
+      "upgrade_from": [
+        {
+          "input_sha256": "b16cd9d6340369bf25a257786a3f70d7d580950ae8e4683d9fbf5668facbde44",
+          "blob": "24fa724805ecf58e29bfc87a686e91d412bf0d51378b1dab6a6d4a75ffb7900f"
+        }
+      ]
     },
     {
       "target": "mods/Bossk and the Trandoshan Mercs/Trandoshan Mercs.esm",
@@ -525,10 +621,16 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/SW Spacer Overhaul.esm",
       "kind": "text_recipe",
-      "blob": "97d5f49c89e552a80f1f8386dfa0b5f754116a17c5fb8f0649c33840d465168d",
+      "blob": "8fb518ad9f6fdc05b282c0530a4ce4fa918cabf98ac01aa70b5af6d0e317fa8f",
       "input_sha256": "e3f9a156fb40d2eb229fc521cc62bc9eba6b58377957d09c472d2049e8f00b95",
-      "output_sha256": "cf65c7d6f3ed7daab90ecc528db518f66656c09f6977ce103c86ae46a475336b",
-      "text_changes": 82
+      "output_sha256": "03a7b73f4ccdea3c1714c6ebc50e00446adca6005c520b57c65219d0075849d5",
+      "text_changes": 82,
+      "upgrade_from": [
+        {
+          "input_sha256": "cf65c7d6f3ed7daab90ecc528db518f66656c09f6977ce103c86ae46a475336b",
+          "blob": "00b4f03328c128e535fc01ac40e76b80800a32f2b3e7bf5d8c47abdd41c57114"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/SW Rebel Leaders.esm",
@@ -541,18 +643,30 @@
     {
       "target": "mods/Star Wars Blasters and Melee/Star Wars Blasters.esm",
       "kind": "text_recipe",
-      "blob": "1afee98a013cace129567f0cb823c78a1f55e2f9c4ffcf65d4d5295dd9b48d76",
+      "blob": "d4168c232a84054d9d95ed2d6aadbefcb310de186024ea0ca9b528688a5664da",
       "input_sha256": "593c95063a9ff5a0fb6f641615fea6679533d809c93ee6deea2b33c72f5b5f21",
-      "output_sha256": "dcbc202e0becef08555e89475eb2becc437339b5b374f50721d7eb9f20360c4f",
-      "text_changes": 4218
+      "output_sha256": "9d516413e8fa101310f316c8a5b4ef04a408256556779ba704fad5ccf6ee4970",
+      "text_changes": 4218,
+      "upgrade_from": [
+        {
+          "input_sha256": "dcbc202e0becef08555e89475eb2becc437339b5b374f50721d7eb9f20360c4f",
+          "blob": "d842e40fb479ed292b4a4774bac57ad08d55529a6c7733d6b5a98d1673d073e6"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Blasters and Melee (Shattered Space)/Star Wars Blasters DLC Addon.esm",
       "kind": "text_recipe",
-      "blob": "c31fd84617dd7d14723ba4391e146d9b2bd95af9969d7b193368d9bc27cf0a77",
+      "blob": "d453f4f6c9ef6e649c07c86ba3027f223e9736bb0f3c92a3417159e673c5b1bc",
       "input_sha256": "d3709efaa7fd6317ac744905aa0c24bad9d897599d6347d008c7e31f0eb39caf",
-      "output_sha256": "b48bdeda32d99bce1b299a5dc4673ceae46f0d2b8ab400eaeb0eb7c1e25ec179",
-      "text_changes": 285
+      "output_sha256": "e0aa7ffa135af10aed8032ad3bf98c9d2479e863cc1499d1e8f07525a5a37ef8",
+      "text_changes": 285,
+      "upgrade_from": [
+        {
+          "input_sha256": "b48bdeda32d99bce1b299a5dc4673ceae46f0d2b8ab400eaeb0eb7c1e25ec179",
+          "blob": "5b8dcb01c7ec7624ae4ec55d3589326021cd49b3e26e96bccd9b6a7ccdee7245"
+        }
+      ]
     },
     {
       "target": "mods/Turrets Redone/Star Wars Turrets.esm",
@@ -573,34 +687,58 @@
     {
       "target": "mods/Star Wars - Realistic Blasters and Melee Patch/RealisticStarWarsBlasters.esm",
       "kind": "text_recipe",
-      "blob": "f7daefbf693a5ca22f192c407efb4b17743b1110b397ac20e85c4b7de15a0987",
+      "blob": "7dd1d7c274aa9f404dfd78d596e9d3a6f5f8a0973696640d47edcad0a174ed92",
       "input_sha256": "60e1bc007db4f42aa07ff72e60f60a9470ee24936877d8b36ce1417ba6429fee",
-      "output_sha256": "0ab7af13e34a587c983c3f966a5309f9a945c72ed7159e9758b5d2d93f0753be",
-      "text_changes": 1544
+      "output_sha256": "d8d1ad46ec810dc36c2f3792800fcc084642fdc0f6461850e5ed9926b46dabf1",
+      "text_changes": 1544,
+      "upgrade_from": [
+        {
+          "input_sha256": "0ab7af13e34a587c983c3f966a5309f9a945c72ed7159e9758b5d2d93f0753be",
+          "blob": "1319e4d311b7301eeb24f216f434e485f0d9fb0e5c29bceec3eca2f217959d45"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Lightsabers/All_Trilogy_Lightsabers.esm",
       "kind": "text_recipe",
-      "blob": "25badfbca9bb4a16a6fbd756681f0a366734191597d57bd5de9ae42506a7c5a7",
+      "blob": "6543bc0572b815bcb0f4e4692beffc1167989dff08fd7459df720827f690341c",
       "input_sha256": "8e9ebd1d577c3c484674fdf0c791d28b664a4b77940efc7155366510e588cda2",
-      "output_sha256": "694879720398aefc51302dc151478e234fee7d2f06b0092f487a8f0eefbf33bd",
-      "text_changes": 70
+      "output_sha256": "7dbd32542c7a86c65128d16ae174e36664c67d3aa852124c9d315fdb1c915e9e",
+      "text_changes": 70,
+      "upgrade_from": [
+        {
+          "input_sha256": "694879720398aefc51302dc151478e234fee7d2f06b0092f487a8f0eefbf33bd",
+          "blob": "9404d5b70e87e567281d3392a4e692bba518e60c3f0aaf64308fab4c4d5c7175"
+        }
+      ]
     },
     {
       "target": "mods/Mandalore Fix - Rock Galaxy/SWNewGalaxy.esm",
       "kind": "text_recipe",
-      "blob": "394b272fb76d93b937fd6b77d35a1cb2a42f0919767d9b1b62e26e809b3c83ff",
+      "blob": "7ae8d73aa4c0c46cac158eacaf49a49c19e9a298939eca54ddf93f58f7eb894d",
       "input_sha256": "9773e28ce74d73c9e77b896cd9013410977457dd6d3c9c02e680b6ed5ff42f76",
-      "output_sha256": "761051e2bcbca832a01d09acc39f2809c0b85614729cbeb504f26a8699fd3ded",
-      "text_changes": 2622
+      "output_sha256": "84830149c471cc4d1edd829acc45521076c4328675aafbdcf33c07c47431a16c",
+      "text_changes": 2622,
+      "upgrade_from": [
+        {
+          "input_sha256": "761051e2bcbca832a01d09acc39f2809c0b85614729cbeb504f26a8699fd3ded",
+          "blob": "96b73df669889d0d15a75408357c1a0d1d668463f2254732aa92925dc95944aa"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/Tatooine.esm",
       "kind": "text_recipe",
-      "blob": "95032d05befa8e5be455132b5605b09ba643e1e9e9124c1e729aad386936b7f2",
+      "blob": "32038fa17ce36c2ea5d5128f4f65f8a777c920ccab266c33ceb61752c39f754c",
       "input_sha256": "20ddbb5cb09ffb87f2db521b99a29cc60c1f6fc0b275a1886e6c28e2bb2731b3",
-      "output_sha256": "842424033f4a01743e432e9cc839f126b9e473b1937c7a3898d26eca245f1b51",
-      "text_changes": 929
+      "output_sha256": "0c5cd37aba30bb6954bbb1ed6ec2e8beb04be6a9ae7c74186f18d8810c90fbc0",
+      "text_changes": 929,
+      "upgrade_from": [
+        {
+          "input_sha256": "842424033f4a01743e432e9cc839f126b9e473b1937c7a3898d26eca245f1b51",
+          "blob": "b993bf5f5e71aee9730d58d9fa52211e4274aa7aa588db3b6b7d0df096d2f946"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Endor/Endor.esm",
@@ -637,10 +775,16 @@
     {
       "target": "mods/Star Wars Genesis - Planets/StarWarsGenesisPlanets.esm",
       "kind": "text_recipe",
-      "blob": "c59564c9909482c0c36029ae4fd368d313a13c8d4712dafbf790976b2357070c",
+      "blob": "a35e06d3265b12e1ec8c3551317b84b7903da3fe39900ce2205d96621cc6e79b",
       "input_sha256": "00037f3002826fd0e7fcf6158258d7b1c66d23dffb1b4760cf5904315147e151",
-      "output_sha256": "689ee7271d61304c9c5293a7f06da2397fd722254d12796f9bfd7213fb9fd329",
-      "text_changes": 118
+      "output_sha256": "cf30e7178c754b8683faf623bd888b31e97146222747c9aaffb18bcef0a210a3",
+      "text_changes": 118,
+      "upgrade_from": [
+        {
+          "input_sha256": "689ee7271d61304c9c5293a7f06da2397fd722254d12796f9bfd7213fb9fd329",
+          "blob": "8d34dacb6ddcf03013120c99b7a908e1e949b84aa5454a5ce72c9f52d336bdc9"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Standalone Locations/StarWarsGenesisStandaloneLocations.esm",
@@ -661,50 +805,86 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/FugitiveHideout.esm",
       "kind": "text_recipe",
-      "blob": "977139e490d2f891ac13c5f1c1711444008f98fd895a1eb19220aa1409dcfa76",
+      "blob": "d2d1f735d2822b520d84057f76d0f24662a3c6f39a48de5e8c423d3c323453b7",
       "input_sha256": "74d14fdd181e19bc5069d56188527fb79fee2a6b127275333da8a62a9719cb25",
-      "output_sha256": "de6911911e72e7b6e5fe11fd105e4a892189444dad88e70125ed45d4f9dc4fd1",
-      "text_changes": 384
+      "output_sha256": "cf60297d12e790cc488712a2163d3710b1ac7cda7414413bd0f4663c4e8c46cb",
+      "text_changes": 384,
+      "upgrade_from": [
+        {
+          "input_sha256": "de6911911e72e7b6e5fe11fd105e4a892189444dad88e70125ed45d4f9dc4fd1",
+          "blob": "152f5150ab550ead61a8d0a8855aca9226bd9437615ed640ea5159b9ecefa98e"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/ATST.esm",
       "kind": "text_recipe",
-      "blob": "a0f0aac2a938e1e13bbea958464c1e906c0c4c3dd789ac1834c61cf8706c1b94",
+      "blob": "daa87e173fd4fbd564fd4de14cb319ec39b50bd90925a598c5c0e03d50e1caa3",
       "input_sha256": "664847b6a89880e5085885376a4dc6da761d72084aa7bc788e607511384975b4",
-      "output_sha256": "965d26c35eecfbb11f0c3e56336cacdd46e7c0fd76a78725977e6296becd2861",
-      "text_changes": 22
+      "output_sha256": "234dd4f059de22acff6b12adacebcc8af4d52e1fec223cd9562b6ec50ae15795",
+      "text_changes": 22,
+      "upgrade_from": [
+        {
+          "input_sha256": "965d26c35eecfbb11f0c3e56336cacdd46e7c0fd76a78725977e6296becd2861",
+          "blob": "61da5511f76ae89f3a9c5551ae262f82fee5a4621d361342b331260dcbc01ae8"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Tython Force Power Trainer/ForcePowerTrainer.esm",
       "kind": "text_recipe",
-      "blob": "307fb348a1f3b202142ebd198ebf848c78f04f67cca3658814f5cfeb76c0aa32",
+      "blob": "dc5bca399daa75b8dc062be919ffecfbeff5c21cf333d5abeb1d71ab479a5d51",
       "input_sha256": "c8689a178a5fbc719252d57701061ff98cb7902c3dbd9d8269cf884ff97f9d3d",
-      "output_sha256": "d92e4262417e633e19914dcc9305a0ed348794d10b26248f286c3cb2606dafde",
-      "text_changes": 109
+      "output_sha256": "ab0a587758a92169ba75992b74ae8de739b9d9bbc83365bb8ec0139250d432e4",
+      "text_changes": 109,
+      "upgrade_from": [
+        {
+          "input_sha256": "d92e4262417e633e19914dcc9305a0ed348794d10b26248f286c3cb2606dafde",
+          "blob": "11443f416757e70b477abc4d634fec158f70b08e08634a0feb2f48ccce5d5bf0"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Override Patch/Shadow Collective.esm",
       "kind": "text_recipe",
-      "blob": "571c76386138a274836077fcf503920712d365265521018f3207d67bb6ff260a",
+      "blob": "ee5a003fb6af9517dc81e3ac98ee585e4743d9c80e6df33cf344cbb305b31b6a",
       "input_sha256": "58bcaf53f0a74a71e7cd0d2d930b2a11b740027a6c6d2487f82ecca7688a99c1",
-      "output_sha256": "3017ca1d51d80881345e3c6e695aabf758bb588884d59d305edcd8d8ba105cd5",
-      "text_changes": 157
+      "output_sha256": "f94e49774c7469abe32974e574360c0083e56f29b7bf11d87c7fe572bb702982",
+      "text_changes": 157,
+      "upgrade_from": [
+        {
+          "input_sha256": "3017ca1d51d80881345e3c6e695aabf758bb588884d59d305edcd8d8ba105cd5",
+          "blob": "d2d07d5eaa20fe1ea1787bd0aaa781f150eddea34246d83371cec30ba15f8e56"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/Hondo Ohnaka and Crew.esm",
       "kind": "text_recipe",
-      "blob": "25f96484d00af26b9b395fd234900e0398ec8f1e525bc417e424b4235f4e427e",
+      "blob": "24f5e3129988ebc97384f6ee7f945a393e661a73e678aa3c682c4d327df516d8",
       "input_sha256": "3d639ca74ca09c75b0efce6b4e7b92dd351a2c441428a51e44be6c2c25c5665f",
-      "output_sha256": "245c0d2780bff276ad3698b00479710266b3cce2b67e3c87427090332ad3ee8a",
-      "text_changes": 62
+      "output_sha256": "5e2ae97739ecaedc09682f24a05e62544d2619c9d260c0407f7ac136f9636905",
+      "text_changes": 62,
+      "upgrade_from": [
+        {
+          "input_sha256": "245c0d2780bff276ad3698b00479710266b3cce2b67e3c87427090332ad3ee8a",
+          "blob": "e6e3642e228034c45739c49be67ca12f0c1eb0cbdcc8e65cefb46d5f20c1a180"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Gangs/SW Gangs.esm",
       "kind": "text_recipe",
-      "blob": "58118b8cd8c45787ffee5533757f716e6deb9d89b9c003e71fa413cd5dc23b4e",
+      "blob": "6d8d80245c315cca29e7c3778acc5c1b375e359232547717f6de8f97850cf4c8",
       "input_sha256": "f74330a82adf134406fd9c219d5652387867dacc3ee0addd5bfb5865d7edf5b3",
-      "output_sha256": "3b32c4ae12248c592bd6246e057be0da9d52a9119bfaa8f96d3a38736bd2d964",
-      "text_changes": 251
+      "output_sha256": "5ab7595ec2128839407c897b365af2908b96be70513eac8df28554c93c3b6757",
+      "text_changes": 251,
+      "upgrade_from": [
+        {
+          "input_sha256": "3b32c4ae12248c592bd6246e057be0da9d52a9119bfaa8f96d3a38736bd2d964",
+          "blob": "d17e16a4065940101be341ad80a378bbec88e7944ead2150a81afecb9e841175"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Secret Imperial Vault/arc_vault.esm",
@@ -757,26 +937,44 @@
     {
       "target": "mods/Star Wars Genesis - Override Patch/R2D2.esm",
       "kind": "text_recipe",
-      "blob": "00baa233150e6bd6a682c03b3849ad0ba49e5fb451bc6111d25a80cac73c18b2",
+      "blob": "efcdf6bcddac0f033b55083da75c66616f7a745cdd37fc7e73170ed84c2fb4fd",
       "input_sha256": "9801c5b6729110893fb38afd67fbfaad3d5807763172192829c8e5a4e60a5050",
-      "output_sha256": "3a4ef7cac824972be758d7d977e3d2141cf0e59398be5b9c56a30cd20ea0256f",
-      "text_changes": 12
+      "output_sha256": "ab2e04791b959d824fd934c12cb8935b2d804cc6d84d14281a4201ab9aa332ab",
+      "text_changes": 12,
+      "upgrade_from": [
+        {
+          "input_sha256": "3a4ef7cac824972be758d7d977e3d2141cf0e59398be5b9c56a30cd20ea0256f",
+          "blob": "2eee9f28b0b58a0898ab423cc67e3feafa03efd213241a2f6119ab117e3bc0e3"
+        }
+      ]
     },
     {
       "target": "mods/HK-47 and T3-M4/Kotor Droids.esm",
       "kind": "text_recipe",
-      "blob": "d360a03bfae73e60565fde3a245611db491dca988bd9648f3ac5aca558998537",
+      "blob": "13074df0e4a6bca01b3f39a9cd2e5d2402f9df0b72b533612053525524766bad",
       "input_sha256": "b528be127d0e89d46e960f677edb8da49ff629ac79461abb7516045b14339ab2",
-      "output_sha256": "9e8229214b58534cfc3e172f72ea8f20fe75d652ad68572dde47b0f6d8e434bb",
-      "text_changes": 64
+      "output_sha256": "a95750fd5d164f7a13a45722cba09543bf32531a22ecb13a3111ba0b7403562d",
+      "text_changes": 64,
+      "upgrade_from": [
+        {
+          "input_sha256": "9e8229214b58534cfc3e172f72ea8f20fe75d652ad68572dde47b0f6d8e434bb",
+          "blob": "5256aace83f05c4c54cf22adfe7175851fbadce714275b71a4c0111e01c2f6a3"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/thesniper9-swarmorpack.esm",
       "kind": "text_recipe",
-      "blob": "287c5cc059f3b2ecb0d10517afa701a7d95ba0b1ee1b4ab61a988ef5b2d898d8",
+      "blob": "12d9fb624ed3fc5e89068156e3b41b99be940939eb1f970ca397953616ee9479",
       "input_sha256": "22c5ecce255123ff35376a4dd0d7efbb352965c43943edf587749f49db43b5f2",
-      "output_sha256": "65e8f694fdf0d1dc6da1b4d1a019b07cf54a9f60bb93a5dd9eab29395200899d",
-      "text_changes": 2301
+      "output_sha256": "b31649d0e56fcb0a537a5b9eae0693bfc912bb20cb412951e10bba9545369169",
+      "text_changes": 2301,
+      "upgrade_from": [
+        {
+          "input_sha256": "65e8f694fdf0d1dc6da1b4d1a019b07cf54a9f60bb93a5dd9eab29395200899d",
+          "blob": "b594c3024b0bda52973dbf77bc6d21c9a0d264eeff6ba2182213ec91f9360d2c"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/AssassinDroidBountyHunterGuild.esm",
@@ -821,10 +1019,16 @@
     {
       "target": "mods/Star Wars - Rakghouls/RakghoulInfestation.esm",
       "kind": "text_recipe",
-      "blob": "6eefa1e3d73a5b0b09372c169c9c3a6d0cb07ddcf6eee78bce3e0f6742ef73d5",
+      "blob": "d1596e06767287b6aa2ecfdf17d36c031463d81fbd71c4b08674dc3bb5186f5c",
       "input_sha256": "360f91f0c0c5eb57acec1f80b47420851acff32c731b0a8d6c62a033b801570c",
-      "output_sha256": "5b57851e5146c6a90db0714355826a80ef4c936d02a85fd668ac1eefd7868ea2",
-      "text_changes": 151
+      "output_sha256": "a959de5ebcf6854402136bbc24cd4b58360f19e89d4cd04eb739073d34344c5a",
+      "text_changes": 151,
+      "upgrade_from": [
+        {
+          "input_sha256": "5b57851e5146c6a90db0714355826a80ef4c936d02a85fd668ac1eefd7868ea2",
+          "blob": "4a0c0b3e77070685cab0c294ec5daebd8e894b1ef87cbf9a75a27936e0480083"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
@@ -837,58 +1041,100 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/MandalorianForge.esm",
       "kind": "text_recipe",
-      "blob": "7b9edc5ba6d66d3e5e40625e24880ee7fc3d0df1cd8a37b208faf2be4fcd9f26",
+      "blob": "57d527a6bf02c359ebb997803c9e0ee2d161a0a2b783c9c03074a44c5f53b8ff",
       "input_sha256": "7efd408df9b4e6ae9ffb775d2b4099a0c5af8a83b22212ec2b2d8702091a537b",
-      "output_sha256": "245ececa33ab031c166741ea3ae5f478a01a59f5ee1d149c9748f276bae8fd78",
-      "text_changes": 111
+      "output_sha256": "2f006252392d2201c2fa61f724cb6b4100cf68469ed8a106278ce21959260a2e",
+      "text_changes": 111,
+      "upgrade_from": [
+        {
+          "input_sha256": "245ececa33ab031c166741ea3ae5f478a01a59f5ee1d149c9748f276bae8fd78",
+          "blob": "a89e690fd21080bcf65291fe139fc4cd5940ac420dca6c1cea4079f688a346f2"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/StarWarsGenesisArmorCompendium.esm",
       "kind": "text_recipe",
-      "blob": "85bec2d8574b2d55bdfb4011689d3b9110410a546fcd671982015e3f69a19652",
+      "blob": "636942d1bc2f33bae53d49ab4f4740e0ad131ac4705a850b69ed7e9f16cc4169",
       "input_sha256": "5694f1837ce255067f4c1328e93ceb543b07a9bee5201ffd0e5afe34e2098cb3",
-      "output_sha256": "c26d947dae51116eb2a336e94dae7b2169df0ded1f1b1e4055f00a5425253b04",
-      "text_changes": 1462
+      "output_sha256": "4c4c23748f558a8d5d7e6f12b4e1631fa5e0166266f643bd9b2986d8fcb43011",
+      "text_changes": 1462,
+      "upgrade_from": [
+        {
+          "input_sha256": "c26d947dae51116eb2a336e94dae7b2169df0ded1f1b1e4055f00a5425253b04",
+          "blob": "b574a0b10d96b6d7ff1072d86b084989dc8f6a72f5d51c349b07e1c8b16da3da"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/StarWarsFactionExpansion.esm",
       "kind": "text_recipe",
-      "blob": "a2ae3bdbfdf5b18fec878f51da5e65446cad258520bdb9a32ee49e291240888f",
+      "blob": "8b3f4aa337c116565b24aab8f3225c8441a0e66e1c4a9200f7ddacbd2785557f",
       "input_sha256": "9a48f1c98829cf87ca082bbf161fe906cacec02bde086391dcb122129fa90e6f",
-      "output_sha256": "4f471b1de776ee24592ef4327b0fe0ed57c0698515744d69a4bdaf9c67ac4b88",
-      "text_changes": 284
+      "output_sha256": "ba607107c78ad8cfc81e939dde73c917c9201471309aad29149de769853f8ed0",
+      "text_changes": 284,
+      "upgrade_from": [
+        {
+          "input_sha256": "4f471b1de776ee24592ef4327b0fe0ed57c0698515744d69a4bdaf9c67ac4b88",
+          "blob": "de4f75cc9060c6540fe90d3cfeafe12c76cc5c4f46e6937fb651018ee714c4ee"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Override Patch/SKKFastStartNewGame.esm",
       "kind": "text_recipe",
-      "blob": "f30519421573cfaab4da6c4564684413333aea8b1a6f51bf5914b1bca9549fe4",
+      "blob": "a68bf6bbddc2209bdd35d8f2bc29d2af1b66f9e27b65fc297aa413bcbb37b98c",
       "input_sha256": "709439f691bd1986e3588d0d2aa739a11867a091a1685f6e8a475cb7899462b2",
-      "output_sha256": "30ec8282c9aa90c004cce65b6702d136d5ad486d7753400b9c2e69a30c669764",
-      "text_changes": 62
+      "output_sha256": "5790ae16184dd7ad5d24218838b71e3f292a51c3ee2e4e3ed0160d6c9f706738",
+      "text_changes": 62,
+      "upgrade_from": [
+        {
+          "input_sha256": "30ec8282c9aa90c004cce65b6702d136d5ad486d7753400b9c2e69a30c669764",
+          "blob": "64fe825fbf8794a0e227e796be6604685ef16024251fca579f4338044fd93004"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Force Power Replacer/ForcePowers.esm",
       "kind": "text_recipe",
-      "blob": "8260fd0f149cbba791f66ac566d053bba14bb00e6b3de69462e9c251b2de3157",
+      "blob": "5d9df4a4d4cb5661d306794c02cdc0136f1f1e0057a9559b2d8efa8bac1fa742",
       "input_sha256": "abf095d168a7fcb8c9925518a6164be6944b4997986919fab9032ad6dd6e5b62",
-      "output_sha256": "5e9d07128a946beca5b9fd005d36c1fd4e3ad1296d7ae08dc790bb2d8973e35b",
-      "text_changes": 221
+      "output_sha256": "0ea37e4c8a7baa81fff1fcf5ab424551a5e5e283d3076e17a671b9faf03a37bd",
+      "text_changes": 221,
+      "upgrade_from": [
+        {
+          "input_sha256": "5e9d07128a946beca5b9fd005d36c1fd4e3ad1296d7ae08dc790bb2d8973e35b",
+          "blob": "dac67da13de7b43a7fa4d73e6b124e33f2591ea00d45e37f3a7682318bec17f6"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Override Patch/SithTrooper.esm",
       "kind": "text_recipe",
-      "blob": "ff6257ea847e2825e55ce4ebe0e50155848b07e6b0e549ff3b1f02f4242bc37a",
+      "blob": "295efc8ff0eedaccaa987d6f6cd20c6b8f3a57ddb28efdf611ec7c096f7e0891",
       "input_sha256": "f499ceca655fb5802e19fd97d231204fe05b4c7c35cfd4fc42fdda2f4135293f",
-      "output_sha256": "dccbc438d6a15c41c3cff6f898a62b37f1f0961c7af42588e5b2ceb3df3dd727",
-      "text_changes": 215
+      "output_sha256": "77e7567316c1565d1e3f561298593887fd533fd18dcf2e33eeec616b043c0e6a",
+      "text_changes": 215,
+      "upgrade_from": [
+        {
+          "input_sha256": "dccbc438d6a15c41c3cff6f898a62b37f1f0961c7af42588e5b2ceb3df3dd727",
+          "blob": "1aaedd88d826e3ecccde86fd50a28fd006d257e8bb2bde4507f5b1ebeb3a26f6"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Lightsabers/StarWarsGenesisLightsabers.esm",
       "kind": "text_recipe",
-      "blob": "89403ffa2bbf3076221ed69385976d1134a4192d4b283d0c7e5f852a293cd8b5",
+      "blob": "947b06970153beb9607c340f3dbd480dddd4b21f9171ece72cb05220f0f29f4c",
       "input_sha256": "7f4cf6d9834a382db162639a0b78febbeca6f4267c7d044968757756fa043848",
-      "output_sha256": "6af7095fb9aed71a0955de2f701a6ebb3731d500b0f30f4516ed93b1cf0adc45",
-      "text_changes": 451
+      "output_sha256": "37a11a489e9e5d4ce7d515a78cd8bee28481b06f68d363eea36b1f3631d40317",
+      "text_changes": 451,
+      "upgrade_from": [
+        {
+          "input_sha256": "6af7095fb9aed71a0955de2f701a6ebb3731d500b0f30f4516ed93b1cf0adc45",
+          "blob": "079de632e6ed99979989099b6b1b2d3fa96a1767068004aab09f28b2c7f2828b"
+        }
+      ]
     },
     {
       "target": "mods/Unusual SOS Fix - Quest Completed/Starfield Completed - UnusualSOSfix.esm",
@@ -909,42 +1155,72 @@
     {
       "target": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
       "kind": "text_recipe",
-      "blob": "b8fa536faa34f31989d6be5a02d657c2e0df130d4913f98355067a3a1ec99f2e",
+      "blob": "b41359965d2a07bc7546de7434903f5b9524212ee71bedd8693d4ec400b9d097",
       "input_sha256": "b7e581cb04e88a24acb5cfeca88507a22359f942cd834782b9ae1d4065d70f86",
-      "output_sha256": "bd9fcc54d18e9e87a5e195ba1729b4d22cfc478a2aefe74f9888a925228368ae",
-      "text_changes": 868
+      "output_sha256": "2db471a0a11d0d6d0f4ca07dee4bc667411aa7191b3fd9d716a577e162494b83",
+      "text_changes": 868,
+      "upgrade_from": [
+        {
+          "input_sha256": "bd9fcc54d18e9e87a5e195ba1729b4d22cfc478a2aefe74f9888a925228368ae",
+          "blob": "7282243afcc9d0d047910513ad6aecef2b0e8c54a4c6fb6980898f8a25eb2f0c"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Rebel Alliance Storyline/StarWarsRebelQuestline.esm",
       "kind": "text_recipe",
-      "blob": "6559f144e8434a4fa9931ca6b2bc4ff4b88481d62e24eef9cbdca889173aa3bf",
+      "blob": "bb596937e060feebca329554aead212ee450b09e0a06e643cb6fbdbf3493c1a6",
       "input_sha256": "e2ca269179cc98908f90e279ae670ab0c8fe47db2ae1a8a156987fe559c50518",
-      "output_sha256": "37c130e46ef388968b4ae4aafbb0e13ee1c27d8e02be16c4244914d2724544ad",
-      "text_changes": 300
+      "output_sha256": "de12a6e0a9bba3d68139c0499517214f416c722670e827c467094517bc305aa4",
+      "text_changes": 300,
+      "upgrade_from": [
+        {
+          "input_sha256": "37c130e46ef388968b4ae4aafbb0e13ee1c27d8e02be16c4244914d2724544ad",
+          "blob": "9b116446d69fa84068bc80ad04df4c994d00f68ddc49d2131374ecdc02e7d9e6"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Imperial Storyline/StarWarsImperialQuestline.esm",
       "kind": "text_recipe",
-      "blob": "c9bf32cd89fb4f51e995e19ce6b7e71c5d33b3083a534339ceeb77b8efeefd02",
+      "blob": "8d4fe479031b5d24664760a78a4f7c9f631108501c847e6bd0615226b80f3c64",
       "input_sha256": "e28df4dc4e309950c29e15d512275acb0728188dfd045bdee67ef8b59aac7708",
-      "output_sha256": "8b5ee2a6f7528c671bc226d4bb46b15b609671a1f4e52633516d0dd1cfd7d454",
-      "text_changes": 821
+      "output_sha256": "3dc76656df81f8343bd3e07803695ece0913be3b9e7d37cf75497a96360ffff8",
+      "text_changes": 821,
+      "upgrade_from": [
+        {
+          "input_sha256": "8b5ee2a6f7528c671bc226d4bb46b15b609671a1f4e52633516d0dd1cfd7d454",
+          "blob": "36c2d9bac4917a3f04188733ea3a2e5f47fc8c3b0bc75cddff6f1020ca3d639a"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
       "kind": "text_recipe",
-      "blob": "9be1888032d73524f4532595e571f80ccd616d00d9386d2a2798e6451568f053",
+      "blob": "14e9ab84e9cf774a26e3726786c60ffa6d43679bbf86013a9a1d92c5d76156a1",
       "input_sha256": "5e3b091f7c184c607279e2fd352d9290a4f03da631119537196e2e516e6f07a7",
-      "output_sha256": "1bf72ee7510a8635510f9e0c8012d664377f81faa46da3081e34da56ac951dbe",
-      "text_changes": 1144
+      "output_sha256": "eb15dc91f55bb89411c19cc95fb32a3216a26fc48aa477be3f7d3574f46b3605",
+      "text_changes": 1144,
+      "upgrade_from": [
+        {
+          "input_sha256": "1bf72ee7510a8635510f9e0c8012d664377f81faa46da3081e34da56ac951dbe",
+          "blob": "0b0cfeeceae909724346938e6f26b4e1182c664520f0e224322020bfcfc04404"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/StarWars_Vardos.esm",
       "kind": "text_recipe",
-      "blob": "46b56d7a3c227481606dd3f72ca28d1551f7750fa2cc5a120716264417ecb63f",
+      "blob": "4d894d1f9b300a75bebff3a3aab34ebcaa04b8a74fb3a6a5358da5bade995a29",
       "input_sha256": "9467d9914964e93e4a17d4f6cd10591ca89347a9159fb3130bdcededd150bd0f",
-      "output_sha256": "8f905bccf81483bc92573183a3182b5efa25fca7cba7e735050ee8ab3a1c4d6d",
-      "text_changes": 84
+      "output_sha256": "d9d9d412c0cde4bc840ff6793834b79c166d176ec3d271d8ed09c0c8e982cd99",
+      "text_changes": 84,
+      "upgrade_from": [
+        {
+          "input_sha256": "8f905bccf81483bc92573183a3182b5efa25fca7cba7e735050ee8ab3a1c4d6d",
+          "blob": "1727e328f41e126974590c3c09d437014e3b96352a871dd8bdb55f8dfcf77d6f"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/Mojo_JetpackController.esm",
@@ -965,10 +1241,16 @@
     {
       "target": "mods/Star Wars Genesis - Inquisitor Attacks/InquisitorAttacks.esm",
       "kind": "text_recipe",
-      "blob": "993227584b4da682396b767c7f35214e3d23e16f1121d720d24d893792f412bf",
+      "blob": "3d68a08811569ae22574a6c4da988b32d63e5a8aea6f033668f3adba99338d0d",
       "input_sha256": "273572cecaae3e3af16aa3a4f512205203d893fa9cb2b744cfe88037f4163fbf",
-      "output_sha256": "90e50e24ca29dafe0361c227159cef7d92a9a4996554ca6633f8e79e4c24c4b8",
-      "text_changes": 2
+      "output_sha256": "3952396c918572c53fff53ebc00aaaf67085345c8c9906eae09e95f26f6cfffc",
+      "text_changes": 2,
+      "upgrade_from": [
+        {
+          "input_sha256": "90e50e24ca29dafe0361c227159cef7d92a9a4996554ca6633f8e79e4c24c4b8",
+          "blob": "aafa2d4dbdcd4b32fe53dda17c69f3ca210da5689d9a8f4036f74c5508bb0dd1"
+        }
+      ]
     },
     {
       "target": "mods/The Trackers Alliance Delayed Start/TheTrackersAllianceDelayed.esm",
@@ -981,18 +1263,30 @@
     {
       "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
       "kind": "text_recipe",
-      "blob": "e3615a916cc45630e9f76f5b63ed8619db3a93dea19aaa53a4a1c92b35ed394a",
+      "blob": "08c97ea85901338d421d4785bfb9132cad01f0a19bfcb8a7cf3e0145f354bda4",
       "input_sha256": "993fec93dc6f1e14bc22ff3a956d226982174c0ace85dbba35695a64386cab37",
-      "output_sha256": "1978a57976361bd10286c46880a8e7f00c4dcc82f97f6d81411a641ab346adce",
-      "text_changes": 684
+      "output_sha256": "0cca884a632840b0222be40551c293db4e86907e8c04d0f08f24d5a1830b74e4",
+      "text_changes": 684,
+      "upgrade_from": [
+        {
+          "input_sha256": "1978a57976361bd10286c46880a8e7f00c4dcc82f97f6d81411a641ab346adce",
+          "blob": "0270a3966401204fc2d7aa048b2e830a7c2c51304c8415b3a34681a78337cfe3"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Vanilla Bug Fixes/PlayerShipFixesGenesis.esm",
       "kind": "text_recipe",
-      "blob": "d58c9cc1a32c54f21b8e808c607138692d276d73426d9716bc25f2cdf96bfb65",
+      "blob": "e0c0b1345e5bfdcd3538402a5a9e351e92eceb51664bbe39daa8d39049a363d1",
       "input_sha256": "4b22360cfa453167d085e2759e32994b5b1a77c357be55ea9813dd39d9b98a02",
-      "output_sha256": "3797f3e6956438708f6cd50fc1525e1aede5f9272e32f69d998727417f13c711",
-      "text_changes": 54
+      "output_sha256": "3d25958ee859d16e5c107ca56b548a3d66ba57a470001b5b32dec7b6c6775178",
+      "text_changes": 54,
+      "upgrade_from": [
+        {
+          "input_sha256": "3797f3e6956438708f6cd50fc1525e1aede5f9272e32f69d998727417f13c711",
+          "blob": "31aa411b6a776ed9a66e9aef625f8665c0d05c97bcef8c5e7745043bf802073d"
+        }
+      ]
     },
     {
       "target": "mods/Improved Follower Behavior/ImprovedFollowerBehavior.esm",
@@ -1013,18 +1307,30 @@
     {
       "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
       "kind": "text_recipe",
-      "blob": "b2cc1d6d7ebfbeef220d2e5563f4bf1ff9a74931b6033443c5f7583ee0595a58",
+      "blob": "82c5a97b11550ec4e512aa3dca2ff3138094bfdbe9729e8dace67b973c5eff10",
       "input_sha256": "55d27cc745e474306e4350daccf47ce2d86b04eebe4a4dfdb91df3e221b18149",
-      "output_sha256": "3aae17e76735c1726e5aa97967274bbf0266bb3a7dbfc27c047ea29a83d0a57a",
-      "text_changes": 2583
+      "output_sha256": "03fd2ea016fc799c80a4515c7a0b816c0eb883042b73c9de739ed5a6b31e3216",
+      "text_changes": 2583,
+      "upgrade_from": [
+        {
+          "input_sha256": "3aae17e76735c1726e5aa97967274bbf0266bb3a7dbfc27c047ea29a83d0a57a",
+          "blob": "b1324a67fba7fd28b7884a81c019d8a596517ce44afbf9c492b42efa9b432284"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Planets/StarWarsGenesisGalaxyPatcher.esm",
       "kind": "text_recipe",
-      "blob": "ebf4016100c37d2ec6c4965a55f32f9804dda0fcfdd4622154a4f25b9b680092",
+      "blob": "5c339713e44c0809557015b9df3a6066a020dc931d45af426be1cbbdc4a21055",
       "input_sha256": "0876bc20f08fb3cbe314b607c75cbdc7af309494822ad834ccb12dbe63c54c81",
-      "output_sha256": "7953f35fd0bd4f17e7f3c89f355ea35994c8bd98f5c59ff8bf7c7cd628ef6419",
-      "text_changes": 130
+      "output_sha256": "5ed31136e643edfe2dcd6ffad45bcd53985d481f5b25a8b681f3755f0c194713",
+      "text_changes": 130,
+      "upgrade_from": [
+        {
+          "input_sha256": "7953f35fd0bd4f17e7f3c89f355ea35994c8bd98f5c59ff8bf7c7cd628ef6419",
+          "blob": "f2128770c582f8c4033f76ad127e16cb8dd84f1914ad8e4331462a4fc694d0df"
+        }
+      ]
     },
     {
       "target": "mods/Breathe Without Backpacks (Weight Feature)/BreatheWithoutBackpack.esm",
@@ -1037,10 +1343,16 @@
     {
       "target": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
       "kind": "text_recipe",
-      "blob": "1115ce47e26c2094d02288b22499ceb00b617f88718bef7e49c5f224350eadac",
+      "blob": "d7c7e3d865c7c610b009be823598527f9fc6c3bbb3db05d7f9d7aab831e1ca7f",
       "input_sha256": "ccf4f207ccec2cd939c1f98db9f5e49a4754c1597b9b354311987bb74fc879b3",
-      "output_sha256": "73c2c8f901c1c2d884c18688a4713a5ccc5f68ee37228b0d954544d873c327db",
-      "text_changes": 770
+      "output_sha256": "c2ebfaca35d2aaaa1f860b24cd89ee02cb288f0a1d4de0f3b0a488ea485d7f08",
+      "text_changes": 770,
+      "upgrade_from": [
+        {
+          "input_sha256": "73c2c8f901c1c2d884c18688a4713a5ccc5f68ee37228b0d954544d873c327db",
+          "blob": "7625476985d50f8b0a121179e75c75af5c5865b02ac939f0d1c072659ea40f07"
+        }
+      ]
     },
     {
       "target": "mods/Ship Power Allocation Fix - Revert Unwanted Power Changes/Ship Power Fix.esm",
@@ -1053,10 +1365,16 @@
     {
       "target": "mods/Star Wars Genesis - Override Patch/Aurie_TempleQuestFixes.esm",
       "kind": "text_recipe",
-      "blob": "0e229db27bd224e2bc67f2f1f67eaa7af81f0f2f4dd6803778156c925d6c0337",
+      "blob": "353f5f56e8e8f8b4d3d981073b553cfab6d129d2d1dab0d02e955d80ad333567",
       "input_sha256": "b70e7e9ef3f5db69587c1d93d1a758e2fb83825a8792ded94850cc9758d4a7e0",
-      "output_sha256": "11a726c49e019074344d0345f4766e5c1f09fccfac5ba5533ca95194d7696137",
-      "text_changes": 44
+      "output_sha256": "94f2ee042262ef994d421f2311a96f9f24720e41062bf8b43fa450a9ba575629",
+      "text_changes": 44,
+      "upgrade_from": [
+        {
+          "input_sha256": "11a726c49e019074344d0345f4766e5c1f09fccfac5ba5533ca95194d7696137",
+          "blob": "02637d10b9ed1ebc6739ad390b3cc32d9a73051d0c53382744801f94b1705d09"
+        }
+      ]
     },
     {
       "target": "mods/Replace the broken drugged animation/DazedAnimationSwap_Suffering.esm",
@@ -1101,10 +1419,16 @@
     {
       "target": "mods/Star Wars Genesis - Override Patch/StarWarsMapMarkers.esm",
       "kind": "text_recipe",
-      "blob": "0a3e9bddfa2154e34bff33e2fc209cb3e35802e8cbc0d7cfea7d9b8ea57a2ebb",
+      "blob": "27b4034405f3d9cc42bc616d10490645a79eb010678559a15ccb03be49f69c18",
       "input_sha256": "865c4abf11f96e1e7a0428042d2929df19cbdd65f7840d85b127ef89d99ae1e1",
-      "output_sha256": "8e1b63d2862233f091b40c3531d1775c9621f30a23597a041f04bec2f5a330bb",
-      "text_changes": 28
+      "output_sha256": "854080b2a3d8bc847bf46618e39f6d37f7cd85d044ae9b6a9fa06a4e43da2383",
+      "text_changes": 28,
+      "upgrade_from": [
+        {
+          "input_sha256": "8e1b63d2862233f091b40c3531d1775c9621f30a23597a041f04bec2f5a330bb",
+          "blob": "df4413f1253f85f205a16ddc18fabca5866d9bc75cf47aa9d44bde43bcdf5fbc"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars Genesis - Small Master Patches/BountyHuntersGuildNPCOutfitsPatch.esm",
@@ -1125,10 +1449,16 @@
     {
       "target": "mods/Star Wars Genesis - Standalone Voices/StarWarsGenesisVoices.esm",
       "kind": "text_recipe",
-      "blob": "27581de3adefe847936b204961d5a31caac415177a97f2ab36a754daf98f03ae",
+      "blob": "76c88005a7b8a2baee059142edd18edcadd5a60d5e7014552784ab18952381d6",
       "input_sha256": "e49820bc4b2179d260ed1d4374d3bcc8ca06d033f382533ae1f0d554b6d8a08e",
-      "output_sha256": "e6430c2f85aa3a435225b76a1719e431a41e2633bdfc1cb64c7ae7532fecc31f",
-      "text_changes": 65
+      "output_sha256": "8ec86b7b954bf21e5bafec6a446b9ce9c22b6305497aaed987b7d9d0684a65e2",
+      "text_changes": 65,
+      "upgrade_from": [
+        {
+          "input_sha256": "e6430c2f85aa3a435225b76a1719e431a41e2633bdfc1cb64c7ae7532fecc31f",
+          "blob": "3a8bbf380f2b828bb32947a78a541a4c384d58f115d95dbbbdc222bb7d41630d"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.dlstrings",
@@ -1648,5 +1978,297 @@
     },
     "existing_donor_quality_review": "out_of_scope",
     "current_round_translations_preserved": true
+  },
+  "terminology_revision": {
+    "schema_version": 1,
+    "review_manifest_sha256": "fc896830893810a5e3d971956dc39af73c002cf3365a3a94fbe263d0069d7bc4",
+    "glossary_sha256": "14d27795a81a7054319749227c975a54bd028a4ebb2afbd3c3bba555fa7227cc",
+    "dispositions": {
+      "rule_validated": 974,
+      "context_accepted": 4,
+      "context_validated": 8,
+      "context_validated_provisional_name": 1
+    },
+    "changed_locations": 983,
+    "changed_plugin_files": 55,
+    "results": [
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/GenesisFreeLanes.esm",
+        "changed_locations": 2,
+        "output_sha256": "bdad2a6362961e3cecfc9957ef67483d0603a2041977a2d11d22047949339c25"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/RoyalWeathers.esm",
+        "changed_locations": 1,
+        "output_sha256": "21533a773be4681975de7f1dca2a04432a7cbe87a722fe76e47cd300e767540e"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/Ascension.esm",
+        "changed_locations": 8,
+        "output_sha256": "50122f8865e0659e746cff1eac471fb357b446864662625ad28a542ef5d6961c"
+      },
+      {
+        "target": "mods/Star Wars Resources - Blasters/SW Blasters.esm",
+        "changed_locations": 21,
+        "output_sha256": "e0fa0827954261f4238619af62da7a7b0757961b6cf4f9d2be1bc4da2d0e678a"
+      },
+      {
+        "target": "mods/Star Wars Resources - Aliens and Droids/SW Resources.esm",
+        "changed_locations": 1,
+        "output_sha256": "dbdab4aa186a85a7281a4dd9527d3e9cc3ee1e8a5b2e23d671836be42c48af86"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/SW Droids.esm",
+        "changed_locations": 5,
+        "output_sha256": "8c9842ec093893a440c1ef1ca7ca4317a94d500f30f5f329fb73a98a7aa98d3b"
+      },
+      {
+        "target": "mods/Star Wars - Unique Bosses and Encounters/StarWarsUniqueBosses.esm",
+        "changed_locations": 1,
+        "output_sha256": "c575990b10027a25a8fc50d4169b757f980ef0508140ce03fed758e9d0468c84"
+      },
+      {
+        "target": "mods/Star Wars - Ship Vendor Framework/TheSniper9-Firespray31.esm",
+        "changed_locations": 5,
+        "output_sha256": "bc5a41228b4bb1c66ba5c66b6c37816524a5692d89a95440891687b873200361"
+      },
+      {
+        "target": "mods/Star Wars - Ship Vendor Framework/Delta-7_Jedi_Starfighter_2002.esm",
+        "changed_locations": 1,
+        "output_sha256": "a490717eb9d81c0a2306a695be051cf9e6176c6054f6feb07d8d4f1904f06b9a"
+      },
+      {
+        "target": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+        "changed_locations": 1,
+        "output_sha256": "ed30749fbd2ea45bab51dd01f807eec4b1a020757c78163325ea131703dc3c18"
+      },
+      {
+        "target": "mods/Star Wars - Ship Replacer/StarWarsShipReplacer.esm",
+        "changed_locations": 1,
+        "output_sha256": "84e8600e9a091d4d87030c798031e4286c6537525839053111e6e11df0e45bd9"
+      },
+      {
+        "target": "mods/Coruscant City Main Plugins/CoruscantCity.esm",
+        "changed_locations": 1,
+        "output_sha256": "f9d1592da1d287087aeceec900ddc2e74da23f4c126894fda20f02a2b193da90"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Companion Pack/Greedo.esm",
+        "changed_locations": 1,
+        "output_sha256": "6ea1423fa4179f23ae2b37c2edbef2462ef28f45c371cfd69834d509a8291c4d"
+      },
+      {
+        "target": "mods/Star Wars - Prop Replacement Pack/StarWarsPropReplacement.esm",
+        "changed_locations": 7,
+        "output_sha256": "78aae06adf8fcaf2801584affb89e08dbf2289213e0657f9f60fe8bb514cfc1c"
+      },
+      {
+        "target": "mods/Dark Universe - Overtime - Translation Star Wars/du_overtime.esm",
+        "changed_locations": 2,
+        "output_sha256": "87e2c02de36f56ab36e625956efa7874d6c268a38b7564d7bb909bde10985caa"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/UC Empire.esm",
+        "changed_locations": 2,
+        "output_sha256": "29071cb8f08aaecd4ab3035a1723afa676fc7fbbbe73c2df55bb09b1836a6868"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/SW Spacer Overhaul.esm",
+        "changed_locations": 1,
+        "output_sha256": "03a7b73f4ccdea3c1714c6ebc50e00446adca6005c520b57c65219d0075849d5"
+      },
+      {
+        "target": "mods/Star Wars Blasters and Melee/Star Wars Blasters.esm",
+        "changed_locations": 117,
+        "output_sha256": "9d516413e8fa101310f316c8a5b4ef04a408256556779ba704fad5ccf6ee4970"
+      },
+      {
+        "target": "mods/Star Wars Blasters and Melee (Shattered Space)/Star Wars Blasters DLC Addon.esm",
+        "changed_locations": 2,
+        "output_sha256": "e0aa7ffa135af10aed8032ad3bf98c9d2479e863cc1499d1e8f07525a5a37ef8"
+      },
+      {
+        "target": "mods/Star Wars - Realistic Blasters and Melee Patch/RealisticStarWarsBlasters.esm",
+        "changed_locations": 232,
+        "output_sha256": "d8d1ad46ec810dc36c2f3792800fcc084642fdc0f6461850e5ed9926b46dabf1"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Lightsabers/All_Trilogy_Lightsabers.esm",
+        "changed_locations": 11,
+        "output_sha256": "7dbd32542c7a86c65128d16ae174e36664c67d3aa852124c9d315fdb1c915e9e"
+      },
+      {
+        "target": "mods/Mandalore Fix - Rock Galaxy/SWNewGalaxy.esm",
+        "changed_locations": 151,
+        "output_sha256": "84830149c471cc4d1edd829acc45521076c4328675aafbdcf33c07c47431a16c"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/Tatooine.esm",
+        "changed_locations": 12,
+        "output_sha256": "0c5cd37aba30bb6954bbb1ed6ec2e8beb04be6a9ae7c74186f18d8810c90fbc0"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Planets/StarWarsGenesisPlanets.esm",
+        "changed_locations": 2,
+        "output_sha256": "cf30e7178c754b8683faf623bd888b31e97146222747c9aaffb18bcef0a210a3"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/FugitiveHideout.esm",
+        "changed_locations": 8,
+        "output_sha256": "cf60297d12e790cc488712a2163d3710b1ac7cda7414413bd0f4663c4e8c46cb"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/ATST.esm",
+        "changed_locations": 2,
+        "output_sha256": "234dd4f059de22acff6b12adacebcc8af4d52e1fec223cd9562b6ec50ae15795"
+      },
+      {
+        "target": "mods/Star Wars - Tython Force Power Trainer/ForcePowerTrainer.esm",
+        "changed_locations": 3,
+        "output_sha256": "ab0a587758a92169ba75992b74ae8de739b9d9bbc83365bb8ec0139250d432e4"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Override Patch/Shadow Collective.esm",
+        "changed_locations": 24,
+        "output_sha256": "f94e49774c7469abe32974e574360c0083e56f29b7bf11d87c7fe572bb702982"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/Hondo Ohnaka and Crew.esm",
+        "changed_locations": 1,
+        "output_sha256": "5e2ae97739ecaedc09682f24a05e62544d2619c9d260c0407f7ac136f9636905"
+      },
+      {
+        "target": "mods/Star Wars Gangs/SW Gangs.esm",
+        "changed_locations": 18,
+        "output_sha256": "5ab7595ec2128839407c897b365af2908b96be70513eac8df28554c93c3b6757"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Override Patch/R2D2.esm",
+        "changed_locations": 1,
+        "output_sha256": "ab2e04791b959d824fd934c12cb8935b2d804cc6d84d14281a4201ab9aa332ab"
+      },
+      {
+        "target": "mods/HK-47 and T3-M4/Kotor Droids.esm",
+        "changed_locations": 1,
+        "output_sha256": "a95750fd5d164f7a13a45722cba09543bf32531a22ecb13a3111ba0b7403562d"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/thesniper9-swarmorpack.esm",
+        "changed_locations": 21,
+        "output_sha256": "b31649d0e56fcb0a537a5b9eae0693bfc912bb20cb412951e10bba9545369169"
+      },
+      {
+        "target": "mods/Star Wars - Rakghouls/RakghoulInfestation.esm",
+        "changed_locations": 12,
+        "output_sha256": "a959de5ebcf6854402136bbc24cd4b58360f19e89d4cd04eb739073d34344c5a"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/MandalorianForge.esm",
+        "changed_locations": 3,
+        "output_sha256": "2f006252392d2201c2fa61f724cb6b4100cf68469ed8a106278ce21959260a2e"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/StarWarsGenesisArmorCompendium.esm",
+        "changed_locations": 31,
+        "output_sha256": "4c4c23748f558a8d5d7e6f12b4e1631fa5e0166266f643bd9b2986d8fcb43011"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/StarWarsFactionExpansion.esm",
+        "changed_locations": 16,
+        "output_sha256": "ba607107c78ad8cfc81e939dde73c917c9201471309aad29149de769853f8ed0"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Override Patch/SKKFastStartNewGame.esm",
+        "changed_locations": 1,
+        "output_sha256": "5790ae16184dd7ad5d24218838b71e3f292a51c3ee2e4e3ed0160d6c9f706738"
+      },
+      {
+        "target": "mods/Star Wars - Force Power Replacer/ForcePowers.esm",
+        "changed_locations": 1,
+        "output_sha256": "0ea37e4c8a7baa81fff1fcf5ab424551a5e5e283d3076e17a671b9faf03a37bd"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Override Patch/SithTrooper.esm",
+        "changed_locations": 2,
+        "output_sha256": "77e7567316c1565d1e3f561298593887fd533fd18dcf2e33eeec616b043c0e6a"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Lightsabers/StarWarsGenesisLightsabers.esm",
+        "changed_locations": 35,
+        "output_sha256": "37a11a489e9e5d4ce7d515a78cd8bee28481b06f68d363eea36b1f3631d40317"
+      },
+      {
+        "target": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+        "changed_locations": 29,
+        "output_sha256": "2db471a0a11d0d6d0f4ca07dee4bc667411aa7191b3fd9d716a577e162494b83"
+      },
+      {
+        "target": "mods/Star Wars - Rebel Alliance Storyline/StarWarsRebelQuestline.esm",
+        "changed_locations": 15,
+        "output_sha256": "de12a6e0a9bba3d68139c0499517214f416c722670e827c467094517bc305aa4"
+      },
+      {
+        "target": "mods/Star Wars - Imperial Storyline/StarWarsImperialQuestline.esm",
+        "changed_locations": 43,
+        "output_sha256": "3dc76656df81f8343bd3e07803695ece0913be3b9e7d37cf75497a96360ffff8"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+        "changed_locations": 17,
+        "output_sha256": "eb15dc91f55bb89411c19cc95fb32a3216a26fc48aa477be3f7d3574f46b3605"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/StarWars_Vardos.esm",
+        "changed_locations": 4,
+        "output_sha256": "d9d9d412c0cde4bc840ff6793834b79c166d176ec3d271d8ed09c0c8e982cd99"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Inquisitor Attacks/InquisitorAttacks.esm",
+        "changed_locations": 2,
+        "output_sha256": "3952396c918572c53fff53ebc00aaaf67085345c8c9906eae09e95f26f6cfffc"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
+        "changed_locations": 19,
+        "output_sha256": "0cca884a632840b0222be40551c293db4e86907e8c04d0f08f24d5a1830b74e4"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Vanilla Bug Fixes/PlayerShipFixesGenesis.esm",
+        "changed_locations": 4,
+        "output_sha256": "3d25958ee859d16e5c107ca56b548a3d66ba57a470001b5b32dec7b6c6775178"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "changed_locations": 74,
+        "output_sha256": "03fd2ea016fc799c80a4515c7a0b816c0eb883042b73c9de739ed5a6b31e3216"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Planets/StarWarsGenesisGalaxyPatcher.esm",
+        "changed_locations": 1,
+        "output_sha256": "5ed31136e643edfe2dcd6ffad45bcd53985d481f5b25a8b681f3755f0c194713"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+        "changed_locations": 2,
+        "output_sha256": "c2ebfaca35d2aaaa1f860b24cd89ee02cb288f0a1d4de0f3b0a488ea485d7f08"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Override Patch/Aurie_TempleQuestFixes.esm",
+        "changed_locations": 1,
+        "output_sha256": "94f2ee042262ef994d421f2311a96f9f24720e41062bf8b43fa450a9ba575629"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsMapMarkers.esm",
+        "changed_locations": 3,
+        "output_sha256": "854080b2a3d8bc847bf46618e39f6d37f7cd85d044ae9b6a9fa06a4e43da2383"
+      },
+      {
+        "target": "mods/Star Wars Genesis - Standalone Voices/StarWarsGenesisVoices.esm",
+        "changed_locations": 1,
+        "output_sha256": "8ec86b7b954bf21e5bafec6a446b9ce9c22b6305497aaed987b7d9d0684a65e2"
+      }
+    ],
+    "clean_and_upgrade_outputs_identical": true,
+    "game_modified": false
   }
 }

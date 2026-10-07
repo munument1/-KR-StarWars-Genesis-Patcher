@@ -1,0 +1,28 @@
+{
+  "items": 479,
+  "unique_source_translation_pairs": 457,
+  "decisions": {
+    "context_needed": 296,
+    "context_accepted": 97,
+    "technical_preserved": 13,
+    "rule_validated": 61,
+    "partial_rule_validated": 9,
+    "structural_hold": 3
+  },
+  "batches": [
+    {
+      "file": "recheck-0001.json",
+      "items": 250,
+      "sha256": "d4a5181263b1b272bdf61fad3a1752cb134fe6b951aeb4222155d054438ad129"
+    },
+    {
+      "file": "recheck-0002.json",
+      "items": 229,
+      "sha256": "a28e6e8987e8516d0fd3626fea144cd97f839c6e75a6125a1e01b794f647f1f3"
+    }
+  ],
+  "source_manifest_sha256": "fc896830893810a5e3d971956dc39af73c002cf3365a3a94fbe263d0069d7bc4",
+  "installer_modified": false,
+  "sst_modified": false,
+  "ai_api_used": false
+}

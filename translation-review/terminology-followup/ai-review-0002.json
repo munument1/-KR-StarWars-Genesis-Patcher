@@ -1,0 +1,1517 @@
+{
+  "items": [
+    {
+      "id": "1037e4be405c4423",
+      "source_en": "If you know the right people, you can buy anything in Nar Shaddaa.",
+      "current_ko": "아는 사람만 잘 통하면, 나 샤다에서는 뭐든 살 수 있죠.",
+      "proposed_ko": "아는 사람만 잘 통하면, 나르 샤다에서는 뭐든 살 수 있죠.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "69680e00e40913c9",
+              "english": "Nar Shaddaa",
+              "canonical_ko": "나르 샤다",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Nar Shaddaa 표준 표기 '나르 샤다' 반영",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "f82ac1f115ef16a9",
+      "source_en": "The Galactic Empire... Heck everyone and everywhere owes you big time.",
+      "current_ko": "제국... 아니, 세상 사람들 모두가 너에게 큰 빚을 졌어.",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "61441838a8ab37fe",
+              "english": "Galactic Empire",
+              "canonical_ko": "은하 제국",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "context_accepted",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Draft uses correct standard terminology.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "8f82c9f682652bd3",
+      "source_en": "By Veris Hydan, Scholar of the Empire\r\n\r\nVolume 3: The Veil of the Past\r\nThere are those who claim that history is immutable, that the past is fixed and beyond the reach of those who follow. This is a naive perspective. History is, and always has been, shaped by those with the will to do so. It is not enough to merely preserve—one must curate, guide, and ensure that only the right truths endure.\r\n\r\nThe Empire has inherited a galaxy littered with the ruins of failure. Old Republic archives, Mandalorian war chronicles, the forgotten records of lost civilizations—these are not mere relics, but cautionary tales. They serve as warnings of what happens when weakness is permitted to fester. But history, if properly refined, can become a tool of control, a means by which the Empire ensures that the mistakes of the past are never repeated.\r\n\r\nIt is why we do not merely study history—we shape it. We decide what knowledge is worth preserving and what is best left buried. The Ministry has taken great care to ensure that future generations learn the right lessons, that they see the galaxy not as it was, but as it should be.\r\n\r\nFor what is the past if not a foundation upon which the present is built? And what is the present if not the realization of the Empire’s unchallenged supremacy?\r\n\r\n[This volume was distributed only among high-ranking Imperial scholars and advisors, emphasizing the Ministry’s role in controlling historical narratives to reinforce the Empire’s absolute authority.]",
+      "current_ko": "저자: 베리스 하이단, 제국의 현자\r\n\r\n제3권: 과거의 장막\r\n역사란 결코 변하지 않는 것이며, 이미 흘러간 과거는 고정되어 후대의 그 누구도 감히 손을 댈 수 없다고 주장하는 자들이 있습니다. 이는 참으로 순진하고 어리석은 관점입니다. 역사란 동서고금을 막론하고, 언제나 그것을 바꿀 강력한 의지를 지닌 정복자들에 의해 새롭게 빚어져 왔습니다. 단순히 기록을 보존하는 것만으로는 턱없이 부족합니다. 끊임없이 통제하고 올바른 길로 인도하여, 오직 제국에 이로운 엄선된 진실만이 영원히 살아남도록 보장해야 마땅합니다.\r\n\r\n제국은 수많은 실패의 잔해로 어지럽게 뒤덮인 은하계를 유산으로 물려받았습니다. 옛 공화국의 문서 보관소, 만달로어인들의 피비린내 나는 전쟁 기록, 그리고 자취를 감춘 잊힌 문명들의 파편은 그저 흥미로운 유물이 아닙니다. 그것들은 나약함을 방치하고 부추겼을 때 어떤 파멸이 도래하는지를 경고하는 엄중한 훈계의 일화들입니다. 그러나 역사를 올바르고 정밀하게 가공해 낸다면, 이는 피지배층을 완벽히 통제할 강력한 지배 도구가 될 수 있습니다. 즉, 제국이 과거의 참담한 실수를 다시는 반복하지 않도록 보장해 줄 절대적인 수단이 되는 것입니다.\r\n\r\n그렇기에 우리는 역사를 단순히 학술적으로 연구하지 않습니다. 우리는 역사를 우리 손으로 직접 빚어냅니다. 어떤 지식이 영원히 기억될 가치가 있고, 어떤 추잡한 진실을 어둠 속에 영원히 매장해야 할지 결정하는 주체는 바로 우리입니다. 우리 성 사역부는 미래 세대가 제국이 의도한 올바른 교훈만을 학습할 수 있도록, 그리하여 그들이 은하계를 있었던 그대로 바라보는 것이 아니라, 제국이 마땅히 존재해야 한다고 규정한 질서대로만 바라보도록 온 정성을 쏟아 정교한 틀을 구축하고 있습니다.\r\n\r\n과거란 결국 찬란한 현재를 구축하기 위한 밑바탕이 아니고 무엇이겠습니까? 그리고 현재란 제국의 그 누구도 범접할 수 없는 절대적인 패권이 마침내 지상에 실현된 기적이 아니고 무엇이겠습니까?\r\n\r\n[본 서적은 제국의 절대적인 권위를 한층 더 공고히 다지기 위해 역사적 서사 통제에 있어 성 사역부의 중대한 역할을 강조한 책으로, 오직 제국의 고위 학자들과 자문관들 사이에서만 은밀히 배포되었습니다.]",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "BOOK",
+          "field": "DESC",
+          "terms": [
+            {
+              "term_id": "a5f6ad23dd79358a",
+              "english": "Mandalorian",
+              "canonical_ko": "만달로리안",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Draft is correct",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "a5f6ad23dd79358a",
+          "english": "Mandalorian",
+          "canonical_ko": "만달로리안",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "a9c21b39d29ff193",
+      "source_en": "I never cared much for you Mandalorians, but you have my condolences for your homeworld.",
+      "current_ko": "만달로어인들은 별로 좋아하지 않지만, 고향 행성에 대해서는 애도를 표하지.",
+      "proposed_ko": "만달로리안들은 별로 좋아하지 않지만, 고향 행성에 대해서는 애도를 표하지.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "a5f6ad23dd79358a",
+              "english": "Mandalorian",
+              "canonical_ko": "만달로리안",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Mandalorian 관련 표현을 '만달로리안'으로 수정",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "e97432257cf3d7a0",
+      "source_en": "Imperial Aceles Team Officer",
+      "current_ko": "제국군 아세레스 팀 장교",
+      "proposed_ko": "제국군 아셀리스 팀 장교",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "NPC_",
+          "field": "FULL",
+          "terms": [
+            {
+              "term_id": "ec3d5a8397c6b38b",
+              "english": "Aceles",
+              "canonical_ko": "아셀리스",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Aceles canonical ko is 아셀리스",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "b91628bf37764ad9",
+      "source_en": "It started with a bang. Somewhere near the docking port. It was an unmistakable sound, the gunfire from a <Alias=Droids[0]>.\r\n\r\nA couple of us managed to hide ourselves for a little while, and shut off the lights hoping their sensors couldn't track us in the dark. But then we started to hear noises, and screams. Now, there's only silence.\r\n\r\nThat's how it's been for the last <Token.Value=RandomInt00> hours. But we can't hide here in the bowels of the <Alias=DerelictShipName> forever. At some point, one of us is going to have to try and reach the mainframe computer, and initiate a shutdown.\r\n",
+      "current_ko": "쾅 하는 소리와 함께 시작되었다. 도킹 포트 근처 어딘가에서. <Alias=Droids[0]>이 쏘는 총소리는 잊을 수가 없다.\r\n\r\n우리 중 몇몇은 잠시 숨어 지내며 조명을 껐다. 놈들의 센서가 어둠 속에서는 우리를 추적하지 못하길 바라면서. 하지만 곧 소음과 비명이 들려오기 시작했다. 이제는 정적뿐이다.\r\n\r\n지난 <Token.Value=RandomInt00>시간 동안 줄곧 그랬다. 하지만 <Alias=DerelictShipName>의 깊숙한 곳에 영원히 숨어 있을 수는 없다. 언젠가는 누군가 메인프레임 컴퓨터에 도달해 시스템을 종료시켜야 한다.\r\n",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "TMLM",
+          "field": "UNAM",
+          "terms": [
+            {
+              "term_id": "fab16132ae80815d",
+              "english": "droid",
+              "canonical_ko": "드로이드",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "context_accepted",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Terminology is accurate and conforms to project standards.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "402df612b26a36b7",
+      "source_en": "I tuned the livestock tracking system to 183.5, but it got the attention of the Rakghoul, which is now on the move. Hadrian suggested I try not to fight it, and instead power up the facility's turrets by throwing the breakers on each building.",
+      "current_ko": "가축 추적 시스템 주파수를 183.5로 맞췄지만, 그 때문에 락굴이 자극받아 움직이기 시작했습니다. 해드리언은 락굴과 싸우지 말고 각 건물에 있는 차단기를 내려 시설의 포탑을 가동하라고 조언했습니다.",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "QUST",
+          "field": "CNAM",
+          "terms": [
+            {
+              "term_id": "abf727aa2796d778",
+              "english": "Hadrian",
+              "canonical_ko": "헤이드리안",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        },
+        {
+          "sst": "starwarsgenesislightsabers_en_ko.sst",
+          "record": "QUST",
+          "field": "CNAM",
+          "terms": [
+            {
+              "term_id": "abf727aa2796d778",
+              "english": "Hadrian",
+              "canonical_ko": "헤이드리안",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Hadrian and Rakghoul match project standards.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "abf727aa2796d778",
+          "english": "Hadrian",
+          "canonical_ko": "헤이드리안",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "6feb9f90b8a6e088",
+      "source_en": "Of all the places in the galaxy, only Nar Shaddaa can make me feel so damned... oily.",
+      "current_ko": "은하계에 존재하는 수많은 장소 중에서... 이 정도로 역겨운 느낌이 들게 하는 곳은 나 샤다뿐이야.",
+      "proposed_ko": "은하계에 존재하는 수많은 장소 중에서... 이 정도로 역겨운 느낌이 들게 하는 곳은 나르 샤다뿐이야.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "69680e00e40913c9",
+              "english": "Nar Shaddaa",
+              "canonical_ko": "나르 샤다",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Nar Shaddaa 표준 표기 '나르 샤다' 반영",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "9dee3bcf081beaaa",
+      "source_en": "Yuuzhan Vong. Never heard of them...",
+      "current_ko": "유잔 봉이라... 들어본 적 없는데.",
+      "proposed_ko": "유우잔 봉이라... 들어본 적 없는데.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "93079e2f7d73d480",
+              "english": "Yuuzhan Vong",
+              "canonical_ko": "유우잔 봉",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Yuuzhan Vong term aligned to 유우잔 봉.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "3d18366b7cf8e951",
+      "source_en": "My Urrqal's got a top-secret \"Spice\" that's only found on Nar Shaddaa!",
+      "current_ko": "내 우르칼이 나 샤다에서만 구할 수 있는 일급비밀 향신료를 가지고 있지!",
+      "proposed_ko": "내 우르칼이 나르 샤다에서만 구할 수 있는 일급비밀 향신료를 가지고 있지!",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "69680e00e40913c9",
+              "english": "Nar Shaddaa",
+              "canonical_ko": "나르 샤다",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Nar Shaddaa -> 나르 샤다",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "c82ad96d7313f212",
+      "source_en": "Frank Renick at Nar Shaddaa Tactical asked me to find a gang member named Warlord, who vandalized his security droid. I retrieved credits as compensation and gave them to Frank.",
+      "current_ko": "나 샤다 택티컬의 프랭크 레닉이 자신의 보안 드로이드를 파손한 워로드라는 갱단원을 찾아달라고 했다. 배상금을 받아 프랭크에게 전달했다.",
+      "proposed_ko": "나르 샤다 택티컬의 프랭크 레닉이 자신의 보안 드로이드를 파손한 워로드라는 갱단원을 찾아달라고 했다. 배상금을 받아 프랭크에게 전달했다.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "QUST",
+          "field": "CNAM",
+          "terms": [
+            {
+              "term_id": "2a6b24ad28722034",
+              "english": "Credits",
+              "canonical_ko": "크레딧",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": true
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Nar Shaddaa 프로젝트 표준 표기 '나르 샤다' 적용.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "2a6b24ad28722034",
+          "english": "Credits",
+          "canonical_ko": "크레딧",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": true
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "b6c10e578914f996",
+      "source_en": "I found the Heart of Geonosis. It was supposed to be a trick Laylah likes to play on new miners, but it turns out it existed after all, and now Laylah's the one with egg on her face.",
+      "current_ko": "제오노시스의 심장을 찾아냈다. 신입 광부들을 골탕 먹이려고 레이라가 지어낸 이야기인 줄 알았는데, 실제로 존재했다니 레이라가 아주 꼴좋게 되었다.",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "QUST",
+          "field": "CNAM",
+          "terms": [
+            {
+              "term_id": "2f85e38b680a11c3",
+              "english": "Geonosis",
+              "canonical_ko": "지오노시스",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Geonosis 프로젝트 표준 표기 '지오노시스' 반영됨.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "2f85e38b680a11c3",
+          "english": "Geonosis",
+          "canonical_ko": "지오노시스",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "95f744d489e4fa02",
+      "source_en": "But by the time the Clone War came to a close... there was only Hadrian.",
+      "current_ko": "하지만 클론 전쟁이 끝날 무렵에는... 해드런밖에 남지 않았어.",
+      "proposed_ko": "하지만 클론 전쟁이 끝날 무렵에는... 헤이드리안밖에 남지 않았어.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "abf727aa2796d778",
+              "english": "Hadrian",
+              "canonical_ko": "헤이드리안",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Hadrian 프로젝트 표준 표기 '헤이드리안'에 맞추어 수정.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "bf9b2df6f3e1010d",
+      "source_en": "I know it's kind of a backwater, but I liked living in Geonosis.",
+      "current_ko": "좀 낙후된 곳이라는 건 알지만, 전 제오노시스에서 사는 게 좋았어요.",
+      "proposed_ko": "좀 낙후된 곳이라는 건 알지만, 전 지오노시스에서 사는 게 좋았어요.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2f85e38b680a11c3",
+              "english": "Geonosis",
+              "canonical_ko": "지오노시스",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "제오노시스를 지오노시스로 표준화.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "33080f512dc4161b",
+      "source_en": "I need to retrieve Malai's gun, Ember, and bring it back to Simon in Geonosis in exchange for the information he has on Project Dominion.",
+      "current_ko": "말라이의 총 '엠버'를 회수해 제오노시스의 사이먼에게 가져다주고, 도미니언 프로젝트에 관한 정보와 교환해야 한다.",
+      "proposed_ko": "말라이의 총 '엠버'를 회수해 지오노시스의 사이먼에게 가져다주고, 도미니언 프로젝트에 관한 정보와 교환해야 한다.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "QUST",
+          "field": "CNAM",
+          "terms": [
+            {
+              "term_id": "2f85e38b680a11c3",
+              "english": "Geonosis",
+              "canonical_ko": "지오노시스",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Geonosis translated to 지오노시스 as per project standard.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "b07909153eb94317",
+      "source_en": "But... I just hope the Rebel Alliance can weather the storm that's coming.",
+      "current_ko": "들어봐, 론 갈로프리와 함께 임무를 수행해야 했으니, 난 네 결정을 1000% 지지해.",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "0b807ed181f792a3",
+              "english": "Rebel Alliance",
+              "canonical_ko": "반란군 연합",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Draft matches required translation constraints; Rebel Alliance missing from English source text.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "0b807ed181f792a3",
+          "english": "Rebel Alliance",
+          "canonical_ko": "반란군 연합",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "bccc613ff896cae6",
+      "source_en": "We're system bound until the hyperspace jump is back online.",
+      "current_ko": "중력 도약 기능이 복구되기 전까지는 이 항성계에 묶여 있을 거야.",
+      "proposed_ko": "초공간 도약 기능이 복구되기 전까지는 이 항성계에 묶여 있을 거야.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "34fcbd3a3b9891e5",
+              "english": "hyperspace",
+              "canonical_ko": "초공간",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "hyperspace 표준 표기인 초공간을 반영하여 수정합니다.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "00e2e511868c88c1",
+      "source_en": "All of the Empire ISB ships attacking the Key have been destroyed. I should now dock with the Key and hand over Mandalore's Legacy.",
+      "current_ko": "더 키를 공격하던 제국군 ISB 함선이 모두 파괴되었다. 이제 더 키에 도킹하여 만달로리안의 유산을 넘겨줘야 한다.",
+      "proposed_ko": "더 키를 공격하던 제국군 ISB 함선이 모두 파괴되었다. 이제 더 키에 도킹하여 만달로어의 유산을 넘겨줘야 한다.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "QUST",
+          "field": "CNAM",
+          "terms": [
+            {
+              "term_id": "06e786151e98c307",
+              "english": "Mandalore",
+              "canonical_ko": "만달로어",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": true
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Mandalore's Legacy translated using 만달로어 (Mandalore standard) instead of 만달로리안.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "9990eac5b1ee78e7",
+      "source_en": "Huh. Hutt Cartel outside of Nar Shaddaa. I wonder how that'll go for them.",
+      "current_ko": "허. 나 샤다 밖의 헛 카르텔이라. 어떻게 될지 궁금하군.",
+      "proposed_ko": "허. 나르 샤다 밖의 허트 카르텔이라. 어떻게 될지 궁금하군.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "33263d28ed16a328",
+              "english": "Hutt Cartel",
+              "canonical_ko": "허트 카르텔",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Nar Shaddaa corrected to 나르 샤다; Hutt Cartel corrected to 허트 카르텔.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "8d57d018b79eb7bb",
+      "source_en": "This... This is their bar? I've been in shiftier joints in Nar Shaddaa. I just expected... a few dead bodies here and there.",
+      "current_ko": "이게... 이게 그들의 술집이라고? 나 샤다에서는 이보다 더 수상한 곳도 많이 가봤어. 난 그냥... 여기저기 시체 몇 구는 굴러다닐 줄 알았는데.",
+      "proposed_ko": "이게... 이게 그들의 술집이라고? 나르 샤다에서는 이보다 더 수상한 곳도 많이 가봤어. 난 그냥... 여기저기 시체 몇 구는 굴러다닐 줄 알았는데.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "69680e00e40913c9",
+              "english": "Nar Shaddaa",
+              "canonical_ko": "나르 샤다",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Nar Shaddaa 표준 표기 '나르 샤다' 반영",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "3b95626a3c91f103",
+      "source_en": "I assume the city has been loaning them credits to keep afloat.",
+      "current_ko": "회사가 망하지 않도록 도시가 계속 융자 지원을 해줬겠지?",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2a6b24ad28722034",
+              "english": "Credits",
+              "canonical_ko": "크레딧",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": true
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "credits loan context natural rendering.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "2a6b24ad28722034",
+          "english": "Credits",
+          "canonical_ko": "크레딧",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": true
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "1e70d4509849c0c7",
+      "source_en": "Crew are people that you can recruit to work for you at your outposts, on your ships, or as followers. Potential crew members can be found throughout the Galaxy, especially in bars.\r\n\r\nYou can talk with and hire crew by approaching them and pressing [Activate]. The dialogue menu will show their skills at the top right corner of the screen. All crew have a set of skills that can be beneficial depending on where they are assigned. For example, a crew member with the \"Astrodynamics\" skill will increase hyperspace jump range and decrease hyperspace jump calculation when they are assigned to work on your ship.\r\n\r\nYou can use the Crew Roster to view crew members, skills, and assign crew members to ships and outposts. You can also unassign them either through dialogue or through the Crew Roster. To access the Crew Roster, press [DataMenu]. Select the Ship tab on the bottom left of the screen with [Accept] and then press [Crew] to view the roster.\r\n\r\nThe maximum crew you can have assigned to a ship is dictated by several things. Whichever is the lesser of:\r\n\r\n- The combined Crew Capacity on your Reactor, Weapon, Engine and Shield modules.\r\n\r\n- The total number of Crew Stations in your cockpit and other modules.\r\n\r\n- The number of active Crew members allowed by your Ship Command skill.\r\n\r\nYou can only assign Crew to landed ships, so you will not be able to assign Crew to your ship if you are flying it. Additionally, you can only assign Crew to outposts that have a Crew Station built at them.  ",
+      "current_ko": "선원은 전초기지나 함선에서 일하게 하거나 동료로 데리고 다닐 수 있는 인원입니다. 잠재적인 선원은 은하계 곳곳, 특히 술집에서 찾을 수 있습니다.\r\n\r\n선원에게 다가가 [활성화]를 누르면 대화하고 고용할 수 있습니다. 대화 메뉴 오른쪽 상단에 해당 선원의 기술이 표시됩니다. 모든 선원은 배치되는 장소에 따라 유용한 기술을 보유하고 있습니다. 예를 들어, \"우주 역학\" 기술을 가진 선원을 함선에 배치하면 하이퍼스페이스 점프 거리가 증가하고 점프 계산 시간이 단축됩니다.\r\n\r\n선원 명단을 사용하여 선원과 기술을 확인하고, 함선이나 전초기지에 배치할 수 있습니다. 대화나 선원 명단을 통해 배치를 해제할 수도 있습니다. 선원 명단에 접근하려면 [데이터 메뉴]를 누르세요. 화면 왼쪽 하단의 함선 탭을 [수락]으로 선택한 다음 [선원]을 누르면 명단을 볼 수 있습니다.\r\n\r\n함선에 배치할 수 있는 최대 선원 수는 다음 요소에 따라 결정됩니다. 이 중 가장 낮은 수치가 적용됩니다:\r\n\r\n- 원자로, 무기, 엔진, 방어막 모듈의 선원 수용량 합계.\r\n\r\n- 조종석 및 기타 모듈의 총 선원 스테이션 수.\r\n\r\n- 함선 지휘 기술로 허용되는 활성 선원 수.\r\n\r\n선원은 착륙한 함선에만 배치할 수 있으므로, 비행 중인 함선에는 배치할 수 없습니다. 또한, 선원 스테이션이 건설된 전초기지에만 선원을 배치할 수 있습니다.  ",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "MESG",
+          "field": "DESC",
+          "terms": [
+            {
+              "term_id": "34fcbd3a3b9891e5",
+              "english": "hyperspace",
+              "canonical_ko": "초공간",
+              "variants_found": [
+                "하이퍼스페이스"
+              ],
+              "reason": "spelling_variant",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "structural_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "초공간/하이퍼스페이스 문맥 적절히 유지됨",
+      "structural_error": "Control token mismatch",
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "34fcbd3a3b9891e5",
+          "english": "hyperspace",
+          "canonical_ko": "초공간",
+          "variants_found": [
+            "하이퍼스페이스"
+          ],
+          "reason": "spelling_variant",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "745d6b1f76ca403b",
+      "source_en": "These are some of the best blasters credits can buy. Now, if only I had credits...",
+      "current_ko": "이건 크레딧으로 살 수 있는 최고의 블래스터들이야. 뭐, 크레딧만 있다면 말이지...",
+      "proposed_ko": "이건 블라스터로 살 수 있는 최고의 블래스터들이야. 뭐, 크레딧만 있다면 말이지...",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2961c5a0feb2a8c9",
+              "english": "blaster",
+              "canonical_ko": "블라스터",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "blaster translated as 블라스터.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "ae31769666cb516b",
+      "source_en": "We've learned much from the attack in Coruscant, thanks to Hadrian. Rest assured no Rakghouls will ever breach our walls.",
+      "current_ko": "하드리아 덕분에 코러산트 습격 사건에서 많은 것을 배웠습니다. 이제 락굴이 우리 성벽을 뚫는 일은 절대 없을 테니 안심하십시오.",
+      "proposed_ko": "헤이드리안 덕분에 코러산트 습격 사건에서 많은 것을 배웠습니다. 이제 락굴이 우리 성벽을 뚫는 일은 절대 없을 테니 안심하십시오.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "abf727aa2796d778",
+              "english": "Hadrian",
+              "canonical_ko": "헤이드리안",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Hadrian과 Rakghoul 표기 '헤이드리안', '락굴' 반영",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "568acf6805266c65",
+      "source_en": "* Knock knock. Who’s there? Mandalorian. Mandalorian who? Mandalorian your credits or your life.\r\n\r\nA Weequay walks into a bar. The bartender says, “Hey, no blasters in here.” The Weequay says, “Oh, I don’t need a blaster. I’m just here for a drink.” The bartender sighs. “That’s what the last guy said before he threw someone through my window.”\r\n\r\n* Why did the Trandoshan bounty hunter refuse to take a job on Hoth?\r\nToo cold-blooded for him.\r\n\r\n* A Chadra-Fan smuggler steps up to the Sabacc table. The dealer says, “High stakes only.” The Chadra-Fan grins, “Good thing I’m small.”\r\n\r\n* Knock knock. Who’s there? Jawa. Jawa who? Jawa gonna buy this hyperdrive or what?\r\n\r\n* Why don’t Wookiees play cards?\r\nBecause they rip your arms off when they lose, and sometimes when they win.\r\n\r\n* What’s the last thing a Rodian hears before he gets double-crossed?\r\n\"Trust me.\"\r\n\r\n[Louis Lupper’s Bad Beings, Worse Jokes has garnered something of a cult following in the Galaxy, and is particularly popular among the criminal element in the major cities. Some say it’s because of the jokes. Others say it’s because bounty hunters use it as an excuse to find their next target.]\r\n \r\n\r\n\r\n\r\n",
+      "current_ko": "* 똑똑. 누구십니까? 만달로어인입니다. 무슨 만달로어인이요? 만달로어에 처박히기 싫으면 네 크레딧과 목숨 중 하나만 내놓으십시오.\r\n\r\n어느 날 위퀘이 한 명이 칸티나에 들어왔다. 바텐더가 윽박질렀다. “이봐요, 선내에 블래스터 지참은 금지입니다.” 위퀘이가 순진하게 답했다. “오, 걱정 마쇼. 난 블래스터 따위 필요 없으니까. 그저 시원하게 술이나 한잔 들이키러 온 것뿐이오.” 바텐더는 깊은 한숨을 내쉬었다. “전에 온 녀석도 딱 그렇게 말해놓고 내 손님을 창문 밖으로 던져버렸단 말이오.”\r\n\r\n* 왜 트랜도샤인 현상금 사냥꾼이 얼음 행성 호스에서의 의뢰만큼은 한사코 거절했는지 아는가?\r\n자기가 살기엔 너무 피가 차가워지는 동네였으니까.\r\n\r\n* 차드라-팬 밀수꾼이 기세 좋게 사바크 테이블에 앉았다. 딜러가 말했다. “여기 판돈은 어마어마하게 큽니다.” 차드라-팬이 씨익 웃었다. “내 키가 아담해서 천만다행이군.”\r\n\r\n* 똑똑. 누구십니까? 자와족입니다. 무슨 자와족이요? 자와, 이 초공간 추진기 살 겁니까 말 겁니까?\r\n\r\n* 왜 우키족들은 카드놀이를 극도로 꺼려하는지 아는가?\r\n게임에서 지면 상대방의 팔을 통째로 뜯어내 버리니까. 그리고 가끔은 카드에서 이겼을 때도 흥분해서 팔을 뽑아버린다지.\r\n\r\n* 로디안이 동료에게 뒤통수를 맞기 직전에 듣는 마지막 말이 무엇인지 아는가?\r\n\"나만 믿어.\"\r\n\r\n[작가 루이스 루퍼가 출판한 '못된 지성체들의 더 못된 농담'은 은하계에서 제법 독특한 마니아층을 형성해 왔으며, 특히 주요 대도시의 악랄한 범죄자들 사이에서 기이할 정도의 큰 인기를 누리고 있습니다. 어떤 이들은 농담들의 유쾌함 때문이라고 말하지만, 다른 이들은 현상금 사냥꾼들이 다음 타깃을 조용히 물색할 때 핑곗거리 삼아 이 책을 들춰보기 때문이라고 속삭입니다.]\r\n \r\n\r\n\r\n\r\n",
+      "proposed_ko": "* 똑똑. 누구십니까? 만달로리안입니다. 무슨 만달로리안이요? 만달로리안에 처박히기 싫으면 네 크레딧과 목숨 중 하나만 내놓으십시오.\r\n\r\n어느 날 위퀘이 한 명이 칸티나에 들어왔다. 바텐더가 윽박질렀다. “이봐요, 선내에 블라스터 지참은 금지입니다.” 위퀘이가 순진하게 답했다. “오, 걱정 마쇼. 난 블라스터 따위 필요 없으니까. 그저 시원하게 술이나 한잔 들이키러 온 것뿐이오.” 바텐더는 깊은 한숨을 내쉬었다. “전에 온 녀석도 딱 그렇게 말해놓고 내 손님을 창문 밖으로 던져버렸단 말이오.”\r\n\r\n* 왜 트랜도샤인 현상금 사냥꾼이 얼음 행성 호스에서의 의뢰만큼은 한사코 거절했는지 아는가?\r\n자기가 살기엔 너무 피가 차가워지는 동네였으니까.\r\n\r\n* 차드라-팬 밀수꾼이 기세 좋게 사바크 테이블에 앉았다. 딜러가 말했다. “여기 판돈은 어마어마하게 큽니다.” 차드라-팬이 씨익 웃었다. “내 키가 아담해서 천만다행이군.”\r\n\r\n* 똑똑. 누구십니까? 자와족입니다. 무슨 자와족이요? 자와, 이 하이퍼드라이브 살 겁니까 말 겁니까?\r\n\r\n* 왜 우키족들은 카드놀이를 극도로 꺼려하는지 아는가?\r\n게임에서 지면 상대방의 팔을 통째로 뜯어내 버리니까. 그리고 가끔은 카드에서 이겼을 때도 흥분해서 팔을 뽑아버린다지.\r\n\r\n* 로디안이 동료에게 뒤통수를 맞기 직전에 듣는 마지막 말이 무엇인지 아는가?\r\n\"나만 믿어.\"\r\n\r\n[작가 루이스 루퍼가 출판한 '못된 지성체들의 더 못된 농담'은 은하계에서 제법 독특한 마니아층을 형성해 왔으며, 특히 주요 대도시의 악랄한 범죄자들 사이에서 기이할 정도의 큰 인기를 누리고 있습니다. 어떤 이들은 농담들의 유쾌함 때문이라고 말하지만, 다른 이들은 현상금 사냥꾼들이 다음 타깃을 조용히 물색할 때 핑곗거리 삼아 이 책을 들춰보기 때문이라고 속삭입니다.]\r\n \r\n\r\n\r\n\r\n",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "BOOK",
+          "field": "DESC",
+          "terms": [
+            {
+              "term_id": "a5f6ad23dd79358a",
+              "english": "Mandalorian",
+              "canonical_ko": "만달로리안",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            },
+            {
+              "term_id": "6774bf610b6e6f09",
+              "english": "Hyperdrive",
+              "canonical_ko": "하이퍼드라이브",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Mandalorian, blaster, hyperdrive normalized to standard project terms.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "126d5f3377b00210",
+      "source_en": "Maybe this pilgrim was a Yuuzhan Vong?",
+      "current_ko": "그 순례자는 유잔 봉이었을까요?",
+      "proposed_ko": "그 순례자는 유우잔 봉이었을까요?",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "93079e2f7d73d480",
+              "english": "Yuuzhan Vong",
+              "canonical_ko": "유우잔 봉",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Yuuzhan Vong canonical ko is 유우잔 봉",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "82546dcfb420a815",
+      "source_en": "Aceles",
+      "current_ko": "Aceles",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "ARMO",
+          "field": "FULL",
+          "terms": [
+            {
+              "term_id": "ec3d5a8397c6b38b",
+              "english": "Aceles",
+              "canonical_ko": "아셀리스",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "technical_preserved",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Aceles uses standard term 아셀리스.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "ec3d5a8397c6b38b",
+          "english": "Aceles",
+          "canonical_ko": "아셀리스",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "e2eb13465656a763",
+      "source_en": "I need to retrieve Malai's gun and bring it back to Simon in Geonosis in exchange for the information he has on Project Dominion.",
+      "current_ko": "말라이의 총을 회수해 제오노시스의 사이먼에게 가져다주고, 도미니언 프로젝트에 관한 정보와 교환해야 한다.",
+      "proposed_ko": "말라이의 총을 회수해 지오노시스의 사이먼에게 가져다주고, 도미니언 프로젝트에 관한 정보와 교환해야 한다.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "QUST",
+          "field": "CNAM",
+          "terms": [
+            {
+              "term_id": "2f85e38b680a11c3",
+              "english": "Geonosis",
+              "canonical_ko": "지오노시스",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Geonosis translated to 지오노시스 as per project standard.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "85dee15e2e3c9424",
+      "source_en": "I'll take test tubes over blasters any day of the week, thank you very much.",
+      "current_ko": "난 블래스터보다는 시험관이 훨씬 좋아, 정말로.",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2961c5a0feb2a8c9",
+              "english": "blaster",
+              "canonical_ko": "블라스터",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Draft uses correct blaster terminology.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "2961c5a0feb2a8c9",
+          "english": "blaster",
+          "canonical_ko": "블라스터",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "ae8d52f19f3b45d5",
+      "source_en": "There's nothing - nothing - that ensures personal safety and security the way a blaster can.",
+      "current_ko": "블래스터만큼 개인의 안전과 보안을 확실하게 보장해 주는 건 없죠. 그 무엇도 말입니다.",
+      "proposed_ko": "블라스터만큼 개인의 안전과 보안을 확실하게 보장해 주는 건 없죠. 그 무엇도 말입니다.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2961c5a0feb2a8c9",
+              "english": "blaster",
+              "canonical_ko": "블라스터",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "blaster normalized to 블라스터.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "aadb42580a1816f5",
+      "source_en": "I found the Heart of Geonosis! I should use my cutter to extract it.",
+      "current_ko": "제오노시스의 심장을 발견했다! 커터로 채굴해야겠다.",
+      "proposed_ko": "지오노시스의 심장을 발견했다! 커터로 채굴해야겠다.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "QUST",
+          "field": "CNAM",
+          "terms": [
+            {
+              "term_id": "2f85e38b680a11c3",
+              "english": "Geonosis",
+              "canonical_ko": "지오노시스",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Geonosis corrected from 제오노시스 to 지오노시스.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "5453304b8155ba31",
+      "source_en": "Every blaster gets a full Laredo guarantee.",
+      "current_ko": "모든 블래스터에는 라레도 보증이 완벽하게 적용됩니다.",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2961c5a0feb2a8c9",
+              "english": "blaster",
+              "canonical_ko": "블라스터",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "블라스터 용어 일치 확인.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "2961c5a0feb2a8c9",
+          "english": "blaster",
+          "canonical_ko": "블라스터",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "4f7c5704654079ab",
+      "source_en": "Sadly, yes. The war with the Rebel Alliance hasn't ended.",
+      "current_ko": "슬프게도 그래. 반란군과의 전쟁은 아직 끝나지 않았어.",
+      "proposed_ko": "슬프게도 그래. 반란군 연합과의 전쟁은 아직 끝나지 않았어.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "0b807ed181f792a3",
+              "english": "Rebel Alliance",
+              "canonical_ko": "반란군 연합",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Rebel Alliance translated as 반란군 연합.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "6b28a8a6acc74462",
+      "source_en": "Believe it or not, I'm actually here for my bachelor party. My fiance wants me to be more adventurous. So I thought, what better place than Nar Shaddaa.",
+      "current_ko": "믿기 힘들겠지만, 사실 총각 파티하러 왔어. 약혼녀가 좀 더 모험심을 가지라길래, 나 샤다만큼 좋은 곳이 어디 있겠나 싶었지.",
+      "proposed_ko": "믿기 힘들겠지만, 사실 총각 파티하러 왔어. 약혼녀가 좀 더 모험심을 가지라길래, 나르 샤다만큼 좋은 곳이 어디 있겠나 싶었지.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "69680e00e40913c9",
+              "english": "Nar Shaddaa",
+              "canonical_ko": "나르 샤다",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Nar Shaddaa term aligned to 나르 샤다.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "fe5b1d55893dcc92",
+      "source_en": "Ah, here's a good one...If our roles were reversed and I was the Yuuzhan Vong instead, would you have joined my crew? ",
+      "current_ko": "아, 이거 재밌겠네... 만약 우리가 입장을 바꿔서 내가 유잔 봉이었다면, 자네는 내 크루에 합류했을까? ",
+      "proposed_ko": "아, 이거 재밌겠네... 만약 우리가 입장을 바꿔서 내가 유우잔 봉이었다면, 자네는 내 크루에 합류했을까? ",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "93079e2f7d73d480",
+              "english": "Yuuzhan Vong",
+              "canonical_ko": "유우잔 봉",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Yuuzhan Vong 프로젝트 표준 표기 '유우잔 봉'에 맞추어 수정.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "93327bcfd859d9c2",
+      "source_en": "Janese as well. You were preoccupied at the time.",
+      "current_ko": "자니스도 마찬가지야. 넌 그때 정신이 없었지.",
+      "proposed_ko": "제니스도 마찬가지야. 넌 그때 정신이 없었지.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "6864c18f65fe857f",
+              "english": "Janese",
+              "canonical_ko": "제니스",
+              "variants_found": [
+                "자니스"
+              ],
+              "reason": "spelling_variant",
+              "context_required": true
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Janese variant 자니스 to 제니스",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "31e701955e7165d7",
+      "source_en": "<Token.Title=MiscText01>\r\n\r\nThe <Alias=Droids[0]> have started attacking the crew. I've tried to re-adjust their targeting parameters but nothing the network is down.\r\n\r\nI've holed myself up in the cockpit, but I'll need to get to the rear decks to fish out some repair parts. Once I get the maInframe computer online, I can run a shutdown, but the odds of me making it out alive are slim to none.\r\n\r\n<Token.Title=MiscText02>",
+      "current_ko": "<Token.Title=MiscText01>\r\n\r\n<Alias=Droids[0]>들이 승무원을 공격하기 시작했다. 표적 설정 매개변수를 재조정하려 했지만, 네트워크가 다운되어 아무것도 할 수 없다.\r\n\r\n조종석에 틀어박혀 있긴 하지만, 수리 부품을 찾으려면 후방 갑판으로 가야 한다. 메인프레임 컴퓨터를 온라인 상태로 만들면 시스템 종료를 실행할 수 있겠지만, 내가 살아서 나갈 확률은 거의 없다.\r\n\r\n<Token.Title=MiscText02>",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "TMLM",
+          "field": "UNAM",
+          "terms": [
+            {
+              "term_id": "fab16132ae80815d",
+              "english": "droid",
+              "canonical_ko": "드로이드",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "context_accepted",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "드로이드 표기와 전체 번역이 적절하므로 유지합니다.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "5bf207f48ac0054c",
+      "source_en": "Gizka. If the Galaxy had a \"most annoying\" award, they'd be the champ, a millenia running.  Would you suspect an irritating worm could transform into something with the mass of a backhoe? It's no surprise generations of scientists whiffed on this. But now, knowing what I'm looking for, it's so damn obvious.\r\n\r\nThe key to their explosive growth: skein cells. Tightly wound bundles of tissue, able to expand explosively at a moment's notice. Plenty of creatures have evolved them independently over the millennia. Hell, Old Taris even had species that utilized them when they were in danger. But the tricks of those species - instantly creating a cloud of slime that's 10000 times bigger than it was a second ago to evade a predator - isn't nearly the same as birthing a whole new creature right before your eyes.\r\n\r\nAt least, not at first glance.\r\n\r\nThis is where Gizka go from pest to perhaps the most interesting creature in the damn galaxy. In all previously documented cases, the skein cells present in a given species were specialized, usually reserved to one, maybe two particular uses inside the body. But in Gizka's case, they're everywhere. In a couple of the older larvae specimens we dissected, every muscle fiber, bone, and nerve was packed with densely wrapped versions of themselves. Under the right circumstances - like the end of a 70-year gestational period, or a shower of  pollen - the skeins are unleashed, turning little muscles, bones, organs, and nerves into much larger muscles, bones, organs, and nerves, and transforming an otherwise obsequious pile of slithering meat into a walking tank.\r\n\r\nThis explains their long (standard) gestation cycle. Why it takes near-on a century for them to show on a colonized world. Building up that many little spring-loaded cells takes time and lots of energy. And while we're still decoding the specific mechanisms that do all that hard labor of winding up millions upon millions of skein cells over generations, what we do know is that Lazarus pollen acts as a catalyst for the winding process, launching it into hyperdrive. But with or without Lazarus pollen to speed up its arrival, the final transformation appears to always be the same - rapid and violent.\r\n\r\nThis also seems to hint at why Rakghouls look so... unwell. People had always noted that they looked raw. More organs on the outside of the body than the inside. My guess is that this is because their formation requires them to be partially broken down (pretty standard for all natural metamorphoses) and then effectively RIPPED OPEN BY THEIR OWN CELLS as the skeins release. Human adolescence isn't fun, but Heatleech adolescence is something else entirely.\r\n\r\nThe skein cells, though, they aren't even the most amazing part of the sequence - it's the reassembly. Exceptions abound, but, in general, your average metamorphosis in nature takes from a couple weeks to a couple months. Cells of the nymph get broken down and repurposed to leisurely become a fully formed adult. \r\n\r\nBut as we now know, the Heatleech completes this exact same process at the drop of a hat. Every cell and protein knows exactly where to go and the propulsion provided by the skein cells lets them get there at breakneck speed. Imagine a skin graft that could grow and direct itself to damaged tissue in a matter of seconds. Imagine a human body that could clot and heal over a wound mere moments after the damage was dealt. First aid, trauma care, accidental death? Things of the past.\r\n\r\nIf we could harness this behavior, these little creatures could change human life forever.\r\n....\r\n....\r\n....\r\nOkay, I just reread this, and lady, you are getting waaaaay ahead of yourself. \r\n\r\nBut still... can't help getting excited about the possibilities.\r\n\r\n",
+      "current_ko": "기즈카. 은하계에 \"가장 짜증 나는 생물\" 상이 있다면 천 년째 챔피언일 거야. 저런 성가신 벌레가 굴착기만 한 덩치로 변할 수 있다고 누가 생각이나 했겠어? 수 세대 동안 과학자들이 이걸 놓친 건 놀랍지도 않지. 하지만 이제 뭘 찾아야 할지 알고 나니 너무나 명백해.\r\n\r\n폭발적 성장의 열쇠는 바로 스케인 세포야. 팽팽하게 감긴 조직 뭉치들이 순식간에 폭발적으로 팽창할 수 있지. 수천 년 동안 많은 생물이 독립적으로 이 세포를 진화시켜 왔어. 젠장, 옛 타리스에는 위험에 처했을 때 이 세포를 사용하는 종도 있었지. 하지만 포식자를 피하려고 순식간에 원래보다 10,000배 큰 점액 구름을 만드는 그런 생물들의 재주와, 눈앞에서 완전히 새로운 생물을 낳는 건 차원이 다른 이야기야.\r\n\r\n적어도 처음 보기엔 말이지.\r\n\r\n바로 여기서 기즈카는 해충에서 은하계에서 가장 흥미로운 생물로 변모해. 지금까지 기록된 모든 사례에서 특정 종의 스케인 세포는 전문화되어 있었고, 보통 체내에서 한두 가지 용도로만 쓰였어. 하지만 기즈카의 경우는 온몸이 스케인 세포야. 우리가 해부한 몇몇 오래된 유충 표본에서는 모든 근육 섬유, 뼈, 신경이 빽빽하게 감긴 스케인 세포로 가득 차 있었어. 70년의 임신 기간이 끝나거나, 꽃가루가 쏟아지는 것 같은 적절한 상황이 되면 스케인 세포가 풀리면서 작은 근육, 뼈, 장기, 신경을 훨씬 더 큰 것으로 바꾸고, 비굴하게 기어 다니던 고기 덩어리를 걸어 다니는 탱크로 변신시키는 거야.\r\n\r\n이게 그들의 긴 (표준) 임신 주기를 설명해. 식민지화된 행성에 나타나기까지 거의 한 세기가 걸리는 이유지. 그렇게 많은 작은 용수철 같은 세포를 만드는 데는 시간과 엄청난 에너지가 필요하니까. 수 세대에 걸쳐 수억 개의 스케인 세포를 감는 그 고된 노동을 수행하는 구체적인 메커니즘은 아직 해독 중이지만, 우리가 아는 건 라자루스 꽃가루가 그 감기 과정을 촉진하는 촉매제 역할을 해서 과부하를 건다는 사실이야. 라자루스 꽃가루가 있든 없든, 최종 변신은 항상 빠르고 폭력적이지.\r\n\r\n이건 왜 락굴이 그렇게... 상태가 안 좋아 보이는지에 대한 힌트이기도 해. 사람들은 항상 그들이 날것처럼 보인다고 했지. 몸 안보다 밖에 장기가 더 많으니까. 내 추측으로는 변신 과정에서 몸이 부분적으로 분해되어야 하고(자연적인 변태 과정에서는 흔한 일이지), 스케인 세포가 풀리면서 사실상 스스로의 세포에 의해 찢겨 나가기 때문일 거야. 인간의 사춘기도 즐겁진 않지만, 히트리치의 사춘기는 차원이 다르지.\r\n\r\n하지만 스케인 세포보다 더 놀라운 건 재조립 과정이야. 예외는 많지만, 자연계의 일반적인 변태는 몇 주에서 몇 달이 걸려. 유충의 세포가 분해되고 재활용되어 천천히 성체로 자라나지.\r\n\r\n하지만 이제 알다시피, 히트리치는 이 과정을 순식간에 끝내버려. 모든 세포와 단백질은 어디로 가야 할지 정확히 알고 있고, 스케인 세포가 제공하는 추진력 덕분에 엄청난 속도로 이동하지. 몇 초 만에 스스로 자라나 손상된 조직으로 이동하는 피부 이식술을 상상해 봐. 상처가 난 직후에 즉시 응고되어 치유되는 인간의 몸을 상상해 보라고. 응급 처치, 외상 치료, 사고사? 그런 건 이제 과거의 일이 될 거야.\r\n\r\n이 행동을 우리가 활용할 수 있다면, 이 작은 생물들이 인간의 삶을 영원히 바꿀 수도 있어.\r\n....\r\n....\r\n....\r\n좋아, 방금 다시 읽어봤는데, 이봐, 너무 앞서 나가지 마.\r\n\r\n그래도... 가능성을 생각하면 흥분되는 걸 어쩔 수가 없네.\r\n\r\n",
+      "proposed_ko": "기즈카. 은하계에 \"가장 짜증 나는 생물\" 상이 있다면 천 년째 챔피언일 거야. 저런 성가신 벌레가 굴착기만 한 덩치로 변할 수 있다고 누가 생각이나 했겠어? 수 세대 동안 과학자들이 이걸 놓친 건 놀랍지도 않지. 하지만 이제 뭘 찾아야 할지 알고 나니 너무나 명백해.\n\n폭발적 성장의 열쇠는 바로 스케인 세포야. 팽팽하게 감긴 조직 뭉치들이 순식간에 폭발적으로 팽창할 수 있지. 수천 년 동안 많은 생물이 독립적으로 이 세포를 진화시켜 왔어. 젠장, 옛 타리스에는 위험에 처했을 때 이 세포를 사용하는 종도 있었지. 하지만 포식자를 피하려고 순식간에 원래보다 10,000배 큰 점액 구름을 만드는 그런 생물들의 재주와, 눈앞에서 완전히 새로운 생물을 낳는 건 차원이 다른 이야기야.\n\n적어도 처음 보기엔 말이지.\n\n바로 여기서 기즈카는 해충에서 은하계에서 가장 흥미로운 생물로 변모해. 지금까지 기록된 모든 사례에서 특정 종의 스케인 세포는 전문화되어 있었고, 보통 체내에서 한두 가지 용도로만 쓰였어. 하지만 기즈카의 경우는 온몸이 스케인 세포야. 우리가 해부한 몇몇 오래된 유충 표본에서는 모든 근육 섬유, 뼈, 신경이 빽빽하게 감긴 스케인 세포로 가득 차 있었어. 70년의 임신 기간이 끝나거나, 꽃가루가 쏟아지는 것 같은 적절한 상황이 되면 스케인 세포가 풀리면서 작은 근육, 뼈, 장기, 신경을 훨씬 더 큰 것으로 바꾸고, 비굴하게 기어 다니던 고기 덩어리를 걸어 다니는 탱크로 변신시키는 거야.\n\n이게 그들의 긴 (표준) 임신 주기를 설명해. 식민지화된 행성에 나타나기까지 거의 한 세기가 걸리는 이유지. 그렇게 많은 작은 용수철 같은 세포를 만드는 데는 시간과 엄청난 에너지가 필요하니까. 수 세대에 걸쳐 수억 개의 스케인 세포를 감는 그 고된 노동을 수행하는 구체적인 메커니즘은 아직 해독 중이지만, 우리가 아는 건 라자루스 꽃가루가 그 감기 과정을 촉진하는 촉매제 역할을 해서 하이퍼드라이브를 건다는 사실이야. 라자루스 꽃가루가 있든 없든, 최종 변신은 항상 빠르고 폭력적이지.\n\n이건 왜 락굴이 그렇게... 상태가 안 좋아 보이는지에 대한 힌트이기도 해. 사람들은 항상 그들이 날것처럼 보인다고 했지. 몸 안보다 밖에 장기가 더 많으니까. 내 추측으로는 변신 과정에서 몸이 부분적으로 분해되어야 하고(자연적인 변태 과정에서는 흔한 일이지), 스케인 세포가 풀리면서 사실상 스스로의 세포에 의해 찢겨 나가기 때문일 거야. 인간의 사춘기도 즐겁진 않지만, 히트리치의 사춘기는 차원이 다르지.\n\n하지만 스케인 세포보다 더 놀라운 건 재조립 과정이야. 예외는 많지만, 자연계의 일반적인 변태는 몇 주에서 몇 달이 걸려. 유충의 세포가 분해되고 재활용되어 천천히 성체로 자라나지.\n\n하지만 이제 알다시피, 히트리치는 이 과정을 순식간에 끝내버려. 모든 세포와 단백질은 어디로 가야 할지 정확히 알고 있고, 스케인 세포가 제공하는 추진력 덕분에 엄청난 속도로 이동하지. 몇 초 만에 스스로 자라나 손상된 조직으로 이동하는 피부 이식술을 상상해 봐. 상처가 난 직후에 즉시 응고되어 치유되는 인간의 몸을 상상해 보라고. 응급 처치, 외상 치료, 사고사? 그런 건 이제 과거의 일이 될 거야.\n\n이 행동을 우리가 활용할 수 있다면, 이 작은 생물들이 인간의 삶을 영원히 바꿀 수도 있어.\n....\n....\n....\n좋아, 방금 다시 읽어봤는데, 이봐, 너무 앞서 나가지 마.\n\n그래도... 가능성을 생각하면 흥분되는 걸 어쩔 수가 없네.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "TMLM",
+          "field": "UNAM",
+          "terms": [
+            {
+              "term_id": "6774bf610b6e6f09",
+              "english": "Hyperdrive",
+              "canonical_ko": "하이퍼드라이브",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "structural_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "락굴 표기 확인 및 '과부하를 건다'를 원문 'hyperdrive'에 맞춰 하이퍼드라이브로 수정",
+      "structural_error": "Newline mismatch",
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "6f89fd5101171b27",
+      "source_en": "There's as many traps as there are temptations here in Nar Shaddaa.",
+      "current_ko": "나 샤다에는 유혹만큼이나 함정도 도사리고 있죠.",
+      "proposed_ko": "나르 샤다에는 유혹만큼이나 함정도 도사리고 있죠.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "69680e00e40913c9",
+              "english": "Nar Shaddaa",
+              "canonical_ko": "나르 샤다",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "ai_suggestion_validated",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Nar Shaddaa 표준 표기 '나르 샤다' 반영",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "673d41a0e6141de9",
+      "source_en": "Are you sure you can't spare more credits than that?",
+      "current_ko": "그것보다 좀 더 쓰실 순 없을까요?",
+      "proposed_ko": "그것보다 더 많은 크레딧을 써줄 순 없나요?",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2a6b24ad28722034",
+              "english": "Credits",
+              "canonical_ko": "크레딧",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": true
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "credits를 크레딧으로 수정.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "f5577c5c1c575ede",
+      "source_en": "We're ghosts. We're nobody. We have enough dirt on one other to bury Geonosis Excavation Site herself.",
+      "current_ko": "우린 유령이나 다름없어. 아무것도 아니지. 우린 서로를 파멸시킬 만큼의 약점을 쥐고 있어.",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2f85e38b680a11c3",
+              "english": "Geonosis",
+              "canonical_ko": "지오노시스",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": false
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "Geonosis Excavation Site가 생략된 원문 번역으로 의미가 통하므로 유지합니다.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "2f85e38b680a11c3",
+          "english": "Geonosis",
+          "canonical_ko": "지오노시스",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": false
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "32098b8dcc90157e",
+      "source_en": "Good find. It might be worth a ton of credits to somebody.",
+      "current_ko": "좋은데. 엄청 비싸게 팔 수도 있겠어.",
+      "proposed_ko": null,
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "2a6b24ad28722034",
+              "english": "Credits",
+              "canonical_ko": "크레딧",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": true
+            }
+          ]
+        }
+      ],
+      "review_status": "terminology_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "keep",
+      "model_note": "credits는 대금이나 보상 성격으로 자연스럽게 번역되어 있어 유지합니다.",
+      "structural_error": null,
+      "terminology_only_scope_passed": true,
+      "remaining_issues": [
+        {
+          "term_id": "2a6b24ad28722034",
+          "english": "Credits",
+          "canonical_ko": "크레딧",
+          "variants_found": [],
+          "reason": "canonical_not_found",
+          "context_required": true
+        }
+      ],
+      "human_reviewed": false,
+      "installer_applied": false
+    },
+    {
+      "id": "4331a2dbf8a43283",
+      "source_en": "She was once one of Palpatine’s inquisitors, but it appears she was left behind.",
+      "current_ko": "그녀는 한때 팰퍼틴의 심문관 중 하나였지만, 버림받은 모양이야.",
+      "proposed_ko": "그녀는 한때 팰퍼틴의 인퀴지터 중 하나였지만, 버림받은 모양이야.",
+      "locations": [
+        {
+          "sst": "starfield_en_ko.sst",
+          "record": "INFO",
+          "field": "NAM1",
+          "terms": [
+            {
+              "term_id": "32fb6196ff8af0ed",
+              "english": "Inquisitor",
+              "canonical_ko": "인퀴지터",
+              "variants_found": [],
+              "reason": "canonical_not_found",
+              "context_required": true
+            }
+          ]
+        }
+      ],
+      "review_status": "scope_hold",
+      "model": "gemini-3.5-flash-lite",
+      "model_decision": "revise",
+      "model_note": "Inquisitor corrected to project standard 인퀴지터.",
+      "structural_error": null,
+      "terminology_only_scope_passed": false,
+      "remaining_issues": [],
+      "human_reviewed": false,
+      "installer_applied": false
+    }
+  ]
+}
