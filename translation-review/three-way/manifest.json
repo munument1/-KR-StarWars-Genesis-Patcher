@@ -1,0 +1,870 @@
+{
+  "schema_version": 1,
+  "counts_unit": "StringID locations, not unique sentences",
+  "genesis_version": "8.8.32 (original pre-patch audit)",
+  "comparison_counts": {
+    "unchanged": 177269,
+    "changed": 37496,
+    "missing_vanilla_reference": 90
+  },
+  "reuse_counts": {
+    "reuse_candidate": 168750,
+    "donor_structure: Newline mismatch": 334,
+    "other_english_changes": 33700,
+    "donor_not_korean_or_invalid": 8889,
+    "term_swap_candidate": 2825,
+    "korean_term_count_mismatch": 191,
+    "term_inside_markup": 6,
+    "donor_structure: Placeholder mismatch": 63,
+    "donor_structure: Control token mismatch": 2,
+    "missing_vanilla_reference": 90,
+    "partially_changed_term": 5
+  },
+  "files": {
+    "shatteredspace_en.dlstrings": 738,
+    "shatteredspace_en.ilstrings": 18847,
+    "shatteredspace_en.strings": 3802,
+    "blueprintships-starfield_en.strings": 368,
+    "sfbgs003_en.dlstrings": 208,
+    "sfbgs003_en.ilstrings": 1736,
+    "sfbgs003_en.strings": 1450,
+    "sfbgs004_en.strings": 79,
+    "sfbgs007_en.dlstrings": 8,
+    "sfbgs007_en.strings": 196,
+    "starfield_en.dlstrings": 8384,
+    "starfield_en.ilstrings": 130276,
+    "starfield_en.strings": 48763
+  },
+  "source_provenance": [
+    {
+      "file": "BlueprintShips-Starfield - Localization.ba2",
+      "sha256": "e50e1a38aa97a271680e28fa6275cabc632bdc05ba51db0881c0ccf79941c538",
+      "role": "vanilla_english",
+      "english_files": [
+        "blueprintships-starfield_en.dlstrings",
+        "blueprintships-starfield_en.ilstrings",
+        "blueprintships-starfield_en.strings"
+      ]
+    },
+    {
+      "file": "Constellation - Localization.ba2",
+      "sha256": "4c0612fd6120ac34cff61240ca87cdd2bd12ab3e5338205a9efd273edbb4a3ab",
+      "role": "vanilla_english",
+      "english_files": [
+        "constellation_en.dlstrings",
+        "constellation_en.ilstrings",
+        "constellation_en.strings"
+      ]
+    },
+    {
+      "file": "OldMars - Localization.ba2",
+      "sha256": "e5b824997a82d938597367d23f87527c1b63ae23ed1ee9aeef0a8149fdabdb1a",
+      "role": "vanilla_english",
+      "english_files": [
+        "oldmars_en.dlstrings",
+        "oldmars_en.ilstrings",
+        "oldmars_en.strings"
+      ]
+    },
+    {
+      "file": "SFBGS003 - Main.ba2",
+      "sha256": "7607f9cd2acfa27a9f31bc657bb01d177b9eb3670fb805480ca1913ce447a020",
+      "role": "vanilla_english",
+      "english_files": [
+        "sfbgs003_en.dlstrings",
+        "sfbgs003_en.ilstrings",
+        "sfbgs003_en.strings"
+      ]
+    },
+    {
+      "file": "SFBGS004 - Main.ba2",
+      "sha256": "95a0ef8ce8d4446cd3f3b86340b091d0e7168179e63dec9703352ced0436c2ab",
+      "role": "vanilla_english",
+      "english_files": [
+        "sfbgs004_en.dlstrings",
+        "sfbgs004_en.ilstrings",
+        "sfbgs004_en.strings"
+      ]
+    },
+    {
+      "file": "SFBGS006 - Main.ba2",
+      "sha256": "c1aa6a9de5ae32d6c27a5187645f410c18a9e548278ee5785b923f25cab4abd5",
+      "role": "vanilla_english",
+      "english_files": [
+        "sfbgs006_en.dlstrings",
+        "sfbgs006_en.ilstrings",
+        "sfbgs006_en.strings"
+      ]
+    },
+    {
+      "file": "SFBGS007 - Main.ba2",
+      "sha256": "fc2b4c9560b2be04f2c2a5ef0a41b4b77389c06c845a971f6df7133c2ec79b97",
+      "role": "vanilla_english",
+      "english_files": [
+        "sfbgs007_en.dlstrings",
+        "sfbgs007_en.ilstrings",
+        "sfbgs007_en.strings"
+      ]
+    },
+    {
+      "file": "SFBGS008 - Main.ba2",
+      "sha256": "2f3e1151789558c34a89a697af6b651c0fb752544e905c139c43c117c97622a3",
+      "role": "vanilla_english",
+      "english_files": [
+        "sfbgs008_en.dlstrings",
+        "sfbgs008_en.ilstrings",
+        "sfbgs008_en.strings"
+      ]
+    },
+    {
+      "file": "SFBGS00D - Main.ba2",
+      "sha256": "5700c96903bef0faa908b340fc619b8952b646d82f21685c37aae5d3b83d3a1c",
+      "role": "vanilla_english",
+      "english_files": [
+        "sfbgs00d_en.dlstrings",
+        "sfbgs00d_en.ilstrings",
+        "sfbgs00d_en.strings"
+      ]
+    },
+    {
+      "file": "SFBGS047 - Main.ba2",
+      "sha256": "757c867e1e5348fddcd84ef482d01f6b13e840b0754d3edde36fbbd46ef8d221",
+      "role": "vanilla_english",
+      "english_files": [
+        "sfbgs047_en.dlstrings",
+        "sfbgs047_en.ilstrings",
+        "sfbgs047_en.strings"
+      ]
+    },
+    {
+      "file": "SFBGS050 - Main.ba2",
+      "sha256": "649cd7f7b5451f13574662f7781688d9938c09280c4c519c2953376a54dcfdcc",
+      "role": "vanilla_english",
+      "english_files": [
+        "blueprintships-sfbgs050_en.dlstrings",
+        "blueprintships-sfbgs050_en.ilstrings",
+        "blueprintships-sfbgs050_en.strings",
+        "sfbgs050_en.dlstrings",
+        "sfbgs050_en.ilstrings",
+        "sfbgs050_en.strings"
+      ]
+    },
+    {
+      "file": "ShatteredSpace - Main02.ba2",
+      "sha256": "a5e7ff82335145be13b5cca0c458e374f83cba24d8c7473cc2dce8a0c1343025",
+      "role": "vanilla_english",
+      "english_files": [
+        "shatteredspace_en.dlstrings",
+        "shatteredspace_en.ilstrings",
+        "shatteredspace_en.strings"
+      ]
+    },
+    {
+      "file": "Starfield - Localization.ba2",
+      "sha256": "c1944a84346a919226b97d10e10cd94a776cd7f0af84f52c9e9ec86ceedaf3d0",
+      "role": "vanilla_english",
+      "english_files": [
+        "starfield_en.dlstrings",
+        "starfield_en.ilstrings",
+        "starfield_en.strings"
+      ]
+    },
+    {
+      "file": "Strings/blueprintships-sfbgs050_en.dlstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/blueprintships-sfbgs050_en.ilstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/blueprintships-sfbgs050_en.strings",
+      "sha256": "56313b3b70c30e587ef756ae65dbfac56e1c9b73de805fea3b9d8c5d34d7d210",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/blueprintships-starfield_en.dlstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/blueprintships-starfield_en.ilstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/blueprintships-starfield_en.strings",
+      "sha256": "385d2c8f3ce732905143968a5ada9ed9e8717abb0ed57913abd5a1a7d7b5db86",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/constellation_en.dlstrings",
+      "sha256": "a24dad43c6ffc091a6d2b38a2bee67624b57331a22be27f69eaf01a4c301a2f0",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/constellation_en.ilstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/constellation_en.strings",
+      "sha256": "f2fc4fbf59d5e4d931c17f277a3e92598a361f98c4a3556490a4d1c238c3d789",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/oldmars_en.dlstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/oldmars_en.ilstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/oldmars_en.strings",
+      "sha256": "48692db1546816400179a8f6f18ee2c1f6d64bad7cfd589420fe3cc8f855b5cd",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs003_en.dlstrings",
+      "sha256": "7e750554f52c719d9e3ab5486bd16f2b1e2e60224fdb05ec994fb6202639ce4b",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs003_en.ilstrings",
+      "sha256": "fbacf07fde7af6e5c9883fdf6f05f409dae5e656d85c39c6afbfbe5b5ff88d90",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs003_en.strings",
+      "sha256": "34156e9653e14a54cfa94717f3b381be9066f740aefdb6ce834eca9e6f9d9e11",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs004_en.dlstrings",
+      "sha256": "d7c8c036da6aab9b849aa998d0f35f9bcce853d57a6958cff2cd3486ec38bb12",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs004_en.ilstrings",
+      "sha256": "635444e4f937918f951bf4cd743da84aa34f490c5035057d3b5d8c264ea23981",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs004_en.strings",
+      "sha256": "f36bebe0cbcdb71163361398801617453b488e540fc1b26a147843d69f729d48",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs006_en.dlstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs006_en.ilstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs006_en.strings",
+      "sha256": "3be2e2adef745c8019b064ec69ffcd9a26189158a669b2e39932c53a116df9a3",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs007_en.dlstrings",
+      "sha256": "b7a7334d7ba49db01d2c6a38166519779145350e07ebb0a60df245bbe0a26a27",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs007_en.ilstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs007_en.strings",
+      "sha256": "93111cc607d62d6d60dc8340320cedb3f7fdfa7830d5eb1b40a7542fe2ea9dbf",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs008_en.dlstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs008_en.ilstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs008_en.strings",
+      "sha256": "43887185306be2066b9f88cf8c37ff0b58b09da453e735661d492415c0dbb824",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs00d_en.dlstrings",
+      "sha256": "6124b881c5d5579331af6d96d5ba973c4e7a29e34437f3060140ad49968d22a0",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs00d_en.ilstrings",
+      "sha256": "41012680f8727d3bf0cc63cf4a1ef96621e260d5cb8e056d15a059eaa8ead66a",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs00d_en.strings",
+      "sha256": "44b558e8becbd857ce796b4f765f8c475f156fc0ea489c7e5dc74f5aff3efa27",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs047_en.dlstrings",
+      "sha256": "d730e6e8a0236718860169ff2a036ef61c9296fc3f2a51ed4200498aa2775b1b",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs047_en.ilstrings",
+      "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs047_en.strings",
+      "sha256": "42e208307fd6ace760246bf9a9ba9f6dac3b7c9638f95addd30d5872c6c92e83",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs050_en.dlstrings",
+      "sha256": "72dcaddb5872728a49e312870121859bcdc4a24be58f2aa3bd49bc0480521dd7",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs050_en.ilstrings",
+      "sha256": "6616adc57153f0776b915c6b9cb2b71af7d2b5ad4c2229e8ff3d5e906df54c43",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/sfbgs050_en.strings",
+      "sha256": "bf3257dc1af5d39be608f64ac848024d7b76bfbb11f432eb78cb9cdf3501e610",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/ShatteredSpace_en.DLSTRINGS",
+      "sha256": "499f679a6294b36b476ab7d3af0b497732d1653ff2acb14dae2b98944898a8e6",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/ShatteredSpace_en.ILSTRINGS",
+      "sha256": "113e3e130b7264f129f9588c03e88f7721e8ea48c79329107827e7e93d5effb6",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/ShatteredSpace_en.STRINGS",
+      "sha256": "44af7c8d58681657fc0c6d309bdc02cb9607a1521206a874502ad471b4c16f3c",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/starfield_en.dlstrings",
+      "sha256": "60c836a90f8e681536d9f5e088d70ed038f52b37f8483ce31b01d002692c89dc",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/starfield_en.ilstrings",
+      "sha256": "6865841a4d01a9bc504cebc47525182cfdcf97b0f51ab93e896a12ae74b87e28",
+      "role": "existing_korean"
+    },
+    {
+      "file": "Strings/starfield_en.strings",
+      "sha256": "b336ca3c8b0642a90edde0629c44fe3d8106b168e62079c4da9fd4bcb2a1a708",
+      "role": "existing_korean"
+    },
+    {
+      "file": "strings_comparison.csv",
+      "sha256": "a12ff770c18d4dd342cc4d0b769e9a080e79ddffd4338bbf2aa29466982ed9b0",
+      "role": "original_genesis_english_audit"
+    },
+    {
+      "file": "translation_candidates.csv",
+      "sha256": "a48bb4cf6aeba0812d6eac35c0577262fe6b5f0f80d56f3d2a67a3d9f4f32705",
+      "role": "current_round_exclusions"
+    },
+    {
+      "file": "semantic_review_suggestions.csv",
+      "sha256": "1b61cf3fbee746cd1d07538c2458895195addd8414320d716a688c44a01b945b",
+      "role": "current_round_exclusions"
+    },
+    {
+      "file": "final_review_suggestions.csv",
+      "sha256": "8a773a821dcd8aa3253090c429f8a2533f62603d3f926a6ec28855014a0c4583",
+      "role": "current_round_exclusions"
+    }
+  ],
+  "rules": [
+    {
+      "from_en": "Neon",
+      "to_en": "Nar Shaddaa",
+      "korean_aliases": [
+        "네온"
+      ],
+      "to_ko": "나르 샤다"
+    },
+    {
+      "from_en": "New Atlantis",
+      "to_en": "Coruscant",
+      "korean_aliases": [
+        "뉴 아틀란티스",
+        "뉴아틀란티스"
+      ],
+      "to_ko": "코러산트"
+    },
+    {
+      "from_en": "UC",
+      "to_en": "Empire",
+      "korean_aliases": [
+        "식민지 연합",
+        "식민지연합",
+        "UC"
+      ],
+      "to_ko": "제국"
+    },
+    {
+      "from_en": "UC",
+      "to_en": "Imperial",
+      "korean_aliases": [
+        "식민지 연합",
+        "식민지연합",
+        "UC"
+      ],
+      "to_ko": "제국"
+    },
+    {
+      "from_en": "United Colonies",
+      "to_en": "Galactic Empire",
+      "korean_aliases": [
+        "식민지 연합",
+        "식민지연합",
+        "UC"
+      ],
+      "to_ko": "은하 제국"
+    },
+    {
+      "from_en": "United Colonies",
+      "to_en": "Empire",
+      "korean_aliases": [
+        "식민지 연합",
+        "식민지연합",
+        "UC"
+      ],
+      "to_ko": "제국"
+    },
+    {
+      "from_en": "Aurora",
+      "to_en": "Spice",
+      "korean_aliases": [
+        "오로라"
+      ],
+      "to_ko": "스파이스"
+    },
+    {
+      "from_en": "Vasco",
+      "to_en": "ND-5",
+      "korean_aliases": [
+        "바스코"
+      ],
+      "to_ko": "ND-5"
+    },
+    {
+      "from_en": "Mars",
+      "to_en": "Geonosis",
+      "korean_aliases": [
+        "화성",
+        "마스"
+      ],
+      "to_ko": "지오노시스"
+    },
+    {
+      "from_en": "House Va'ruun",
+      "to_en": "Sith",
+      "korean_aliases": [
+        "바룬 가문",
+        "바룬 가문",
+        "바룬"
+      ],
+      "to_ko": "시스"
+    },
+    {
+      "from_en": "Va'ruun",
+      "to_en": "Sith",
+      "korean_aliases": [
+        "바룬"
+      ],
+      "to_ko": "시스"
+    },
+    {
+      "from_en": "Ecliptic",
+      "to_en": "Trandoshan",
+      "korean_aliases": [
+        "이클립틱",
+        "이클립티크"
+      ],
+      "to_ko": "트랜도샨"
+    },
+    {
+      "from_en": "Ecliptic",
+      "to_en": "Trandoshans",
+      "korean_aliases": [
+        "이클립틱",
+        "이클립티크"
+      ],
+      "to_ko": "트랜도샨"
+    }
+  ],
+  "comparison_file": "comparison.jsonl.gz",
+  "comparison_sha256": "fa8ce521bd61266a298e5f5a41f0f7ae0668918a36a07fe9dfbcbb6f0af191af",
+  "term_review_items": 2821,
+  "review_batches": [
+    {
+      "file": "term-candidates-0001.json",
+      "items": 250,
+      "sha256": "83e726d1443e515a192971266a7c299f3c7eb8f09cb9dbbb8d95f35fc4bedbb8"
+    },
+    {
+      "file": "term-candidates-0002.json",
+      "items": 250,
+      "sha256": "581dfce49721b3480bd5406104268a245be4d0aa921597a3d0c95be8fcaeabd8"
+    },
+    {
+      "file": "term-candidates-0003.json",
+      "items": 250,
+      "sha256": "a4be08cdc3bc8a4df938f19af0106dd074065ce88306fc055146eb428aa6331e"
+    },
+    {
+      "file": "term-candidates-0004.json",
+      "items": 250,
+      "sha256": "c013ca6602366d592cac7d3500b5d18b9cb2869c7a244bf3e19226d5a24a0c6a"
+    },
+    {
+      "file": "term-candidates-0005.json",
+      "items": 250,
+      "sha256": "0938a160cf8273bfba2d775eb50eb4fa16c0a3ac62b561c7e0f2f819f8f95b5e"
+    },
+    {
+      "file": "term-candidates-0006.json",
+      "items": 250,
+      "sha256": "35a312777b52ec86e378a395c8e64d268ce2279ab5e80019395704c42b36e34b"
+    },
+    {
+      "file": "term-candidates-0007.json",
+      "items": 250,
+      "sha256": "8f016a0077a126c0f8abf9ded2480f3de3e8664c8ab8fc1cd67ea9f584657825"
+    },
+    {
+      "file": "term-candidates-0008.json",
+      "items": 250,
+      "sha256": "1ed3c57ec1d39ac766c6a5cf41c834193782b56125d4ea22b4921582381a2cec"
+    },
+    {
+      "file": "term-candidates-0009.json",
+      "items": 250,
+      "sha256": "dfbf40502d52bd4e9048ac36063bf4643f6b2b2b81dabfc8e07bc515eaf319a4"
+    },
+    {
+      "file": "term-candidates-0010.json",
+      "items": 250,
+      "sha256": "50dc4c330efcf0f081554e0025440c82732076fc6307203cc684fa9df604be8f"
+    },
+    {
+      "file": "term-candidates-0011.json",
+      "items": 250,
+      "sha256": "a946ddb091ad74543eb1c5b72058623df934b1b6b1788a83d18a83b592f95873"
+    },
+    {
+      "file": "term-candidates-0012.json",
+      "items": 71,
+      "sha256": "576699f85e847c207f5bf8260a8e53ac729d981ee2d31e549cad3b1fcc405861"
+    }
+  ],
+  "notes": [
+    "All proposals require review; no game or released installer data was changed.",
+    "Full comparison includes current-round sources for reference; term review batches exclude them.",
+    "Same file/StringID does not prove cross-version semantic identity; unchanged English is required for reuse.",
+    "Particles are preserved and explicitly flagged for human review.",
+    "Any missing reference is held even when an existing Korean donor exists."
+  ],
+  "examples": [
+    {
+      "file": "shatteredspace_en.dlstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 4449,
+      "vanilla_en": "A delicious Va'ruun delicacy with groat meat, vegetables, and a chewy crust. Yum!",
+      "vanilla_ko": "그로트 고기에 야채와 쫄깃한 크러스트를 곁들인 바룬 가문의 진미. 맛있다!",
+      "genesis_en": "A delicious Sith delicacy with groat meat, vegetables, and a chewy crust. Yum!",
+      "comparison": "changed",
+      "candidate_ko": "그로트 고기에 야채와 쫄깃한 크러스트를 곁들인 시스 가문의 진미. 맛있다!",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.dlstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 4515,
+      "vanilla_en": "A delicious Va'ruun delicacy with groat meat, vegetables, and a chewy crust. Yum!",
+      "vanilla_ko": "그로트 고기에 야채와 쫄깃한 크러스트를 곁들인 바룬 가문의 진미. 맛있다!",
+      "genesis_en": "A delicious Sith delicacy with groat meat, vegetables, and a chewy crust. Yum!",
+      "comparison": "changed",
+      "candidate_ko": "그로트 고기에 야채와 쫄깃한 크러스트를 곁들인 시스 가문의 진미. 맛있다!",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.dlstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 5097,
+      "vanilla_en": "Va'ruun Missionary",
+      "vanilla_ko": "바룬 선교사",
+      "genesis_en": "Sith Missionary",
+      "comparison": "changed",
+      "candidate_ko": "시스 선교사",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.dlstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 8580,
+      "vanilla_en": "A Va'ruun groat-flavored Chunks food cube. Now with more groat flavor! Packaged for freshness.",
+      "vanilla_ko": "바룬의 그로트 풍미가 느껴지는 청크 큐브. 전보다 더 진한 그로트 풍미를 느낄 수 있다! 신선도를 유지하기 위해 포장되어 있다.",
+      "genesis_en": "A Sith groat-flavored Chunks food cube. Now with more groat flavor! Packaged for freshness.",
+      "comparison": "changed",
+      "candidate_ko": "시스의 그로트 풍미가 느껴지는 청크 큐브. 전보다 더 진한 그로트 풍미를 느낄 수 있다! 신선도를 유지하기 위해 포장되어 있다.",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.dlstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 9681,
+      "vanilla_en": "A potent Va'ruun wine made from local tubers used in ritual ceremonies.",
+      "vanilla_ko": "독한 바룬 포도주. 지역에서 채취한 구근으로 만들었다. 통과의례 의식에 사용된다.",
+      "genesis_en": "A potent Sith wine made from local tubers used in ritual ceremonies.",
+      "comparison": "changed",
+      "candidate_ko": "독한 시스 포도주. 지역에서 채취한 구근으로 만들었다. 통과의례 의식에 사용된다.",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.dlstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 70825,
+      "vanilla_en": "I need to speak to a \"Herald of the Serpent\" to integrate myself into Va'ruun society.",
+      "vanilla_ko": "바룬 사회의 인정을 받으려면 '뱀의 전령'과 대화해야 한다.",
+      "genesis_en": "I need to speak to a \"Herald of the Serpent\" to integrate myself into Sith society.",
+      "comparison": "changed",
+      "candidate_ko": "시스 사회의 인정을 받으려면 '뱀의 전령'과 대화해야 한다.",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.dlstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 84950,
+      "vanilla_en": "Anasko Va'ruun and the Scaled Citadel are gone, pulled into the Vortex by an overloading experiment. I need to tell the High Council what has happened.",
+      "vanilla_ko": "아나스코 바룬과 비늘 성채가 실험물의 과부하 때문에 볼텍스에 빨려 들어가 사라졌다. 대의회에 무슨 일이 있었는지 알려야 겠다.",
+      "genesis_en": "Anasko Sith and the Scaled Citadel are gone, pulled into the Vortex by an overloading experiment. I need to tell the High Council what has happened.",
+      "comparison": "changed",
+      "candidate_ko": "아나스코 시스과 비늘 성채가 실험물의 과부하 때문에 볼텍스에 빨려 들어가 사라졌다. 대의회에 무슨 일이 있었는지 알려야 겠다.",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.dlstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 85008,
+      "vanilla_en": "You can now build Va'ruun style buildings at your Outposts.",
+      "vanilla_ko": "이제 전초기지에서 바룬 양식의 건물을 건설할 수 있습니다.",
+      "genesis_en": "You can now build Sith style buildings at your Outposts.",
+      "comparison": "changed",
+      "candidate_ko": "이제 전초기지에서 시스 양식의 건물을 건설할 수 있습니다.",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.ilstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 1330,
+      "vanilla_en": "And here's the kicker. My first job? Smuggling a big old pile of Va'ruun Heretic writings.",
+      "vanilla_ko": "그리고 짠. 내 첫 의뢰? 낡은 바룬 이단 경전 한가득 밀수하기.",
+      "genesis_en": "And here's the kicker. My first job? Smuggling a big old pile of Sith Heretic writings.",
+      "comparison": "changed",
+      "candidate_ko": "그리고 짠. 내 첫 의뢰? 낡은 시스 이단 경전 한가득 밀수하기.",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "shatteredspace_en.ilstrings",
+      "provider": "Star Wars - Shattered Space Story DLC",
+      "string_id": 2038,
+      "vanilla_en": "They handle all matters concerning the Va'ruun populace.",
+      "vanilla_ko": "베타알 가문은 바룬 신민과 관련된 문제라면 모든 처리해요.",
+      "genesis_en": "They handle all matters concerning the Sith populace.",
+      "comparison": "changed",
+      "candidate_ko": "베타알 가문은 시스 신민과 관련된 문제라면 모든 처리해요.",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Va'ruun",
+          "to_en": "Sith",
+          "to_ko": "시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    }
+  ],
+  "missing_reference_files": {
+    "starfield_en.ilstrings": 2,
+    "starfield_en.strings": 88
+  },
+  "shattered_space_reuse_counts": {
+    "reuse_candidate": 21318,
+    "donor_structure: Newline mismatch": 95,
+    "other_english_changes": 1009,
+    "donor_not_korean_or_invalid": 749,
+    "term_swap_candidate": 209,
+    "korean_term_count_mismatch": 6,
+    "term_inside_markup": 1
+  }
+}

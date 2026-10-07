@@ -1,0 +1,1851 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 205979,
+      "vanilla_en": "Neon Captain",
+      "vanilla_ko": "네온 선장",
+      "genesis_en": "Nar Shaddaa Captain",
+      "comparison": "changed",
+      "candidate_ko": "나르 샤다 선장",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Neon",
+          "to_en": "Nar Shaddaa",
+          "to_ko": "나르 샤다",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 205980,
+      "vanilla_en": "Neon Crew",
+      "vanilla_ko": "네온 승무원",
+      "genesis_en": "Nar Shaddaa Crew",
+      "comparison": "changed",
+      "candidate_ko": "나르 샤다 승무원",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Neon",
+          "to_en": "Nar Shaddaa",
+          "to_ko": "나르 샤다",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 205981,
+      "vanilla_en": "UC Marine Captain",
+      "vanilla_ko": "식민지 연합 해병대 선장",
+      "genesis_en": "Imperial Marine Captain",
+      "comparison": "changed",
+      "candidate_ko": "제국 해병대 선장",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 206404,
+      "vanilla_en": "Neon Nightlife Skirt",
+      "vanilla_ko": "네온 밤문화용 치마 의상",
+      "genesis_en": "Nar Shaddaa Nightlife Skirt",
+      "comparison": "changed",
+      "candidate_ko": "나르 샤다 밤문화용 치마 의상",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Neon",
+          "to_en": "Nar Shaddaa",
+          "to_ko": "나르 샤다",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 206405,
+      "vanilla_en": "Neon Clublife Skirt",
+      "vanilla_ko": "네온 클럽문화용 치마 의상",
+      "genesis_en": "Nar Shaddaa Clublife Skirt",
+      "comparison": "changed",
+      "candidate_ko": "나르 샤다 클럽문화용 치마 의상",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Neon",
+          "to_en": "Nar Shaddaa",
+          "to_ko": "나르 샤다",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 206852,
+      "vanilla_en": "Go to Neon",
+      "vanilla_ko": "네온으로 이동하기",
+      "genesis_en": "Go to Nar Shaddaa",
+      "comparison": "changed",
+      "candidate_ko": "나르 샤다으로 이동하기",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Neon",
+          "to_en": "Nar Shaddaa",
+          "to_ko": "나르 샤다",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 207397,
+      "vanilla_en": "You cannot fast travel while in possession of Aurora.",
+      "vanilla_ko": "오로라를 소지하고 있는 동안에는 빠른 이동을 할 수 없습니다.",
+      "genesis_en": "You cannot fast travel while in possession of Spice.",
+      "comparison": "changed",
+      "candidate_ko": "스파이스를 소지하고 있는 동안에는 빠른 이동을 할 수 없습니다.",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 207722,
+      "vanilla_en": "Unprocessed Aurora Recipe Added",
+      "vanilla_ko": "가공되지 않은 오로라 제조법이 추가되었습니다",
+      "genesis_en": "Unprocessed Spice Recipe Added",
+      "comparison": "changed",
+      "candidate_ko": "가공되지 않은 스파이스 제조법이 추가되었습니다",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 207777,
+      "vanilla_en": "UC Vigilance Bridge",
+      "vanilla_ko": "UC 비질런스 함교",
+      "genesis_en": "Imperial Vigilance Bridge",
+      "comparison": "changed",
+      "candidate_ko": "제국 비질런스 함교",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 207824,
+      "vanilla_en": "Mars",
+      "vanilla_ko": "화성",
+      "genesis_en": "Geonosis",
+      "comparison": "changed",
+      "candidate_ko": "지오노시스",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Mars",
+          "to_en": "Geonosis",
+          "to_ko": "지오노시스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 207955,
+      "vanilla_en": "UC Test Pilot",
+      "vanilla_ko": "식민지 연합 시험비행 조종사",
+      "genesis_en": "Imperial Test Pilot",
+      "comparison": "changed",
+      "candidate_ko": "제국 시험비행 조종사",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 207956,
+      "vanilla_en": "UC Clerk",
+      "vanilla_ko": "식민지 연합 사무원",
+      "genesis_en": "Imperial Clerk",
+      "comparison": "changed",
+      "candidate_ko": "제국 사무원",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 208432,
+      "vanilla_en": "Aurora IMOD",
+      "vanilla_ko": "오로라 IMOD",
+      "genesis_en": "Spice IMOD",
+      "comparison": "changed",
+      "candidate_ko": "스파이스 IMOD",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 209056,
+      "vanilla_en": "Manufacture third and final dose of Aurora",
+      "vanilla_ko": "마지막 분량의 오로라 제조하기",
+      "genesis_en": "Manufacture third and final dose of Spice",
+      "comparison": "changed",
+      "candidate_ko": "마지막 분량의 스파이스 제조하기",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 209057,
+      "vanilla_en": "Manufacture second dose of Aurora",
+      "vanilla_ko": "두 번째 분량의 오로라 제조하기",
+      "genesis_en": "Manufacture second dose of Spice",
+      "comparison": "changed",
+      "candidate_ko": "두 번째 분량의 스파이스 제조하기",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 209058,
+      "vanilla_en": "Manufacture first dose of Aurora",
+      "vanilla_ko": "첫 번째 분량의 오로라 제조하기",
+      "genesis_en": "Manufacture first dose of Spice",
+      "comparison": "changed",
+      "candidate_ko": "첫 번째 분량의 스파이스 제조하기",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 209059,
+      "vanilla_en": "Manufacture third and final dose of Aurora",
+      "vanilla_ko": "마지막 분량의 오로라 제조하기",
+      "genesis_en": "Manufacture third and final dose of Spice",
+      "comparison": "changed",
+      "candidate_ko": "마지막 분량의 스파이스 제조하기",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 209060,
+      "vanilla_en": "Manufacture second dose of Aurora",
+      "vanilla_ko": "두 번째 분량의 오로라 제조하기",
+      "genesis_en": "Manufacture second dose of Spice",
+      "comparison": "changed",
+      "candidate_ko": "두 번째 분량의 스파이스 제조하기",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 210768,
+      "vanilla_en": "Aurora Recipe Added",
+      "vanilla_ko": "오로라 제조법이 추가되었습니다",
+      "genesis_en": "Spice Recipe Added",
+      "comparison": "changed",
+      "candidate_ko": "스파이스 제조법이 추가되었습니다",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 210773,
+      "vanilla_en": "Unprocessed Aurora",
+      "vanilla_ko": "미정제 오로라",
+      "genesis_en": "Unprocessed Spice",
+      "comparison": "changed",
+      "candidate_ko": "미정제 스파이스",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211113,
+      "vanilla_en": "UC Navy A Combat",
+      "vanilla_ko": "식민지 연합 해군 전함 A",
+      "genesis_en": "Imperial Navy A Combat",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 전함 A",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211114,
+      "vanilla_en": "UC Navy B Combat",
+      "vanilla_ko": "식민지 연합 해군 전함 B",
+      "genesis_en": "Imperial Navy B Combat",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 전함 B",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211115,
+      "vanilla_en": "UC Navy A Combat",
+      "vanilla_ko": "식민지 연합 해군 전함 A",
+      "genesis_en": "Imperial Navy A Combat",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 전함 A",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211116,
+      "vanilla_en": "UC Navy B Combat",
+      "vanilla_ko": "식민지 연합 해군 전함 B",
+      "genesis_en": "Imperial Navy B Combat",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 전함 B",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211196,
+      "vanilla_en": "Aurora Without Color IMOD",
+      "vanilla_ko": "오로라 IMOD",
+      "genesis_en": "Spice Without Color IMOD",
+      "comparison": "changed",
+      "candidate_ko": "스파이스 IMOD",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Aurora",
+          "to_en": "Spice",
+          "to_ko": "스파이스",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211655,
+      "vanilla_en": "UC Hoplite III",
+      "vanilla_ko": "식민지 연합 호플리테 III",
+      "genesis_en": "Imperial Hoplite III",
+      "comparison": "changed",
+      "candidate_ko": "제국 호플리테 III",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211656,
+      "vanilla_en": "UC Hoplite",
+      "vanilla_ko": "식민지 연합 호플리테",
+      "genesis_en": "Imperial Hoplite",
+      "comparison": "changed",
+      "candidate_ko": "제국 호플리테",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211658,
+      "vanilla_en": "UC Phalanx II",
+      "vanilla_ko": "식민지 연합 팔랑크스 II",
+      "genesis_en": "Imperial Phalanx II",
+      "comparison": "changed",
+      "candidate_ko": "제국 팔랑크스 II",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211660,
+      "vanilla_en": "UC Dagger IV",
+      "vanilla_ko": "식민지 연합 대거 IV",
+      "genesis_en": "Imperial Dagger IV",
+      "comparison": "changed",
+      "candidate_ko": "제국 대거 IV",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211663,
+      "vanilla_en": "UC Discovery",
+      "vanilla_ko": "식민지 연합 디스커버리",
+      "genesis_en": "Imperial Discovery",
+      "comparison": "changed",
+      "candidate_ko": "제국 디스커버리",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211665,
+      "vanilla_en": "UC Chimera",
+      "vanilla_ko": "식민지 연합 키메라",
+      "genesis_en": "Imperial Chimera",
+      "comparison": "changed",
+      "candidate_ko": "제국 키메라",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211666,
+      "vanilla_en": "UC Dagger III",
+      "vanilla_ko": "식민지 연합 대거 III",
+      "genesis_en": "Imperial Dagger III",
+      "comparison": "changed",
+      "candidate_ko": "제국 대거 III",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211670,
+      "vanilla_en": "UC Chimera III",
+      "vanilla_ko": "식민지 연합 키메라 III",
+      "genesis_en": "Imperial Chimera III",
+      "comparison": "changed",
+      "candidate_ko": "제국 키메라 III",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211671,
+      "vanilla_en": "UC Hoplite II",
+      "vanilla_ko": "식민지 연합 호플리테 II",
+      "genesis_en": "Imperial Hoplite II",
+      "comparison": "changed",
+      "candidate_ko": "제국 호플리테 II",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211677,
+      "vanilla_en": "UC Longsword",
+      "vanilla_ko": "식민지 연합 롱소드",
+      "genesis_en": "Imperial Longsword",
+      "comparison": "changed",
+      "candidate_ko": "제국 롱소드",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211684,
+      "vanilla_en": "UC Dagger II",
+      "vanilla_ko": "식민지 연합 대거 II",
+      "genesis_en": "Imperial Dagger II",
+      "comparison": "changed",
+      "candidate_ko": "제국 대거 II",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211685,
+      "vanilla_en": "UC Phalanx III",
+      "vanilla_ko": "식민지 연합 팔랑크스 III",
+      "genesis_en": "Imperial Phalanx III",
+      "comparison": "changed",
+      "candidate_ko": "제국 팔랑크스 III",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211689,
+      "vanilla_en": "UC Longsword II",
+      "vanilla_ko": "식민지 연합 롱소드 II",
+      "genesis_en": "Imperial Longsword II",
+      "comparison": "changed",
+      "candidate_ko": "제국 롱소드 II",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211691,
+      "vanilla_en": "UC Chimera II",
+      "vanilla_ko": "식민지 연합 키메라 II",
+      "genesis_en": "Imperial Chimera II",
+      "comparison": "changed",
+      "candidate_ko": "제국 키메라 II",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211693,
+      "vanilla_en": "UC Dagger",
+      "vanilla_ko": "식민지 연합 대거",
+      "genesis_en": "Imperial Dagger",
+      "comparison": "changed",
+      "candidate_ko": "제국 대거",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211694,
+      "vanilla_en": "UC Phalanx",
+      "vanilla_ko": "식민지 연합 팔랑크스",
+      "genesis_en": "Imperial Phalanx",
+      "comparison": "changed",
+      "candidate_ko": "제국 팔랑크스",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211695,
+      "vanilla_en": "UC Longsword IV",
+      "vanilla_ko": "식민지 연합 롱소드 IV",
+      "genesis_en": "Imperial Longsword IV",
+      "comparison": "changed",
+      "candidate_ko": "제국 롱소드 IV",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211698,
+      "vanilla_en": "UC Longsword III",
+      "vanilla_ko": "식민지 연합 롱소드 III",
+      "genesis_en": "Imperial Longsword III",
+      "comparison": "changed",
+      "candidate_ko": "제국 롱소드 III",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 211806,
+      "vanilla_en": "UC Navy A Combat",
+      "vanilla_ko": "식민지 연합 해군 A 전투함",
+      "genesis_en": "Imperial Navy A Combat",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 A 전투함",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212042,
+      "vanilla_en": "Ecliptic Bayonet",
+      "vanilla_ko": "이클립틱 배요네트",
+      "genesis_en": "Trandoshan Bayonet",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 배요네트",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212044,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212045,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212046,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212047,
+      "vanilla_en": "UC Hulker",
+      "vanilla_ko": "식민지 연합 헐커",
+      "genesis_en": "Imperial Hulker",
+      "comparison": "changed",
+      "candidate_ko": "제국 헐커",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212048,
+      "vanilla_en": "UC Endeavor",
+      "vanilla_ko": "식민지 연합 엔데버",
+      "genesis_en": "Imperial Endeavor",
+      "comparison": "changed",
+      "candidate_ko": "제국 엔데버",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212104,
+      "vanilla_en": "UC Navy A Cargo",
+      "vanilla_ko": "식민지 연합 해군 화물선 A",
+      "genesis_en": "Imperial Navy A Cargo",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 화물선 A",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212106,
+      "vanilla_en": "UC Navy A Cargo",
+      "vanilla_ko": "식민지 연합 해군 화물선 A",
+      "genesis_en": "Imperial Navy A Cargo",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 화물선 A",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212107,
+      "vanilla_en": "UC Navy A Cargo",
+      "vanilla_ko": "식민지 연합 해군 화물선 A",
+      "genesis_en": "Imperial Navy A Cargo",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 화물선 A",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212110,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212113,
+      "vanilla_en": "UC Navy C Combat",
+      "vanilla_ko": "식민지 연합 해군 C 전투",
+      "genesis_en": "Imperial Navy C Combat",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 C 전투",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212247,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212251,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212252,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212404,
+      "vanilla_en": "UC Security Keycard",
+      "vanilla_ko": "식민지 연합 경비대 키카드",
+      "genesis_en": "Imperial Security Keycard",
+      "comparison": "changed",
+      "candidate_ko": "제국 경비대 키카드",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212425,
+      "vanilla_en": "group of Ecliptic mercenaries",
+      "vanilla_ko": "이클립틱 용병단 무리",
+      "genesis_en": "group of Trandoshan mercenaries",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 용병단 무리",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212446,
+      "vanilla_en": "UC AntiXeno Spacesuit",
+      "vanilla_ko": "식민지 연합 대외계생물용 우주복",
+      "genesis_en": "Imperial AntiXeno Spacesuit",
+      "comparison": "changed",
+      "candidate_ko": "제국 대외계생물용 우주복",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212448,
+      "vanilla_en": "UC AntiXeno",
+      "vanilla_ko": "식민지 연합 대외계생물용",
+      "genesis_en": "Imperial AntiXeno",
+      "comparison": "changed",
+      "candidate_ko": "제국 대외계생물용",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212449,
+      "vanilla_en": "UC AntiXeno Space Helmet",
+      "vanilla_ko": "식민지 연합 대외계생물용 우주복 헬멧",
+      "genesis_en": "Imperial AntiXeno Space Helmet",
+      "comparison": "changed",
+      "candidate_ko": "제국 대외계생물용 우주복 헬멧",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212560,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212561,
+      "vanilla_en": "Ecliptic Combat A01",
+      "vanilla_ko": "이클립틱 전함 A01",
+      "genesis_en": "Trandoshan Combat A01",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 A01",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212861,
+      "vanilla_en": "Ecliptic Battleship Camulus",
+      "vanilla_ko": "이클립틱 전함 카물루스",
+      "genesis_en": "Trandoshan Battleship Camulus",
+      "comparison": "changed",
+      "candidate_ko": "트랜도샨 전함 카물루스",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Ecliptic",
+          "to_en": "Trandoshan",
+          "to_ko": "트랜도샨",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212871,
+      "vanilla_en": "United Colonies",
+      "vanilla_ko": "식민지 연합",
+      "genesis_en": "Empire",
+      "comparison": "changed",
+      "candidate_ko": "제국",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "United Colonies",
+          "to_en": "Empire",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212893,
+      "vanilla_en": "UC Citizen C Cargo",
+      "vanilla_ko": "식민지 연합 민간인 화물선 C",
+      "genesis_en": "Imperial Citizen C Cargo",
+      "comparison": "changed",
+      "candidate_ko": "제국 민간인 화물선 C",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 212894,
+      "vanilla_en": "UC Navy A Combat",
+      "vanilla_ko": "식민지 연합 해군 전함 A",
+      "genesis_en": "Imperial Navy A Combat",
+      "comparison": "changed",
+      "candidate_ko": "제국 해군 전함 A",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 213147,
+      "vanilla_en": "Complete \"Shadows in Neon\"",
+      "vanilla_ko": "'네온에 드리운 그림자' 완료하기",
+      "genesis_en": "Complete \"Shadows in Nar Shaddaa\"",
+      "comparison": "changed",
+      "candidate_ko": "'나르 샤다에 드리운 그림자' 완료하기",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "Neon",
+          "to_en": "Nar Shaddaa",
+          "to_ko": "나르 샤다",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    },
+    {
+      "file": "starfield_en.strings",
+      "provider": "Star Wars - Name Replacement Overhaul",
+      "string_id": 213238,
+      "vanilla_en": "UC Marine Crew",
+      "vanilla_ko": "식민지 연합 해병대 승무원",
+      "genesis_en": "Imperial Marine Crew",
+      "comparison": "changed",
+      "candidate_ko": "제국 해병대 승무원",
+      "reuse_status": "term_swap_candidate",
+      "term_changes": [
+        {
+          "from_en": "UC",
+          "to_en": "Imperial",
+          "to_ko": "제국",
+          "occurrences": 1
+        }
+      ],
+      "current_round_excluded": false,
+      "review_status": "pending",
+      "human_reviewed": false,
+      "review_flags": [
+        "donor_quality_unreviewed",
+        "particles_and_context_need_review"
+      ]
+    }
+  ]
+}
