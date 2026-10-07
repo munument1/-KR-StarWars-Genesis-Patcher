@@ -1,4 +1,4 @@
-import json,tempfile,unittest
+import gzip,json,struct,tempfile,unittest
 from pathlib import Path
 from unittest.mock import patch
 from types import SimpleNamespace
@@ -53,4 +53,18 @@ class InstallerTests(unittest.TestCase):
         p=self.package/'manifest.json';m=json.loads(p.read_text());m['base_content_checks']=[{'name':'Test.esm','required':True,'sha256':backend.sha(b'old version')}];p.write_text(json.dumps(m))
         with self.assertRaises(backend.InstallError):self.prepare()
         self.assertEqual(self.original.read_bytes(),b'original')
+    def test_upgrade_existing_translation_and_restore(self):
+        def strings(text):
+            block=text.encode('utf-8')+b'\0'
+            return struct.pack('<IIII',1,len(block),123,0)+block
+        old=strings('기존 번역');new=strings('새 번역')
+        path=self.game/'mods/TestMod/name_en.strings';path.write_bytes(old)
+        raw=gzip.compress(json.dumps({'kind':'.strings','translations':[[123,['기존 번역','새 번역']]]},ensure_ascii=False).encode())
+        blob=backend.sha(raw);(self.package/'blobs'/blob).write_bytes(raw)
+        op={'target':'mods/TestMod/name_en.strings','kind':'text_recipe','input_sha256':backend.sha(strings('English')),'output_sha256':backend.sha(new),'blob':blob,'upgrade_from':[{'input_sha256':backend.sha(old),'blob':blob}]}
+        (self.package/'manifest.json').write_text(json.dumps({'default_profile':'test','operations':[op]}))
+        self.prepare();backup=backend.apply(self.stage);self.assertEqual(path.read_bytes(),new)
+        backend.restore(backup);self.assertEqual(path.read_bytes(),old)
+        path.write_bytes(strings('사용자 수정'))
+        with self.assertRaises(backend.InstallError):self.prepare()
 if __name__=='__main__':unittest.main()

@@ -5,6 +5,8 @@
 번역된 파일을 생성한 다음 백업하고 적용합니다. Python, Java, xTranslator,
 Gemini API 키를 별도로 설치하거나 입력할 필요가 없습니다.
 
+저장소의 최신 소스는 **v0.2.0 시험판**입니다. 기존 한패를 활용하고 제네시스에서 바뀐 이름·조사를 보정했습니다. [변경 내용과 검증 결과](docs/donor-reuse.md)를 확인하세요. 아래 공개 다운로드 안내는 기존 v0.1.0 릴리즈 기준입니다.
+
 ## 다운로드와 설치
 
 1. [Releases](https://github.com/munument1/-KR-StarWars-Genesis-Patcher/releases/latest)에서

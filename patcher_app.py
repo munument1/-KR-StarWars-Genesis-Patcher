@@ -11,13 +11,13 @@ def package_dir():
 class App:
     def __init__(self,root):
         self.root=root;self.events=queue.Queue();self.stage=None;self.busy=False
-        root.title('Star Wars Genesis 한글 패처 · v0.1.0');root.geometry('780x560');root.minsize(700,500)
+        root.title('Star Wars Genesis 한글 패처 · v0.2.0 시험판');root.geometry('780x560');root.minsize(700,500)
         root.protocol('WM_DELETE_WINDOW',self.close)
         style=ttk.Style();style.theme_use('clam')
         self.game=tk.StringVar();self.state=tk.StringVar(value='Genesis의 Game 폴더를 선택해 주세요.')
         frame=ttk.Frame(root,padding=20);frame.pack(fill='both',expand=True)
         ttk.Label(frame,text='STAR WARS GENESIS  ·  한국어 패치',font=('맑은 고딕',17,'bold')).pack(anchor='w')
-        ttk.Label(frame,text='8.8.32용 v0.1.0 · 기존 번역 + 검토된 추가 번역 · Pretendard 한글 폰트',wraplength=720).pack(anchor='w',pady=(8,5))
+        ttk.Label(frame,text='8.8.32용 v0.2.0 시험판 · 기존 한패 활용 + 제네시스 용어 보정 · Pretendard 한글 폰트',wraplength=720).pack(anchor='w',pady=(8,5))
         ttk.Label(frame,text='AI·Codex 번역 검토와 메뉴·한글 폰트·행성 이름 HUD 출력 확인을 반영했습니다. 전체 퀘스트 검증은 진행 전입니다.',wraplength=720).pack(anchor='w',pady=(0,16))
         row=ttk.Frame(frame);row.pack(fill='x')
         self.entry=ttk.Entry(row,textvariable=self.game);self.entry.pack(side='left',fill='x',expand=True)
@@ -92,7 +92,8 @@ def main():
     if args.self_check:
         package=package_dir();manifest=json.loads((package/'manifest.json').read_text(encoding='utf-8'))
         for r in manifest['operations']:
-            if sha(safe(package,'blobs/'+r['blob']).read_bytes())!=r['blob']:raise ValueError('Embedded data corrupted')
+            for blob_id in [r['blob']]+[entry['blob'] for entry in r.get('upgrade_from',[])]:
+                if sha(safe(package,'blobs/'+blob_id).read_bytes())!=blob_id:raise ValueError('Embedded data corrupted')
         Path(args.self_check).write_text(json.dumps({'operations':len(manifest['operations']),'embedded_payload_verified':True,'release_state':manifest['release_state']}),encoding='utf-8');return
     if args.generate_only:
         generate(args.generate_only[0],package_dir(),args.generate_only[1]);return

@@ -77,9 +77,14 @@ def generate(game,package,stage,profile=None,progress=lambda text:None):
             r['status']='provided_by_enabled_mod';r['provider']=provider;items.append(r);continue
         if r['target'].startswith('mods/') and r['kind']!='fallback_strings' and provider!=Path(r['target']).parts[1]:
             raise InstallError(f'Enabled mod priority differs: {r["target"]}')
-        if actual!=r['input_sha256']:raise InstallError(f'Unsupported or changed input: {r["target"]}')
-        blob=safe(package,'blobs/'+r['blob']).read_bytes()
-        if sha(blob)!=r['blob']:raise InstallError('Package blob checksum failed')
+        upgrade=None
+        if actual!=r['input_sha256']:
+            if r['kind']=='text_recipe':
+                upgrade=next((entry for entry in r.get('upgrade_from',[]) if entry['input_sha256']==actual),None)
+            if upgrade is None:raise InstallError(f'Unsupported or changed input: {r["target"]}')
+        blob_id=upgrade['blob'] if upgrade else r['blob']
+        blob=safe(package,'blobs/'+blob_id).read_bytes()
+        if sha(blob)!=blob_id:raise InstallError('Package blob checksum failed')
         if r['kind']=='text_recipe':
             recipe=json.loads(gzip.decompress(blob));mapping={tuple(k) if isinstance(k,list) else k:tuple(v) for k,v in recipe['translations']}
             output,_=patch_plugin(current,mapping) if recipe['kind']=='plugin' else patch_strings(current,recipe['kind'],mapping)

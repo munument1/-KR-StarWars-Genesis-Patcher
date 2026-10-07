@@ -1,0 +1,23 @@
+{
+  "selection_counts": {
+    "unchanged_english": 167946,
+    "current_round_preserved": 11108,
+    "other_english_changes": 30368,
+    "name_adapted": 2821,
+    "name_count_hold": 191,
+    "no_korean_donor": 2224,
+    "markup_hold": 6,
+    "donor_structure_hold": 97,
+    "no_reference": 89,
+    "partial_rename": 5
+  },
+  "actual_recipe_changes": {
+    "unchanged_english": 7738,
+    "name_adapted": 2423,
+    "updated_strings_files": 13
+  },
+  "name_adaptation_locations": 2821,
+  "source_comparison_sha256": "fa8ce521bd61266a298e5f5a41f0f7ae0668918a36a07fe9dfbcbb6f0af191af",
+  "game_modified": false,
+  "clean_and_upgrade_outputs_identical": true
+}

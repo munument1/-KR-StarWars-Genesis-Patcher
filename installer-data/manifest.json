@@ -2,7 +2,7 @@
   "schema": 1,
   "name": "Star Wars Genesis Korean Patcher",
   "target_version": "8.8.32",
-  "release_state": "EARLY_RELEASE",
+  "release_state": "TEST_BUILD",
   "semantic_review_remaining": 0,
   "reviewed_items": 6371,
   "structural_hold_locations": 0,
@@ -1133,106 +1133,184 @@
     {
       "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.dlstrings",
       "kind": "text_recipe",
-      "blob": "8c04ce8863119fa6e81455a18f214c351c6728f9493a7c23e87d50095a77e920",
+      "blob": "cd039b8c32b4002c828f0764748a40f76e4f49ee1bd22e6d3a8e0600300ce7ed",
       "input_sha256": "68fb9442a893777d7dbcc2412704e11269c7ebe46d44b182548be92252204f44",
-      "output_sha256": "23839b49ba06c15de257ce388eb3bcf5ea79c27b377922aeed70acf7d179be03",
-      "text_changes": 730
+      "output_sha256": "73d512afe05959aecd50ef8675c73ef5bff8c5f2c27e2fcb06dcb715fc1bd00a",
+      "text_changes": 730,
+      "upgrade_from": [
+        {
+          "input_sha256": "23839b49ba06c15de257ce388eb3bcf5ea79c27b377922aeed70acf7d179be03",
+          "blob": "2ab81311af9001a880b14d1dee64df9974c56ff9295301a76087b895a2f0d5c6"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.ilstrings",
       "kind": "text_recipe",
-      "blob": "02e711c606e10e9839ad8adb24ddb3b1bf51db0ed3e080a660ea677c02466fa6",
+      "blob": "791b202beb90f645a85a23f02f80ca636809fed5a65f2e92b1b3e91b008e1001",
       "input_sha256": "948b9e284ef28b393485b9c9e649851269ed7d5a4ef895ac1df1fad24a3a4987",
-      "output_sha256": "cea313efccfb9b905cdb890435ae4a95941f866c4e183463214298e0ab1ae4f2",
-      "text_changes": 18751
+      "output_sha256": "f5f32515b92b3ac86e672e92d3d30071aec4f2f5f17f5f89bcd022985721b904",
+      "text_changes": 18751,
+      "upgrade_from": [
+        {
+          "input_sha256": "cea313efccfb9b905cdb890435ae4a95941f866c4e183463214298e0ab1ae4f2",
+          "blob": "13e9a42a3cea19a79e7b2516f807b62911ddb7e190de0544b95369424f9ed9a7"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.strings",
       "kind": "text_recipe",
-      "blob": "fc51fd9969b090fa7b9faad047aa108ec7a2f29a77bef8e940930f8c19dfecaf",
+      "blob": "bd6f230ad03c5f4e0d89b02fc7579c94017f204d748dfcc8d6045ce13da9b7c6",
       "input_sha256": "a92da6374cf3ea6fa4c59631fe4e8fb6c070fd4a8b11ba13cffb14131fdf18d5",
-      "output_sha256": "95bc3553a87b5fb5a49000bf54848634f318000ea4b92395c4ff81880f2215e5",
-      "text_changes": 3535
+      "output_sha256": "ea72ce063a552ee472fcf69cd6322735f348dc83cf1e47e81149970f48df555e",
+      "text_changes": 3535,
+      "upgrade_from": [
+        {
+          "input_sha256": "95bc3553a87b5fb5a49000bf54848634f318000ea4b92395c4ff81880f2215e5",
+          "blob": "771429f375a55a1cab63ea2a5427c10e20947716efec9c444040acdf0666b79a"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/blueprintships-starfield_en.strings",
       "kind": "text_recipe",
-      "blob": "812a2abf17eaae9df5ae095f59a744c131a6af3e0a8f3703b4f75cdb8b9efd86",
+      "blob": "ff99e76d50cdbdbddceaca0fe4cbca59ef477fca26d01ba5ee38b9e3d4758b55",
       "input_sha256": "1e9b4078bbb2871c6034bf6b40cbec47b01598a7f44cebe53122e7add0faaa77",
-      "output_sha256": "993ee9d6d0dd0e1895f7b44da601f827ac058ed03e706ff0d8cbc40e54cd1032",
-      "text_changes": 354
+      "output_sha256": "154355f5b327b9c7e5aaa52974a19ebf5fa8f09339426fd86343cbb77b9b74c4",
+      "text_changes": 354,
+      "upgrade_from": [
+        {
+          "input_sha256": "993ee9d6d0dd0e1895f7b44da601f827ac058ed03e706ff0d8cbc40e54cd1032",
+          "blob": "401d2565685df66e569af7718848350d562cb9539f0e3121bee4f4d760eec630"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs003_en.dlstrings",
       "kind": "text_recipe",
-      "blob": "964d43f282e7ee9e2a810d260d982aebdcfd1f8ee93433fce1e3d056ad0f3282",
+      "blob": "47b0e06e8b0ec249dbb96c8f154c1ddcb4621dc2a3fe56322e5744bae90c30fb",
       "input_sha256": "645707e8d4c913633c07715cb46af2a566edb4a8b41504e11fba292dbaf89739",
-      "output_sha256": "ebae5da0f44c67e6dcbecf6293386fd0189da7434705bc429bca34aebee237b6",
-      "text_changes": 205
+      "output_sha256": "c094aa81548892f8bc1828acc371e68d778425a534a1f3753a44f74d0ac4e596",
+      "text_changes": 205,
+      "upgrade_from": [
+        {
+          "input_sha256": "ebae5da0f44c67e6dcbecf6293386fd0189da7434705bc429bca34aebee237b6",
+          "blob": "e64c34b78b557baf57d472fc8304a6fb9a628b6f4fa7faed327493afc6297082"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs003_en.ilstrings",
       "kind": "text_recipe",
-      "blob": "6674a5283a2735c1ae64ee0293d9767acbdff3306d01c736e99f25df7ea0b905",
+      "blob": "9d54f609392f8abd91ec5f7b3d95b37506d18c22dbc52374fce3596300ccff27",
       "input_sha256": "ad3f2998794043ac0fd9a010347e984f4ec0d7df93506c99c50651b063a60c84",
-      "output_sha256": "1e7ba6e0d8adf8a59fb4663686ef0679c13afbc8f83b41aca2b17ff9caad9072",
-      "text_changes": 1734
+      "output_sha256": "8d919435d82ea86ddb8946ca1105f3230c80e3fd5114f3e86410cef8f29bd007",
+      "text_changes": 1734,
+      "upgrade_from": [
+        {
+          "input_sha256": "1e7ba6e0d8adf8a59fb4663686ef0679c13afbc8f83b41aca2b17ff9caad9072",
+          "blob": "5186285dfd464877f68696a1c0280418976333b05af69846352fd74a49ae39ae"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs003_en.strings",
       "kind": "text_recipe",
-      "blob": "a645362c3068359687404bc8762941f58302864afa38df09abd21ea7205fb4fe",
+      "blob": "0483c3554fb6c610d15df9b64746afb46d979f36414653325c0cdbbb44f72013",
       "input_sha256": "57c87d651a3cf70559bced605664cd5557751e53a0a42c3d5ba8b552ca417ea1",
-      "output_sha256": "3535255a6d5b15055656545e10994b2bf5f49dd2dbb5b6dc67f6a6bd3187286a",
-      "text_changes": 1414
+      "output_sha256": "c19a0f365b77c565361e098057f15942aa72f2243abb66bdc2e39a46e6053c1f",
+      "text_changes": 1414,
+      "upgrade_from": [
+        {
+          "input_sha256": "3535255a6d5b15055656545e10994b2bf5f49dd2dbb5b6dc67f6a6bd3187286a",
+          "blob": "d6dfff6012bd70c067b5023ac06177b874d321c1e16d8dc43dd63ad50a415a04"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs004_en.strings",
       "kind": "text_recipe",
-      "blob": "91f8a122cae6d8b60cd732c6b23449aaf4937e3a3422d3e2d5363295a3b5c530",
+      "blob": "fec78f57a3e5107eb414645aa94dc41ea8e9484df482248bbeaa14bb3717041a",
       "input_sha256": "fd57bf40e7e0806986aa8a164a1b31f3b9a49723ab07ddd35247c859d971c497",
-      "output_sha256": "e2fbd8b56dddabf59cbb23a4fca553d5873c4d6b0f0e40de24056f5c24c1fcfb",
-      "text_changes": 50
+      "output_sha256": "7f84c5f88186d88858dca23bf1f0c4ece681ac5d8c08bc20614f3844ac1333ac",
+      "text_changes": 50,
+      "upgrade_from": [
+        {
+          "input_sha256": "e2fbd8b56dddabf59cbb23a4fca553d5873c4d6b0f0e40de24056f5c24c1fcfb",
+          "blob": "978a9c59d36f3b8320e7ad45d2befccac78fbecdc791cf608342555502b96128"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs007_en.dlstrings",
       "kind": "text_recipe",
-      "blob": "b59564e0e97391c0d06cdd6de0615712912793f65aab00e115193f996e4745bd",
+      "blob": "b4ed4f30deab91af94402ac7c172de3baeac1c4d021f2675de411d07126fb128",
       "input_sha256": "eff43e106d225a3b24c2e8ff02d01644c54c2e74f4b7d7b84c2ae028ad67a476",
-      "output_sha256": "93ef5ac4d64ed9bad5bb179f7c96926258bfff6f3c5500948858ef542fc329c4",
-      "text_changes": 8
+      "output_sha256": "b7a7334d7ba49db01d2c6a38166519779145350e07ebb0a60df245bbe0a26a27",
+      "text_changes": 8,
+      "upgrade_from": [
+        {
+          "input_sha256": "93ef5ac4d64ed9bad5bb179f7c96926258bfff6f3c5500948858ef542fc329c4",
+          "blob": "77e463570f9988e5239dde9dba2f6b587f751d6a88ff74b9a0ef9a3f5cd1298c"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs007_en.strings",
       "kind": "text_recipe",
-      "blob": "343752b4a360c9ebea68d16d17b2c93f37a945bae879d14278519343848ad6f7",
+      "blob": "2ca7fca5471aac951e77bd63e6cb19e79398544f25952edd4d77cc1cde2e2356",
       "input_sha256": "0597730ed7e13f0c590921f053a76e0d0db50b8ed4ff9eac8ec6cb24e4a9d741",
-      "output_sha256": "ec0ba7df37718dcbd3d337e70e1650207a03a144a9eae0f86cbf50d4b7561dbb",
-      "text_changes": 196
+      "output_sha256": "1998a36549510ef9966253a25ad3d6f12cea7ab4a2b45d8f78c94a0deede7b55",
+      "text_changes": 196,
+      "upgrade_from": [
+        {
+          "input_sha256": "ec0ba7df37718dcbd3d337e70e1650207a03a144a9eae0f86cbf50d4b7561dbb",
+          "blob": "e418b207528fc6ce3ac8eaaa4b0bb0f11e30e510dec66298a8f82ee2ca20c6a8"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.dlstrings",
       "kind": "text_recipe",
-      "blob": "5251ac488824bd34a3930cf3c5061d96c077051691c35321632d1d7d1f61f021",
+      "blob": "8edf11c04094c0bdee11444d54e62a61e2eb314058540b47a69fe176d46bd0fe",
       "input_sha256": "ad743af780fa2cee679b1d458d1524731a2589d1acf0e5c46a97ca6e219ec926",
-      "output_sha256": "9158fbb80b9414e71bd65b9c3cdaf930fdc6e017f4f78b28105c0af591b3fbcf",
-      "text_changes": 8248
+      "output_sha256": "7616c5ff4bd22be2abf1e94c703e210bf7524539f80de91891c449829a4e0876",
+      "text_changes": 8248,
+      "upgrade_from": [
+        {
+          "input_sha256": "9158fbb80b9414e71bd65b9c3cdaf930fdc6e017f4f78b28105c0af591b3fbcf",
+          "blob": "0d4388168d0f78dc09977783797609ec10a041c680f659abc5b70c574356f5b5"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
       "kind": "text_recipe",
-      "blob": "ab808a9947b86f075b9503d634b2763e75cd64db4c078a020988f681fd54fa5f",
+      "blob": "1814a52e318e28acd2f40fb58cbea302a23dfc200afb7aefd8f5bbd4ed75d4ff",
       "input_sha256": "dc001c2aeeab0ba3f13cdf13f9b153d2244c8644b7a173269aea6bd8f19106f6",
-      "output_sha256": "4551ce91683a931fa1f3c1fad662777105d2dd1c452bfbcb3901ea1b276cd38e",
-      "text_changes": 129619
+      "output_sha256": "797cd96987c202c1a5ad7794194d40901457f2287ec551269cee3090071032c7",
+      "text_changes": 129619,
+      "upgrade_from": [
+        {
+          "input_sha256": "4551ce91683a931fa1f3c1fad662777105d2dd1c452bfbcb3901ea1b276cd38e",
+          "blob": "2c5eb2ce7a3ea2fdb78712f46f5ed3412468e3c4dc14d898241fc3a3b96220ff"
+        }
+      ]
     },
     {
       "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
       "kind": "text_recipe",
-      "blob": "188d9111135870019f7117c4b49d70b6cfa8f8912b329a0941ce23fa715b1ae2",
+      "blob": "1c4b3b60e0565f588d6e3f832e02f5bdb0c67fb2160ce0d246975cb4a95350a6",
       "input_sha256": "9fbd925c094791915552b8a09e6bfe7a91b66f1f3d1bab92e8fe4795445eee99",
-      "output_sha256": "88350c644b3703a2d98e6c373632d9d0d35aa17cffb36e1f7d236dbbf17d355f",
-      "text_changes": 46120
+      "output_sha256": "6906aa8778affae6d7d6677778bf8408da37be1203b4daa40d978b16a150fdc0",
+      "text_changes": 46120,
+      "upgrade_from": [
+        {
+          "input_sha256": "88350c644b3703a2d98e6c373632d9d0d35aa17cffb36e1f7d236dbbf17d355f",
+          "blob": "a3a830000c2d3465d70bb961d0ba5569476b4e61416c349888ff38ad3d9ad606"
+        }
+      ]
     },
     {
       "target": "mods/Nasalization - A Font Replacer/interface/fonts_en.swf",
@@ -1548,5 +1626,27 @@
     "menu_translation",
     "korean_font_rendering",
     "curved_planet_label"
-  ]
+  ],
+  "donor_reuse": {
+    "comparison_sha256": "fa8ce521bd61266a298e5f5a41f0f7ae0668918a36a07fe9dfbcbb6f0af191af",
+    "selection_counts": {
+      "unchanged_english": 167946,
+      "current_round_preserved": 11108,
+      "other_english_changes": 30368,
+      "name_adapted": 2821,
+      "name_count_hold": 191,
+      "no_korean_donor": 2224,
+      "markup_hold": 6,
+      "donor_structure_hold": 97,
+      "no_reference": 89,
+      "partial_rename": 5
+    },
+    "actual_recipe_changes": {
+      "unchanged_english": 7738,
+      "name_adapted": 2423,
+      "updated_strings_files": 13
+    },
+    "existing_donor_quality_review": "out_of_scope",
+    "current_round_translations_preserved": true
+  }
 }
