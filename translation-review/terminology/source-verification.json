@@ -1,0 +1,1541 @@
+{
+  "all_snapshot_rows_match_current_sst": true,
+  "files": [
+    {
+      "sst": "adoringgungan_en_ko.sst",
+      "sha256": "8aec3b4e34ff60ae53c079a0e59b648ed82907974331a89cd9396e24dbe7795d",
+      "rows": 30,
+      "masters": [
+        "starfield.esm",
+        "adoringgungan.esm"
+      ]
+    },
+    {
+      "sst": "adoringgunganspacesuitfix_en_ko.sst",
+      "sha256": "e98f338f716f301597810bc2f0ce618598efbffbaf0d87acba9eb98dc5d9b101",
+      "rows": 4,
+      "masters": [
+        "starfield.esm",
+        "adoringgungan.esm",
+        "adoringgunganspacesuitfix.esm"
+      ]
+    },
+    {
+      "sst": "akilacityoasis_en_ko.sst",
+      "sha256": "e7bc2b93abbc36c3b4f65aacb4b6922bdda9457e890537d21969937f4393a095",
+      "rows": 19,
+      "masters": [
+        "starfield.esm",
+        "akilacityoasis.esm"
+      ]
+    },
+    {
+      "sst": "all_trilogy_lightsabers_en_ko.sst",
+      "sha256": "347eb10e0542a547e5e2cca8c9c05033154cc364aabb477506ccd6fd7fcb5005",
+      "rows": 71,
+      "masters": [
+        "starfield.esm",
+        "all_trilogy_lightsabers.esm"
+      ]
+    },
+    {
+      "sst": "arc_vault_en_ko.sst",
+      "sha256": "9b1373bebf6eb5ffea077b80777b1dfdccab92fa7b0cec9a3a432416a7142720",
+      "rows": 43,
+      "masters": [
+        "starfield.esm",
+        "arc_vault.esm"
+      ]
+    },
+    {
+      "sst": "ascension_en_ko.sst",
+      "sha256": "7a6997a719b709ba49c446bbf41866bf0ecd1e7334728c0507f19f5785c117b0",
+      "rows": 2023,
+      "masters": [
+        "starfield.esm",
+        "ascension.esm"
+      ]
+    },
+    {
+      "sst": "assassindroidbountyhunterguild_en_ko.sst",
+      "sha256": "8090dea854f998b815ffd9a96d627c27bd1545df52072ba08c07e186bdba81b6",
+      "rows": 2,
+      "masters": [
+        "starfield.esm",
+        "sw droids.esm",
+        "sfbgs003.esm",
+        "assassindroidbountyhunterguild.esm"
+      ]
+    },
+    {
+      "sst": "atst_en_ko.sst",
+      "sha256": "e4f700d3ba831f083e23c2e156e14e5d0c22d3f4871dad43a7b6afe2801c0ca6",
+      "rows": 43,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "tatooine.esm",
+        "atst.esm"
+      ]
+    },
+    {
+      "sst": "avontechshipyards_en_ko.sst",
+      "sha256": "f6c834a414f5e7580cfa327827cffb25461d36af49fe226ea1b5e39e5ada972d",
+      "rows": 578,
+      "masters": [
+        "starfield.esm",
+        "avontechshipyards.esm"
+      ]
+    },
+    {
+      "sst": "battenswrecks_en_ko.sst",
+      "sha256": "27e64bcdc8448ccdcc23d56d324694c40eaeb77922b9f26a501d2ce6f39218a7",
+      "rows": 76,
+      "masters": [
+        "starfield.esm",
+        "battenswrecks.esm"
+      ]
+    },
+    {
+      "sst": "batuu_en_ko.sst",
+      "sha256": "3ff5e33345ad5ce4ce677221986169c0dda89282cba172762728e59a4a14d938",
+      "rows": 10,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "sw resources.esm",
+        "coruscantcity.esm",
+        "batuu.esm"
+      ]
+    },
+    {
+      "sst": "bd1_en_ko.sst",
+      "sha256": "575acec309eb2b08b9661c3f969287722225cb1f0e9d6965e61fee6b9f88014a",
+      "rows": 12,
+      "masters": [
+        "starfield.esm",
+        "bd1.esm"
+      ]
+    },
+    {
+      "sst": "beskarfragmentonbountykill_en_ko.sst",
+      "sha256": "0d772d945e8ec46d6945cbd56c91de6ed253ef8dbd7ad57748d2c51e49eac6de",
+      "rows": 39,
+      "masters": [
+        "starfield.esm",
+        "sfbgs003.esm",
+        "beskarfragmentonbountykill.esm"
+      ]
+    },
+    {
+      "sst": "blastereffects_en_ko.sst",
+      "sha256": "ebeab26df0f998373bde647b22318998553eb4232fde19ed435995a1719c8f84",
+      "rows": 57,
+      "masters": [
+        "starfield.esm",
+        "star wars blasters.esm",
+        "shatteredspace.esm",
+        "blastereffects.esm"
+      ]
+    },
+    {
+      "sst": "blueprintships-starfield_en_ko.sst",
+      "sha256": "faac145a5e5e82d8bbd60ae7a2d1816943e5576e2f8c171d3ba02637f9b4e219",
+      "rows": 368,
+      "masters": [
+        "starfield.esm",
+        "blueprintships-starfield.esm"
+      ]
+    },
+    {
+      "sst": "bountyhuntersguild_en_ko.sst",
+      "sha256": "7fd6fc4051042e765b1d59d5877869440b354672f9761f9816bd2dca55659260",
+      "rows": 6,
+      "masters": [
+        "starfield.esm",
+        "star wars blasters.esm",
+        "sw spacer overhaul.esm",
+        "thesniper9-swarmorpack.esm",
+        "kellic.esm",
+        "trackeralliance_hq_overhaul.esm",
+        "sfbgs003.esm",
+        "bountyhuntersguild.esm"
+      ]
+    },
+    {
+      "sst": "bountyhuntersguildnpcoutfitspatch_en_ko.sst",
+      "sha256": "ac62cb91736a8934ee749db1af5788a2dee967b0a17222555f34f009e3797e5d",
+      "rows": 7,
+      "masters": [
+        "starfield.esm",
+        "sw spacer overhaul.esm",
+        "shatteredspace.esm",
+        "sw aliens.esm",
+        "star wars blasters.esm",
+        "coruscantcity.esm",
+        "shadow collective.esm",
+        "starwarsgenesisarmorcompendium.esm",
+        "sfbgs003.esm",
+        "bountyhuntersguildnpcoutfitspatch.esm"
+      ]
+    },
+    {
+      "sst": "breathewithoutbackpack_en_ko.sst",
+      "sha256": "00c2547e3a933fe5a21de34eddf6017382827a976489aaec1c6e9db1694d337a",
+      "rows": 10,
+      "masters": [
+        "starfield.esm",
+        "breathewithoutbackpack.esm"
+      ]
+    },
+    {
+      "sst": "caijvanda_en_ko.sst",
+      "sha256": "648e1e54d56545a50fd2e3742ad1815ced2f738270cf8cd1d896c957cf51e1b6",
+      "rows": 132,
+      "masters": [
+        "starfield.esm",
+        "star wars blasters.esm",
+        "sfbgs003.esm",
+        "caijvanda.esm"
+      ]
+    },
+    {
+      "sst": "chewbacca_en_ko.sst",
+      "sha256": "e029a32acf4ec8a11ac98088db88cf87e4d9ae50c34718c307b08eec256ace92",
+      "rows": 25,
+      "masters": [
+        "starfield.esm",
+        "chewbacca.esm"
+      ]
+    },
+    {
+      "sst": "clonewarremnants_en_ko.sst",
+      "sha256": "2ef0d43b582613585a2d9d2ee83d7329d68bd0e790d37f5735e5ce10f7134cb3",
+      "rows": 114,
+      "masters": [
+        "starfield.esm",
+        "coruscantcity.esm",
+        "thesniper9-swarmorpack.esm",
+        "clonewarremnants.esm"
+      ]
+    },
+    {
+      "sst": "coruscantcity_en_ko.sst",
+      "sha256": "3b0373b4f54a75b5924c714c6edd812f81256f83364ad2e6233936f3913c8a15",
+      "rows": 112,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "coruscantcity.esm"
+      ]
+    },
+    {
+      "sst": "delta-7_jedi_starfighter_2002_en_ko.sst",
+      "sha256": "a7c9d3ef5214db35d079b29877806aed1f8029399203dea3b567aa911522327d",
+      "rows": 85,
+      "masters": [
+        "starfield.esm",
+        "delta-7_jedi_starfighter_2002.esm"
+      ]
+    },
+    {
+      "sst": "du_overtime_en_ko.sst",
+      "sha256": "a716960c935543fc196e88ddc4f65b33e167631c49538395484f3e0ff14c63e0",
+      "rows": 2236,
+      "masters": [
+        "starfield.esm",
+        "du_overtime.esm"
+      ]
+    },
+    {
+      "sst": "du_takeover_en_ko.sst",
+      "sha256": "e1a696ae72d5dc9f35e28c621b24991ca5aed3085e8d3da14fcba7626f55eac0",
+      "rows": 106,
+      "masters": [
+        "starfield.esm",
+        "du_takeover.esm"
+      ]
+    },
+    {
+      "sst": "eaa_tafightorflight_en_ko.sst",
+      "sha256": "7952018cc73f738e0aeb1a2b9d5c45df25ff94a6ede2785088259961780bfbf9",
+      "rows": 26,
+      "masters": [
+        "starfield.esm",
+        "sfbgs003.esm",
+        "eaa_tafightorflight.esm"
+      ]
+    },
+    {
+      "sst": "eaasupplymissionfix_en_ko.sst",
+      "sha256": "66e2ec39a1e4d59ec6048a762d68052597250e4860c56ebddcd7736c30f9a876",
+      "rows": 153,
+      "masters": [
+        "starfield.esm",
+        "eaasupplymissionfix.esm"
+      ]
+    },
+    {
+      "sst": "endor_en_ko.sst",
+      "sha256": "0466e792d8652b9b0b268d233aedce936684408176976b6290485f1eaa3f050f",
+      "rows": 398,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "sw blasters.esm",
+        "swnewgalaxy.esm",
+        "endor.esm"
+      ]
+    },
+    {
+      "sst": "forcepowers_en_ko.sst",
+      "sha256": "331654c323198c09e58c66609b8e5887c87af2992f5169ab48f6f9c5d01500a7",
+      "rows": 215,
+      "masters": [
+        "starfield.esm",
+        "forcepowers.esm"
+      ]
+    },
+    {
+      "sst": "forcepowertrainer_en_ko.sst",
+      "sha256": "f078165bf94d63acd5ceeca17c62dc52146e824bf8aaadc0146092132d47ac22",
+      "rows": 112,
+      "masters": [
+        "starfield.esm",
+        "forcepowertrainer.esm"
+      ]
+    },
+    {
+      "sst": "freestar rebels_en_ko.sst",
+      "sha256": "9c3090855d1da30ce593dffe21393c2a64ad8318fd0dcbe3bcfd7a9a03e79497",
+      "rows": 105,
+      "masters": [
+        "starfield.esm",
+        "freestar rebels.esm"
+      ]
+    },
+    {
+      "sst": "fugitivehideout_en_ko.sst",
+      "sha256": "70631c39a1aba139c8a5f2f5b80ec43b98e51f2f9a76d6f319436daf82cd9eca",
+      "rows": 403,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "sw blasters.esm",
+        "tatooine.esm",
+        "moseisley__.esm",
+        "coruscantcity.esm",
+        "fugitivehideout.esm"
+      ]
+    },
+    {
+      "sst": "genesisfreelanes_en_ko.sst",
+      "sha256": "1a0e9f9a9547ad4d626f546e1ebe93e71e12d362dc124cd2740619222bbaaa6d",
+      "rows": 132,
+      "masters": [
+        "starfield.esm",
+        "sfbgs00d.esm",
+        "genesisfreelanes.esm"
+      ]
+    },
+    {
+      "sst": "greedo_en_ko.sst",
+      "sha256": "6220ac017d15766a9f5cd6e6fde2f3c1377811f7a77e061d25a42c919ecf055c",
+      "rows": 43,
+      "masters": [
+        "starfield.esm",
+        "greedo.esm"
+      ]
+    },
+    {
+      "sst": "grindterrafbo_en_ko.sst",
+      "sha256": "ae975aa17935acff759f8f12bb533cebca383f62a2b949e8d4dc8315ae02ed1c",
+      "rows": 278,
+      "masters": [
+        "starfield.esm",
+        "grindterrafbo.esm"
+      ]
+    },
+    {
+      "sst": "grindterralocations_en_ko.sst",
+      "sha256": "98cd8b8e3dced672e1540d579892c6fe480b585fd477e49a2b6822555c23bae8",
+      "rows": 72,
+      "masters": [
+        "starfield.esm",
+        "grindterralocations.esm"
+      ]
+    },
+    {
+      "sst": "ho_crewslots_en_ko.sst",
+      "sha256": "0a68277ad83692911f2a7a22dcc4244ca4b1dfda461b71c3aed611772259e00d",
+      "rows": 2,
+      "masters": [
+        "starfield.esm",
+        "ho_crewslots.esm"
+      ]
+    },
+    {
+      "sst": "hondo ohnaka and crew_en_ko.sst",
+      "sha256": "95a31669b0cf1ff83c9f90b1ee2afd1857ef8c2b34beef10493f4771ca05aafa",
+      "rows": 83,
+      "masters": [
+        "starfield.esm",
+        "hondo ohnaka and crew.esm"
+      ]
+    },
+    {
+      "sst": "hondo_ohnaka_en_ko.sst",
+      "sha256": "ff43f2c014a1a10c7984fb2d1a1f3515495290c583160df7e2d839a3b204e7f3",
+      "rows": 11,
+      "masters": [
+        "starfield.esm",
+        "hondo_ohnaka.esm"
+      ]
+    },
+    {
+      "sst": "imperialcommandoboss_en_ko.sst",
+      "sha256": "9b384f486ce8a55a16b5f727ff748b80ee23a7bda564109ba327998b9f97e68d",
+      "rows": 40,
+      "masters": [
+        "starfield.esm",
+        "starwarsiac.esm",
+        "arc_vault.esm",
+        "imperialcommandoboss.esm"
+      ]
+    },
+    {
+      "sst": "improvedfollowerbehavior_en_ko.sst",
+      "sha256": "e9437fafd183209ca799b5ceade033da6aa86f970945b931e0248c3b4efe928c",
+      "rows": 9,
+      "masters": [
+        "starfield.esm",
+        "improvedfollowerbehavior.esm"
+      ]
+    },
+    {
+      "sst": "j-type_327_nubian_royal_starship_1999_en_ko.sst",
+      "sha256": "fd09b3a6b8b841abfddc42e2bbc4725f725bae4106ec3bf3b74a815943fadee0",
+      "rows": 49,
+      "masters": [
+        "starfield.esm",
+        "j-type_327_nubian_royal_starship_1999.esm"
+      ]
+    },
+    {
+      "sst": "kellic_en_ko.sst",
+      "sha256": "35dd4059a932289a3cb48a0c0555baa580daf68a77aaaa2161d82f800304f577",
+      "rows": 7,
+      "masters": [
+        "starfield.esm",
+        "sfbgs003.esm",
+        "kellic.esm"
+      ]
+    },
+    {
+      "sst": "kestrodeletedroidskins_en_ko.sst",
+      "sha256": "7cc95afd5da70fe704b5281553ac03f13d0bbbed559ebd23d769058ae9c8c73f",
+      "rows": 1,
+      "masters": [
+        "starfield.esm",
+        "sw droids.esm",
+        "starwars_vardos.esm",
+        "kestrodeletedroidskins.esm"
+      ]
+    },
+    {
+      "sst": "kotor droids_en_ko.sst",
+      "sha256": "79bab4a3e9ac4035129d4553b7567137065afc3e3e63e8d51de13a75afa4e757",
+      "rows": 67,
+      "masters": [
+        "starfield.esm",
+        "tatooine.esm",
+        "moseisley__.esm",
+        "sw blasters.esm",
+        "kotor droids.esm"
+      ]
+    },
+    {
+      "sst": "manaan_en_ko.sst",
+      "sha256": "ad1e26704b071ead55e2d11376785585232f9c921d3b2ddb131f568d3221d424",
+      "rows": 4,
+      "masters": [
+        "starfield.esm",
+        "manaan.esm"
+      ]
+    },
+    {
+      "sst": "mandalorianforge_en_ko.sst",
+      "sha256": "769481921ee1e34834ceb08aec07a25eba7f3ccc783e2aef3537db89a591b5a4",
+      "rows": 114,
+      "masters": [
+        "starfield.esm",
+        "sfbgs00d.esm",
+        "swnewgalaxy.esm",
+        "mandalorianforge.esm"
+      ]
+    },
+    {
+      "sst": "mojo_jetpackcontroller_en_ko.sst",
+      "sha256": "d13175a5f7312df466e04c6b49bcaef889de9f8771edad779a8c46ff83ec761b",
+      "rows": 55,
+      "masters": [
+        "starfield.esm",
+        "mojo_jetpackcontroller.esm"
+      ]
+    },
+    {
+      "sst": "mojostc_en_ko.sst",
+      "sha256": "11f114c8c0973e5aa3d1192c32b49371e60ce707c4d92695037b944c138c17a7",
+      "rows": 21,
+      "masters": [
+        "starfield.esm",
+        "mojostc.esm"
+      ]
+    },
+    {
+      "sst": "moseisley___en_ko.sst",
+      "sha256": "901284830ab48c3e3a61351427393a15eeba2712095c5d7bdc662ccf0d193577",
+      "rows": 245,
+      "masters": [
+        "starfield.esm",
+        "sw blasters.esm",
+        "sw resources.esm",
+        "tatooine.esm",
+        "swnewgalaxy.esm",
+        "moseisley__.esm"
+      ]
+    },
+    {
+      "sst": "mustafar_en_ko.sst",
+      "sha256": "53aac16051628958e48afc2215ef072c372227ea25f0d560854089a392583b1a",
+      "rows": 26,
+      "masters": [
+        "starfield.esm",
+        "mustafar.esm"
+      ]
+    },
+    {
+      "sst": "naboo_n-1_starfighter_1999_en_ko.sst",
+      "sha256": "8f93825c5e9a77fd87ca41574e8d4658c6a1544f627608b8615040bd7ce38d6f",
+      "rows": 67,
+      "masters": [
+        "starfield.esm",
+        "naboo_n-1_starfighter_1999.esm"
+      ]
+    },
+    {
+      "sst": "neonentertainerreplacer_en_ko.sst",
+      "sha256": "0ae188ce850317f241d2745e6dad8dd8765203b05627d81a65782f953e756aed",
+      "rows": 34,
+      "masters": [
+        "starfield.esm",
+        "coruscantcity.esm",
+        "neonentertainerreplacer.esm"
+      ]
+    },
+    {
+      "sst": "nix_en_ko.sst",
+      "sha256": "bf2f0102855e01fb2d293ade28043801d73bbf6b3f782be3f8dc93c7e9aa975d",
+      "rows": 33,
+      "masters": [
+        "starfield.esm",
+        "nix.esm"
+      ]
+    },
+    {
+      "sst": "odx_antares_en_ko.sst",
+      "sha256": "8c4bfd348f44931e57dc787fc497ade0a4866f731d030d33edd944177ca9fd07",
+      "rows": 157,
+      "masters": [
+        "starfield.esm",
+        "odx_antares.esm"
+      ]
+    },
+    {
+      "sst": "playershipfixesgenesis_en_ko.sst",
+      "sha256": "34abbda8a54204baea2ce4f214a8f98a205b8d765d43d0d10f71e174a8fb5107",
+      "rows": 46,
+      "masters": [
+        "starfield.esm",
+        "playershipfixesgenesis.esm"
+      ]
+    },
+    {
+      "sst": "r2d2_en_ko.sst",
+      "sha256": "b0f3b7046c32fcc41485fa138610823990ee891e5d9a2ca761be36637771c6fa",
+      "rows": 14,
+      "masters": [
+        "starfield.esm",
+        "r2d2.esm"
+      ]
+    },
+    {
+      "sst": "rakghoulinfestation_en_ko.sst",
+      "sha256": "6e9efecd84ab583a0dc292286bdf926b8c9b060d0d53c95451670a4e70247417",
+      "rows": 153,
+      "masters": [
+        "starfield.esm",
+        "rakghoulinfestation.esm"
+      ]
+    },
+    {
+      "sst": "rancor_en_ko.sst",
+      "sha256": "036f693aec471d46be3a8b084cbb7c23b77dbd40d90ebdc0c901481023a57bda",
+      "rows": 16,
+      "masters": [
+        "starfield.esm",
+        "rancor.esm"
+      ]
+    },
+    {
+      "sst": "realisticstarwarsblasters_en_ko.sst",
+      "sha256": "fb3bd675857a1b7a2452ff18024204ef5d0c320e580ddf96e0ab9c2531f2a61d",
+      "rows": 1647,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "sw blasters.esm",
+        "star wars blasters.esm",
+        "star wars blasters dlc addon.esm",
+        "star wars turrets.esm",
+        "blastereffects.esm",
+        "realisticstarwarsblasters.esm"
+      ]
+    },
+    {
+      "sst": "reimaginedlodge_en_ko.sst",
+      "sha256": "fc7bf6212228d3b97872f8d41c38275297417e120571bbe7cc1331a35f375a70",
+      "rows": 9,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "coruscantcity.esm",
+        "reimaginedlodge.esm"
+      ]
+    },
+    {
+      "sst": "royalweathers_en_ko.sst",
+      "sha256": "673489ec98379b04b4b57d33fc385415db500800f1966f9ab6f462e6f28c7f63",
+      "rows": 86,
+      "masters": [
+        "starfield.esm",
+        "royalweathers.esm"
+      ]
+    },
+    {
+      "sst": "rvnomadcave_en_ko.sst",
+      "sha256": "f97c16fbcc054baa2c5c8f38a7c07ac8ad724adf2f7fcf98403347a523e6a592",
+      "rows": 17,
+      "masters": [
+        "starfield.esm",
+        "rancor.esm",
+        "rvnomadcave.esm"
+      ]
+    },
+    {
+      "sst": "samantha says - dynamic repair bill_en_ko.sst",
+      "sha256": "1266626e555b7655ca354e46b027e2b96f094ef14fdc00a10cafc1a4372834cd",
+      "rows": 21,
+      "masters": [
+        "starfield.esm",
+        "sfbgs007.esm",
+        "samantha says - dynamic repair bill.esm"
+      ]
+    },
+    {
+      "sst": "sfbgs003_en_ko.sst",
+      "sha256": "4007a5ace2b24a5417bf4d33690affedacfae4965356d1d5a006340a686db006",
+      "rows": 3394,
+      "masters": [
+        "starfield.esm",
+        "sfbgs003.esm"
+      ]
+    },
+    {
+      "sst": "sfbgs004_en_ko.sst",
+      "sha256": "cf8620e5a2b8dbcdabe697bf02efa7c82a4c83ca7fdcf6067e742d44e9159798",
+      "rows": 79,
+      "masters": [
+        "starfield.esm",
+        "sfbgs004.esm"
+      ]
+    },
+    {
+      "sst": "sfbgs007_en_ko.sst",
+      "sha256": "458d78a70bf0e88143219cda6ae746adc0255f7c71c94044ae877ad3318bb13a",
+      "rows": 204,
+      "masters": [
+        "starfield.esm",
+        "sfbgs007.esm"
+      ]
+    },
+    {
+      "sst": "shadow collective_en_ko.sst",
+      "sha256": "8bab270199a5bbbc6fb3f964f315c20c82721f906ea8c2a479f1b045016986b2",
+      "rows": 157,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "star wars blasters.esm",
+        "shadow collective.esm"
+      ]
+    },
+    {
+      "sst": "shatteredspace_en_ko.sst",
+      "sha256": "db9b862c5b616086986ec1ee2f5b6980cf9595408a833410cda5ce7a94b1f0a7",
+      "rows": 24705,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm"
+      ]
+    },
+    {
+      "sst": "ship power fix_en_ko.sst",
+      "sha256": "a6b782ae7a1558b607c433262706ee240058891be516e9d8629be154fb2e688c",
+      "rows": 8,
+      "masters": [
+        "starfield.esm",
+        "ship power fix.esm"
+      ]
+    },
+    {
+      "sst": "shipvendorframework_en_ko.sst",
+      "sha256": "510bf3f8566d049f86af3cb487245014b86a1d53535710670d346ab982fc50a3",
+      "rows": 1579,
+      "masters": [
+        "starfield.esm",
+        "shipvendorframework.esm"
+      ]
+    },
+    {
+      "sst": "sithtrooper_en_ko.sst",
+      "sha256": "6bcce67b604585820644ced22fffe92af54f53255e50513f73aee8157d8d2485",
+      "rows": 194,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "sithtrooper.esm"
+      ]
+    },
+    {
+      "sst": "skkfaststartnewgame_en_ko.sst",
+      "sha256": "89a7fcc5ee8b89d12ed8874775352c674aa0098fd177186cad9d0e2174fe7eae",
+      "rows": 67,
+      "masters": [
+        "starfield.esm",
+        "starwarsgenesisarmorcompendium.esm",
+        "skkfaststartnewgame.esm"
+      ]
+    },
+    {
+      "sst": "speederpatcher_en_ko.sst",
+      "sha256": "fc5deaae11ecf09de186b6eac82d6e04618b6a7f2929dccd7dacc4ffdea9e1db",
+      "rows": 25,
+      "masters": [
+        "starfield.esm",
+        "thesniper9-swvehiclepack.esm",
+        "sfbgs004.esm",
+        "speederpatcher.esm"
+      ]
+    },
+    {
+      "sst": "star wars blasters dlc addon_en_ko.sst",
+      "sha256": "c6df9152b56de42b78879f685cf4a520c20dbbe601eee9927f2a508376528684",
+      "rows": 291,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "star wars blasters.esm",
+        "star wars blasters dlc addon.esm"
+      ]
+    },
+    {
+      "sst": "star wars blasters_en_ko.sst",
+      "sha256": "6906cc054acc5d6e976ec8f314ae9f1dd1ad9b8b2022a5bf786d2ef9950930fe",
+      "rows": 4281,
+      "masters": [
+        "starfield.esm",
+        "star wars blasters.esm"
+      ]
+    },
+    {
+      "sst": "star wars turrets_en_ko.sst",
+      "sha256": "32ef8a8e8d4d38c16602a6a9ad51ca36935cbae97ec4b8acf4f93c735be54439",
+      "rows": 5,
+      "masters": [
+        "starfield.esm",
+        "star wars turrets.esm"
+      ]
+    },
+    {
+      "sst": "starfield completed - unusualsosfix_en_ko.sst",
+      "sha256": "2b6cfdb9ed80dfdde045889cf8a96d81aea306a38dd1fd22a61061c99f64a9f4",
+      "rows": 4,
+      "masters": [
+        "starfield.esm",
+        "starfield completed - unusualsosfix.esm"
+      ]
+    },
+    {
+      "sst": "starfield_en_ko.sst",
+      "sha256": "8acbcde2685e39c269d0a733bdf81d5c7f2948a90d40bf47c4792ab5afa07ad7",
+      "rows": 220768,
+      "masters": [
+        "starfield.esm"
+      ]
+    },
+    {
+      "sst": "starshardrunestones_en_ko.sst",
+      "sha256": "0b6aee9daabbe915ccd608ad21a241ee8e43ff0849b2f82f4450d4b01ed4d157",
+      "rows": 23,
+      "masters": [
+        "starfield.esm",
+        "starshards.esm",
+        "starshardrunestones.esm"
+      ]
+    },
+    {
+      "sst": "starshards_en_ko.sst",
+      "sha256": "0a1de9503076ac11dc134ed7cfb393f2118d5f2c28c91ae99653bcd28eb8de46",
+      "rows": 28,
+      "masters": [
+        "starfield.esm",
+        "starshards.esm"
+      ]
+    },
+    {
+      "sst": "starwars-k79-s80_en_ko.sst",
+      "sha256": "426c616846147a1bca38051854dc7a308b09ef83d0dc0e69ecb47b199118a12f",
+      "rows": 9,
+      "masters": [
+        "starfield.esm",
+        "sfbgs004.esm",
+        "starwars-k79-s80.esm"
+      ]
+    },
+    {
+      "sst": "starwars_vardos_en_ko.sst",
+      "sha256": "6faa198e3f79058998b4f5905694f08a217b8a06e17c0349b69f03e5f8859d05",
+      "rows": 93,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "sfbgs003.esm",
+        "sfbgs006.esm",
+        "sfbgs00d.esm",
+        "sw blasters.esm",
+        "sw resources.esm",
+        "sw aliens.esm",
+        "coruscantcity.esm",
+        "starwarsgenesislocations.esm",
+        "freestar rebels.esm",
+        "uc empire.esm",
+        "sw spacer overhaul.esm",
+        "star wars blasters.esm",
+        "star wars blasters dlc addon.esm",
+        "swnewgalaxy.esm",
+        "tatooine.esm",
+        "starwarsgenesisplanets.esm",
+        "starwarsgenesisstandalonelocations.esm",
+        "moseisley__.esm",
+        "fugitivehideout.esm",
+        "shadow collective.esm",
+        "sithtrooper.esm",
+        "thesniper9-swarmorpack.esm",
+        "clonewarremnants.esm",
+        "starwarsgenesisarmorcompendium.esm",
+        "starwars_vardos.esm"
+      ]
+    },
+    {
+      "sst": "starwarscapitalships_en_ko.sst",
+      "sha256": "22e854caacdf02023114bf81ffa6b14e58b081dd7e7b5890d754d3c20aa1ca3d",
+      "rows": 5,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "coruscantcity.esm",
+        "starwarscapitalships.esm"
+      ]
+    },
+    {
+      "sst": "starwarscapitalshipsai_en_ko.sst",
+      "sha256": "111a231b971a3823360df015e4f6680d9c5139a0a11d8a6a4cdede2472221cba",
+      "rows": 18,
+      "masters": [
+        "starfield.esm",
+        "sfbgs00d.esm",
+        "starwarscapitalshipsai.esm"
+      ]
+    },
+    {
+      "sst": "starwarscityships_en_ko.sst",
+      "sha256": "aa7dfad9290b764d2b77d7c7654d221752be6c0764d00f7295a9a32af9c545f9",
+      "rows": 60,
+      "masters": [
+        "starfield.esm",
+        "starwarscityships.esm"
+      ]
+    },
+    {
+      "sst": "starwarscriminalquestline_en_ko.sst",
+      "sha256": "ec4b857ae7f4334d4a47ec169bdd8b048aa2463c9e4365c15ab47e9058770c95",
+      "rows": 35,
+      "masters": [
+        "starfield.esm",
+        "starwarscriminalquestline.esm"
+      ]
+    },
+    {
+      "sst": "starwarsfactionexpansion_en_ko.sst",
+      "sha256": "5b285ddec2cbb9e44f831369facbd3c14c36ff888962a16fb2fd4ad822d9b237",
+      "rows": 300,
+      "masters": [
+        "starfield.esm",
+        "sfbgs00d.esm",
+        "sw droids.esm",
+        "du_takeover.esm",
+        "freestar rebels.esm",
+        "star wars blasters.esm",
+        "sw gangs.esm",
+        "starwarsgenesisarmorcompendium.esm",
+        "starwarsfactionexpansion.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+      "sha256": "f33e566ecaab732665093584bd8d2f7d26222ceaab2466d91b5eb6e31a4a3829",
+      "rows": 1241,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "sfbgs00d.esm",
+        "sw blasters.esm",
+        "sw resources.esm",
+        "sw aliens.esm",
+        "coruscantcity.esm",
+        "starwarsgenesislocations.esm",
+        "freestar rebels.esm",
+        "uc empire.esm",
+        "sw spacer overhaul.esm",
+        "star wars blasters.esm",
+        "star wars blasters dlc addon.esm",
+        "star wars turrets.esm",
+        "blastereffects.esm",
+        "realisticstarwarsblasters.esm",
+        "swnewgalaxy.esm",
+        "tatooine.esm",
+        "starwarsgenesisplanets.esm",
+        "starwarsgenesisstandalonelocations.esm",
+        "moseisley__.esm",
+        "fugitivehideout.esm",
+        "shadow collective.esm",
+        "sithtrooper.esm",
+        "thesniper9-swarmorpack.esm",
+        "clonewarremnants.esm",
+        "starwarsgenesisarmorcompendium.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesisccrowds_en_ko.sst",
+      "sha256": "5c6dc1acf92d66f123bc1e79e85c337bc76bcc76ecff8eba170d18c0996342ae",
+      "rows": 1,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "sw droids.esm",
+        "sw spacer overhaul.esm",
+        "starwarsgenesisarmorcompendium.esm",
+        "starwarsgenesisccrowds.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesisgalaxypatcher_en_ko.sst",
+      "sha256": "827d2603c85a46ff9fca8b4a82138d69c51d1bd3f5c1db5e1f9f1858ce2d8131",
+      "rows": 131,
+      "masters": [
+        "starfield.esm",
+        "sfbgs00d.esm",
+        "sw blasters.esm",
+        "swnewgalaxy.esm",
+        "tatooine.esm",
+        "endor.esm",
+        "starwarsgenesisgalaxypatcher.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesislightsabers_en_ko.sst",
+      "sha256": "d84cb2547e4d3c9fd4c51452acab6ee220497ba2cce0be0e42a43f301bbaabdc",
+      "rows": 421,
+      "masters": [
+        "starfield.esm",
+        "suitpowercores.esm",
+        "all_trilogy_lightsabers.esm",
+        "starwarsgenesisplanets.esm",
+        "starwarsgenesisstandalonelocations.esm",
+        "forcepowertrainer.esm",
+        "rakghoulinfestation.esm",
+        "mandalorianforge.esm",
+        "starwarsgenesisarmorcompendium.esm",
+        "starwarsgenesislightsabers.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesislocations_en_ko.sst",
+      "sha256": "ac94a91e9fb8c4134d100df622326861e080ac4b61437021635463b91eff4a49",
+      "rows": 59,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "coruscantcity.esm",
+        "starwarsgenesislocations.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesisoverridepatch_en_ko.sst",
+      "sha256": "93379a8b50cf4b93ed321355561382ca30c5054311ae8a15575a54c068d52311",
+      "rows": 2608,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "sfbgs00d.esm",
+        "sw blasters.esm",
+        "sw resources.esm",
+        "sw aliens.esm",
+        "sw droids.esm",
+        "coruscantcity.esm",
+        "starwarsgenesislocations.esm",
+        "starwarspropreplacement.esm",
+        "du_overtime.esm",
+        "suitpowercores.esm",
+        "freestar rebels.esm",
+        "uc empire.esm",
+        "trandoshan mercs.esm",
+        "sw spacer overhaul.esm",
+        "sw rebel leaders.esm",
+        "star wars blasters.esm",
+        "star wars blasters dlc addon.esm",
+        "star wars turrets.esm",
+        "blastereffects.esm",
+        "realisticstarwarsblasters.esm",
+        "all_trilogy_lightsabers.esm",
+        "swnewgalaxy.esm",
+        "tatooine.esm",
+        "starwarsgenesisplanets.esm",
+        "starwarsgenesisstandalonelocations.esm",
+        "moseisley__.esm",
+        "fugitivehideout.esm",
+        "forcepowertrainer.esm",
+        "shadow collective.esm",
+        "sw gangs.esm",
+        "sithtrooper.esm",
+        "thesniper9-swarmorpack.esm",
+        "rakghoulinfestation.esm",
+        "clonewarremnants.esm",
+        "mandalorianforge.esm",
+        "starwarsgenesisarmorcompendium.esm",
+        "starwarsgenesislightsabers.esm",
+        "yuuzhan_vong.esm",
+        "starwarsgenesisoverridepatch.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesisplanets_en_ko.sst",
+      "sha256": "d20086b8fea670fd3026f2bcd3af4fd454b67b5a5c00a127ff7caad9d0990c17",
+      "rows": 116,
+      "masters": [
+        "starfield.esm",
+        "starwarsgenesisplanets.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesissidequests_en_ko.sst",
+      "sha256": "750dff3309bf0cc812142fc4ee0d926ebd3f284f2272e3f4b2abb39d7aa396d9",
+      "rows": 573,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "sfbgs00d.esm",
+        "sw blasters.esm",
+        "sw resources.esm",
+        "sw aliens.esm",
+        "coruscantcity.esm",
+        "starwarsgenesislocations.esm",
+        "suitpowercores.esm",
+        "freestar rebels.esm",
+        "uc empire.esm",
+        "sw spacer overhaul.esm",
+        "star wars blasters.esm",
+        "star wars blasters dlc addon.esm",
+        "star wars turrets.esm",
+        "blastereffects.esm",
+        "realisticstarwarsblasters.esm",
+        "all_trilogy_lightsabers.esm",
+        "swnewgalaxy.esm",
+        "tatooine.esm",
+        "starwarsgenesisplanets.esm",
+        "starwarsgenesisstandalonelocations.esm",
+        "moseisley__.esm",
+        "fugitivehideout.esm",
+        "forcepowertrainer.esm",
+        "shadow collective.esm",
+        "sithtrooper.esm",
+        "thesniper9-swarmorpack.esm",
+        "rakghoulinfestation.esm",
+        "clonewarremnants.esm",
+        "mandalorianforge.esm",
+        "starwarsgenesisarmorcompendium.esm",
+        "starwarsgenesislightsabers.esm",
+        "starwarsimperialquestline.esm",
+        "starwarsgenesissidequests.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesisstandalonelocations_en_ko.sst",
+      "sha256": "9469972a3b87d28b7799c284f0c7d43e8a0a78ce37218b6005975bd5b7d762df",
+      "rows": 10,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "coruscantcity.esm",
+        "starwarsgenesisplanets.esm",
+        "starwarsgenesisstandalonelocations.esm"
+      ]
+    },
+    {
+      "sst": "starwarsgenesisvanillabugfixes_en_ko.sst",
+      "sha256": "608da8353f4f85487ff362b7fe55eb5da01d65f996a2aa85c86c89c9229fcf0b",
+      "rows": 789,
+      "masters": [
+        "starfield.esm",
+        "starwarsgenesisvanillabugfixes.esm"
+      ]
+    },
+    {
+      "sst": "starwarsiac_en_ko.sst",
+      "sha256": "ba626520c2b75182e34d69a765d65ed497136a51f2b2bf7dc4d8f8b75f64a134",
+      "rows": 19,
+      "masters": [
+        "starfield.esm",
+        "starwarsiac.esm"
+      ]
+    },
+    {
+      "sst": "starwarsimperialquestline_en_ko.sst",
+      "sha256": "5c40c12bf82ab4eff072a169bd3accaffdaa464b0fdd11b600943c3ac8f8b24b",
+      "rows": 776,
+      "masters": [
+        "starfield.esm",
+        "starwarsimperialquestline.esm"
+      ]
+    },
+    {
+      "sst": "starwarsmapmarkers_en_ko.sst",
+      "sha256": "5a47290cc14b643e651e1cca4c8cb0f6263f394e86f840a8cf03b61b2eb8bfb5",
+      "rows": 25,
+      "masters": [
+        "starfield.esm",
+        "sfbgs008.esm",
+        "starwarsmapmarkers.esm"
+      ]
+    },
+    {
+      "sst": "starwarspropreplacement_en_ko.sst",
+      "sha256": "575ba0ed86382c457fc3c02a0f536723a562f2a256f8d4a6697207c728fb2d03",
+      "rows": 523,
+      "masters": [
+        "starfield.esm",
+        "coruscantcity.esm",
+        "starwarspropreplacement.esm"
+      ]
+    },
+    {
+      "sst": "starwarsrebelquestline_en_ko.sst",
+      "sha256": "3add409e8528920c36ad8d5b45373f06baca70682415723d786dbaa2f2555c2d",
+      "rows": 292,
+      "masters": [
+        "starfield.esm",
+        "starwarsrebelquestline.esm"
+      ]
+    },
+    {
+      "sst": "starwarsshippack_en_ko.sst",
+      "sha256": "061215579dfa23dc209069a7540062ee4c1a5691ae25c20201ae9a9a5b2e10c8",
+      "rows": 498,
+      "masters": [
+        "starfield.esm",
+        "avontechshipyards.esm",
+        "odx_antares.esm",
+        "starwarsshippack.esm"
+      ]
+    },
+    {
+      "sst": "starwarsshipreplacer_en_ko.sst",
+      "sha256": "e23e7f1d057ea334db607a704c520ce2e0ab1612e4ca76654d03b0923d69a601",
+      "rows": 42,
+      "masters": [
+        "starfield.esm",
+        "t_65b_x_wing_starfighter.esm",
+        "starwarsshipreplacer.esm"
+      ]
+    },
+    {
+      "sst": "starwarsshipvendorframework_en_ko.sst",
+      "sha256": "4390a6d9cb20b6f48f59dbd0b3fcd523dcf6232c16d29efdfe7632336f9bb2fa",
+      "rows": 209,
+      "masters": [
+        "starfield.esm",
+        "thesniper9-firespray31.esm",
+        "yt-1300_millennium_falcon_1977.esm",
+        "tie_advanced_x1_1977.esm",
+        "t_65b_x_wing_starfighter.esm",
+        "j-type_327_nubian_royal_starship_1999.esm",
+        "the_mandalorian_n-1_starfighter_2021.esm",
+        "delta-7_jedi_starfighter_2002.esm",
+        "naboo_n-1_starfighter_1999.esm",
+        "t-2ramsidianyacht.esm",
+        "starwarsshippack.esm",
+        "starwarsshipvendorframework.esm"
+      ]
+    },
+    {
+      "sst": "starwarsuniquebosses_en_ko.sst",
+      "sha256": "cf3ca852646f8f5e5394d3fb7ef9fb30ab58e909aee4020de2ea96450e90539c",
+      "rows": 23,
+      "masters": [
+        "starfield.esm",
+        "chewbacca.esm",
+        "starwarsuniquebosses.esm"
+      ]
+    },
+    {
+      "sst": "suitpowercores_en_ko.sst",
+      "sha256": "74822fdfd1c93c1f7f48daf0c8b08573f092b10eff361079448d6b4b98f3dc28",
+      "rows": 124,
+      "masters": [
+        "starfield.esm",
+        "suitpowercores.esm"
+      ]
+    },
+    {
+      "sst": "svf-darkstarastrodynamics-patch_en_ko.sst",
+      "sha256": "aa61dba23403ea292f032f2e0b18645315d2f85e1b6c024b91c4183f2b8e920c",
+      "rows": 72,
+      "masters": [
+        "starfield.esm",
+        "shipvendorframework.esm",
+        "darkstar_astrodynamics.esm",
+        "svf-darkstarastrodynamics-patch.esm"
+      ]
+    },
+    {
+      "sst": "svf-falklandsystems-patch_en_ko.sst",
+      "sha256": "928305918265bef6a7cb3c30afd74d6affc89206505ae92c287316cdff832245",
+      "rows": 142,
+      "masters": [
+        "starfield.esm",
+        "falklandsystems.esm",
+        "shipvendorframework.esm",
+        "svf-falklandsystems-patch.esm"
+      ]
+    },
+    {
+      "sst": "svf-shatteredspace-patch_en_ko.sst",
+      "sha256": "7e4e995342cb0294f7ea8432619f0553e4a7fc35c9ff4459607b5767db7026cf",
+      "rows": 72,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "shipvendorframework.esm",
+        "svf-shatteredspace-patch.esm"
+      ]
+    },
+    {
+      "sst": "svf-watchtower-patch_en_ko.sst",
+      "sha256": "e4cf0c221838a10aa23067b209bae826ff8ef7d49c44313474a3a77670616b1e",
+      "rows": 72,
+      "masters": [
+        "starfield.esm",
+        "kinggathcreations_spaceship.esm",
+        "shipvendorframework.esm",
+        "sfbgs008.esm",
+        "sfbgs007.esm",
+        "sfbgs004.esm",
+        "sfbgs006.esm",
+        "sfbgs003.esm",
+        "svf-watchtower-patch.esm"
+      ]
+    },
+    {
+      "sst": "sw alien player_en_ko.sst",
+      "sha256": "69e4961ef2044be84120341e40164c65bede01b72adc8cc65722bb8318f39428",
+      "rows": 187,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "sw alien player.esm"
+      ]
+    },
+    {
+      "sst": "sw aliens_en_ko.sst",
+      "sha256": "acf687f1c5e59b80fd6ebced444e3d2bdc3ac4d24b0bf70b7b795425e9a45d90",
+      "rows": 598,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "sw aliens.esm"
+      ]
+    },
+    {
+      "sst": "sw blasters_en_ko.sst",
+      "sha256": "86cc298279340c9cb2ed314c1abc41bf5b8408fcf3c59daac26bde4df8c65cb1",
+      "rows": 1214,
+      "masters": [
+        "starfield.esm",
+        "sw blasters.esm"
+      ]
+    },
+    {
+      "sst": "sw droids_en_ko.sst",
+      "sha256": "1b600fc0e0b8a7c38af671dd157a6b43d79c996add87a754ba2e862e608548bf",
+      "rows": 287,
+      "masters": [
+        "starfield.esm",
+        "sw droids.esm"
+      ]
+    },
+    {
+      "sst": "sw gangs_en_ko.sst",
+      "sha256": "8ed4990c8027d1cf675881117d7be8b37f8bdeba1de3a28384f76bbc974ac103",
+      "rows": 270,
+      "masters": [
+        "starfield.esm",
+        "sw gangs.esm"
+      ]
+    },
+    {
+      "sst": "sw rebel leaders_en_ko.sst",
+      "sha256": "445627313abfade215c776c403f00455034116bf6b30c6b73258af9c33714cdc",
+      "rows": 38,
+      "masters": [
+        "starfield.esm",
+        "sw aliens.esm",
+        "sw rebel leaders.esm"
+      ]
+    },
+    {
+      "sst": "sw resources_en_ko.sst",
+      "sha256": "25fb1297440ac04497fb7e9fcb1d4e1aeda7ed7b7216fd08c1b629ca7da0c8ed",
+      "rows": 977,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm"
+      ]
+    },
+    {
+      "sst": "sw spacer overhaul_en_ko.sst",
+      "sha256": "a3e3d12bd56aaac6dd860fd68f9f267a06e894c9464824a42aa3e86d46ad8d71",
+      "rows": 83,
+      "masters": [
+        "starfield.esm",
+        "sw spacer overhaul.esm"
+      ]
+    },
+    {
+      "sst": "sw_dataspike_en_ko.sst",
+      "sha256": "55a9725c05092d4a4863f7eb34274d0a84d474fafeac4cdb77aa9b14e1f7cc5e",
+      "rows": 2,
+      "masters": [
+        "starfield.esm",
+        "sw_dataspike.esm"
+      ]
+    },
+    {
+      "sst": "swnewgalaxy_en_ko.sst",
+      "sha256": "4b0737fd7a415579926862431dce10f08fb1d1fee0d947c5526c4caf09f6f0ef",
+      "rows": 2623,
+      "masters": [
+        "starfield.esm",
+        "sfbgs00d.esm",
+        "swnewgalaxy.esm"
+      ]
+    },
+    {
+      "sst": "t-2ramsidianyacht_en_ko.sst",
+      "sha256": "4d004370140885ad961164f451aca095004d9988e3282e1e27871cab1e801aab",
+      "rows": 29,
+      "masters": [
+        "starfield.esm",
+        "t-2ramsidianyacht.esm"
+      ]
+    },
+    {
+      "sst": "t_65b_x_wing_starfighter_en_ko.sst",
+      "sha256": "a426e0945f837adf61c2af6c54b4e6cc0fe4bfd757be12a40768726f908a906a",
+      "rows": 121,
+      "masters": [
+        "starfield.esm",
+        "t_65b_x_wing_starfighter.esm"
+      ]
+    },
+    {
+      "sst": "tatooine_en_ko.sst",
+      "sha256": "5b90f49048ea06e5bb460aa3426db3decb00147c556388ae85efff72a5a7f569",
+      "rows": 988,
+      "masters": [
+        "starfield.esm",
+        "sw resources.esm",
+        "sw blasters.esm",
+        "swnewgalaxy.esm",
+        "tatooine.esm"
+      ]
+    },
+    {
+      "sst": "terrifying terrormorphs_en_ko.sst",
+      "sha256": "94e0cad28f500faf04987b69e91002900e27585f232da3833d2b028fbfe55fd3",
+      "rows": 33,
+      "masters": [
+        "starfield.esm",
+        "terrifying terrormorphs.esm"
+      ]
+    },
+    {
+      "sst": "the_mandalorian_n-1_starfighter_2021_en_ko.sst",
+      "sha256": "179a3a91a69b687d169f3a1d9c7b4d327ab2ef21077141daf98ab271dbe53383",
+      "rows": 82,
+      "masters": [
+        "starfield.esm",
+        "the_mandalorian_n-1_starfighter_2021.esm"
+      ]
+    },
+    {
+      "sst": "thesavagemaidensea_en_ko.sst",
+      "sha256": "6105dec2e9c4ed11c92cf383a2521ba8b6ab96688799c5ee4ebe1ca0929f0cfa",
+      "rows": 16,
+      "masters": [
+        "starfield.esm",
+        "thesavagemaidensea.esm"
+      ]
+    },
+    {
+      "sst": "thesniper9-firespray31_en_ko.sst",
+      "sha256": "8e9828528459e565ad155653f3018db6e63a34182f28dda780a386ece372e7e9",
+      "rows": 91,
+      "masters": [
+        "starfield.esm",
+        "thesniper9-firespray31.esm"
+      ]
+    },
+    {
+      "sst": "thesniper9-swarmorpack_en_ko.sst",
+      "sha256": "1c7827bd073923947f70373f16c68f9595a9d662fc3b9f44c1ac331ddf777592",
+      "rows": 2303,
+      "masters": [
+        "starfield.esm",
+        "thesniper9-swarmorpack.esm"
+      ]
+    },
+    {
+      "sst": "thesniper9-swvehiclepack_en_ko.sst",
+      "sha256": "82945b7fd0cd03a2ca1cf58cab9435db9751f0e1b7200b648489c80e9842d16e",
+      "rows": 330,
+      "masters": [
+        "starfield.esm",
+        "sfbgs004.esm",
+        "thesniper9-swvehiclepack.esm"
+      ]
+    },
+    {
+      "sst": "thetrackersalliancedelayed_en_ko.sst",
+      "sha256": "e51316eb342f55d96ef5219fe0422451f4669cbac2a5486a90d70fd31381b644",
+      "rows": 56,
+      "masters": [
+        "starfield.esm",
+        "sfbgs007.esm",
+        "sfbgs003.esm",
+        "thetrackersalliancedelayed.esm"
+      ]
+    },
+    {
+      "sst": "thewell_apartment_z_en_ko.sst",
+      "sha256": "1de787d8694340681cfb2ae3b1003e62c0d4f75798052f2f566d1f80283aa71b",
+      "rows": 44,
+      "masters": [
+        "starfield.esm",
+        "thewell_apartment_z.esm"
+      ]
+    },
+    {
+      "sst": "tie_advanced_x1_1977_en_ko.sst",
+      "sha256": "8b93e1db15b1f59184deeda335425dd8b4f78b6c57123feb1c7c2c8d5bd66230",
+      "rows": 84,
+      "masters": [
+        "starfield.esm",
+        "tie_advanced_x1_1977.esm"
+      ]
+    },
+    {
+      "sst": "trackeralliance_hq_overhaul_en_ko.sst",
+      "sha256": "78a60bb5fefd2195c91df415ad9afa46d1c09625b3bdb003b68a42dadf5043b0",
+      "rows": 52,
+      "masters": [
+        "starfield.esm",
+        "thesniper9-swarmorpack.esm",
+        "sw spacer overhaul.esm",
+        "star wars blasters.esm",
+        "kellic.esm",
+        "sfbgs003.esm",
+        "trackeralliance_hq_overhaul.esm"
+      ]
+    },
+    {
+      "sst": "trandoshan mercs_en_ko.sst",
+      "sha256": "2920cfb74e6456a47bd5e3e93a46734a730dc00b852d5e4c61594a676d20194c",
+      "rows": 46,
+      "masters": [
+        "starfield.esm",
+        "trandoshan mercs.esm"
+      ]
+    },
+    {
+      "sst": "uc empire_en_ko.sst",
+      "sha256": "b21f75f0553dfa17db4ca03bf7506c29f3d0b330fa307ed04aed7444bf345be3",
+      "rows": 397,
+      "masters": [
+        "starfield.esm",
+        "uc empire.esm"
+      ]
+    },
+    {
+      "sst": "vardossystem_en_ko.sst",
+      "sha256": "88ea56b6c8434322c50cac8c267cbe26f2613d7dbeb68406ef8ca98529f56d59",
+      "rows": 6,
+      "masters": [
+        "starfield.esm",
+        "starwars_vardos.esm",
+        "vardossystem.esm"
+      ]
+    },
+    {
+      "sst": "yt-1300_millennium_falcon_1977_en_ko.sst",
+      "sha256": "2df17caee5aa446600655f93190fda893f6ca9f603d23bba8a4c7f878ebe375e",
+      "rows": 60,
+      "masters": [
+        "starfield.esm",
+        "yt-1300_millennium_falcon_1977.esm"
+      ]
+    },
+    {
+      "sst": "yuuzhan_vong_en_ko.sst",
+      "sha256": "ffddf30e92edaaf0224549dcefdc31785a269d729604485fc5c507f8af88483d",
+      "rows": 688,
+      "masters": [
+        "starfield.esm",
+        "shatteredspace.esm",
+        "starwarsgenesislightsabers.esm",
+        "yuuzhan_vong.esm"
+      ]
+    }
+  ],
+  "additional_sst_not_in_snapshot": []
+}

@@ -1,0 +1,789 @@
+{
+  "items": [
+    {
+      "source_en": "Agent No. 1",
+      "record_types": [
+        "NPC_"
+      ],
+      "sst_count": 3,
+      "variants": [
+        {
+          "ko": "1호 요원",
+          "count": 2
+        },
+        {
+          "ko": "요원 1호",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Raider",
+      "record_types": [
+        "NPC_"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "레이더",
+          "count": 14
+        },
+        {
+          "ko": "습격자",
+          "count": 6
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "You?",
+      "record_types": [
+        "NPC_"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "너?",
+          "count": 8
+        },
+        {
+          "ko": "당신?",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Derelict Cantonment",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "버려진 병영",
+          "count": 2
+        },
+        {
+          "ko": "버려진 주둔지",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Discarded Camp",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "폐기된 야영지",
+          "count": 2
+        },
+        {
+          "ko": "폐기된 캠프",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Disowned Barracks",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "폐쇄된 병영",
+          "count": 2
+        },
+        {
+          "ko": "버려진 병영",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Encased Stronghold",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "밀폐된 요새",
+          "count": 2
+        },
+        {
+          "ko": "요새화된 거점",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Forsook Siege Camp",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "버려진 포위 진지",
+          "count": 2
+        },
+        {
+          "ko": "버려진 포위 캠프",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Geonosis Droid Factory",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "게오노스 드로이드 공장",
+          "count": 2
+        },
+        {
+          "ko": "지오노시스 드로이드 공장",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Ignored Outpost",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "방치된 전초기지",
+          "count": 2
+        },
+        {
+          "ko": "무시된 전초기지",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Lonely Holding Area",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "외딴 수용 구역",
+          "count": 2
+        },
+        {
+          "ko": "외딴 대기 구역",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Outer Depot",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "외곽 보급소",
+          "count": 2
+        },
+        {
+          "ko": "외부 저장소",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Safeguarded Military Encampment",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "방어된 군사 야영지",
+          "count": 2
+        },
+        {
+          "ko": "보호받는 군사 야영지",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Safeguarded Military Post",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "방어된 군사 초소",
+          "count": 2
+        },
+        {
+          "ko": "보호받는 군사 초소",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Solitary Base",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "고립된 기지",
+          "count": 2
+        },
+        {
+          "ko": "독립 기지",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Solitary Fortlet",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "고립된 소규모 요새",
+          "count": 2
+        },
+        {
+          "ko": "외딴 소형 요새",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Unclaimed Military Encampment",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "주인 없는 군사 야영지",
+          "count": 2
+        },
+        {
+          "ko": "미점유 군사 야영지",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Unprotected Post",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "무방비 초소",
+          "count": 2
+        },
+        {
+          "ko": "보호받지 않는 초소",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Crashed Food Truck",
+      "record_types": [
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "추락한 식량 운송 트럭",
+          "count": 1
+        },
+        {
+          "ko": "추락한 푸드 트럭",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Scrap Metal Foundry",
+      "record_types": [
+        "WRLD"
+      ],
+      "sst_count": 2,
+      "variants": [
+        {
+          "ko": "고철 주조 공장",
+          "count": 1
+        },
+        {
+          "ko": "고철 처리장",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Geological Location",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "지질학적 위치",
+          "count": 13
+        },
+        {
+          "ko": "지리적 위치",
+          "count": 4
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Thermal Craters",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "열원 분화구",
+          "count": 3
+        },
+        {
+          "ko": "열 분화구",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Bonagal I",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "보나가 I",
+          "count": 2
+        },
+        {
+          "ko": "보나가르 I",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Bonagal III",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "보나가르 III",
+          "count": 1
+        },
+        {
+          "ko": "보나갈 III",
+          "count": 1
+        },
+        {
+          "ko": "보나가 III",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Casna Aure III",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "카스나 아우레 III",
+          "count": 2
+        },
+        {
+          "ko": "카스나 오레 III",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Centax I",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "센택스 I",
+          "count": 2
+        },
+        {
+          "ko": "센탁스 I",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Charybdis VII-a",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "카리브디스 VII-a",
+          "count": 2
+        },
+        {
+          "ko": "카리브디스 VIII-a",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Dromund Fels Minor",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "드러먼드 펠스 마이너",
+          "count": 2
+        },
+        {
+          "ko": "드루먼드 펠스 마이너",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Dromund Kalakar II",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "드루먼드 칼라카 II",
+          "count": 2
+        },
+        {
+          "ko": "드로문드 칼라카 II",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Dromund Tyne",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "드러먼드 타인",
+          "count": 2
+        },
+        {
+          "ko": "드루먼드 타인",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Horuset I-a",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "호루셋 I-a",
+          "count": 1
+        },
+        {
+          "ko": "호루셋 I-a 표면",
+          "count": 1
+        },
+        {
+          "ko": "호루셋 I-a 궤도",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Jum I",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "점 I",
+          "count": 2
+        },
+        {
+          "ko": "줌 I",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Karaan IV",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "카란 IV",
+          "count": 2
+        },
+        {
+          "ko": "카라안 IV",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Lantana VII",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "란타나 VII",
+          "count": 2
+        },
+        {
+          "ko": "란타나 VIII",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Ordaj III",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "오르다즈 III",
+          "count": 2
+        },
+        {
+          "ko": "오르다이 III",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Stentat III",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "스텐탓 III",
+          "count": 2
+        },
+        {
+          "ko": "스텐탯 III",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Undar I",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "운다르 I",
+          "count": 2
+        },
+        {
+          "ko": "운다 I",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Undar II",
+      "record_types": [
+        "LCTN"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "운다르 II",
+          "count": 2
+        },
+        {
+          "ko": "운다 II",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Abandoned Industrial Compound",
+      "record_types": [
+        "LCTN",
+        "WRLD"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "버려진 산업 지역",
+          "count": 1
+        },
+        {
+          "ko": "버려진 산업 단지",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    },
+    {
+      "source_en": "Armin Petrosyan",
+      "record_types": [
+        "NPC_"
+      ],
+      "sst_count": 1,
+      "variants": [
+        {
+          "ko": "아르민 페트로전",
+          "count": 1
+        },
+        {
+          "ko": "아르민 페트로잔",
+          "count": 1
+        }
+      ],
+      "status": "needs_term_definition",
+      "canonical_ko": null
+    }
+  ]
+}

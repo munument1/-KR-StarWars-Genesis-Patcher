@@ -20,7 +20,7 @@
 |---|---|---|
 | Star Wars Genesis | 스타워즈 제네시스 | 모드팩 이름 |
 | Galactic Empire | 은하 제국 | Empire 단독은 제국 |
-| Rebel Alliance | 반란군 연합 | Rebel 단독은 문맥에 따라 반란군 |
+| Rebel Alliance | 반란군 연합 | 문맥상 약칭 반란군 허용; 반란 연합/반란군 동맹은 통일 |
 | Shadow Collective | 섀도우 콜렉티브 | 진영 |
 | Sith Empire | 시스 제국 | 은하 제국과 구분 |
 | Hutt Cartel | 허트 카르텔 | 진영 |
@@ -82,11 +82,37 @@
 | droid | 드로이드 | 인물인지 장비인지 확인 |
 | jetpack | 제트팩 | 장비 |
 | Credits | 크레딧 | 화폐; 제작진 메뉴는 제작진 |
-| Force Sensitive | 포스 감응 | 특성·배경·숨겨진 퍽 구분 |
+| Force Sensitive | 포스 감응 | 특성은 포스 감응; 인물·전용 조건은 포스 감응자 |
 | Force Essence | 포스 정수 | 이번 UI 번역 기준 |
 | Force Reflexes | 포스 리플렉스 | 기능 이름 |
 | Aceles | 아셀리스 | 기존 변형 보정 규칙에 포함 |
 | Vigilance | 비질런스 | 원문에 해당 이름이 있을 때 |
+
+## 제네시스 이름·공통 직함
+
+SST 전수 검색에서 혼용이 확인된 이름의 프로젝트 표준입니다. 지명의 로마 숫자·위성 접미사는 영어 원문대로 유지합니다. 일반 문장의 대명사 `You?`, 일반 명사 `Raider` 등은 고유명 용어집으로 강제하지 않습니다.
+
+| 영어 | 기준 표기 | 참고 |
+|---|---|---|
+| Gamorrean Guard | 가모리안 경비병 | 가모리안 가드와 통일 |
+| Hutt Clan | 허트 클랜 | 헛/후트 표기와 통일 |
+| Hutt Clan Enforcer | 허트 클랜 집행자 | 엔포서와 통일 |
+| Hutt Clan Crimelord | 허트 클랜 범죄 조직 두목 | NPC 이름 |
+| Hutt Clan Hitman | 허트 클랜 청부업자 | NPC 이름 |
+| Partisan Heavy Soldier | 파르티잔 중화기병 | 파르티잔 중병과 통일 |
+| Dromund | 드로먼드 | 드러먼드/드루먼드/드로문드와 통일 |
+| Bonagal | 보나갈 | 보나가/보나가르와 통일 |
+| Bubbok | 버복 | 부복과 통일 |
+| Casna Aure | 카스나 아우레 | 카스나 오레와 통일 |
+| Centax | 센택스 | 센탁스와 통일 |
+| Jum | 줌 | 행성명; 일반 명사 점은 치환하지 않음 |
+| Karaan | 카란 | 카라안과 통일 |
+| Kuhurrik | 쿠루릭 | 쿠후릭과 통일 |
+| Ordaj | 오르다즈 | 오르다이와 통일 |
+| Ronay | 로네이 | 로나이와 통일 |
+| Stentat | 스텐탓 | 스텐탯과 통일 |
+| Tann | 탄 | 탠과 통일 |
+| Undar | 운다르 | 운다와 통일 |
 
 ## 바닐라 용어 누출 검수
 
