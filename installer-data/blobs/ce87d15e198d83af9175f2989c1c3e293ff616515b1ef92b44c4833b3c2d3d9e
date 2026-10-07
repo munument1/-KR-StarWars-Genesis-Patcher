@@ -1,0 +1,161 @@
+@echo off
+chcp 65001 >nul
+setlocal enabledelayedexpansion
+
+:: Get the directory where this script is located
+set "root=%~dp0"
+set "log_file=%root%batch_log.txt"
+set "hadError=0"
+
+echo Script started at %DATE% %TIME% > "%log_file%"
+
+:: Set the source folder path
+set "source=%root%mods\Star Wars Genesis Documents\Document Installation"
+
+:: Resolve the real Documents folder path (handles OneDrive redirection,
+:: renamed folders, and the fact that on many Windows installs the registry
+:: stores this as the literal unexpanded token "%%USERPROFILE%%\Documents" -
+:: PowerShell's GetFolderPath resolves it correctly in one step).
+set "realDocuments="
+for /f "usebackq delims=" %%A in (`powershell -NoProfile -Command "[Environment]::GetFolderPath('Personal')"`) do set "realDocuments=%%A"
+
+if not defined realDocuments (
+    echo WARNING: Could not resolve Documents path via PowerShell. Falling back to %%USERPROFILE%%\Documents >> "%log_file%"
+    set "realDocuments=%USERPROFILE%\Documents"
+)
+
+:: Set full target path
+set "target=%realDocuments%\My Games\Starfield"
+set "prefsIni=%target%\StarfieldPrefs.ini"
+
+echo Detected actual Documents path: %realDocuments% >> "%log_file%"
+echo Target set to: %target% >> "%log_file%"
+echo Root directory: %root% >> "%log_file%"
+echo Source directory: %source% >> "%log_file%"
+
+:: Script Extender (SFSE) mods break if the Documents path contains accented
+:: letters (n-tilde, e-acute, etc.) or other non-standard symbols. Flag it.
+set "pathHasSymbols=NO"
+for /f "usebackq delims=" %%W in (`powershell -NoProfile -Command "if ('%realDocuments%' -match '[^a-zA-Z0-9 :\\_\-\.\(\)]') { 'YES' } else { 'NO' }"`) do set "pathHasSymbols=%%W"
+if /i "%pathHasSymbols%"=="YES" (
+    echo WARNING: Documents path contains special characters: %realDocuments% >> "%log_file%"
+    echo [경고] 문서 폴더 경로에 한글 또는 특수 문자가 있습니다. 일부 SFSE 모드가 작동하지 않을 수 있으니 경로를 확인하세요.
+    set "hadError=1"
+)
+
+:: Check if source exists (hard stop - nothing else can run)
+if not exist "%source%" goto :SourceMissing
+
+:: Check if target exists (hard stop - nothing else can run)
+if not exist "%target%" goto :TargetMissing
+
+:: Copy files using robocopy (no folder creation or nesting)
+:: /R:2 /W:2 keeps a locked/AV-scanned file from hanging the script for hours
+robocopy "%source%" "%target%" /E /R:2 /W:2 /NFL /NDL /NJH /NJS /NP >> "%log_file%" 2>&1
+set "rc=%errorlevel%"
+if %rc% lss 8 (
+    echo 문서 설정 파일을 복사했습니다. >> "%log_file%"
+    echo 문서 설정 파일을 복사했습니다.
+) else (
+    echo [오류] 파일 복사에 실패했습니다. 오류 코드: %rc%. 자세한 내용은 "%log_file%"을 확인하세요. >> "%log_file%"
+    echo [오류] 파일 복사에 실패했습니다. 오류 코드: %rc%. 자세한 내용은 "%log_file%"을 확인하세요.
+    set "hadError=1"
+)
+
+:: Run shader cache cleanup - always present, no existence check needed.
+:: Uses cmd /c (not call) so a bare "exit" inside this script only kills
+:: its own subprocess instead of terminating this whole installer.
+echo Running Delete_shader_cache.bat >> "%log_file%"
+cmd /c ""%root%Delete_shader_cache.bat"" >> "%log_file%" 2>&1
+
+:: StarfieldPrefs.ini must exist BEFORE the prefs scripts run, or there's nothing
+:: for them to edit. If it's missing, skip the prefs scripts but keep going with
+:: the rest of the install.
+if not exist "%prefsIni%" goto :PrefsIniMissing
+
+:: Run UpdateStarfieldPrefs.ps1
+call :RunPrefsScript "UpdateStarfieldPrefs.ps1"
+
+:: Ask user if they want to apply extreme graphics settings
+echo.
+echo 기본 설정은 중간 그래픽 품질입니다. 게임 안에서 변경할 수 있습니다.
+echo 최고 설정은 그래픽 품질과 표시 거리를 높여 성능 부담이 커질 수 있습니다.
+echo Enter 또는 Y/N 입력: 기본 설정 유지
+echo 최고 설정을 원하는 경우에만 MAX를 직접 입력하세요.
+set "userChoice="
+set /p "userChoice=선택 [기본: 유지 / 최고 설정: MAX]: "
+if /i "!userChoice!"=="MAX" (
+    echo User explicitly selected MAX graphics settings. >> "%log_file%"
+    echo 최고 그래픽 설정을 적용합니다.
+    call :RunPrefsScript "UpdateStarfieldPrefsExtremeGraphics.ps1"
+) else (
+    echo User retained standard graphics settings. >> "%log_file%"
+    echo 기본 그래픽 설정을 유지합니다.
+)
+
+:: Both prefs scripts write the same values - verify they actually landed in
+:: StarfieldPrefs.ini. If they didn't, antivirus likely blocked the script.
+set "missingValues=0"
+for %%V in ("fGamma=2.6200" "fGammaUI=2.6200" "fContrastUI=0.9000" "fContrast=0.9000") do (
+    findstr /C:%%V "%prefsIni%" >nul || set "missingValues=1"
+)
+if "%missingValues%"=="1" goto :PrefsDidNotApply
+
+echo Verified StarfieldPrefs.ini contains the expected graphics values. >> "%log_file%"
+goto :RunCompatibility
+
+:PrefsIniMissing
+echo [오류] StarfieldPrefs.ini 파일이 없습니다. >> "%log_file%"
+echo [오류] StarfieldPrefs.ini 파일이 없습니다.
+echo 스타필드를 설치하고 한 번 실행한 뒤 다시 시도하세요.
+set "hadError=1"
+goto :RunCompatibility
+
+:PrefsDidNotApply
+echo ERROR: StarfieldPrefs.ini does not contain the expected graphics values. >> "%log_file%"
+echo [오류] 제네시스 설정이 적용되지 않았습니다. 스크립트 실행 오류나 보안 프로그램 차단 여부를 확인하세요.
+echo 로그를 확인하고, 스크립트가 차단되었다면 출처를 확인한 뒤 허용 여부를 결정하세요.
+set "hadError=1"
+
+:RunCompatibility
+:: Always present, no existence check needed
+echo Running StarfieldCompatibility.bat >> "%log_file%"
+call "%root%StarfieldCompatibility.bat" >> "%log_file%" 2>&1
+echo Finished running StarfieldCompatibility.bat >> "%log_file%"
+
+echo Script finished at %DATE% %TIME% >> "%log_file%"
+
+if "%hadError%"=="1" (
+    pause
+)
+exit /b 0
+
+:: ---------------------------------------------------------------
+:: Hard-stop error handlers
+:: ---------------------------------------------------------------
+:SourceMissing
+echo [오류] 원본 설정 폴더가 없습니다: %source% >> "%log_file%"
+echo [오류] 원본 설정 폴더가 없습니다: %source%
+echo 이 BAT 파일은 모드팩의 Game 폴더에서 실행해야 합니다.
+pause
+exit /b 1
+
+:TargetMissing
+echo [오류] 대상 폴더가 없습니다: %target% >> "%log_file%"
+echo [오류] 대상 폴더가 없습니다: %target%
+echo 스타필드를 한 번 실행해서 문서 설정 폴더를 만든 뒤 다시 시도하세요.
+pause
+exit /b 1
+
+:: ---------------------------------------------------------------
+:: Helper: run a PowerShell prefs script from the target folder.
+:: %~1 = script filename (e.g. UpdateStarfieldPrefs.ps1) - always present.
+:: ---------------------------------------------------------------
+:RunPrefsScript
+echo Running %~1 >> "%log_file%"
+pushd "%target%"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~1" >> "%log_file%" 2>&1
+set "psrc=%errorlevel%"
+popd
+echo Finished running %~1 (exit code %psrc%) >> "%log_file%"
+exit /b

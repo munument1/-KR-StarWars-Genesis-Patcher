@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+build/
+dist/
+release/
+*.spec
+*.local.json
+API.txt
+.env
+.env.*
+output/
+*.log

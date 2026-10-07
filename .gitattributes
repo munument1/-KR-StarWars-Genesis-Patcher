@@ -1,0 +1,4 @@
+* text=auto
+installer-data/blobs/* -text
+*.py text eol=lf
+*.md text eol=lf

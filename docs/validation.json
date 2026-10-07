@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "target_genesis": "8.8.32",
+  "operations": 185,
+  "reviewed_translation_items": 6371,
+  "blocking_review_items": 0,
+  "unit_tests_passed": 14,
+  "plugin_strings_independent_validation_files": 153,
+  "ui_dictionary_keys": 3051,
+  "user_confirmed_in_game": [
+    "menu_translation",
+    "korean_font_display",
+    "curved_planet_label_spacing"
+  ],
+  "full_gameplay_verified": false,
+  "xtranslator_parity_verified": false,
+  "compiled_exe_self_check": true,
+  "compiled_exe_generation": true,
+  "credential_matches": 0,
+  "exe_sha256": "c1b9cf8ae9c6348529d9a2bcced53962a6dfe3f4de84e1799d383effba4de051",
+  "zip_sha256": "5630159f7dc484198a87cefd7b9acc165b7fae62932416a94e49d9caa7c17ecc"
+}
