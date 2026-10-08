@@ -1,0 +1,10 @@
+{
+  "state": "applied_and_independently_verified",
+  "sst_files_modified": 8,
+  "changed_translations": 239,
+  "total_sst_files_verified": 140,
+  "total_rows_read": 288054,
+  "source_flags_ids_and_record_hashes_preserved": true,
+  "manual_edit_conflicts": 0,
+  "game_additional_ten_changes_applied": false
+}

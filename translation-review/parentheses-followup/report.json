@@ -10,7 +10,9 @@
   "broad_recipe_bracket_candidates": 1181,
   "broad_candidates_include_controls_and_summaries": true,
   "exertion_and_save_installed_verified": true,
-  "sst_originals_not_applied": true,
+  "sst_originals_not_applied": false,
   "followup_game_modified": false,
-  "followup_release_published": false
+  "followup_release_published": false,
+  "sst_applied_files": 8,
+  "sst_applied_translations": 239
 }
