@@ -21,7 +21,13 @@ jobs:
           NEXUS_FILE_ID: ${{ vars.NEXUSMODS_FILE_ID }}
         with:
           script: |
-            const key = process.env.NEXUS_API_KEY;
+            const rawKey = process.env.NEXUS_API_KEY || '';
+            const key = rawKey.trim();
+            core.setSecret(rawKey);
+            if (/^\d+$/.test(key)) throw new Error('The secret contains a numeric ID, not a Nexus Personal API Key.');
+            if (/^(gh[pousr]_|github_pat_)/.test(key)) throw new Error('The secret contains a GitHub token, not a Nexus Personal API Key.');
+            if (/^https?:\/\//.test(key)) throw new Error('The secret contains a URL, not a Nexus Personal API Key.');
+            if (key !== rawKey) core.notice('Whitespace trimmed from the API key; update the stored secret without surrounding whitespace.');
             if (!key) throw new Error('NEXUSMODS_API_KEY must be a Repository secret, not a Variable.');
             core.setSecret(key);
             async function get(path) {
