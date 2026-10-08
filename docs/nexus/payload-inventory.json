@@ -1,0 +1,3885 @@
+{
+  "checked_date": "2026-10-08",
+  "release": "v0.2.3",
+  "target_genesis": "8.8.32",
+  "manifest_sha256": "a1cb674a40df0cbb5cc3d929b4d0fed8e1ade000f89d47016b966002c891d986",
+  "counts": {
+    "text_recipe": 153,
+    "font_recipe": 3,
+    "copy": 2,
+    "fallback_strings": 26,
+    "hud_recipe": 1
+  },
+  "source_mod_folders": 91,
+  "nexus_upload_ready": false,
+  "team_waldo_identity": "user-confirmed",
+  "team_waldo_redistribution_permission": "unverified",
+  "operations": [
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/GenesisFreeLanes.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "714171c8dad1c8f387cc1fc2d03f5a00bd891937085ef5b8c9edb89700672696",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 130,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Fuck Shattered Space/FuckShatteredSpace.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "15dcc233c8dcecfb29a08ed9c9f63027e3aca79d99ef2a905096702ecae00e24",
+      "source_mod": "Fuck Shattered Space",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/EnhancedLightsandFX.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "ca284bcc82fa42f7e67227c947a44b7156c404fb0897aaa389d54357a2cb5830",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 59,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/RoyalWeathers.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "465d6852e6a37a3d4740b80810edcb792c98c8f75863b77a1b2b6cd4d37b2d8b",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 86,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Increased Asteroid Field Density/DenseAsteroidFields.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "308d1907c0aa9f5f46240f8fdb2d739f309bfc296c209308170e197eceb73e83",
+      "source_mod": "Increased Asteroid Field Density",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10480",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 8,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/Ascension.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "4ea1a5d782053380719926a521eee3cf078890275851375cf38333d20e4b0673",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1966,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Resources - Blasters/SW Blasters.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "63c9989e13056937ca756b719c4adc860d0c04cface394344e568f3290c3a06d",
+      "source_mod": "Star Wars Resources - Blasters",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13252",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1176,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Resources - Aliens and Droids/SW Resources.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "72ac627c78906cdcf0c189e748afcda0322d2a1593f601dbdbfa0e4992ecf997",
+      "source_mod": "Star Wars Resources - Aliens and Droids",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13703",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 846,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/SW Alien Player.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "547997435b483ef8603905bb450b07035a9db6a394e47ec12b8c72f77b205e89",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 10,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Aliens/SW Aliens.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "f7d9bd8b8e900fb5784a2e76a5fbfc1bb3f187f951642d53621d334b7c44d066",
+      "source_mod": "Star Wars Aliens",
+      "source_url": "https://www.nexusmods.com/starfield/mods/8518",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 489,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/SW Droids.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "feed51736d444ffe5d1d3ddb3c05efa1a13e1ecfa8deaf2505a2748aff2b7d0d",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 280,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul/GRiNDTerraFBO.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "9239fe8d80e7ffeacd288a0323bdd66a868ed61ec80a5cd0dd5856c80f2342ca",
+      "source_mod": "Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/16215",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 276,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/Chewbacca.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "092c73adca7dfdb5f909524cd2705dfcc09b39d9fafec858cce4db9234a2bd83",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 19,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Unique Bosses and Encounters/StarWarsUniqueBosses.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "64ebc60de8f3fb9c1bf0cf01db5ce2fbf034704d32e1b694eee32d7c84712226",
+      "source_mod": "Star Wars - Unique Bosses and Encounters",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11660",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 23,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Neon Vertigo - A Neon Overhaul/Neon_Vertigo.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "9cd283edc409206f935662a00c189937fcbb6f866aec377fae7fcd7a08605784",
+      "source_mod": "Neon Vertigo - A Neon Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10018",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 3,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Antares Group - Starfoundry/ODX_Antares.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "f9fec17c2615e3bd1751e6988a6dc702a4ee191b114b8b9ed205cf1779a10ff1",
+      "source_mod": "Antares Group - Starfoundry",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13669",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 156,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Avontech Shipyards/avontechshipyards.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "4147533438d5240e40f5d56246c1531ae1b18e707a672aeeec25d5db1279bd9a",
+      "source_mod": "Avontech Shipyards",
+      "source_url": "https://www.nexusmods.com/starfield/mods/8057",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 523,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/SETI_ShipLights_by_BosDragon.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "4938daa2588ed554a8c5936ecc572bfc7e919c0ed6b90877ceb84b913f742390",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 25,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/TheSniper9-Firespray31.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "6b64eab1776ec7a98ded8683f20ddd3ee1d4fdddcc7c18b248db5b6b07bd6fd1",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 89,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/YT-1300_Millennium_Falcon_1977.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "e5b9d57cccc30ab4bcb0dd664b86809aaebcc6910bd0599ede72b574b2eedcad",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 57,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/TIE_Advanced_x1_1977.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "68d772db5dc95b4fd2f11c2cbf40514b4b630c9c16140311493510110e46ebbb",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 80,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "d8912e875a625ede7c2ca76a9bfdc305123e141b4d0008579aa4090c90f3cf1b",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 118,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/J-type_327_Nubian_Royal_Starship_1999.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "1f0e71573c6bd1a0d9c13c59d40c3070d0e96c0fa66a521a850245abfa6eaf6f",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 45,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/The_Mandalorian_N-1_Starfighter_2021.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "27c22f2dc8b05d993b34e218b351a9ca1f0c358ecdcf85fb60472d0844348b9f",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 79,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/Delta-7_Jedi_Starfighter_2002.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "13d3fb7249166a7b5dee1a405f681d8aceda1401b86625830dd19bde56dce345",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 82,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/Naboo_N-1_Starfighter_1999.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "73d3207907153d6eac3994a2996619d4340ffec5956c83204f6f6b069eccd64c",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 63,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/T-2RamsidianYacht.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "e5369422bb505a0883d3491768285ce7cfdb933422f7f4c624c03741682afc0d",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 22,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/StarWarsShipPack.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "50bb4934bba2d277d2df3c89338b702b3c4c519a85af527771d309878c84cc68",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 780,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "fe68fd85708d07b7ead345d9462b90e65faceee719b20740af11f71760d04210",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 215,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "ec895b9dfbc9fbd65316681baa75159706923a8c7c0933a2d69bd32e26e7bb9b",
+      "source_mod": "Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10057",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 156,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Ship Vendor Framework/SVF-FreeLanes-Patch.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "76eecff49a8283a2afbd79248c027edc97efe356d473ab83fdc964b538a60462",
+      "source_mod": "Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10057",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Ship Vendor Framework/SVF-HideGameplayOptions-Patch.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "c460fddcf266c755eaca8678019ad3718556cf24fc98bd4c7f7ffbbb4424f324",
+      "source_mod": "Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10057",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Vendor Framework/yTS-27.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "9d923340f9faf556512c53cddf61c6044ce11152bbcfde1cae24d5b6859a2ec8",
+      "source_mod": "Star Wars - Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 92,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Ship Vendor Framework/SVF-ShatteredSpace-Patch.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "9aeeded8c1668145d1108c38e8e92b1849e616610b98a2d10140111b5529541b",
+      "source_mod": "Ship Vendor Framework",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10057",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "e8f62694414b674f199b58eb42228ce23f9f85d88f0b7f6ac726ea876d3a8dc8",
+      "source_mod": "Star Wars Vehicle Pack (The Sniper 9)",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12475",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 220,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/SpeederPatcher.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "2881d2cd60db8f2a497a5c260ef424d0d8c7f2c75840aae095f7216d8d3f747e",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 24,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Ship Replacer/StarWarsShipReplacer.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "0bbf3d28aee12fd0b83d0370004ccde95e36d34988ef028f2cd2c62b1b860f27",
+      "source_mod": "Star Wars - Ship Replacer",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 43,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - K79-S80 Troop Transporter/StarWars-K79-S80.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "3ff75605101387d74a450bc30777aaed1d717cca845110205419cd0393086a60",
+      "source_mod": "Star Wars - K79-S80 Troop Transporter",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11693",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 5,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars City Additions - Commercial District Cell Fix/StarWarsCityShips.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "20cc345cd64523dd28f9cfd4de44723a4b467160cfa243744666af0b7df723f4",
+      "source_mod": "Star Wars City Additions - Commercial District Cell Fix",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14678",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 59,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Coruscant City Main Plugins/CoruscantCity.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "81c5c9bff8a31ad93c15b286b04aafcd7f6b26c4c19a90b06bb6f822ab884bff",
+      "source_mod": "Coruscant City Main Plugins",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13985",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 110,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Nar Shaddaa/NarShaddaaCity.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "108b0bfc136b0332f2d393327f7c0d252e5e81978f5a2ce9ddb6013b7bb0c187",
+      "source_mod": "Star Wars - Nar Shaddaa",
+      "source_url": "https://www.nexusmods.com/starfield/mods/15881",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 5,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Dantooine/AkilaCityOasis.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "afa0628cab826a4ce41e05e6e3c5233e8562e00c26de214e83d18f006e40e376",
+      "source_mod": "Star Wars Genesis - Dantooine",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Locations/StarWarsGenesisLocations.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "5a339e3a6e392dbf210d02919089285b71b4fb8a80e84eb7a232223017589674",
+      "source_mod": "Star Wars Genesis - Locations",
+      "source_url": "https://www.nexusmods.com/starfield/mods/15882",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 73,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Fuck SFBGS/FuckSFBGS.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "7914851d83e22f6e095154f016a1f54103b92d9d445b4e0732af4d324e713d40",
+      "source_mod": "Fuck SFBGS",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Companion Pack/Greedo.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "b090067d890425d7649fc271ec7d688caf8ac86c3383de330c5fa50f6939f577",
+      "source_mod": "Star Wars Genesis - Companion Pack",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 34,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Rancor Follower/Rancor.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "4187c90b92f0dedd836329fffadfe40e72a705b1697812f612f60be9cf11dfd8",
+      "source_mod": "Rancor Follower",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12129",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 15,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Companion Pack/Nix.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "9aef5e7e7c9d8f16109abcfaede1f117ff0e960387654e4328ea32ad825f5f9a",
+      "source_mod": "Star Wars Genesis - Companion Pack",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 32,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Lodge Overhaul/ReimaginedLodge.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "2de0d04c1d5f087af2cb874f4e2d870ffe8d93fff3e12f523aa3f74aeb967118",
+      "source_mod": "Star Wars - Lodge Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/16142",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 6,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Data Spikes (Digipic Replacer)/SW_DataSpike.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "889e98e22d53b68821fd5309ba14e8ac8a01271a7af40195bbc7f6e5e871663d",
+      "source_mod": "Star Wars Data Spikes (Digipic Replacer)",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11919",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Prop Replacement Pack/StarWarsPropReplacement.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "4b10f17c0966a3a40ccd74b7b06aa4710676c241198869db135361389ec78d11",
+      "source_mod": "Star Wars - Prop Replacement Pack",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14171",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 522,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Capital Ships and Megastructures/StarWarsCapitalShips.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "6a448ffe51731e1486dab830220952ee8a5bd33c3297c85d5958033af9aaefeb",
+      "source_mod": "Star Wars - Capital Ships and Megastructures",
+      "source_url": "https://www.nexusmods.com/starfield/mods/15071",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 4,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Capital Ships and Megastructures/StarWarsCapitalShipsAI.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "0353e4359d0f3c4581047abfa1a14ffc46c0982a67afaf586f59fd9b64b4204f",
+      "source_mod": "Star Wars - Capital Ships and Megastructures",
+      "source_url": "https://www.nexusmods.com/starfield/mods/15071",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 24,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Mini Places Of Intrigue- GRiNDTerra POI/GrindTerralocations.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "c0f9358a87ccced4556e1e668f8ec4e07a1a4df7609c01ce336fdfbf95376c50",
+      "source_mod": "Mini Places Of Intrigue- GRiNDTerra POI",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11530",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 69,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Dark Universe - Takeover/du_takeover.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "0c1b799f019f95564e24c3e80fa1673ab96b102e9c557e471e18799367a14634",
+      "source_mod": "Dark Universe - Takeover",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11045",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 103,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Dark Universe - Overtime - Translation Star Wars/du_overtime.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "f88c281233eebea68c5d8428810fac34f07d0d79582ee66e7aaa76a5f4df0bbf",
+      "source_mod": "Dark Universe - Overtime - Translation Star Wars",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13880",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1809,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Batten's Shipwrecks/BattensWrecks.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "e38c4bafafc42680820f7f210512ae6ce1ad6549a33031f0e926b513000238a8",
+      "source_mod": "Batten's Shipwrecks",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10577",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 72,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Imperial Mining Sites/SuitPowerCores.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "0a3a035b8d212e102adb1b6a3462e27baa516bbbb6b6f764490abb46e6c1ab3e",
+      "source_mod": "Star Wars - Imperial Mining Sites",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12998",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 97,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Runestone POIs/starshards.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "79b446d2790fe32e540c28a27d16074c983a0a884ebf03ca593e9dcbe8e88de0",
+      "source_mod": "Star Wars - Runestone POIs",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10025",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 26,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Runestone POIs/StarshardRunestones.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "08886bed4dedd09031d5bcf137238b9c168f1792f6ee56e0fb8426c9415a9d85",
+      "source_mod": "Star Wars - Runestone POIs",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10025",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 22,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Terrifying Terrormorphs/Terrifying Terrormorphs.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "7b1c813d9bdbae845c9a3f08942ec46c03394b3a8dce70a339cce6e2999283d7",
+      "source_mod": "Terrifying Terrormorphs",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9792",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 32,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Clothing Patches/NeonEntertainerReplacer.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "e59490d0525bc5295cb146e7a3f15eaebadcfaac884f4fc2ba755731a60c2320",
+      "source_mod": "Star Wars Genesis - Clothing Patches",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 34,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Dave's Astral Lounge Enhanced - DALE/DTDAstralLounge.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "cb65106a1956ab59cb87b56b178ca45740e63aee597932b471c7474bae4d9bf0",
+      "source_mod": "Dave's Astral Lounge Enhanced - DALE",
+      "source_url": "https://www.nexusmods.com/starfield/mods/10845",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 3,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/UC Empire.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "ab7e2548a3cacd0c59b9438c304b7c1b9f512d3687dcd571e2d05482e1bbe5d3",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 397,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Bossk and the Trandoshan Mercs/Trandoshan Mercs.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "7ab2d12f6fe28fb5d503687c3a19ee1f72a11e686b9d582741d2681bc7c3c41c",
+      "source_mod": "Bossk and the Trandoshan Mercs",
+      "source_url": "https://www.nexusmods.com/starfield/mods/8852",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 34,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/SW Spacer Overhaul.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "a8a1ad5961f697ae810ee0342334d25a6690fff0d7e4f99c5df4f8065bf2272d",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 82,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/SW Rebel Leaders.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "6ab49261fcc745a7277bc733602762f40050ba948f1873d62f6f412a046e2a53",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 28,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Blasters and Melee/Star Wars Blasters.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "d4168c232a84054d9d95ed2d6aadbefcb310de186024ea0ca9b528688a5664da",
+      "source_mod": "Star Wars Blasters and Melee",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12154",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 4218,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Blasters and Melee (Shattered Space)/Star Wars Blasters DLC Addon.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "d453f4f6c9ef6e649c07c86ba3027f223e9736bb0f3c92a3417159e673c5b1bc",
+      "source_mod": "Star Wars Blasters and Melee (Shattered Space)",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12154",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 285,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Turrets Redone/Star Wars Turrets.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "e03eb3e868492fb3574401d081bf05b23177ce55a0f1a2e940b2470cb72efc4d",
+      "source_mod": "Turrets Redone",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12304",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 4,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Realistic Blasters and Melee Patch/BlasterEffects.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "87b7a9992d9b8f5ab2bb6e305648713c1771a4e53ec3090b337d23b087cd4268",
+      "source_mod": "Star Wars - Realistic Blasters and Melee Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12540",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 55,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Realistic Blasters and Melee Patch/RealisticStarWarsBlasters.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "7dd1d7c274aa9f404dfd78d596e9d3a6f5f8a0973696640d47edcad0a174ed92",
+      "source_mod": "Star Wars - Realistic Blasters and Melee Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12540",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1544,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Lightsabers/All_Trilogy_Lightsabers.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "6543bc0572b815bcb0f4e4692beffc1167989dff08fd7459df720827f690341c",
+      "source_mod": "Star Wars Genesis - Lightsabers",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 70,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Mandalore Fix - Rock Galaxy/SWNewGalaxy.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "b1dff182a43166a6bf0edcabb33b951b1aa440a3f25bf92b294e1dc4db455713",
+      "source_mod": "Mandalore Fix - Rock Galaxy",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13881",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2622,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/Tatooine.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "32038fa17ce36c2ea5d5128f4f65f8a777c920ccab266c33ceb61752c39f754c",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 929,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Endor/Endor.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "1a7b7d90095f16992c346349b808ec2c5429dac980e23a239c76600428a5cdd9",
+      "source_mod": "Star Wars - Endor",
+      "source_url": "https://www.nexusmods.com/starfield/mods/16955",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 360,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Mustafar/Mustafar.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "785cfd23df27530059599d14a878ae798a915b596239d6d47f4f8fcba24e5c75",
+      "source_mod": "Star Wars - Mustafar",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14815",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 25,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Manaan/Manaan.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "0679e9769b9790ebaca74d90427a82e3fc758a3f741f406edd7e0180fcda6e1c",
+      "source_mod": "Star Wars - Manaan",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 3,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Batuu Planet/Batuu.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "187c2ad959a9f5d839a45e5126ab86a0b7c3da76ead9119c5ce8a22e0f8f01e7",
+      "source_mod": "Batuu Planet",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 13,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Planets/StarWarsGenesisPlanets.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "a35e06d3265b12e1ec8c3551317b84b7903da3fe39900ce2205d96621cc6e79b",
+      "source_mod": "Star Wars Genesis - Planets",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 118,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Standalone Locations/StarWarsGenesisStandaloneLocations.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "137b2024dc73489bcee03742b94f16d7ca3b4fa77a8ae6f0b5e2c4f10bd30124",
+      "source_mod": "Star Wars Genesis - Standalone Locations",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 7,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Mos Eisley/moseisley__.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "c7265b15e1106002461e48c24e27639e8b549b08eae8210eb76013f9bf255f38",
+      "source_mod": "Star Wars - Mos Eisley",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13806",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 242,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/FugitiveHideout.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "691fe192649443e9e239cc795b1dd10b13bf4c579256c94b9c7aa6ca89589804",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 384,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/ATST.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "daa87e173fd4fbd564fd4de14cb319ec39b50bd90925a598c5c0e03d50e1caa3",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 22,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Tython Force Power Trainer/ForcePowerTrainer.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "de133816b9472fe41f24c3eeceabb3c3152bfa9b9ef6b1828b83ec66ce41f4a6",
+      "source_mod": "Star Wars - Tython Force Power Trainer",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14340",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 109,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/Shadow Collective.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "ee5a003fb6af9517dc81e3ac98ee585e4743d9c80e6df33cf344cbb305b31b6a",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 157,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/Hondo Ohnaka and Crew.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "24f5e3129988ebc97384f6ee7f945a393e661a73e678aa3c682c4d327df516d8",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 62,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Gangs/SW Gangs.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "6d8d80245c315cca29e7c3778acc5c1b375e359232547717f6de8f97850cf4c8",
+      "source_mod": "Star Wars Gangs",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12746",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 251,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Secret Imperial Vault/arc_vault.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "24c022c4ff9a913311539a6d0f16a8f13382331debd032ca370e09610a57db3a",
+      "source_mod": "Star Wars - Secret Imperial Vault",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12568",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 44,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Secret Imperial Vault/StarWarsIAC.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "2ebb686fcdd2868479ede78875ec729016decbdc67c9cc3134b36f185ecceb0d",
+      "source_mod": "Star Wars - Secret Imperial Vault",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12568",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 31,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/MojoSTC.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "303d2ccf0c744dfcf632a93fd935fdfab9d71256fd245ec7864ea10725e19d9f",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 18,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/BD-1 Follower/BD1.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "650b9d171a49cd2fccf719a8adce20b257574620c255ad348f6ccc314ecb0806",
+      "source_mod": "BD-1 Follower",
+      "source_url": "https://www.nexusmods.com/starfield/mods/8235",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 8,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/RVNomadCave.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "d6acb52170576719c2580c5ae987b1d229b245bb32e4071d777430a71397973f",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 13,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/The Well Apartment 79/TheWell_Apartment_Z.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "c70f14694167afce23fb76c413356523f7ccc83d8d45e4a63d5c841e2b5cb4f9",
+      "source_mod": "The Well Apartment 79",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14973",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 43,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/R2D2.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "efcdf6bcddac0f033b55083da75c66616f7a745cdd37fc7e73170ed84c2fb4fd",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 12,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/HK-47 and T3-M4/Kotor Droids.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "13074df0e4a6bca01b3f39a9cd2e5d2402f9df0b72b533612053525524766bad",
+      "source_mod": "HK-47 and T3-M4",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13938",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 64,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/thesniper9-swarmorpack.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "12d9fb624ed3fc5e89068156e3b41b99be940939eb1f970ca397953616ee9479",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2301,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/AssassinDroidBountyHunterGuild.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "4158cf8f4f958021584890fa8bf9824d03ff1fa13ca87f1e5408d4ea5a0bdc01",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/NPCs - Mysterious Tracker to Caij Vanda w Blaster/CaijVanda.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "fa53e3f8655e4757ea9ad6a53a968798524641294c9cca24be4d4dc1a17eaa9d",
+      "source_mod": "NPCs - Mysterious Tracker to Caij Vanda w Blaster",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13021",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 113,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Kellic - Bounty Hunter Veteran Outfit/Kellic.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "1536e45efb940bbcc84914a6eee7a0a69fcae2bff4c969e35afff5b5303801ac",
+      "source_mod": "Kellic - Bounty Hunter Veteran Outfit",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12985",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 6,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Trackers Alliance HQ - Star Wars Overhaul/TrackerAlliance_HQ_Overhaul.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "d886618f8e3d68846db9b1b192801b89aac3591c6410a798b484f1833f5e29c8",
+      "source_mod": "Trackers Alliance HQ - Star Wars Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13021",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 51,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Bounty Hunters' Guild/BountyHuntersGuild.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "b7d2e375eab911b10b10633207bd6f38164b5b132b6ced305f57027cb0b7a374",
+      "source_mod": "Star Wars - Bounty Hunters' Guild",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13042",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 5,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Rakghouls/RakghoulInfestation.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "d1596e06767287b6aa2ecfdf17d36c031463d81fbd71c4b08674dc3bb5186f5c",
+      "source_mod": "Star Wars - Rakghouls",
+      "source_url": "https://www.nexusmods.com/starfield/mods/15883",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 151,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "681d06613bb7ed2b39c596ae40517e04756b9adb0ad47aca933807ff0080bdd4",
+      "source_mod": "Star Wars - Clone War Remnants",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14102",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 112,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/MandalorianForge.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "57d527a6bf02c359ebb997803c9e0ee2d161a0a2b783c9c03074a44c5f53b8ff",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 111,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/StarWarsGenesisArmorCompendium.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "9077eb35aad9014cbca4d7ee056c8919d89fd922f594b3dae68e5a5b257f9209",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1462,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/StarWarsFactionExpansion.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "f69912cef14bca3e4e90bc2943b21cc191db3e2f522655822cbee5af0c839b1e",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 284,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/SKKFastStartNewGame.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "a68bf6bbddc2209bdd35d8f2bc29d2af1b66f9e27b65fc297aa413bcbb37b98c",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 62,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Force Power Replacer/ForcePowers.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "5d9df4a4d4cb5661d306794c02cdc0136f1f1e0057a9559b2d8efa8bac1fa742",
+      "source_mod": "Star Wars - Force Power Replacer",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 221,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/SithTrooper.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "295efc8ff0eedaccaa987d6f6cd20c6b8f3a57ddb28efdf611ec7c096f7e0891",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 215,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Lightsabers/StarWarsGenesisLightsabers.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "947b06970153beb9607c340f3dbd480dddd4b21f9171ece72cb05220f0f29f4c",
+      "source_mod": "Star Wars Genesis - Lightsabers",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 451,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Unusual SOS Fix - Quest Completed/Starfield Completed - UnusualSOSfix.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "162b24352210954b846b9cfb6765249d94004f38ba5e17d16ed224ccf0a0d9d2",
+      "source_mod": "Unusual SOS Fix - Quest Completed",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13573",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "8dc79d75b659b9cdf4bd493ffb6763596c03de89b983380b87c01bd134643c83",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 99,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "b41359965d2a07bc7546de7434903f5b9524212ee71bedd8693d4ec400b9d097",
+      "source_mod": "Star Wars Genesis - New Yuuzhan Vong Main Story",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11002",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 868,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Rebel Alliance Storyline/StarWarsRebelQuestline.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "bd744752eba9520443566187324391cf6ee6178ee633fa0164433f3c6425fbf8",
+      "source_mod": "Star Wars - Rebel Alliance Storyline",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14391",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 300,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Imperial Storyline/StarWarsImperialQuestline.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "8d4fe479031b5d24664760a78a4f7c9f631108501c847e6bd0615226b80f3c64",
+      "source_mod": "Star Wars - Imperial Storyline",
+      "source_url": "https://www.nexusmods.com/starfield/mods/15892",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 821,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "14e9ab84e9cf774a26e3726786c60ffa6d43679bbf86013a9a1d92c5d76156a1",
+      "source_mod": "Star Wars Genesis - Side Quests",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 1144,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/StarWars_Vardos.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "4d894d1f9b300a75bebff3a3aab34ebcaa04b8a74fb3a6a5358da5bade995a29",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 84,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/Mojo_JetpackController.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "b11ea112b1b4ed0abbba81808863995f8c4764232b39dd65c10d446eb7ba173e",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 54,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Outpost Raids/AutoOutpostRaid_StarWars.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "ac095604fe4e6178cac91e9888349b52f619f4ab2f93ac631e3bb551e753593c",
+      "source_mod": "Star Wars Genesis - Outpost Raids",
+      "source_url": "https://www.nexusmods.com/starfield/mods/18058",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 96,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Inquisitor Attacks/InquisitorAttacks.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "3d68a08811569ae22574a6c4da988b32d63e5a8aea6f033668f3adba99338d0d",
+      "source_mod": "Star Wars Genesis - Inquisitor Attacks",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/The Trackers Alliance Delayed Start/TheTrackersAllianceDelayed.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "5bdb01d46a5d00a9bdeb1d80bdc133ae74feffb2ec9e92464a58ba89e3e61b18",
+      "source_mod": "The Trackers Alliance Delayed Start",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11533",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 55,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "9895a046c872ebed9a90659d1176a73b1cfca9be077cb1280f5b0d810f829333",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 684,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Vanilla Bug Fixes/PlayerShipFixesGenesis.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "e0c0b1345e5bfdcd3538402a5a9e351e92eceb51664bbe39daa8d39049a363d1",
+      "source_mod": "Star Wars Genesis - Vanilla Bug Fixes",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 54,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Improved Follower Behavior/ImprovedFollowerBehavior.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "613c09f9abaabe9c9565dd002004a7a27352bab1c456d44faa779f9dfba59556",
+      "source_mod": "Improved Follower Behavior",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9510",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 7,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Crowds/StarWarsGenesiscCrowds.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "2bf45b7486da65a6cd4b02c0de314ec4ac0ba8b8c4fe2c3d7a427cb90ebf3c50",
+      "source_mod": "Star Wars Genesis - Crowds",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "0802ad441fd3e831bde67cebf7d9788ee5240d83eb009be3165705b833b5ef54",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2583,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Planets/StarWarsGenesisGalaxyPatcher.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "5c339713e44c0809557015b9df3a6066a020dc931d45af426be1cbbdc4a21055",
+      "source_mod": "Star Wars Genesis - Planets",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 130,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Breathe Without Backpacks (Weight Feature)/BreatheWithoutBackpack.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "d9ac477b2791dd091629c646d7d5a5f3eab6b770e279c9eb2d2d3af7519f5d55",
+      "source_mod": "Breathe Without Backpacks (Weight Feature)",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13689",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 10,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "d7c7e3d865c7c610b009be823598527f9fc6c3bbb3db05d7f9d7aab831e1ca7f",
+      "source_mod": "Star Wars Genesis - Patch Compendium",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 770,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Ship Power Allocation Fix - Revert Unwanted Power Changes/Ship Power Fix.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "a879705a87c5ff3e7f4162e6f858a09dab15d0a84e34f9c82c8a775948542c7f",
+      "source_mod": "Ship Power Allocation Fix - Revert Unwanted Power Changes",
+      "source_url": "https://www.nexusmods.com/starfield/mods/6707",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 7,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/Aurie_TempleQuestFixes.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "353f5f56e8e8f8b4d3d981073b553cfab6d129d2d1dab0d02e955d80ad333567",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 44,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Replace the broken drugged animation/DazedAnimationSwap_Suffering.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "ebee1553a95941de1fecddcdb85e96847f799d7f22dfed7ddbb83f9ca25982be",
+      "source_mod": "Replace the broken drugged animation",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13466",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/No more silly space encounters/TheSavageMaidenSea.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "5ed25511137d8ecdbc489b42f0d9c9096066a39770e785c45db186d01cb4d150",
+      "source_mod": "No more silly space encounters",
+      "source_url": "https://www.nexusmods.com/starfield/mods/15140",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 15,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Trackers Alliance - Fight Or Flight/EAA_TAFightOrFlight.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "b19fdeaf60f2d215afc3fde234cd765f26e97c8ed88c9eca31aecc0153830278",
+      "source_mod": "Trackers Alliance - Fight Or Flight",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14457",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 56,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Dynamic Ship Repair Bill - Modified (Expensive)/Samantha Says - Dynamic Repair Bill.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "bad6a289a8f55430f9ac500dac4e2ab85ddebaba259e158bd97a55ef2aaaa4a8",
+      "source_mod": "Dynamic Ship Repair Bill - Modified (Expensive)",
+      "source_url": "https://www.nexusmods.com/starfield/mods/14816",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 13,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Mandalorian Forge Ruins/BeskarFragmentOnBountyKill.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "475c2ce56025ccf91b054cc476a2aeb4c6a79cbc016414b10d855ea207fb55c3",
+      "source_mod": "Star Wars - Mandalorian Forge Ruins",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13881",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 26,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/StarWarsMapMarkers.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "27b4034405f3d9cc42bc616d10490645a79eb010678559a15ccb03be49f69c18",
+      "source_mod": "Star Wars Genesis - Override Patch",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 28,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Small Master Patches/BountyHuntersGuildNPCOutfitsPatch.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "350d919a0effe7178c2befbdb97f8c3db9394e6f68543815c1b1d4459dbb7994",
+      "source_mod": "Star Wars Genesis - Small Master Patches",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 6,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Coruscant City Main Plugins/CoruscantTerrain.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "70a402cf23d315ee3f0c542ea65f413ee52e9fe7665ef4ed27473d1df91ca5ff",
+      "source_mod": "Coruscant City Main Plugins",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13985",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 2,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Standalone Voices/StarWarsGenesisVoices.esm",
+      "kind": "text_recipe",
+      "blob_sha256": "76c88005a7b8a2baee059142edd18edcadd5a60d5e7014552784ab18952381d6",
+      "source_mod": "Star Wars Genesis - Standalone Voices",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "recipe_kind": "plugin",
+        "translation_pairs": 65,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.dlstrings",
+      "kind": "text_recipe",
+      "blob_sha256": "dbe9c09a6192fc9b75b597e80214dc8592d23be48b94df4f2b71b51ec93f1b26",
+      "source_mod": "Star Wars - Shattered Space Story DLC",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12569",
+      "payload": {
+        "recipe_kind": ".dlstrings",
+        "translation_pairs": 730,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.ilstrings",
+      "kind": "text_recipe",
+      "blob_sha256": "665e8e1a0db7a716b3a8e45b7a7441fb69370b7a9daa2cf8f8a0bf222316ddff",
+      "source_mod": "Star Wars - Shattered Space Story DLC",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12569",
+      "payload": {
+        "recipe_kind": ".ilstrings",
+        "translation_pairs": 18751,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Shattered Space Story DLC/strings/shatteredspace_en.strings",
+      "kind": "text_recipe",
+      "blob_sha256": "da737eeadde25da70cb7c52fa44e18d0c4c60052a4b493e9d79bac39dfd5f0f2",
+      "source_mod": "Star Wars - Shattered Space Story DLC",
+      "source_url": "https://www.nexusmods.com/starfield/mods/12569",
+      "payload": {
+        "recipe_kind": ".strings",
+        "translation_pairs": 3535,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/blueprintships-starfield_en.strings",
+      "kind": "text_recipe",
+      "blob_sha256": "ff99e76d50cdbdbddceaca0fe4cbca59ef477fca26d01ba5ee38b9e3d4758b55",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".strings",
+        "translation_pairs": 354,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs003_en.dlstrings",
+      "kind": "text_recipe",
+      "blob_sha256": "47b0e06e8b0ec249dbb96c8f154c1ddcb4621dc2a3fe56322e5744bae90c30fb",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".dlstrings",
+        "translation_pairs": 205,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs003_en.ilstrings",
+      "kind": "text_recipe",
+      "blob_sha256": "9d54f609392f8abd91ec5f7b3d95b37506d18c22dbc52374fce3596300ccff27",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".ilstrings",
+        "translation_pairs": 1734,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs003_en.strings",
+      "kind": "text_recipe",
+      "blob_sha256": "0483c3554fb6c610d15df9b64746afb46d979f36414653325c0cdbbb44f72013",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".strings",
+        "translation_pairs": 1414,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs004_en.strings",
+      "kind": "text_recipe",
+      "blob_sha256": "fec78f57a3e5107eb414645aa94dc41ea8e9484df482248bbeaa14bb3717041a",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".strings",
+        "translation_pairs": 50,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs007_en.dlstrings",
+      "kind": "text_recipe",
+      "blob_sha256": "b4ed4f30deab91af94402ac7c172de3baeac1c4d021f2675de411d07126fb128",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".dlstrings",
+        "translation_pairs": 8,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs007_en.strings",
+      "kind": "text_recipe",
+      "blob_sha256": "2ca7fca5471aac951e77bd63e6cb19e79398544f25952edd4d77cc1cde2e2356",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".strings",
+        "translation_pairs": 196,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.dlstrings",
+      "kind": "text_recipe",
+      "blob_sha256": "c5851c3244c402ab1b9dfda63c4e413ea7aebd9f206a2e1e0fef0b17c44d218d",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".dlstrings",
+        "translation_pairs": 8248,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+      "kind": "text_recipe",
+      "blob_sha256": "5b2405802d5b6a7cb5077ec66a999bc2228fab45191a34f8ee8c1afa73a05cfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".ilstrings",
+        "translation_pairs": 129619,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+      "kind": "text_recipe",
+      "blob_sha256": "ecea7ce5756dde891eec94d711347b1fecb2d9d25a7d9839aadb0e5f43924dc9",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "recipe_kind": ".strings",
+        "translation_pairs": 46120,
+        "contains_source_text": true,
+        "contains_translated_text": true,
+        "whole_plugin_binary_bundled": false
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Nasalization - A Font Replacer/interface/fonts_en.swf",
+      "kind": "font_recipe",
+      "blob_sha256": "9f09fc9efdf76bd8e6a6fc4e55247f0e704d7256e6086c1d176ea1a78b34c306",
+      "source_mod": "Nasalization - A Font Replacer",
+      "source_url": "https://www.nexusmods.com/starfield/mods/2163",
+      "payload": {
+        "korean_glyph_additions_only": true,
+        "font_source": "Pretendard",
+        "license": "SIL OFL 1.1"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Nasalization - A Font Replacer/interface/fonts_en.gfx",
+      "kind": "font_recipe",
+      "blob_sha256": "9f09fc9efdf76bd8e6a6fc4e55247f0e704d7256e6086c1d176ea1a78b34c306",
+      "source_mod": "Nasalization - A Font Replacer",
+      "source_url": "https://www.nexusmods.com/starfield/mods/2163",
+      "payload": {
+        "korean_glyph_additions_only": true,
+        "font_source": "Pretendard",
+        "license": "SIL OFL 1.1"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Enhanced Dialogue Interface/interface/Enhanced Fonts.swf",
+      "kind": "font_recipe",
+      "blob_sha256": "9d46acde1ec7918993fabf677d3c05c6636b6cdf83d3ac02343a702052e25a8a",
+      "source_mod": "Enhanced Dialogue Interface",
+      "source_url": "https://www.nexusmods.com/starfield/mods/871",
+      "payload": {
+        "korean_glyph_additions_only": true,
+        "font_source": "Pretendard",
+        "license": "SIL OFL 1.1"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "GENESIS_DOCUMENTS.bat",
+      "kind": "copy",
+      "blob_sha256": "ce87d15e198d83af9175f2989c1c3e293ff616515b1ef92b44c4833b3c2d3d9e",
+      "source_mod": null,
+      "source_url": "https://genesismodlist.com/",
+      "payload": {
+        "whole_replacement_file_bundled": true
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/blueprintships-sfbgs050_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/blueprintships-sfbgs050_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/blueprintships-sfbgs050_en.strings",
+      "kind": "fallback_strings",
+      "blob_sha256": "56313b3b70c30e587ef756ae65dbfac56e1c9b73de805fea3b9d8c5d34d7d210",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 31,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/constellation_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "a24dad43c6ffc091a6d2b38a2bee67624b57331a22be27f69eaf01a4c301a2f0",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 1,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/constellation_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/constellation_en.strings",
+      "kind": "fallback_strings",
+      "blob_sha256": "f2fc4fbf59d5e4d931c17f277a3e92598a361f98c4a3556490a4d1c238c3d789",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 4,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/oldmars_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/oldmars_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/oldmars_en.strings",
+      "kind": "fallback_strings",
+      "blob_sha256": "48692db1546816400179a8f6f18ee2c1f6d64bad7cfd589420fe3cc8f855b5cd",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 4,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs004_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "d7c8c036da6aab9b849aa998d0f35f9bcce853d57a6958cff2cd3486ec38bb12",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 3,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs004_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "635444e4f937918f951bf4cd743da84aa34f490c5035057d3b5d8c264ea23981",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 512,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs006_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs006_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs006_en.strings",
+      "kind": "fallback_strings",
+      "blob_sha256": "3be2e2adef745c8019b064ec69ffcd9a26189158a669b2e39932c53a116df9a3",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 366,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs008_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs008_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs008_en.strings",
+      "kind": "fallback_strings",
+      "blob_sha256": "43887185306be2066b9f88cf8c37ff0b58b09da453e735661d492415c0dbb824",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 80,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs00d_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "6124b881c5d5579331af6d96d5ba973c4e7a29e34437f3060140ad49968d22a0",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 390,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs00d_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "41012680f8727d3bf0cc63cf4a1ef96621e260d5cb8e056d15a059eaa8ead66a",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 7086,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs00d_en.strings",
+      "kind": "fallback_strings",
+      "blob_sha256": "44b558e8becbd857ce796b4f765f8c475f156fc0ea489c7e5dc74f5aff3efa27",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 2463,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs047_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "d730e6e8a0236718860169ff2a036ef61c9296fc3f2a51ed4200498aa2775b1b",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 2,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs047_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 0,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs047_en.strings",
+      "kind": "fallback_strings",
+      "blob_sha256": "42e208307fd6ace760246bf9a9ba9f6dac3b7c9638f95addd30d5872c6c92e83",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 52,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs050_en.dlstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "72dcaddb5872728a49e312870121859bcdc4a24be58f2aa3bd49bc0480521dd7",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 625,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs050_en.ilstrings",
+      "kind": "fallback_strings",
+      "blob_sha256": "6616adc57153f0776b915c6b9cb2b71af7d2b5ad4c2229e8ff3d5e906df54c43",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 6143,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs050_en.strings",
+      "kind": "fallback_strings",
+      "blob_sha256": "bf3257dc1af5d39be608f64ac848024d7b76bfbb11f432eb78cb9cdf3501e610",
+      "source_mod": "Star Wars - Name Replacement Overhaul",
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "payload": {
+        "whole_strings_file_bundled": true,
+        "string_entries": 2373,
+        "translator": "Team Waldo (user identified; per-file provenance and permissions unverified)"
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Star Wars Genesis - HUD Pack/interface/translate_en.txt",
+      "kind": "copy",
+      "blob_sha256": "8340ac6c817a610c528ad96f0d0c526fc803b7921ffd316656a6642b16f3e98d",
+      "source_mod": "Star Wars Genesis - HUD Pack",
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "payload": {
+        "whole_replacement_file_bundled": true
+      },
+      "permission_status": "unverified"
+    },
+    {
+      "target": "mods/Sci Fi HUD - Animated Radar and Weapon Overlay/interface/playerhudcomponents.gfx",
+      "kind": "hud_recipe",
+      "blob_sha256": "09039a591ef8590f70ab6f4b2473bdab114cd3228ddd16852481b1a8f55c6020",
+      "source_mod": "Sci Fi HUD - Animated Radar and Weapon Overlay",
+      "source_url": "https://www.nexusmods.com/starfield/mods/13847",
+      "payload": {
+        "layout_recipe_only": true
+      },
+      "permission_status": "unverified"
+    }
+  ],
+  "mods": [
+    {
+      "installed_name": "Star Wars Genesis - Patch Compendium",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.832.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Fuck Shattered Space",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.6.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Increased Asteroid Field Density",
+      "metadata": {
+        "modid": "10480",
+        "version": "1.2.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/10480",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Resources - Blasters",
+      "metadata": {
+        "modid": "13252",
+        "version": "2.1.1.0",
+        "repository": "Nexus",
+        "author": "radiclown and Crozzbow",
+        "uploader": "radicalclownfriend"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13252",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Resources - Aliens and Droids",
+      "metadata": {
+        "modid": "13703",
+        "version": "2.0.0.0",
+        "repository": "Nexus",
+        "author": "radiclown and Fox1120",
+        "uploader": "radicalclownfriend"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13703",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Override Patch",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.832.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Aliens",
+      "metadata": {
+        "modid": "8518",
+        "version": "3.3.0.0",
+        "repository": "Nexus",
+        "author": "radiclown",
+        "uploader": "radicalclownfriend"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/8518",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul",
+      "metadata": {
+        "modid": "16215",
+        "version": "1.5.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/16215",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Unique Bosses and Encounters",
+      "metadata": {
+        "modid": "11660",
+        "version": "8.62.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11660",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Neon Vertigo - A Neon Overhaul",
+      "metadata": {
+        "modid": "10018",
+        "version": "1.0.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/10018",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Antares Group - Starfoundry",
+      "metadata": {
+        "modid": "13669",
+        "version": "1.3.1.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13669",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Avontech Shipyards",
+      "metadata": {
+        "modid": "8057",
+        "version": "2.2.2.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/8057",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Ship Vendor Framework",
+      "metadata": {
+        "modid": "14269",
+        "version": "8.832.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy and all other ship modders involved",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14269",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Ship Vendor Framework",
+      "metadata": {
+        "modid": "10057",
+        "version": "1.12.0.0",
+        "repository": "Nexus",
+        "author": "rux616",
+        "uploader": "rux616"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/10057",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Vehicle Pack (The Sniper 9)",
+      "metadata": {
+        "modid": "12475",
+        "version": "1.2.0.0",
+        "repository": "Nexus",
+        "author": "TheSniper9",
+        "uploader": "TheSniper9"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12475",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Ship Replacer",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - K79-S80 Troop Transporter",
+      "metadata": {
+        "modid": "11693",
+        "version": "1.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11693",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars City Additions - Commercial District Cell Fix",
+      "metadata": {
+        "modid": "14678",
+        "version": "1.0.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14678",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Coruscant City Main Plugins",
+      "metadata": {
+        "modid": "13985",
+        "version": "8.8.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13985",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Nar Shaddaa",
+      "metadata": {
+        "modid": "15881",
+        "version": "8.6.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/15881",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Dantooine",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.82.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Locations",
+      "metadata": {
+        "modid": "15882",
+        "version": "8.82.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/15882",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Fuck SFBGS",
+      "metadata": {
+        "modid": "11114",
+        "version": "1.0.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Companion Pack",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Rancor Follower",
+      "metadata": {
+        "modid": "12129",
+        "version": "1.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12129",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Lodge Overhaul",
+      "metadata": {
+        "modid": "16142",
+        "version": "8.81.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/16142",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Data Spikes (Digipic Replacer)",
+      "metadata": {
+        "modid": "11919",
+        "version": "0.1.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11919",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Prop Replacement Pack",
+      "metadata": {
+        "modid": "14171",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14171",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Capital Ships and Megastructures",
+      "metadata": {
+        "modid": "15071",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/15071",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Mini Places Of Intrigue- GRiNDTerra POI",
+      "metadata": {
+        "modid": "11530",
+        "version": "5.0.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11530",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Dark Universe - Takeover",
+      "metadata": {
+        "modid": "11045",
+        "version": "2.0.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11045",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Dark Universe - Overtime - Translation Star Wars",
+      "metadata": {
+        "modid": "13880",
+        "version": "1.0.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13880",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Batten's Shipwrecks",
+      "metadata": {
+        "modid": "10577",
+        "version": "0.4.1.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/10577",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Imperial Mining Sites",
+      "metadata": {
+        "modid": "12998",
+        "version": "8.6.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12998",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Runestone POIs",
+      "metadata": {
+        "modid": "10025",
+        "version": "8.77.0.0",
+        "repository": "Nexus",
+        "author": "Ravageron and DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/10025",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Terrifying Terrormorphs",
+      "metadata": {
+        "modid": "9792",
+        "version": "0.2.1.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/9792",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Clothing Patches",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.6.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Dave's Astral Lounge Enhanced - DALE",
+      "metadata": {
+        "modid": "10845",
+        "version": "1.0.0.0.ESM",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/10845",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Bossk and the Trandoshan Mercs",
+      "metadata": {
+        "modid": "8852",
+        "version": "2.2.0.0",
+        "repository": "Nexus",
+        "author": "radiclown",
+        "uploader": "radicalclownfriend"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/8852",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Blasters and Melee",
+      "metadata": {
+        "modid": "12154",
+        "version": "2.5.2.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12154",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Blasters and Melee (Shattered Space)",
+      "metadata": {
+        "modid": "12154",
+        "version": "2.5.1.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12154",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Turrets Redone",
+      "metadata": {
+        "modid": "12304",
+        "version": "2.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12304",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Realistic Blasters and Melee Patch",
+      "metadata": {
+        "modid": "12540",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12540",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Lightsabers",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Mandalore Fix - Rock Galaxy",
+      "metadata": {
+        "modid": "13881",
+        "version": "8.77.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13881",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Endor",
+      "metadata": {
+        "modid": "16955",
+        "version": "1.0.1.0",
+        "repository": "Nexus",
+        "author": "Fox1120",
+        "uploader": "Fox1120"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/16955",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Mustafar",
+      "metadata": {
+        "modid": "14815",
+        "version": "0.1.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14815",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Manaan",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.5.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Batuu Planet",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Planets",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Standalone Locations",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.77.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Mos Eisley",
+      "metadata": {
+        "modid": "13806",
+        "version": "0.7.0.0",
+        "repository": "Nexus",
+        "author": "Fox",
+        "uploader": "Fox1120"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13806",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Tython Force Power Trainer",
+      "metadata": {
+        "modid": "14340",
+        "version": "8.77.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14340",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Gangs",
+      "metadata": {
+        "modid": "12746",
+        "version": "1.2.1.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12746",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Secret Imperial Vault",
+      "metadata": {
+        "modid": "12568",
+        "version": "8.82.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12568",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "BD-1 Follower",
+      "metadata": {
+        "modid": "8235",
+        "version": "2.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/8235",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "The Well Apartment 79",
+      "metadata": {
+        "modid": "14973",
+        "version": "f1.01",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14973",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "HK-47 and T3-M4",
+      "metadata": {
+        "modid": "13938",
+        "version": "1.0.2.1",
+        "repository": "Nexus",
+        "author": "radiclown",
+        "uploader": "radicalclownfriend"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13938",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "NPCs - Mysterious Tracker to Caij Vanda w Blaster",
+      "metadata": {
+        "modid": "13021",
+        "version": "1.0.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13021",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Kellic - Bounty Hunter Veteran Outfit",
+      "metadata": {
+        "modid": "12985",
+        "version": "1.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12985",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Trackers Alliance HQ - Star Wars Overhaul",
+      "metadata": {
+        "modid": "13021",
+        "version": "1.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13021",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Bounty Hunters' Guild",
+      "metadata": {
+        "modid": "13042",
+        "version": "1.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13042",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Rakghouls",
+      "metadata": {
+        "modid": "15883",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/15883",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Clone War Remnants",
+      "metadata": {
+        "modid": "14102",
+        "version": "8.8.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14102",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Force Power Replacer",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Unusual SOS Fix - Quest Completed",
+      "metadata": {
+        "modid": "13573",
+        "version": "1.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13573",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - New Yuuzhan Vong Main Story",
+      "metadata": {
+        "modid": "11002",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11002",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Rebel Alliance Storyline",
+      "metadata": {
+        "modid": "14391",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14391",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Imperial Storyline",
+      "metadata": {
+        "modid": "15892",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/15892",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Side Quests",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.832.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Outpost Raids",
+      "metadata": {
+        "modid": "18058",
+        "version": "0.7.0.0",
+        "repository": "Nexus",
+        "author": "PouYad0",
+        "uploader": "PouYad0"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/18058",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Inquisitor Attacks",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "The Trackers Alliance Delayed Start",
+      "metadata": {
+        "modid": "11533",
+        "version": "1.2.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11533",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Vanilla Bug Fixes",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.82.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Improved Follower Behavior",
+      "metadata": {
+        "modid": "9510",
+        "version": "1.1.2.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/9510",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Crowds",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.8.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Breathe Without Backpacks (Weight Feature)",
+      "metadata": {
+        "modid": "13689",
+        "version": "8.7.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13689",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Ship Power Allocation Fix - Revert Unwanted Power Changes",
+      "metadata": {
+        "modid": "6707",
+        "version": "0.1.3.0",
+        "repository": "Nexus",
+        "author": "wankingSkeever",
+        "uploader": "wSkeever"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/6707",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Replace the broken drugged animation",
+      "metadata": {
+        "modid": "13466",
+        "version": "2.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13466",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "No more silly space encounters",
+      "metadata": {
+        "modid": "15140",
+        "version": "1.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/15140",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Trackers Alliance - Fight Or Flight",
+      "metadata": {
+        "modid": "14457",
+        "version": "1.6.0.0a",
+        "repository": "Nexus",
+        "author": "eabel303",
+        "uploader": "DustyRumps"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14457",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Dynamic Ship Repair Bill - Modified (Expensive)",
+      "metadata": {
+        "modid": "14816",
+        "version": "1.0.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/14816",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Mandalorian Forge Ruins",
+      "metadata": {
+        "modid": "13881",
+        "version": "8.81.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13881",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Small Master Patches",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.81.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars Genesis - Standalone Voices",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Shattered Space Story DLC",
+      "metadata": {
+        "modid": "12569",
+        "version": "8.83.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/12569",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Star Wars - Name Replacement Overhaul",
+      "metadata": {
+        "modid": "9421",
+        "version": "8.832.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/9421",
+      "permission_status": "broad_text_permission_author_instruction_verified; third-party Korean translation rights separate",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Nasalization - A Font Replacer",
+      "metadata": {
+        "modid": "2163",
+        "version": "1.2.0.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/2163",
+      "permission_status": "modification and asset use require author permission; Korean-glyph-only patcher needs confirmation",
+      "evidence": "installed MO2 metadata; not redistribution permission",
+      "verified_author": "IMVCIT"
+    },
+    {
+      "installed_name": "Enhanced Dialogue Interface",
+      "metadata": {
+        "modid": "871",
+        "version": "2.0.1.0",
+        "repository": "Nexus"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/871",
+      "permission_status": "modification and asset use require author permission; Korean-glyph-only patcher needs confirmation",
+      "evidence": "installed MO2 metadata; not redistribution permission",
+      "verified_author": "Seb263"
+    },
+    {
+      "installed_name": "Star Wars Genesis - HUD Pack",
+      "metadata": {
+        "modid": "11114",
+        "version": "8.821.0.0",
+        "repository": "Nexus",
+        "author": "DeityVengy",
+        "uploader": "DeityVengy"
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/11114",
+      "permission_status": "conditional_strings_only_and_hide_after_updates; ESM/UI patcher requires clarification",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    },
+    {
+      "installed_name": "Sci Fi HUD - Animated Radar and Weapon Overlay",
+      "metadata": {
+        "modid": "13847",
+        "version": "1.0.0.0",
+        "repository": "Nexus",
+        "author": "",
+        "uploader": ""
+      },
+      "source_url": "https://www.nexusmods.com/starfield/mods/13847",
+      "permission_status": "unverified",
+      "evidence": "installed MO2 metadata; not redistribution permission"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.nexusmods.com/starfield/mods/11114",
+      "finding": "Conditional translation permission: Strings only; hide translation after Genesis updates; other assets require ownership clarification."
+    },
+    {
+      "url": "https://www.nexusmods.com/starfield/mods/9421",
+      "finding": "Author gives broad text permission; does not cover Team Waldo translations."
+    },
+    {
+      "url": "https://help.nexusmods.com/article/28-file-submission-guidelines",
+      "finding": "Original mod dependency, attribution, permissions and AI tags required."
+    }
+  ],
+  "permission_summary": {
+    "genesis": "Strings-only translation condition; ESM/UI patcher needs clarification",
+    "string_replacement_overhaul": "broad original-text permission; Korean donor rights remain separate",
+    "font_targets": "both base font mods require permission for modification and asset use",
+    "pretendard": "SIL OFL 1.1 license bundled; verify modified embedded-font naming and notices",
+    "team_waldo": "user identified translator; source announcement located indirectly, inaccessible; redistribution terms unverified",
+    "other_mods": "unverified individually"
+  }
+}

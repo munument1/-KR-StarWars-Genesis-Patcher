@@ -1,0 +1,48 @@
+[b]Star Wars Genesis Korean Translation Patcher[/b]
+For Genesis 8.8.32 · Patcher v0.2.3
+
+A community Korean translation patcher for Star Wars Genesis. It uses Genesis's Star Wars wording as the translation source and adds translated menus, Korean glyphs and HUD text spacing adjustments. This is an unofficial community project.
+
+[b]Features[/b]
+• Translations for plugins, Genesis Strings, menus and settings
+• Pretendard Korean glyph additions and circular HUD planet-name spacing fixes
+• Supplementary DLC/Creation Strings when the corresponding content is installed
+• Korean GENESIS_DOCUMENTS.bat instructions; maximum graphics require entering MAX
+• Input validation, original-file backups, installation and restore
+
+[b]Installation[/b]
+1. Complete a Genesis 8.8.32 installation through the [url=https://genesismodlist.com/]official Genesis Wabbajack instructions[/url].
+2. Fully close Starfield.
+3. Use Manual download, extract the ZIP and run GenesisKRPatcher.exe.
+4. Select the Genesis Game folder containing mods, profiles and ModOrganizer.ini.
+5. Click [b]검사하고 패치 생성[/b] (Check and generate patch), then [b]백업 후 적용[/b] (Back up and apply).
+6. Launch using the Star Wars Genesis Compiler profile in MO2 and the existing Genesis/SFSE launch entry.
+
+Keep the game language set to [b]English[/b]. Python, Java, xTranslator and translation API keys are not required. The patcher writes to Genesis's mods folder and its Game-folder BAT. It reads the Steam game's Data files for version checks without modifying them.
+
+[b]Updating an existing installation[/b]
+Users of the previous v0.2.3 preview can run the new EXE and follow the same workflow. Known previous outputs are upgraded, and current files are skipped. Unsupported versions, altered files or incompatible mod priorities stop installation. Report the exact error and affected location if a check fails.
+
+[b]v0.2.3 changes[/b]
+Removes redundant English/Korean glosses and uses polite Korean for character-creation background descriptions. Non-English originals, summaries, explanations and identifiers are retained. Existing terminology normalization and the Open interaction wording fix are included.
+
+[b]Restore[/b]
+Close Starfield, select [b]백업 복원[/b] (Restore backup), and choose Game/.genesis-kr-backups/job-id/journal.json. Restore multiple installations in reverse chronological order. Files modified by the user after installation are not silently overwritten during restore.
+
+[b]Verification and limitations[/b]
+Korean menus, font output and circular HUD planet names have been checked in-game. Embedded payloads, generated outputs and upgrades from known previous versions have been verified. Full quest/dialogue playthrough testing and human proofreading of every existing translation are not complete.
+
+[b]AI disclosure[/b]
+Gemini and Codex were used for additional translation and review. AI was also used to develop code and write this description. Structural validation, terminology checks and game-screen checks were performed; this does not mean every sentence has been human-proofread.
+
+[b]Credits[/b]
+• DeityVengy and Genesis contributors — [url=https://www.nexusmods.com/starfield/mods/11114]Star Wars Genesis[/url]
+• Team Waldo — existing Korean Starfield translations reused by this project
+• Original mod authors — [url=https://github.com/munument1/-KR-StarWars-Genesis-Patcher/blob/main/docs/nexus/mod-sources.md]source mod inventory[/url]
+• Kil Hyung-jin — [url=https://github.com/orioncactus/pretendard]Pretendard[/url], SIL OFL 1.1; full license included
+• xTranslator authors and contributors — translation tools and SST format reference
+• munument1 — Genesis translation adaptation, terminology review and patcher assembly
+
+[url=https://munument1.github.io/-KR-Starwars-Genesis/install/#korean-patch]Korean installation guide[/url]
+[url=https://github.com/munument1/-KR-StarWars-Genesis-Patcher]Source and change history[/url]
+[url=https://github.com/munument1/-KR-StarWars-Genesis-Patcher/issues]Issue tracker[/url] — include the affected text, location and a screenshot.

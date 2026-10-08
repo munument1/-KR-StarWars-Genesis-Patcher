@@ -1,0 +1,48 @@
+[b]Star Wars Genesis 한국어 패처[/b]
+Genesis 8.8.32용 · 패처 v0.2.3
+
+Star Wars Genesis를 한국어로 플레이하기 위한 커뮤니티 패처입니다. Genesis가 스타워즈 설정에 맞게 바꾼 문구를 기준으로 번역하고, 메뉴·한글 글꼴·HUD 표시를 함께 보완합니다. 공식 Genesis 한국어 배포물이 아닙니다.
+
+[b]포함 내용[/b]
+• 플러그인과 Genesis Strings 번역, 메뉴·설정 UI 번역
+• Pretendard 한글 글리프 및 원형 HUD 행성 이름 간격 보정
+• 해당 콘텐츠가 설치된 경우 보충 DLC/Creation Strings 적용
+• GENESIS_DOCUMENTS.bat 한국어 안내와 MAX 입력을 통한 최고 그래픽 선택
+• 파일 검사, 원본 백업, 적용 및 복원
+
+[b]설치[/b]
+1. [url=https://genesismodlist.com/]공식 Genesis 설치 안내[/url]에 따라 Genesis 8.8.32 설치를 완료합니다.
+2. Starfield를 완전히 종료합니다.
+3. Manual download로 ZIP을 내려받아 압축을 풀고 GenesisKRPatcher.exe를 실행합니다.
+4. mods, profiles, ModOrganizer.ini가 있는 Genesis의 Game 폴더를 선택합니다.
+5. [b]검사하고 패치 생성[/b]을 누른 뒤, 준비가 끝나면 [b]백업 후 적용[/b]을 누릅니다.
+6. MO2의 Star Wars Genesis Compiler 프로필과 기존 Genesis/SFSE 실행 항목으로 시작합니다.
+
+게임 언어는 [b]English[/b]로 유지합니다. Python·Java·xTranslator·API 키를 별도로 준비할 필요가 없습니다. 적용 위치는 Genesis mods 폴더와 Game 폴더의 BAT입니다. Steam 본편 Data는 버전 확인을 위해 읽으며 수정하지 않습니다.
+
+[b]기존 사용자 업데이트[/b]
+이전 v0.2.3 시험판 사용자도 새 ZIP의 EXE를 실행해 같은 절차로 갱신합니다. 알려진 이전 패치 파일은 갱신하고 최신 파일은 건너뜁니다. 지원하지 않는 모드팩 버전·파일 수정·우선순위 차이는 적용을 중단합니다. 오류가 나면 오류 문구와 위치를 알려주세요.
+
+[b]v0.2.3 변경 내용[/b]
+영어와 한국어 중복 병기를 정리하고 캐릭터 생성 배경(직업) 설명을 존댓말로 맞췄습니다. 영어 외 언어의 원문 병기, 요약·추가 설명, 식별 코드는 유지합니다. 기존 용어 통일과 오픈 → 열기 수정도 포함합니다.
+
+[b]복원[/b]
+게임 종료 후 패처의 [b]백업 복원[/b]에서 Game/.genesis-kr-backups/작업번호/journal.json을 선택합니다. 여러 차례 적용한 내용을 전부 되돌릴 때는 최근 백업부터 역순으로 복원합니다. 적용 뒤 사용자가 변경한 파일은 자동으로 덮어쓰지 않습니다.
+
+[b]검증 범위[/b]
+메뉴, 한글 폰트와 원형 HUD 행성 이름은 실제 게임에서 확인했습니다. 내장 자료, 패치 생성과 알려진 이전 버전 갱신 결과를 검증했습니다. 전체 퀘스트·대사의 실제 플레이 검증 및 모든 기존 번역의 사람 교열은 완료되지 않았습니다.
+
+[b]AI 사용 안내[/b]
+추가 번역과 검수에 Gemini 및 Codex를 사용했고, 코드와 이 소개문 작성에도 AI가 사용되었습니다. 자동 구조 검사·용어 검토와 게임 화면 확인을 병행했으며 모든 문장이 사람에 의해 교열되었다는 의미는 아닙니다.
+
+[b]크레딧[/b]
+• DeityVengy 및 Genesis 기여 제작자 — [url=https://www.nexusmods.com/starfield/mods/11114]Star Wars Genesis[/url]
+• 팀왈도 — 재사용한 기존 스타필드 한국어 번역
+• 원본 모드 제작자 — [url=https://github.com/munument1/-KR-StarWars-Genesis-Patcher/blob/main/docs/nexus/mod-sources.md]적용 대상 모드 출처 목록[/url]
+• Kil Hyung-jin — [url=https://github.com/orioncactus/pretendard]Pretendard[/url], SIL OFL 1.1. 라이선스 전문 동봉
+• xTranslator 제작자·기여자 — 번역 도구 및 SST 형식 참고
+• munument1 — Genesis 한국어 번역 보완·용어 정리·패처 구성
+
+[url=https://munument1.github.io/-KR-Starwars-Genesis/install/#korean-patch]한국어 설치 안내[/url]
+[url=https://github.com/munument1/-KR-StarWars-Genesis-Patcher]소스 및 변경 기록[/url]
+[url=https://github.com/munument1/-KR-StarWars-Genesis-Patcher/issues]문제 신고[/url] — 게임 화면의 문구·파일 위치·스크린샷을 첨부해 주세요.
