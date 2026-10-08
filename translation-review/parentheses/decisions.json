@@ -1,0 +1,2634 @@
+{
+  "schema": 1,
+  "target_genesis": "8.8.32",
+  "basis": "2026-10-08 active plugin recipe broad scan",
+  "scope": "140 Genesis plugin recipes only; 13 original-game/DLC Strings and 26 fallback Strings excluded",
+  "counts": {
+    "all_candidates": 185,
+    "remove_english": 14,
+    "keep": 171
+  },
+  "human_reviewed": false,
+  "in_game_verified": false,
+  "release_updated": false,
+  "decisions": [
+    {
+      "id": 1,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisFreeLanes.esm",
+      "key": [
+        "MESG",
+        17292537,
+        "DESC",
+        0
+      ],
+      "inside": "SAVE",
+      "context": "스타워즈 제네시스에 오신 것을 환영합니다!\n\n캐릭터를 만든 후, 게임을 반드시 저장(SAVE)하고 재시작(RESTART)하세요. 잊지 마시기 바랍니다.\n",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "저장(SAVE)",
+      "after": "저장"
+    },
+    {
+      "id": 2,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisFreeLanes.esm",
+      "key": [
+        "MESG",
+        17292537,
+        "DESC",
+        0
+      ],
+      "inside": "RESTART",
+      "context": "스타워즈 제네시스에 오신 것을 환영합니다!\n\n캐릭터를 만든 후, 게임을 반드시 저장(SAVE)하고 재시작(RESTART)하세요. 잊지 마시기 바랍니다.\n",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "재시작(RESTART)",
+      "after": "재시작"
+    },
+    {
+      "id": 3,
+      "file": "mods/Star Wars Genesis - Patch Compendium/Ascension.esm",
+      "key": [
+        "MISC",
+        1771138,
+        "FULL",
+        0
+      ],
+      "inside": "지각 있는 AI 어댑터",
+      "context": "상자 (지각 있는 AI 어댑터)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 4,
+      "file": "mods/Star Wars Genesis - Patch Compendium/Ascension.esm",
+      "key": [
+        "OMOD",
+        609569,
+        "DESC",
+        0
+      ],
+      "inside": "x0.8 - x1.2",
+      "context": "일반 크리처 크기 (x0.8 - x1.2)",
+      "decision": "keep",
+      "reason": "동일 명칭의 단순 영문 병기가 아닌 별도 의미·상태·설명"
+    },
+    {
+      "id": 5,
+      "file": "mods/Star Wars Genesis - Patch Compendium/Ascension.esm",
+      "key": [
+        "OMOD",
+        2345703,
+        "DESC",
+        0
+      ],
+      "inside": "x1.5",
+      "context": "거대 크리처 크기 (x1.5)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 6,
+      "file": "mods/Star Wars Genesis - Patch Compendium/Ascension.esm",
+      "key": [
+        "OMOD",
+        2453336,
+        "DESC",
+        0
+      ],
+      "inside": "x1.25",
+      "context": "대형 크리처 크기 (x1.25)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 7,
+      "file": "mods/Star Wars Genesis - Patch Compendium/Ascension.esm",
+      "key": [
+        "OMOD",
+        2453337,
+        "DESC",
+        0
+      ],
+      "inside": "x0.5",
+      "context": "소형 크리처 크기 (x0.5)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 8,
+      "file": "mods/Star Wars Resources - Aliens and Droids/SW Resources.esm",
+      "key": [
+        "COBJ",
+        16779532,
+        "DESC",
+        0
+      ],
+      "inside": "Model A 추종자용",
+      "context": "높은 톤의 목소리 (Model A 추종자용)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 9,
+      "file": "mods/Star Wars Resources - Aliens and Droids/SW Resources.esm",
+      "key": [
+        "COBJ",
+        16779533,
+        "DESC",
+        0
+      ],
+      "inside": "Model A 추종자용",
+      "context": "낮은 톤의 목소리 (Model A 추종자용)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 10,
+      "file": "mods/Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul/GRiNDTerraFBO.esm",
+      "key": [
+        "OMOD",
+        609569,
+        "DESC",
+        0
+      ],
+      "inside": "x0.8 - x1.2",
+      "context": "일반 크리처 크기 (x0.8 - x1.2)",
+      "decision": "keep",
+      "reason": "동일 명칭의 단순 영문 병기가 아닌 별도 의미·상태·설명"
+    },
+    {
+      "id": 11,
+      "file": "mods/Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul/GRiNDTerraFBO.esm",
+      "key": [
+        "OMOD",
+        853390,
+        "DESC",
+        0
+      ],
+      "inside": "x2",
+      "context": "거대 크리처 크기 (x2)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 12,
+      "file": "mods/Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul/GRiNDTerraFBO.esm",
+      "key": [
+        "OMOD",
+        2345703,
+        "DESC",
+        0
+      ],
+      "inside": "x1.5",
+      "context": "거대 크리처 크기 (x1.5)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 13,
+      "file": "mods/Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul/GRiNDTerraFBO.esm",
+      "key": [
+        "OMOD",
+        2453336,
+        "DESC",
+        0
+      ],
+      "inside": "x1.25",
+      "context": "대형 크리처 크기 (x1.25)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 14,
+      "file": "mods/Fantastical Frontiers- a GRiNDTerra Fantasy Biome Overhaul/GRiNDTerraFBO.esm",
+      "key": [
+        "OMOD",
+        2453337,
+        "DESC",
+        0
+      ],
+      "inside": "x0.5",
+      "context": "소형 크리처 크기 (x0.5)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 15,
+      "file": "mods/Star Wars - Ship Vendor Framework/YT-1300_Millennium_Falcon_1977.esm",
+      "key": [
+        "GBFM",
+        16793884,
+        "FULL",
+        0
+      ],
+      "inside": "A급",
+      "context": "YT-1300 쿼덱스 동력 코어 (A급)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 16,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "FURN",
+        22035942,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 도커",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 17,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "FURN",
+        22052032,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 도커 신규",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 18,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035877,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 스캔 재머",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 19,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035878,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 연료 탱크",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 20,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035879,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 차폐 화물칸",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 21,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035880,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 중력 드라이브",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 22,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035881,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 원자로 (C)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 23,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035881,
+        "FULL",
+        0
+      ],
+      "inside": "C",
+      "context": "X-윙 (S) 원자로 (C)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 24,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035882,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 실드",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 25,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035932,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 거주구",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 26,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035943,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 도커",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 27,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22035999,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 조종석",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 28,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036035,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 베이",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 29,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036043,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 양자 어뢰 (좌현)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 30,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036069,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 서프레서",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 31,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036088,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 착륙 장치 - 전방",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 32,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036089,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 착륙 장치 - 우현",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 33,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036180,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 (좌측 상단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 34,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036181,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 (우측 상단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 35,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036337,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 레이저 캐논 (좌현 상단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 36,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22036345,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 레이저 캐논 (우현 상단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 37,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22039702,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) S-포일 (좌현 상단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 38,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22039705,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) S-포일 (우현 상단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 39,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22039840,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) S-포일 (좌현 하단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 40,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22039843,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) S-포일 (우현 하단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 41,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22040290,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 원자로 (A)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 42,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22040290,
+        "FULL",
+        0
+      ],
+      "inside": "A",
+      "context": "X-윙 (S) 원자로 (A)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 43,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22040993,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 (매니폴드)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 44,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22040996,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 (좌현 하단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 45,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22040998,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 (우현 하단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 46,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22042383,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 레이저 캐논 (합계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 47,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22042395,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 레이저 캐논 (합계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 48,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22042404,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 레이저 캐논 (합계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 49,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22042446,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 레이저 캐논 (좌현 하단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 50,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22042449,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 레이저 캐논 (우현 하단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 51,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22042618,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 양자 어뢰",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 52,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "GBFM",
+        22042833,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 착륙 장치 - 좌현",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 53,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "FLST",
+        22035874,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 상단",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 54,
+      "file": "mods/Star Wars - Ship Vendor Framework/T_65B_X_Wing_Starfighter.esm",
+      "key": [
+        "FLST",
+        22036328,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 하단",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 55,
+      "file": "mods/Star Wars - Ship Vendor Framework/J-type_327_Nubian_Royal_Starship_1999.esm",
+      "key": [
+        "GBFM",
+        16780259,
+        "FULL",
+        0
+      ],
+      "inside": "A급",
+      "context": "J-타입 327 원자로 (A급)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 56,
+      "file": "mods/Star Wars - Ship Vendor Framework/J-type_327_Nubian_Royal_Starship_1999.esm",
+      "key": [
+        "GBFM",
+        16784420,
+        "FULL",
+        0
+      ],
+      "inside": "C급",
+      "context": "J-타입 327 원자로 (C급)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 57,
+      "file": "mods/Star Wars - Ship Vendor Framework/Delta-7_Jedi_Starfighter_2002.esm",
+      "key": [
+        "GBFM",
+        22054800,
+        "FULL",
+        0
+      ],
+      "inside": "C",
+      "context": "델타-7 원자로 (C)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 58,
+      "file": "mods/Star Wars - Ship Vendor Framework/Delta-7_Jedi_Starfighter_2002.esm",
+      "key": [
+        "GBFM",
+        22058340,
+        "FULL",
+        0
+      ],
+      "inside": "A",
+      "context": "델타-7 원자로 (A)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 59,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        33571100,
+        "FULL",
+        0
+      ],
+      "inside": "A급",
+      "context": "YT-1300 쿼덱스 동력 코어 (A급)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 60,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72367526,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 연료 탱크",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 61,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72367527,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 차폐 화물칸",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 62,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72367529,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 원자로 (C)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 63,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72367529,
+        "FULL",
+        0
+      ],
+      "inside": "C",
+      "context": "X-윙 (S) 원자로 (C)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 64,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72367530,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 실드",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 65,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72367647,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 조종석",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 66,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72367828,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 (좌측 상단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 67,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72367829,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 엔진 (우측 상단)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 68,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72371938,
+        "FULL",
+        0
+      ],
+      "inside": "S",
+      "context": "X-윙 (S) 원자로 (A)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 69,
+      "file": "mods/Star Wars - Ship Vendor Framework/StarWarsShipVendorFramework.esm",
+      "key": [
+        "GBFM",
+        72371938,
+        "FULL",
+        0
+      ],
+      "inside": "A",
+      "context": "X-윙 (S) 원자로 (A)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 70,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "MESG",
+        16779533,
+        "DESC",
+        0
+      ],
+      "inside": "Ship Vendor Framework",
+      "context": "olor='#ED0000'>!!! 경고 !!! 경고 !!! 경고 !!! 경고 !!!</font></p>\r\n함선 상인 프레임워크(Ship Vendor Framework)에서 현재 세션을 손상시키는 중인 불량 함선을 감지했습니다. 이 문제는 복구할 수 없습니다",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "함선 상인 프레임워크(Ship Vendor Framework)",
+      "after": "함선 상인 프레임워크"
+    },
+    {
+      "id": 71,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "MESG",
+        16779533,
+        "DESC",
+        0
+      ],
+      "inside": "Dealing with Corruption",
+      "context": " 프레임워크 제작자에게 도움을 요청하세요. 연락처 정보는 리드미에서 확인할 수 있으며, 자세한 정보는 \"데이터 손상 대처 방법(Dealing with Corruption)\" 섹션에서 확인할 수 있습니다.\r\n\r\n상인 ID: %.0f\r\n함선 ID: %.0f\r\n플레",
+      "decision": "keep",
+      "reason": "영문 README의 실제 섹션 이름을 찾아야 하는 안내"
+    },
+    {
+      "id": 72,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "GPOF",
+        16779423,
+        "DNAM",
+        0
+      ],
+      "inside": "Min",
+      "context": "<font color=\"#EDEDED\">참고: 이 옵션의 값이 연관된 \"최소(Min)\" 옵션의 값보다 작을 경우, 대신 해당 옵션의 값이 사용됩니다.</font>\n\n붉은 악마",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 73,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "GPOF",
+        16779529,
+        "DNAM",
+        0
+      ],
+      "inside": "ON",
+      "context": "재생성할 때 SVF가 실패한 함선 생성 시도를 다시 시도할지 여부를 제어합니다.\n\n<font color=\"#EDEDED\">켜기(ON)</font>: 함선을 생성할 수 없는 경우(예: 플레이어 레벨이 너무 낮음), SVF는 ",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "켜기(ON)",
+      "after": "켜기"
+    },
+    {
+      "id": 74,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "GPOF",
+        16779529,
+        "DNAM",
+        0
+      ],
+      "inside": "OFF",
+      "context": "레이어 레벨이 너무 낮음), SVF는 해당 함선을 건너뛰고 다음으로 넘어갑니다.\n\n<font color=\"#EDEDED\">끄기(OFF)</font>: 요청된 수의 함선에 도달하거나 모든 옵션이 소진될 때까지 SVF가 계속 시",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "끄기(OFF)",
+      "after": "끄기"
+    },
+    {
+      "id": 75,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "GPOF",
+        16779544,
+        "DNAM",
+        0
+      ],
+      "inside": "DarkStar Astrodynamics",
+      "context": "이 설정은 다크스타 애스트로다이내믹스(DarkStar Astrodynamics) 모드와 관련 함선 상인 프레임워크(Ship Vendor Framework) 패치가 모두 ",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "다크스타 애스트로다이내믹스(DarkStar Astrodynamics)",
+      "after": "다크스타 애스트로다이내믹스"
+    },
+    {
+      "id": 76,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "GPOF",
+        16779544,
+        "DNAM",
+        0
+      ],
+      "inside": "Ship Vendor Framework",
+      "context": "이 설정은 다크스타 애스트로다이내믹스(DarkStar Astrodynamics) 모드와 관련 함선 상인 프레임워크(Ship Vendor Framework) 패치가 모두 활성화된 경우에만 사용됩니다.\r\n\r\n현재 상태: <font color=\"#E",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "함선 상인 프레임워크(Ship Vendor Framework)",
+      "after": "함선 상인 프레임워크"
+    },
+    {
+      "id": 77,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "GPOF",
+        16779513,
+        "DNAM",
+        0
+      ],
+      "inside": "Min",
+      "context": "<font color=\"#EDEDED\">참고: 이 옵션의 값이 연관된 \"최소(Min)\" 옵션의 값보다 작을 경우, 대신 해당 옵션의 값이 사용됩니다.</font>\n\n다니카 볼",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 78,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "GPOF",
+        16779543,
+        "DNAM",
+        0
+      ],
+      "inside": "Falkland Systems",
+      "context": "이 설정은 팔클랜드 시스템(Falkland Systems) 모드와 관련 함선 상인 프레임워크 패치가 모두 활성화된 경우에만 사용됩니다.\r\n\r\n현재 ",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "팔클랜드 시스템(Falkland Systems)",
+      "after": "팔클랜드 시스템"
+    },
+    {
+      "id": 79,
+      "file": "mods/Ship Vendor Framework/ShipVendorFramework.esm",
+      "key": [
+        "GPOF",
+        16779425,
+        "DNAM",
+        0
+      ],
+      "inside": "Min",
+      "context": "<font color=\"#EDEDED\">참고: 이 옵션의 값이 연관된 \"최소(Min)\" 옵션의 값보다 작을 경우, 대신 해당 옵션의 값이 사용됩니다.</font>\n\n클리닉 함",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 80,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "PKIN",
+        16779358,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 81,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "PKIN",
+        16779350,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 82,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "PKIN",
+        16779277,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 83,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "PKIN",
+        16779383,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 84,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "FURN",
+        16779300,
+        "FULL",
+        0
+      ],
+      "inside": "바이크 정찰 코만도",
+      "context": "BARC(바이크 정찰 코만도) 스피더 - 사이드카(커버형)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 85,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "FURN",
+        16779360,
+        "FULL",
+        0
+      ],
+      "inside": "바이크 정찰 코만도",
+      "context": "BARC(바이크 정찰 코만도) 스피더 - 사이드카(오픈형)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 86,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "GBFM",
+        16779401,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 87,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "GBFM",
+        16779355,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 88,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "GBFM",
+        16779351,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 89,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "FLST",
+        16779357,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 90,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "FLST",
+        16779364,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 91,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "FLST",
+        16779402,
+        "FULL",
+        0
+      ],
+      "inside": "1인용 정찰 플랫폼",
+      "context": "STAP(1인용 정찰 플랫폼)",
+      "decision": "keep",
+      "reason": "명칭·약어를 풀어쓴 추가 설명"
+    },
+    {
+      "id": 92,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "COBJ",
+        16779339,
+        "DESC",
+        0
+      ],
+      "inside": "BARC",
+      "context": "바이크 정찰 코만도(BARC) 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 93,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "COBJ",
+        16779268,
+        "DESC",
+        0
+      ],
+      "inside": "BARC",
+      "context": "바이크 정찰 코만도(BARC) 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 94,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "COBJ",
+        16779286,
+        "DESC",
+        0
+      ],
+      "inside": "BARC",
+      "context": "바이크 정찰 코만도(BARC) 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 95,
+      "file": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "key": [
+        "COBJ",
+        16779336,
+        "DESC",
+        0
+      ],
+      "inside": "BARC",
+      "context": "바이크 정찰 코만도(BARC) 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 96,
+      "file": "mods/Star Wars City Additions - Commercial District Cell Fix/StarWarsCityShips.esm",
+      "key": [
+        "QUST",
+        2915345,
+        "NNAM",
+        14
+      ],
+      "inside": "<Global=COM_SMQ01_GenetagsCollected>/<Global=COM_SMQ01_GenetagsTotal>",
+      "context": "유전자 인식표 수집하기 (<Global=COM_SMQ01_GenetagsCollected>/<Global=COM_SMQ01_GenetagsTotal>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 97,
+      "file": "mods/Mini Places Of Intrigue- GRiNDTerra POI/GrindTerralocations.esm",
+      "key": [
+        "GPOF",
+        16785347,
+        "DNAM",
+        0
+      ],
+      "inside": "POI",
+      "context": "GRiNDTerra 관심 지점(POI)이 바닐라 또는 다른 모드와 비교하여 생성될 빈도를 설정합니다. 단순히 POI의 수를 늘리",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 98,
+      "file": "mods/Star Wars - Realistic Blasters and Melee Patch/RealisticStarWarsBlasters.esm",
+      "key": [
+        "WEAP",
+        33556869,
+        "FULL",
+        0
+      ],
+      "inside": "버그 신고",
+      "context": "DLT-20A (버그 신고)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 99,
+      "file": "mods/Star Wars - Realistic Blasters and Melee Patch/RealisticStarWarsBlasters.esm",
+      "key": [
+        "WEAP",
+        33556874,
+        "FULL",
+        0
+      ],
+      "inside": "버그 신고",
+      "context": "Relby (버그 신고)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 100,
+      "file": "mods/Star Wars - Realistic Blasters and Melee Patch/RealisticStarWarsBlasters.esm",
+      "key": [
+        "WEAP",
+        33556877,
+        "FULL",
+        0
+      ],
+      "inside": "버그 신고",
+      "context": "SE-14c (버그 신고)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 101,
+      "file": "mods/Star Wars - Realistic Blasters and Melee Patch/RealisticStarWarsBlasters.esm",
+      "key": [
+        "WEAP",
+        117442656,
+        "FULL",
+        0
+      ],
+      "inside": "개조됨",
+      "context": "RG-4D (개조됨)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 102,
+      "file": "mods/Mandalore Fix - Rock Galaxy/SWNewGalaxy.esm",
+      "key": [
+        "OMOD",
+        33557418,
+        "DESC",
+        0
+      ],
+      "inside": "x0.2",
+      "context": "초소형 생물 (x0.2)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 103,
+      "file": "mods/Mandalore Fix - Rock Galaxy/SWNewGalaxy.esm",
+      "key": [
+        "OMOD",
+        33557425,
+        "DESC",
+        0
+      ],
+      "inside": "x2",
+      "context": "거대 크리처 크기 (x2)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 104,
+      "file": "mods/Mandalore Fix - Rock Galaxy/SWNewGalaxy.esm",
+      "key": [
+        "OMOD",
+        33557433,
+        "DESC",
+        0
+      ],
+      "inside": "x2",
+      "context": "거대 크리처 크기 (x2)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 105,
+      "file": "mods/Mandalore Fix - Rock Galaxy/SWNewGalaxy.esm",
+      "key": [
+        "OMOD",
+        33557434,
+        "DESC",
+        0
+      ],
+      "inside": "x1.25",
+      "context": "대형 크리처 크기 (x1.25)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 106,
+      "file": "mods/Star Wars Genesis - Patch Compendium/Tatooine.esm",
+      "key": [
+        "OMOD",
+        67111826,
+        "DESC",
+        0
+      ],
+      "inside": "x2",
+      "context": "거대 크리처 크기 (x2)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 107,
+      "file": "mods/Star Wars Genesis - Patch Compendium/Tatooine.esm",
+      "key": [
+        "OMOD",
+        67115463,
+        "DESC",
+        0
+      ],
+      "inside": "x1.25",
+      "context": "대형 크리처 크기 (x1.25)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 108,
+      "file": "mods/Star Wars Genesis - Patch Compendium/FugitiveHideout.esm",
+      "key": [
+        "INFO",
+        100665723,
+        "NAM1",
+        0
+      ],
+      "inside": "ISB",
+      "context": "당신은 약속을 지켰군요. 그렇게 할 사람은 많지 않은데. 상호 연락책을 통해 제국 보안국(ISB)이 살루카미에서의 수색을 중단했다는 소식을 들었습니다. 제국군과 반란군 사이에 긴장이 고조",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 109,
+      "file": "mods/Star Wars Genesis - Patch Compendium/FugitiveHideout.esm",
+      "key": [
+        "INFO",
+        100666031,
+        "NAM1",
+        1
+      ],
+      "inside": "Rim",
+      "context": "하지만 경멸... 요즘 가장 뇌리에 박히는 건 그거예요. 그들은 마치 우리가 문명화가 필요한 미개인이라도 되는 양 림(Rim) 지역을 이야기하죠. 자신들의 기업이 우리 행성을 깡그리 파헤치는 동안 우리에게 '보조금'",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "림(Rim)",
+      "after": "림"
+    },
+    {
+      "id": 110,
+      "file": "mods/Star Wars Genesis - Patch Compendium/FugitiveHideout.esm",
+      "key": [
+        "INFO",
+        100678948,
+        "NAM1",
+        0
+      ],
+      "inside": "ISB",
+      "context": "물론이지. 탈영은 단순한 직무 태만이 아니라 반역이다. 반역은 썩은 부위와 같아서, 그대로 두면 곪아 터지지. 제국 보안국(ISB)의 역할은 그 썩은 부위가 제국의 근간까지 퍼지기 전에 도려내는 것이다.",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 111,
+      "file": "mods/Star Wars Genesis - Patch Compendium/FugitiveHideout.esm",
+      "key": [
+        "INFO",
+        100706589,
+        "NAM1",
+        0
+      ],
+      "inside": "ISB",
+      "context": "물론 그렇겠지... 하지만 제국보안국(ISB)으로부터 은하계 어디에서도 숨을 곳이 없다는 걸 잘 알고 있을 텐데. 다시 묻지. 탈영병들",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 112,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333698,
+        "FULL",
+        0
+      ],
+      "inside": "II단계",
+      "context": "클론 트루퍼 경비 헬멧 (II단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 113,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333700,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 트루퍼 정찰대 방어구 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 114,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333701,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 트루퍼 정찰대 헬멧 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 115,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333702,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 트루퍼 캡틴 방어구 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 116,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333703,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 트루퍼 캡틴 헬멧 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 117,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333706,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 트루퍼 헬멧 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 118,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333710,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 조종사 방어구 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 119,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333711,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 조종사 헬멧 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 120,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333712,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 트루퍼 지휘관 방어구 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 121,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333713,
+        "FULL",
+        0
+      ],
+      "inside": "I단계",
+      "context": "클론 트루퍼 지휘관 헬멧 (I단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 122,
+      "file": "mods/Star Wars - Clone War Remnants/CloneWarRemnants.esm",
+      "key": [
+        "ARMO",
+        50333814,
+        "FULL",
+        0
+      ],
+      "inside": "II단계",
+      "context": "클론 트루퍼 헬멧 (II단계)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 123,
+      "file": "mods/Star Wars - Force Power Replacer/ForcePowers.esm",
+      "key": [
+        "MGEF",
+        2272283,
+        "FULL",
+        0
+      ],
+      "inside": "AI",
+      "context": "중력파: 밀쳐냄 (AI)",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 124,
+      "file": "mods/Star Wars Genesis - Lightsabers/StarWarsGenesisLightsabers.esm",
+      "key": [
+        "MGEF",
+        520095787,
+        "FULL",
+        0
+      ],
+      "inside": "AI",
+      "context": "반응성 보호막 (AI)",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 125,
+      "file": "mods/Star Wars Genesis - Lightsabers/StarWarsGenesisLightsabers.esm",
+      "key": [
+        "MGEF",
+        520095788,
+        "FULL",
+        0
+      ],
+      "inside": "AI",
+      "context": "반응성 보호막 (AI)",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 126,
+      "file": "mods/Star Wars Genesis - Lightsabers/StarWarsGenesisLightsabers.esm",
+      "key": [
+        "MGEF",
+        520095789,
+        "FULL",
+        0
+      ],
+      "inside": "AI",
+      "context": "반응성 보호막 (AI)",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 127,
+      "file": "mods/Star Wars Genesis - Lightsabers/StarWarsGenesisLightsabers.esm",
+      "key": [
+        "QUST",
+        2824200,
+        "NNAM",
+        7
+      ],
+      "inside": "<Global=UC02_PowerBoxesActivated>/<Global=UC02_PowerBoxesTotal>",
+      "context": "(선택) '포탑 함정길' 전력 복구하기 (<Global=UC02_PowerBoxesActivated>/<Global=UC02_PowerBoxesTotal>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 128,
+      "file": "mods/Star Wars Genesis - Lightsabers/StarWarsGenesisLightsabers.esm",
+      "key": [
+        "QUST",
+        2905089,
+        "NNAM",
+        4
+      ],
+      "inside": "<Global=UC01_SectorReleaseCountActivated>/3",
+      "context": "모든 섹터 스위치를 작동시켜 시험 완료하기 (<Global=UC01_SectorReleaseCountActivated>/3)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 129,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1117215,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply01AmountCurrent01>/<Global=MissionBoardSupply01Amount01>",
+      "context": "<Alias=PrimaryRef> 공급하기(<Global=MissionBoardSupply01AmountCurrent01>/<Global=MissionBoardSupply01Amount01>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 130,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1117218,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply02AmountCurrent01>/<Global=MissionBoardSupply02Amount01>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply02AmountCurrent01>/<Global=MissionBoardSupply02Amount01>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 131,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1650140,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply11AmountCurrent>/<Global=MissionBoardSupply11Amount>",
+      "context": "<Alias=PrimaryRef> 제공하기 (<Global=MissionBoardSupply11AmountCurrent>/<Global=MissionBoardSupply11Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 132,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1655099,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply10AmountCurrent>/<Global=MissionBoardSupply10Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply10AmountCurrent>/<Global=MissionBoardSupply10Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 133,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1655100,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply09AmountCurrent>/<Global=MissionBoardSupply09Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply09AmountCurrent>/<Global=MissionBoardSupply09Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 134,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1655101,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply08AmountCurrent>/<Global=MissionBoardSupply08Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply08AmountCurrent>/<Global=MissionBoardSupply08Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 135,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1655102,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply07AmountCurrent>/<Global=MissionBoardSupply07Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply07AmountCurrent>/<Global=MissionBoardSupply07Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 136,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1655321,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply04AmountCurrent>/<Global=MissionBoardSupply04Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply04AmountCurrent>/<Global=MissionBoardSupply04Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 137,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1655322,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply03AmountCurrent>/<Global=MissionBoardSupply03Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply03AmountCurrent>/<Global=MissionBoardSupply03Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 138,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        1655323,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply06AmountCurrent>/<Global=MissionBoardSupply06Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply06AmountCurrent>/<Global=MissionBoardSupply06Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 139,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        2184117,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply05AmountCurrent>/<Global=MissionBoardSupply05Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply05AmountCurrent>/<Global=MissionBoardSupply05Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 140,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        2186593,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply02AmountCurrent>/<Global=MissionBoardSupply02Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기 (<Global=MissionBoardSupply02AmountCurrent>/<Global=MissionBoardSupply02Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 141,
+      "file": "mods/Star Wars Genesis - Override Patch/EAASupplyMissionFix.esm",
+      "key": [
+        "QUST",
+        2221827,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=MissionBoardSupply01AmountCurrent>/<Global=MissionBoardSupply01Amount>",
+      "context": "<Alias=PrimaryRef> 공급하기(<Global=MissionBoardSupply01AmountCurrent>/<Global=MissionBoardSupply01Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 142,
+      "file": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "key": [
+        "QUST",
+        114805,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 143,
+      "file": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "key": [
+        "QUST",
+        114806,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 144,
+      "file": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "key": [
+        "QUST",
+        114807,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 145,
+      "file": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "key": [
+        "QUST",
+        114808,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 146,
+      "file": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "key": [
+        "QUST",
+        115065,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 147,
+      "file": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "key": [
+        "QUST",
+        2457057,
+        "NNAM",
+        27
+      ],
+      "inside": "<Global=MQ207CCurrentInterlockCountGlobal>/<Global=MQ207CTotalInterlockCountGlobal>",
+      "context": "전원 제어장치를 해제하거나 (<Global=MQ207CCurrentInterlockCountGlobal>/<Global=MQ207CTotalInterlockCountGlobal>) 다른 우주로 전이하기",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 148,
+      "file": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "key": [
+        "QUST",
+        2862329,
+        "NNAM",
+        0
+      ],
+      "inside": "<Global=MQ206AMemorialDays> UT 일",
+      "context": "장례식이 시작되길 기다리기 (<Global=MQ206AMemorialDays> UT 일)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 149,
+      "file": "mods/Star Wars Genesis - New Yuuzhan Vong Main Story/Yuuzhan_Vong.esm",
+      "key": [
+        "QUST",
+        2862329,
+        "NNAM",
+        2
+      ],
+      "inside": "UT",
+      "context": "(선택) 24시간 (UT)을 기다려서 장례식에 불참하기",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 150,
+      "file": "mods/Star Wars - Rebel Alliance Storyline/StarWarsRebelQuestline.esm",
+      "key": [
+        "QUST",
+        2599706,
+        "CNAM",
+        1
+      ],
+      "inside": "The Rock",
+      "context": "디에고 먼로는 파르티잔과 갈로프리 사이의 연결 고리에 대해 알고 있을지도 모른다. 이 정보를 가지고 록(The Rock)에 있는 드레이븐 장군에게 돌아가야 한다.",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "록(The Rock)",
+      "after": "록"
+    },
+    {
+      "id": 151,
+      "file": "mods/Star Wars - Imperial Storyline/StarWarsImperialQuestline.esm",
+      "key": [
+        "QUST",
+        2824200,
+        "NNAM",
+        7
+      ],
+      "inside": "<Global=UC02_PowerBoxesActivated>/<Global=UC02_PowerBoxesTotal>",
+      "context": "(선택) '포탑 함정길' 전력 복구하기 (<Global=UC02_PowerBoxesActivated>/<Global=UC02_PowerBoxesTotal>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 152,
+      "file": "mods/Star Wars - Imperial Storyline/StarWarsImperialQuestline.esm",
+      "key": [
+        "QUST",
+        2905089,
+        "NNAM",
+        4
+      ],
+      "inside": "<Global=UC01_SectorReleaseCountActivated>/3",
+      "context": "모든 섹터 스위치를 작동시켜 시험 완료하기 (<Global=UC01_SectorReleaseCountActivated>/3)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 153,
+      "file": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "key": [
+        "QUST",
+        252944,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=DantooineLife05_RocksCurrent>/6",
+      "context": "테이트의 땅에 있는 단단한 바위 제거하기 (<Global=DantooineLife05_RocksCurrent>/6)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 154,
+      "file": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "key": [
+        "QUST",
+        1608997,
+        "NNAM",
+        0
+      ],
+      "inside": "<Global=UC_GG_Stormtroopers_DropoffsCompleted>/<Global=UC_GG_Stormtroopers_TotalDropoffs>",
+      "context": "모병 자료 전달하기 (<Global=UC_GG_Stormtroopers_DropoffsCompleted>/<Global=UC_GG_Stormtroopers_TotalDropoffs>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 155,
+      "file": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "key": [
+        "QUST",
+        2323600,
+        "NNAM",
+        0
+      ],
+      "inside": "<Global=City_CY_RedTape01Resource01Count>/<Global=City_CY_RedTape01Resource01Total>",
+      "context": "철 수집하기 (<Global=City_CY_RedTape01Resource01Count>/<Global=City_CY_RedTape01Resource01Total>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 156,
+      "file": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "key": [
+        "QUST",
+        2459284,
+        "NNAM",
+        10
+      ],
+      "inside": "<Global=MS06Resource01Count>/<Global=MS06Resource01Total>",
+      "context": "섬유질 수집하기 (<Global=MS06Resource01Count>/<Global=MS06Resource01Total>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 157,
+      "file": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "key": [
+        "QUST",
+        2459284,
+        "NNAM",
+        11
+      ],
+      "inside": "<Global=MS06Resource02Count>/<Global=MS06Resource02Total>",
+      "context": "밀봉제 수집하기 ( <Global=MS06Resource02Count>/<Global=MS06Resource02Total>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 158,
+      "file": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "key": [
+        "QUST",
+        2459284,
+        "NNAM",
+        12
+      ],
+      "inside": "<Global=MS06Resource03Count>/<Global=MS06Resource03Total>",
+      "context": "철 수집하기 (<Global=MS06Resource03Count>/<Global=MS06Resource03Total>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 159,
+      "file": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "key": [
+        "QUST",
+        2459284,
+        "NNAM",
+        13
+      ],
+      "inside": "<Global=MS06Resource04Count>/<Global=MS06Resource04Total>",
+      "context": "쿼드라늄 수집하기 (<Global=MS06Resource04Count>/<Global=MS06Resource04Total>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 160,
+      "file": "mods/Star Wars Genesis - Side Quests/StarWarsGenesisSideQuests.esm",
+      "key": [
+        "QUST",
+        2727948,
+        "NNAM",
+        7
+      ],
+      "inside": "<Global=MS02_CluesCollected> / 7",
+      "context": "시설에 관한 단서 찾기 (<Global=MS02_CluesCollected> / 7)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 161,
+      "file": "mods/Star Wars Genesis - Patch Compendium/Mojo_JetpackController.esm",
+      "key": [
+        "MGEF",
+        2326097,
+        "DNAM",
+        0
+      ],
+      "inside": "지속 시간: <dur>",
+      "context": "전투 중이 아닐 때 이동 속도 <mag>% 증가 (지속 시간: <dur>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 162,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
+      "key": [
+        "QUST",
+        1619735,
+        "NNAM",
+        1
+      ],
+      "inside": "<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>",
+      "context": "임원들을 설득하기 (<Global=RI08_BoardMemberCount>/<Global=RI08_BoardMemberTotal>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 163,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
+      "key": [
+        "QUST",
+        1619735,
+        "NNAM",
+        2
+      ],
+      "inside": "찬성 : <Global=RI08_InfinityYayCount> 반대 : <Global=RI08_InfinityNayCount>",
+      "context": "인피니티 리미티드 인수 ( 찬성 : <Global=RI08_InfinityYayCount> 반대 : <Global=RI08_InfinityNayCount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 164,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
+      "key": [
+        "QUST",
+        1619735,
+        "NNAM",
+        3
+      ],
+      "inside": "찬성 : <Global=RI08_NeuroampYayCount> 반대 : <Global=RI08_NeuroampNayCount>",
+      "context": "내장형 뉴로앰프 연구 진행 ( 찬성 : <Global=RI08_NeuroampYayCount> 반대 : <Global=RI08_NeuroampNayCount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 165,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
+      "key": [
+        "QUST",
+        1619735,
+        "NNAM",
+        4
+      ],
+      "inside": "찬성 : <Global=RI08_MasakoNayCount> 반대 : <Global=RI08_MasakoYayCount>",
+      "context": "울라루의 CEO 취임 ( 찬성 : <Global=RI08_MasakoNayCount> 반대 : <Global=RI08_MasakoYayCount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 166,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisVanillaBugFixes.esm",
+      "key": [
+        "QUST",
+        2248900,
+        "NNAM",
+        3
+      ],
+      "inside": "<global=Gang03_HangoutsCleared>/3",
+      "context": "파이크 은신처 소탕 (<global=Gang03_HangoutsCleared>/3)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 167,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+      "key": [
+        "LSCR",
+        1595182,
+        "DESC",
+        0
+      ],
+      "inside": "CIS",
+      "context": "분리주의 연합(CIS)이 클론 전쟁 동안 드로이드들을 광범위하게 사용한 결과, 대중들의 드로ید에 대한 인식이 ",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    },
+    {
+      "id": 168,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+      "key": [
+        "PERK",
+        2260951,
+        "DESC",
+        0
+      ],
+      "inside": "노력",
+      "context": "당신은 동료로부터 힘을 얻는다. 인간형 동료와 모험할 때 exertion(노력)에 소모되는 스태미나가 줄어들고, 혼자일 때는 더 많이 소모된다.",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "exertion(노력)",
+      "after": "노력"
+    },
+    {
+      "id": 169,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+      "key": [
+        "PERK",
+        2260952,
+        "DESC",
+        0
+      ],
+      "inside": "노력",
+      "context": "당신은 방해받지 않을 때 최고의 기량을 발휘한다. 혼자 여행할 때 exertion(노력)에 소모되는 스태미나가 줄어들고, 인간형 동료와 동행할 때는 더 많이 소모된다.",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "exertion(노력)",
+      "after": "노력"
+    },
+    {
+      "id": 170,
+      "file": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+      "key": [
+        "QUST",
+        2915345,
+        "NNAM",
+        14
+      ],
+      "inside": "<Global=COM_SMQ01_GenetagsCollected>/<Global=COM_SMQ01_GenetagsTotal>",
+      "context": "유전자 인식표 수집하기 (<Global=COM_SMQ01_GenetagsCollected>/<Global=COM_SMQ01_GenetagsTotal>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 171,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+      "key": [
+        "QUST",
+        2984120,
+        "NNAM",
+        0
+      ],
+      "inside": "<Global=MissionBoardPassenger07Amount>명",
+      "context": "을(를) <Alias=TargetMapMarker>, <Alias=TargetPlanetLocation>(으)로 운송하십시오 (<Global=MissionBoardPassenger07Amount>명)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 172,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+      "key": [
+        "QUST",
+        3478728,
+        "NNAM",
+        0
+      ],
+      "inside": "<Global=MissionBoardHunt01AmountCurrent>/<Global=MissionBoardHunt01Amount>",
+      "context": "<Alias=TargetLocation>에 위치한 모든 위험 생물들을 제거하기 (<Global=MissionBoardHunt01AmountCurrent>/<Global=MissionBoardHunt01Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 173,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+      "key": [
+        "QUST",
+        3716587,
+        "NNAM",
+        0
+      ],
+      "inside": "<Global=MissionBoardHunt01AmountCurrent>/<Global=MissionBoardHunt01Amount>",
+      "context": "<Alias=TargetLocation>에 위치한 모든 위험 생물들을 제거하기 (<Global=MissionBoardHunt01AmountCurrent>/<Global=MissionBoardHunt01Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 174,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+      "key": [
+        "QUST",
+        3716591,
+        "NNAM",
+        0
+      ],
+      "inside": "<Global=MissionBoardHunt01AmountCurrent>/<Global=MissionBoardHunt01Amount>",
+      "context": "<Alias=TargetLocation>에 위치한 모든 위험 생물들을 제거하기 (<Global=MissionBoardHunt01AmountCurrent>/<Global=MissionBoardHunt01Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 175,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+      "key": [
+        "QUST",
+        3716595,
+        "NNAM",
+        0
+      ],
+      "inside": "<Global=MissionBoardHunt01AmountCurrent>/<Global=MissionBoardHunt01Amount>",
+      "context": "<Alias=TargetLocation>에 위치한 모든 위험 생물들을 제거하기 (<Global=MissionBoardHunt01AmountCurrent>/<Global=MissionBoardHunt01Amount>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 176,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+      "key": [
+        "QUST",
+        167775160,
+        "FULL",
+        0
+      ],
+      "inside": "이 문구를 보았다면 신고하세요",
+      "context": "실험 1B (이 문구를 보았다면 신고하세요)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 177,
+      "file": "mods/Star Wars Genesis - Patch Compendium/GenesisBountyBoard.esm",
+      "key": [
+        "QUST",
+        167775166,
+        "FULL",
+        0
+      ],
+      "inside": "발견 시 신고 바람",
+      "context": "실험 1A (발견 시 신고 바람)",
+      "decision": "keep",
+      "reason": "등급·모델·변형·크기 또는 설명 정보"
+    },
+    {
+      "id": 178,
+      "file": "mods/Star Wars Genesis - Override Patch/Aurie_TempleQuestFixes.esm",
+      "key": [
+        "QUST",
+        114805,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 179,
+      "file": "mods/Star Wars Genesis - Override Patch/Aurie_TempleQuestFixes.esm",
+      "key": [
+        "QUST",
+        114806,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 180,
+      "file": "mods/Star Wars Genesis - Override Patch/Aurie_TempleQuestFixes.esm",
+      "key": [
+        "QUST",
+        114807,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 181,
+      "file": "mods/Star Wars Genesis - Override Patch/Aurie_TempleQuestFixes.esm",
+      "key": [
+        "QUST",
+        114808,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 182,
+      "file": "mods/Star Wars Genesis - Override Patch/Aurie_TempleQuestFixes.esm",
+      "key": [
+        "QUST",
+        115065,
+        "FULL",
+        0
+      ],
+      "inside": "<Alias=PlanetWithTrait>",
+      "context": "우주 너머에서 온 권능 (<Alias=PlanetWithTrait>)",
+      "decision": "keep",
+      "reason": "게임 변수·자리표시자 또는 진행 수치"
+    },
+    {
+      "id": 183,
+      "file": "mods/Trackers Alliance - Fight Or Flight/EAA_TAFightOrFlight.esm",
+      "key": [
+        "MESG",
+        16779277,
+        "FULL",
+        0
+      ],
+      "inside": "Fight or Flight",
+      "context": "TA 전투 혹은 도주(Fight or Flight)를 제거하시겠습니까?",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "전투 혹은 도주(Fight or Flight)",
+      "after": "전투 혹은 도주"
+    },
+    {
+      "id": 184,
+      "file": "mods/Trackers Alliance - Fight Or Flight/EAA_TAFightOrFlight.esm",
+      "key": [
+        "GPOF",
+        16779280,
+        "DNAM",
+        0
+      ],
+      "inside": "OFF",
+      "context": " 전투, 도주, 또는 항복을 결정했을 때 화면 우측 상단에 나타나는 대사 알림을 켜거나 끄는 기능입니다.\r\n\r\n기본값은 '꺼짐(OFF)'으로 설정되어 있습니다.\r\n\r\n재미를 더해줄 수는 있지만, 게임 플레이에 방해가 되거나 ",
+      "decision": "remove_english",
+      "reason": "한국어로 이미 표기한 같은 뜻의 영어 병기 제거",
+      "before": "꺼짐(OFF)",
+      "after": "꺼짐"
+    },
+    {
+      "id": 185,
+      "file": "mods/Trackers Alliance - Fight Or Flight/EAA_TAFightOrFlight.esm",
+      "key": [
+        "GPOF",
+        16779276,
+        "DNAM",
+        0
+      ],
+      "inside": "UC04",
+      "context": "현상금 대상이 출현할 확률을 높입니다.\n\n이 옵션을 활성화하면 UC 뱅가드 임무인 '목격자(UC04)'가 활성화된 상태에서도 뉴 아틀란티스에 현상금 대상이 출현할 수 있게 됩니다. 원래 이 ",
+      "decision": "keep",
+      "reason": "공식 약어·옵션명·기술 식별자"
+    }
+  ]
+}
