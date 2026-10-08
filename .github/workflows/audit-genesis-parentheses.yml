@@ -6,11 +6,15 @@ on:
     paths:
       - scripts/audit_genesis_parentheses.py
       - scripts/audit_genesis_parentheses_broad.py
+      - scripts/validate_parentheses_review.py
+      - translation-review/parentheses/decisions.json
       - .github/workflows/audit-genesis-parentheses.yml
   pull_request:
     paths:
       - scripts/audit_genesis_parentheses.py
       - scripts/audit_genesis_parentheses_broad.py
+      - scripts/validate_parentheses_review.py
+      - translation-review/parentheses/decisions.json
       - .github/workflows/audit-genesis-parentheses.yml
   workflow_dispatch:
 permissions:
@@ -30,6 +34,8 @@ jobs:
           python scripts/audit_genesis_parentheses.py --repo . --out genesis-plugin-parentheses-candidates.csv --summary-json genesis-plugin-parentheses-summary.json
       - name: Broad independent inventory of possible bilingual strings
         run: python scripts/audit_genesis_parentheses_broad.py --repo . --out genesis-plugin-parentheses-broad.csv
+      - name: Validate all 185 decisions and construct read-only overlay
+        run: python scripts/validate_parentheses_review.py --repo . --overlay genesis-parentheses-reviewed-overlay.json
       - uses: actions/upload-artifact@v4
         with:
           name: genesis-plugin-parentheses-audit
@@ -37,3 +43,4 @@ jobs:
             genesis-plugin-parentheses-candidates.csv
             genesis-plugin-parentheses-summary.json
             genesis-plugin-parentheses-broad.csv
+            genesis-parentheses-reviewed-overlay.json
