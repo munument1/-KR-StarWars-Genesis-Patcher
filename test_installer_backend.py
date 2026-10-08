@@ -53,6 +53,17 @@ class InstallerTests(unittest.TestCase):
         p=self.package/'manifest.json';m=json.loads(p.read_text());m['base_content_checks']=[{'name':'Test.esm','required':True,'sha256':backend.sha(b'old version')}];p.write_text(json.dumps(m))
         with self.assertRaises(backend.InstallError):self.prepare()
         self.assertEqual(self.original.read_bytes(),b'original')
+    def test_copy_upgrade_accepts_only_known_previous_output(self):
+        path=self.package/'manifest.json';manifest=json.loads(path.read_text())
+        op=manifest['operations'][0]
+        op['upgrade_from']=[{'input_sha256':backend.sha(b'previous translation'),'blob':op['blob']}]
+        path.write_text(json.dumps(manifest))
+        self.original.write_bytes(b'previous translation')
+        self.prepare();backup=backend.apply(self.stage)
+        self.assertEqual(self.original.read_bytes(),b'patched')
+        backend.restore(backup);self.assertEqual(self.original.read_bytes(),b'previous translation')
+        self.original.write_bytes(b'user translation')
+        with self.assertRaises(backend.InstallError):self.prepare()
     def test_upgrade_existing_translation_and_restore(self):
         def strings(text):
             block=text.encode('utf-8')+b'\0'

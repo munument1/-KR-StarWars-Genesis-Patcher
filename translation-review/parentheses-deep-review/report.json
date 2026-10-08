@@ -18,11 +18,13 @@
   },
   "image_caption_candidates": 0,
   "unique_live_contexts": 1157,
-  "new_confirmed_locations": 5,
+  "new_confirmed_locations": 4,
   "prior_pending_locations": 10,
-  "new_preview_files": 2,
+  "new_preview_files": 1,
   "game_modified": false,
   "sst_modified": false,
   "release_modified": false,
-  "preview_validation_passed": true
+  "preview_validation_passed": true,
+  "retained_non_english_locations": 1,
+  "superseded_by": "../v0.2.3-release/validation.json"
 }

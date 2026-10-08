@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "source_en": "Sorry it had to come to this, vod.",
+      "current_ko": "이렇게 되어 유감이네, 보드.",
+      "proposed_ko": "이렇게 되어 유감이네, 보드(vod).",
+      "location": {
+        "group": "2",
+        "string_id": "92990",
+        "form_id": "0012FF6D",
+        "record": "INFO",
+        "field": "NAM1",
+        "index": "0",
+        "sst": "starfield_en_ko.sst",
+        "kind": "sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "preserve_non_english_bilingual"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Veshh ka'nik?",
+      "current_ko": "베쉬 카니크?",
+      "proposed_ko": "베쉬 카니크(Veshh ka'nik)?",
+      "location": {
+        "group": "2",
+        "string_id": "116286",
+        "form_id": "001136D3",
+        "record": "INFO",
+        "field": "NAM1",
+        "index": "0",
+        "sst": "starfield_en_ko.sst",
+        "kind": "sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "preserve_non_english_bilingual"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Shak'kra ven dross.",
+      "current_ko": "샤크라 벤 드로스.",
+      "proposed_ko": "샤크라 벤 드로스(Shak'kra ven dross).",
+      "location": {
+        "group": "2",
+        "string_id": "112787",
+        "form_id": "001136D2",
+        "record": "INFO",
+        "field": "NAM1",
+        "index": "0",
+        "sst": "starfield_en_ko.sst",
+        "kind": "sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "preserve_non_english_bilingual"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "To: Helga Dubray\r\nFrom: Diego Monroe\r\nSubject: Get well soon\r\n\r\nHeard you're finally up and about. Like they say, any landing you can walk away from, right?\r\n\r\nYou take it easy. I know this recovery is going to drive you crazy. If you need to blow off some steam, I'm here. We can do a little Voxyn target practice on the wall if you want. Or just grab a beer and talk about the Marshal behind his back. Whatever it takes.\r\n\r\nGet well soon, hermanita.\r\n",
+      "current_ko": "수신: 헬가 두브레이\r\n발신: 디에고 먼로\r\n제목: 쾌유를 빕니다\r\n\r\n드디어 일어났다는 소식 들었어. 다들 그러잖아, 걸어서 나올 수 있는 착륙은 성공적인 착륙이라고.\r\n\r\n무리하지 마. 회복 기간이 너를 미치게 할 거라는 건 알아. 스트레스가 쌓이면 언제든 말해. 원한다면 벽에 대고 복신 표적 연습이라도 하든가. 아니면 맥주 한잔하면서 사령관 뒷담화나 까자고. 뭐든 좋아.\r\n\r\n빨리 나아라, 여동생.\r\n",
+      "proposed_ko": "수신: 헬가 두브레이\r\n발신: 디에고 먼로\r\n제목: 쾌유를 빕니다\r\n\r\n드디어 일어났다는 소식 들었어. 다들 그러잖아, 걸어서 나올 수 있는 착륙은 성공적인 착륙이라고.\r\n\r\n무리하지 마. 회복 기간이 너를 미치게 할 거라는 건 알아. 스트레스가 쌓이면 언제든 말해. 원한다면 벽에 대고 복신 표적 연습이라도 하든가. 아니면 맥주 한잔하면서 사령관 뒷담화나 까자고. 뭐든 좋아.\r\n\r\n빨리 나아라, 여동생(hermanita).\r\n",
+      "location": {
+        "group": "0",
+        "string_id": "47705",
+        "form_id": "001020EC",
+        "record": "TMLM",
+        "field": "UNAM",
+        "index": "2",
+        "sst": "starfield_en_ko.sst",
+        "kind": "sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "preserve_non_english_bilingual"
+      ],
+      "human_reviewed": false
+    }
+  ]
+}

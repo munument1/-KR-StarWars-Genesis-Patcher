@@ -1,0 +1,209 @@
+{
+  "items": [
+    {
+      "source_en": "The Biker Advanced Recon Commando (BARC) speeder was a speeder bike manufactured by Aratech Repulsor Company. Based on Mobquet Swoops and Speeders' design of the Ripper speeder bike, the BARC speeder was used by the Grand Army of the Republic during the Clone Wars",
+      "current_ko": "바이크 정찰 코만도(BARC) 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리퍼 스피더 바이크 설계를 기반으로 한 BARC 스피더는 클론 전쟁 당시 은하 공화국 대육군이 사용했습니다.",
+      "proposed_ko": "바이크 정찰 코만도 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리퍼 스피더 바이크 설계를 기반으로 한 BARC 스피더는 클론 전쟁 당시 은하 공화국 대육군이 사용했습니다.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+        "key": [
+          "COBJ",
+          16779268,
+          "DESC",
+          0
+        ]
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Biker Advanced Recon Commando (BARC) speeder was a speeder bike manufactured by Aratech Repulsor Company. Based on Mobquet Swoops and Speeders' design of the Ripper speeder bike, the BARC speeder was used by the Grand Army of the Republic during the Clone Wars",
+      "current_ko": "바이크 정찰 코만도(BARC) 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리퍼 스피더 바이크 설계를 기반으로 한 BARC 스피더는 클론 전쟁 당시 은하 공화국 대육군이 사용했습니다.",
+      "proposed_ko": "바이크 정찰 코만도 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리퍼 스피더 바이크 설계를 기반으로 한 BARC 스피더는 클론 전쟁 당시 은하 공화국 대육군이 사용했습니다.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+        "key": [
+          "COBJ",
+          16779286,
+          "DESC",
+          0
+        ]
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Biker Advanced Recon Commando (BARC) speeder was a speeder bike manufactured by Aratech Repulsor Company. Based on Mobquet Swoops and Speeders' design of the Ripper speeder bike, the BARC speeder was used by the Grand Army of the Republic during the Clone Wars",
+      "current_ko": "바이크 정찰 코만도(BARC) 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리퍼 스피더 바이크 설계를 기반으로 한 BARC 스피더는 클론 전쟁 당시 은하 공화국 대육군이 사용했습니다.",
+      "proposed_ko": "바이크 정찰 코만도 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리퍼 스피더 바이크 설계를 기반으로 한 BARC 스피더는 클론 전쟁 당시 은하 공화국 대육군이 사용했습니다.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+        "key": [
+          "COBJ",
+          16779336,
+          "DESC",
+          0
+        ]
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Biker Advanced Recon Commando (BARC) speeder was a speeder bike manufactured by Aratech Repulsor Company. Based on Mobquet Swoops and Speeders' design of the Ripper speeder bike, the BARC speeder was used by the Grand Army of the Republic during the Clone Wars",
+      "current_ko": "바이크 정찰 코만도(BARC) 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리퍼 스피더 바이크 설계를 기반으로 한 BARC 스피더는 클론 전쟁 당시 은하 공화국 대육군이 사용했습니다.",
+      "proposed_ko": "바이크 정찰 코만도 스피더는 아라텍 리펄서 컴퍼니에서 제조한 스피더 바이크입니다. 몹켓 스웁 앤 스피더의 리퍼 스피더 바이크 설계를 기반으로 한 BARC 스피더는 클론 전쟁 당시 은하 공화국 대육군이 사용했습니다.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+        "key": [
+          "COBJ",
+          16779339,
+          "DESC",
+          0
+        ]
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "As a result of their extensive use during the Clone Wars by the CIS, public perception of droids significantly declined.",
+      "current_ko": "분리주의 연합(CIS)이 클론 전쟁 동안 드로이드들을 광범위하게 사용한 결과, 대중들의 드로ید에 대한 인식이 크게 악화되었습니다.",
+      "proposed_ko": "분리주의 연합이 클론 전쟁 동안 드로이드들을 광범위하게 사용한 결과, 대중들의 드로ید에 대한 인식이 크게 악화되었습니다.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "LSCR",
+          1595182,
+          "DESC",
+          0
+        ]
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Bannoc IV is an EM-Class Gas Giant, sir. There isn't a ship in the Collective, that could safely get near that type of world.",
+      "current_ko": "바녹 IV는 전자기(EM) 급 가스 거성입니다, 함장님. 공동체 내에서 저런 행성 근처에 안전하게 접근할 수 있는 함선은 없습니다.",
+      "proposed_ko": "바녹 IV는 전자기 급 가스 거성입니다, 함장님. 공동체 내에서 저런 행성 근처에 안전하게 접근할 수 있는 함선은 없습니다.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+        "key": 80264
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Her family was from Vandor-3, but they moved when Hephaestus laid off a bunch of people years ago.",
+      "current_ko": "그녀의 가족은 밴도-3(Vandor-3) 출신이었지만, 몇 년 전 헤파이스토스가 대규모 해고를 단행했을 때 이사했어.",
+      "proposed_ko": "그녀의 가족은 밴도-3 출신이었지만, 몇 년 전 헤파이스토스가 대규모 해고를 단행했을 때 이사했어.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+        "key": 182177
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Earlink Aural Recognition Software, or EARS, is a network of turrets that can be directed through voice commands. Each turret has a set of cybernetic \"ears\" that are linked together and can identify voices of the crew. \r\n\r\nIn situations where manually using a terminal is impossible, being able to activate, deactivate, and update targeting systems vocally can provide added security to a spaceship.\r\n\r\n",
+      "current_ko": "이어링크 청각 인식 소프트웨어(EARS)는 음성 명령으로 제어할 수 있는 포탑 네트워크입니다. 각 포탑에는 서로 연결되어 승무원의 목소리를 식별할 수 있는 일련의 사이버네틱 '귀'가 장착되어 있습니다.\r\n\r\n수동으로 터미널을 사용하는 것이 불가능한 상황에서 음성으로 타겟팅 시스템을 활성화, 비활성화 및 업데이트할 수 있다면 우주선의 보안을 한층 더 강화할 수 있습니다.\r\n\r\n",
+      "proposed_ko": "이어링크 청각 인식 소프트웨어는 음성 명령으로 제어할 수 있는 포탑 네트워크입니다. 각 포탑에는 서로 연결되어 승무원의 목소리를 식별할 수 있는 일련의 사이버네틱 '귀'가 장착되어 있습니다.\r\n\r\n수동으로 터미널을 사용하는 것이 불가능한 상황에서 음성으로 타겟팅 시스템을 활성화, 비활성화 및 업데이트할 수 있다면 우주선의 보안을 한층 더 강화할 수 있습니다.\r\n\r\n",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+        "key": 44164
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": ":: TRACKING SYSTEM\r\n:: BUILD LOGS\r\n::\r\n____________________________________________________________\r\n:: BUILD 0.2\r\nOkay. I think we're finally ready to give this a real test. The frequency needs to be calibrated to the size of the stock, though, so we'll need to get some general measurements of the creatures once they arrive.\r\n\r\nBut if this works, if could mean a new era in open range farming. We'll be able to function without fences. True free range! We're going to make so much damn money.\r\n\r\n:: BUILD 0.3\r\nEveryone's finally got their hearing back, so I think we can go for test number two. Our initial hopes for range and distance might've been a bit ambitious, but we've at least got the fundamentals down - turn on system, have the signal beamed directly into your personal radio, letting you know the location of nearby critters. Next up - improving how many animals we can track at once and how far we can track them.",
+      "current_ko": ":: 추적 시스템\r\n:: 빌드 로그\r\n::\r\n____________________________________________________________\r\n:: 빌드 0.2\r\n좋아. 드디어 제대로 테스트해 볼 준비가 된 것 같아. 다만 주식(stock)의 크기에 맞춰 주파수를 보정해야 하므로, 크리처들이 도착하면 일반적인 측정값을 좀 얻어야겠어.\r\n\r\n하지만 이게 잘 된다면 방목 농업의 새로운 시대를 열 수 있을 거야. 울타리 없이도 기능을 할 수 있게 되는 거지. 진정한 방목이야! 엄청난 돈을 벌게 될 거야.\r\n\r\n:: 빌드 0.3\r\n드디어 모두 청력을 회복했으니 두 번째 테스트를 진행할 수 있을 것 같아. 범위와 거리에 대한 우리의 초기 기대는 다소 과했을지도 모르지만, 최소한 기본은 잡았어. 시스템을 켜고 신호가 개인 무선으로 직접 전송되게 하여 근처 생물들의 위치를 알 수 있게 하는 거지. 다음 단계는 한 번에 추적할 수 있는 동물 수와 추적 거리를 늘리는 거야.",
+      "proposed_ko": ":: 추적 시스템\r\n:: 빌드 로그\r\n::\r\n____________________________________________________________\r\n:: 빌드 0.2\r\n좋아. 드디어 제대로 테스트해 볼 준비가 된 것 같아. 다만 가축의 크기에 맞춰 주파수를 보정해야 하므로, 크리처들이 도착하면 일반적인 측정값을 좀 얻어야겠어.\r\n\r\n하지만 이게 잘 된다면 방목 농업의 새로운 시대를 열 수 있을 거야. 울타리 없이도 기능을 할 수 있게 되는 거지. 진정한 방목이야! 엄청난 돈을 벌게 될 거야.\r\n\r\n:: 빌드 0.3\r\n드디어 모두 청력을 회복했으니 두 번째 테스트를 진행할 수 있을 것 같아. 범위와 거리에 대한 우리의 초기 기대는 다소 과했을지도 모르지만, 최소한 기본은 잡았어. 시스템을 켜고 신호가 개인 무선으로 직접 전송되게 하여 근처 생물들의 위치를 알 수 있게 하는 거지. 다음 단계는 한 번에 추적할 수 있는 동물 수와 추적 거리를 늘리는 거야.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+        "key": 44656
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The <Alias.CurrentName=DerelictCaptain> gave us notice the shields are down. The cause was likely heavy EM radiation, we think from a nearby <Token.Title=MiscText01>.\r\n\r\nAlso, this is lower priority, but I think something's wrong with the temperature regulators inside the ship. Everyone's been complaining about the cold, and it's clear its had an effect on the instrument gauges. The readings are way off. I'm going to need to check the maintenance logs and run a diagnostic. \r\n\r\n<Token.Title=MiscText00>.",
+      "current_ko": "<Alias.CurrentName=DerelictCaptain>이(가) 실드가 내려갔다고 알려왔다. 원인은 근처의 <Token.Title=MiscText01>에서 발생한 것으로 추정되는 강한 전자기(EM) 방사선일 가능성이 높다.\n\n또한, 이건 우선순위가 낮지만, 함선 내 온도 조절기에 뭔가 문제가 있는 것 같다. 다들 추위 불만을 토로하고 있으며, 계기판에도 분명 영향을 미쳤다. 수치가 엉망이다. 유지보수 로그를 확인하고 진단을 실행해야겠다.\n\n<Token.Title=MiscText00>.",
+      "proposed_ko": "<Alias.CurrentName=DerelictCaptain>이(가) 실드가 내려갔다고 알려왔다. 원인은 근처의 <Token.Title=MiscText01>에서 발생한 것으로 추정되는 강한 전자기 방사선일 가능성이 높다.\n\n또한, 이건 우선순위가 낮지만, 함선 내 온도 조절기에 뭔가 문제가 있는 것 같다. 다들 추위 불만을 토로하고 있으며, 계기판에도 분명 영향을 미쳤다. 수치가 엉망이다. 유지보수 로그를 확인하고 진단을 실행해야겠다.\n\n<Token.Title=MiscText00>.",
+      "location": {
+        "kind": "recipe",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+        "key": 190221
+      },
+      "review_status": "context_validated",
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Sorry it had to come to this, vod.",
+      "current_ko": "이렇게 되어 유감이네, 보드.",
+      "proposed_ko": "이렇게 되어 유감이네, 보드(vod).",
+      "location": {
+        "kind": ".ilstrings",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+        "key": 92990
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "preserve_non_english_bilingual"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Shak'kra ven dross.",
+      "current_ko": "샤크라 벤 드로스.",
+      "proposed_ko": "샤크라 벤 드로스(Shak'kra ven dross).",
+      "location": {
+        "kind": ".ilstrings",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+        "key": 112787
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "preserve_non_english_bilingual"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Veshh ka'nik?",
+      "current_ko": "베쉬 카니크?",
+      "proposed_ko": "베쉬 카니크(Veshh ka'nik)?",
+      "location": {
+        "kind": ".ilstrings",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+        "key": 116286
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "preserve_non_english_bilingual"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "To: Helga Dubray\r\nFrom: Diego Monroe\r\nSubject: Get well soon\r\n\r\nHeard you're finally up and about. Like they say, any landing you can walk away from, right?\r\n\r\nYou take it easy. I know this recovery is going to drive you crazy. If you need to blow off some steam, I'm here. We can do a little Voxyn target practice on the wall if you want. Or just grab a beer and talk about the Marshal behind his back. Whatever it takes.\r\n\r\nGet well soon, hermanita.\r\n",
+      "current_ko": "수신: 헬가 두브레이\r\n발신: 디에고 먼로\r\n제목: 쾌유를 빕니다\r\n\r\n드디어 일어났다는 소식 들었어. 다들 그러잖아, 걸어서 나올 수 있는 착륙은 성공적인 착륙이라고.\r\n\r\n무리하지 마. 회복 기간이 너를 미치게 할 거라는 건 알아. 스트레스가 쌓이면 언제든 말해. 원한다면 벽에 대고 복신 표적 연습이라도 하든가. 아니면 맥주 한잔하면서 사령관 뒷담화나 까자고. 뭐든 좋아.\r\n\r\n빨리 나아라, 여동생.\r\n",
+      "proposed_ko": "수신: 헬가 두브레이\r\n발신: 디에고 먼로\r\n제목: 쾌유를 빕니다\r\n\r\n드디어 일어났다는 소식 들었어. 다들 그러잖아, 걸어서 나올 수 있는 착륙은 성공적인 착륙이라고.\r\n\r\n무리하지 마. 회복 기간이 너를 미치게 할 거라는 건 알아. 스트레스가 쌓이면 언제든 말해. 원한다면 벽에 대고 복신 표적 연습이라도 하든가. 아니면 맥주 한잔하면서 사령관 뒷담화나 까자고. 뭐든 좋아.\r\n\r\n빨리 나아라, 여동생(hermanita).\r\n",
+      "location": {
+        "kind": ".strings",
+        "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+        "key": 47705
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "preserve_non_english_bilingual"
+      ],
+      "human_reviewed": false
+    }
+  ]
+}

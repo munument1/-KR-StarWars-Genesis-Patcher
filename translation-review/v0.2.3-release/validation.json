@@ -1,0 +1,69 @@
+{
+  "changed_locations": 18,
+  "english_gloss_removals": 14,
+  "non_english_restored": 4,
+  "changed_files": 5,
+  "prior_text_inputs_checked": 13,
+  "clean_and_upgrade_outputs_identical": true,
+  "source_generation_verified": true,
+  "game_modified": true,
+  "upgrade_checks": [
+    {
+      "target": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "input_sha256": "1989952817657b9ceb95480ad799ca41213640f4aa17d4c3e258b0957d2a8289"
+    },
+    {
+      "target": "mods/Star Wars Vehicle Pack (The Sniper 9)/TheSniper9-swvehiclepack.esm",
+      "input_sha256": "4092ffc8605ecb5925b8a2afb284b76bb795e34a91dc74a50a23b439563a0d3e"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+      "input_sha256": "3aae17e76735c1726e5aa97967274bbf0266bb3a7dbfc27c047ea29a83d0a57a"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+      "input_sha256": "03fd2ea016fc799c80a4515c7a0b816c0eb883042b73c9de739ed5a6b31e3216"
+    },
+    {
+      "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+      "input_sha256": "629674dd34c0dfc07aaf6631778dbcbcbae5f9a702733da057e94eb3eded9d6a"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+      "input_sha256": "4551ce91683a931fa1f3c1fad662777105d2dd1c452bfbcb3901ea1b276cd38e"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+      "input_sha256": "797cd96987c202c1a5ad7794194d40901457f2287ec551269cee3090071032c7"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+      "input_sha256": "85d4aefcef6ffcfb0e86d033e03fae2d42f19fcc60d481d1d2fa9b3715cd55ab"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.ilstrings",
+      "input_sha256": "b789f00abf6316e1a071d9076a4f45019316a9eb2d72f83b458e32e792272916"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+      "input_sha256": "88350c644b3703a2d98e6c373632d9d0d35aa17cffb36e1f7d236dbbf17d355f"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+      "input_sha256": "6906aa8778affae6d7d6677778bf8408da37be1203b4daa40d978b16a150fdc0"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+      "input_sha256": "e72045c148364cccf26f93ede38bb74734dff84251e088599a8227f16f35349b"
+    },
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/starfield_en.strings",
+      "input_sha256": "c7ca02a1fe52df98571022fe96de4eee6ea74ac9b56f627bca4d3a84f9dd05c0"
+    }
+  ],
+  "game_backup": "D:\\Star Wars Genesis\\Game\\.genesis-kr-backups\\fde6a89557114caeb40fc3959d54a0b8",
+  "exe_generated_outputs_identical": true,
+  "repeat_install_pending_files": 0,
+  "embedded_payload_verified": true,
+  "unit_tests_passed": 21
+}

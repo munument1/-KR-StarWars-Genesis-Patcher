@@ -1,16 +1,16 @@
 # Star Wars Genesis 한국어 패처
 
-**Star Wars Genesis 8.8.32용 Windows 한국어 패처 v0.2.3 시험판**입니다.
+**Star Wars Genesis 8.8.32용 Windows 한국어 패처 v0.2.3 정식판**입니다.
 기존 8.8.1 SST 번역과 추가 번역 검토 결과를 반영하며, 사용자의 플러그인에서
 번역된 파일을 생성한 다음 백업하고 적용합니다. Python, Java, xTranslator,
 Gemini API 키를 별도로 설치하거나 입력할 필요가 없습니다.
 
-최신 배포판은 **v0.2.3 시험판**입니다. [괄호 병기·캐릭터 배경 검수](translation-review/parentheses-backgrounds/README.md)에서 영문 중복 병기 216곳과 배경 설명 존댓말 5곳을 추가 반영했습니다. 기존 용어 수정 983곳에 더해 전체 용어 검수 결과 1,365곳을 반영하고, 모드 ESM의 `오픈` 상호작용 18곳을 `열기`로 수정했습니다. [전체 용어 검수·상호작용 수정](docs/terminology-complete-patch.md)과 [기존 한패 활용](docs/donor-reuse.md)을 확인하세요. 전체 퀘스트와 대사의 실제 플레이 검증은 완료되지 않았습니다.
+최신 배포판은 **v0.2.3 정식판**입니다. 추가 영문 병기 14곳을 정리하고, 영어 외 언어 병기 4곳을 복구했습니다. 스페인어 등 외국어 원문과 요약·설명 병기는 유지합니다. [정식판 반영 내역](translation-review/v0.2.3-release/README.md)을 확인하세요. [괄호 병기·캐릭터 배경 검수](translation-review/parentheses-backgrounds/README.md)에서 영문 중복 병기 226곳과 배경 설명 존댓말 5곳을 추가 반영했습니다. 기존 용어 수정 983곳에 더해 전체 용어 검수 결과 1,365곳을 반영하고, 모드 ESM의 `오픈` 상호작용 18곳을 `열기`로 수정했습니다. [전체 용어 검수·상호작용 수정](docs/terminology-complete-patch.md)과 [기존 한패 활용](docs/donor-reuse.md)을 확인하세요. 전체 퀘스트와 대사의 실제 플레이 검증은 완료되지 않았습니다.
 
 ## 다운로드와 설치
 
-1. [v0.2.3 시험판](https://github.com/munument1/-KR-StarWars-Genesis-Patcher/releases/tag/v0.2.3)에서
-   `GenesisKRPatcher-v0.2.3-preview.zip`을 내려받고 압축을 풉니다.
+1. [v0.2.3 정식판](https://github.com/munument1/-KR-StarWars-Genesis-Patcher/releases/tag/v0.2.3)에서
+   `GenesisKRPatcher-v0.2.3.zip`을 내려받고 압축을 풉니다.
 2. 실행 중인 Starfield를 완전히 종료합니다.
 3. `GenesisKRPatcher.exe`를 실행해 제네시스의 **Game 폴더**를 선택합니다.
    `mods`, `profiles`, `ModOrganizer.ini`가 들어 있는 폴더입니다.
@@ -20,7 +20,7 @@ Gemini API 키를 별도로 설치하거나 입력할 필요가 없습니다.
 6. MO2에서 `Star Wars Genesis Compiler` 프로필로 SFSE를 실행합니다.
    Starfield 언어는 영어를 사용합니다. 처음 실행 시 화면이 뜨기까지 시간이 걸릴 수 있습니다.
 
-기존 시험판 적용자는 동일한 절차를 사용하면 됩니다. 이미 적용된 파일은 건너뜁니다.
+이전 v0.2.3 시험판을 포함한 기존 패치 적용자는 동일한 절차로 갱신할 수 있습니다. 이미 적용된 파일은 건너뜁니다.
 설치 버전이나 모드 우선순위, 원본 파일이 지원 대상과 다르면 적용을 중단합니다.
 없는 선택 DLC의 추가 Strings는 건너뜁니다.
 

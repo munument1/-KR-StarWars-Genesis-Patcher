@@ -1,0 +1,15 @@
+{
+  "state": "applied",
+  "files": 1,
+  "changed_translations": 4,
+  "all_source_and_metadata_preserved": true,
+  "entries": [
+    {
+      "sst": "starfield_en_ko.sst",
+      "input_sha256": "684a80acd852488ecb86b5d5878ccf0a4ef409328fb15d750c62327738ccc2a4",
+      "output_sha256": "8148862337c6733cab6ec7f7c91149285350e3332df35f653e0d3490b7a014ac",
+      "changed_translations": 4
+    }
+  ],
+  "backup": "F:\\번역\\프로그램\\xTranslator\\UserDictionaries\\Starfield\\.genesis-kr-sst-backups\\3c29f92a4d9540f2a1f5d37425b332de"
+}

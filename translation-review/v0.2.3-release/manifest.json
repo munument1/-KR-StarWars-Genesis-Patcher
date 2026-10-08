@@ -1,0 +1,9 @@
+{
+  "structural_errors": [],
+  "batches": [
+    {
+      "file": "sst-edits.json",
+      "sha256": "4c19c6667c6607191a506c2e8c662adda5169468c02f6c8295db4253c36ba1f3"
+    }
+  ]
+}

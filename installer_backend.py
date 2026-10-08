@@ -39,7 +39,7 @@ def check_base_content(game,manifest,progress):
         progress('기본 게임·DLC 파일 확인: '+r['name']);h=hashlib.sha256()
         with p.open('rb') as f:
             for block in iter(lambda:f.read(1024*1024),b''):h.update(block)
-        if h.hexdigest()!=r['sha256']:raise InstallError(f'Base game/DLC version differs from this test build: {r["name"]}')
+        if h.hexdigest()!=r['sha256']:raise InstallError(f'Base game/DLC version differs from this release: {r["name"]}')
     return available
 
 def providers(game,profile):
@@ -79,7 +79,7 @@ def generate(game,package,stage,profile=None,progress=lambda text:None):
             raise InstallError(f'Enabled mod priority differs: {r["target"]}')
         upgrade=None
         if actual!=r['input_sha256']:
-            if r['kind']=='text_recipe':
+            if r['kind'] in ('text_recipe','copy'):
                 upgrade=next((entry for entry in r.get('upgrade_from',[]) if entry['input_sha256']==actual),None)
             if upgrade is None:raise InstallError(f'Unsupported or changed input: {r["target"]}')
         blob_id=upgrade['blob'] if upgrade else r['blob']

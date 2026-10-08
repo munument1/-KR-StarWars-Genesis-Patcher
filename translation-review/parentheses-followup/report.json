@@ -14,5 +14,6 @@
   "followup_game_modified": false,
   "followup_release_published": false,
   "sst_applied_files": 8,
-  "sst_applied_translations": 239
+  "sst_applied_translations": 239,
+  "superseded_by": "../v0.2.3-release/validation.json"
 }
