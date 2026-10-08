@@ -8750,10 +8750,10 @@
         "베쉬 카니크(Veshh ka'nik)?"
       ],
       "current_patch_ko": "베쉬 카니크(Veshh ka'nik)?",
-      "proposed_ko": "베쉬 카니크?",
-      "review_status": "retranslated",
+      "proposed_ko": null,
+      "review_status": "pending",
       "review_flags": [],
-      "review_notes": "영문·한국어가 같은 명칭인 병기에서 영문만 제거. 자동 제안이며 사람·게임 내 검수 전.",
+      "review_notes": "",
       "human_reviewed": false,
       "in_game_verified": false,
       "locations": [
