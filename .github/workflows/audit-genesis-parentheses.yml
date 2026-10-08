@@ -1,0 +1,30 @@
+name: Review bilingual text in Genesis plugin recipes
+on:
+  push:
+    branches:
+      - fix/parenthetical-bilingual-review
+    paths:
+      - scripts/audit_genesis_parentheses.py
+      - .github/workflows/audit-genesis-parentheses.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Self-tests for preservation rules
+        run: python scripts/audit_genesis_parentheses.py --self-test
+      - name: Full scan of Genesis mod plugin recipes (excludes ALL base and DLC Strings)
+        run: |
+          python scripts/audit_genesis_parentheses.py --repo . --out genesis-plugin-parentheses-candidates.csv --summary-json genesis-plugin-parentheses-summary.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: genesis-plugin-parentheses-audit
+          path: |
+            genesis-plugin-parentheses-candidates.csv
+            genesis-plugin-parentheses-summary.json
