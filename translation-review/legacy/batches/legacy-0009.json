@@ -357,10 +357,10 @@
         "밀레나(Milena)도 우리처럼 은하 제국을 따르지. 그녀도 단투 타운(Dantoo Town) 문제로 골머리를 앓고 있다는 걸 알아."
       ],
       "current_patch_ko": "밀레나(Milena)도 우리처럼 은하 제국을 따르지. 그녀도 단투 타운(Dantoo Town) 문제로 골머리를 앓고 있다는 걸 알아.",
-      "proposed_ko": "밀레나도 우리처럼 은하 제국을 따르지. 그녀도 단투 타운 문제로 골머리를 앓고 있다는 걸 알아.",
-      "review_status": "retranslated",
+      "proposed_ko": null,
+      "review_status": "pending",
       "review_flags": [],
-      "review_notes": "동일 고유명칭의 영어 병기만 제거. 자동 제안이며 사람·게임 검증 전.",
+      "review_notes": "",
       "human_reviewed": false,
       "in_game_verified": false,
       "locations": [
