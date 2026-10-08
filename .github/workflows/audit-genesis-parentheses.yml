@@ -5,10 +5,12 @@ on:
       - fix/parenthetical-bilingual-review
     paths:
       - scripts/audit_genesis_parentheses.py
+      - scripts/audit_genesis_parentheses_broad.py
       - .github/workflows/audit-genesis-parentheses.yml
   pull_request:
     paths:
       - scripts/audit_genesis_parentheses.py
+      - scripts/audit_genesis_parentheses_broad.py
       - .github/workflows/audit-genesis-parentheses.yml
   workflow_dispatch:
 permissions:
@@ -26,9 +28,12 @@ jobs:
       - name: Full scan of Genesis mod plugin recipes (excludes ALL base and DLC Strings)
         run: |
           python scripts/audit_genesis_parentheses.py --repo . --out genesis-plugin-parentheses-candidates.csv --summary-json genesis-plugin-parentheses-summary.json
+      - name: Broad independent inventory of possible bilingual strings
+        run: python scripts/audit_genesis_parentheses_broad.py --repo . --out genesis-plugin-parentheses-broad.csv
       - uses: actions/upload-artifact@v4
         with:
           name: genesis-plugin-parentheses-audit
           path: |
             genesis-plugin-parentheses-candidates.csv
             genesis-plugin-parentheses-summary.json
+            genesis-plugin-parentheses-broad.csv
