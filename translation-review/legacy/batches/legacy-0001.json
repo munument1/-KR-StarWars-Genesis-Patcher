@@ -1644,12 +1644,12 @@
         "기록 보관소에 있을 때 해드라이언(Hadrian)의 소포를 처리해 줘서 고마웠어."
       ],
       "current_patch_ko": "기록 보관소에 있을 때 헤이드리안(Hadrian)의 소포를 처리해 줘서 고마웠어.",
-      "proposed_ko": "기록 보관소에 있을 때 헤이드리안의 소포를 처리해 줘서 고마웠어.",
-      "review_status": "retranslated",
+      "proposed_ko": null,
+      "review_status": "pending",
       "review_flags": [
         "normalized_in_current_patch"
       ],
-      "review_notes": "영문·한국어가 같은 명칭인 병기에서 영문만 제거. 자동 제안이며 사람·게임 내 검수 전.",
+      "review_notes": "",
       "human_reviewed": false,
       "in_game_verified": false,
       "locations": [
