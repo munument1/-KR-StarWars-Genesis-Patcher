@@ -70,10 +70,11 @@ def patch(data,edits):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--repo',type=Path,required=True);ap.add_argument('--sst-dir',type=Path,required=True)
-    ap.add_argument('--stage',type=Path,required=True);ap.add_argument('--apply',action='store_true');args=ap.parse_args()
+    ap.add_argument('--stage',type=Path,required=True);ap.add_argument('--apply',action='store_true')
+    ap.add_argument('--review-dir',type=Path);ap.add_argument('--snapshot',type=Path);args=ap.parse_args()
     if args.stage.exists():raise ValueError('Preserve previous stage')
     if args.stage.resolve().is_relative_to(args.sst_dir.resolve()):raise ValueError('Stage must be outside dictionaries')
-    review=args.repo/'translation-review/terminology-complete';m=json.loads((review/'manifest.json').read_text(encoding='utf-8'));edits=defaultdict(dict)
+    review=args.review_dir or args.repo/'translation-review/terminology-complete';m=json.loads((review/'manifest.json').read_text(encoding='utf-8'));edits=defaultdict(dict)
     for batch in m['batches']:
         path=review/batch['file']
         if sha(path.read_bytes())!=batch['sha256']:raise ValueError('Review batch changed')
@@ -82,7 +83,7 @@ def main():
             loc=r['location'];key=tuple(str(loc[k]) for k in ('group','string_id','form_id','record','field','index'))
             if key in edits[loc['sst']]:raise ValueError('Duplicate review location')
             edits[loc['sst']][key]=(r['current_ko'],r['proposed_ko'],r['source_en'])
-    snapshot=json.loads((args.repo/'translation-review/terminology/source-verification.json').read_text(encoding='utf-8'))['files']
+    snapshot=json.loads((args.snapshot or args.repo/'translation-review/terminology/source-verification.json').read_text(encoding='utf-8'))['files']
     for f in snapshot:
         if sha(safe(args.sst_dir,f['sst']).read_bytes())!=f['sha256']:raise ValueError('SST changed since verified snapshot: '+f['sst'])
     args.stage.mkdir(parents=True);entries=[]

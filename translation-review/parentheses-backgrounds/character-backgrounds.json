@@ -1,0 +1,1086 @@
+{
+  "items": [
+    {
+      "source_en": "You always enjoyed learning, but nothing could compare to the joy of teaching others. As humankind spread throughout the stars, there was never a lack of knowledge to obtain, and you gladly assisted.",
+      "current_ko": "당신은 항상 배우는 것을 즐겼지만, 다른 사람을 가르치는 기쁨은 그 무엇과도 비교할 수 없었습니다. 인류가 우주를 개척해 나가며 얻을 지식은 무궁무진했고, 당신은 기꺼이 그 과정에 이바지했습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "39716",
+        "form_id": "0022EC72",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Good? Bad? Whose right is it to say? If there's anything you've learned while traipsing through the galaxy, it's this: space may look black, but it's really one big shade of grey.",
+      "current_ko": "무엇이 선이고 무엇이 악인지 누가 감히 단언할 수 있을까요? 당신이 은하계를 어슬렁거리며 유일하게 배운 점이 있다면, 그것은 우주가 보기보단 회색에 더 가깝다는 겁니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40720",
+        "form_id": "0022EC6F",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The wars are over. Peace now reigns the Galaxy. But only because there are those quietly fighting to keep it. Because of you, agreements were signed, words were heeded... lives were spared.",
+      "current_ko": "전쟁은 끝났고 은하계에는 평화가 찾아왔습니다. 하지만 그 평화는 평화를 지키기 위해 조용히 싸워온 이들이 있었기에 가능했습니다. 당신 덕분에 협정이 체결되고, 대화가 오갔으며, 수많은 생명을 구할 수 있었습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40620",
+        "form_id": "0022EC7B",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "With your knowledge of anatomy and skilled, steady hands, you could have had a lucrative career as a surgeon. Instead, you followed your heart, and created works of art to amaze and inspire.",
+      "current_ko": "당신 정도의 해부학 지식과 손재주라면 충분히 외과 의사도 될 수 있었겠지만, 당신은 가슴이 시키는 진로를 택하여 보는 이들이 감탄하고 고무되는 예술품을 차례차례 완성했습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40701",
+        "form_id": "0022EC71",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Let those other hotheaded pilots obsess over laser weapons and maneuverability. You're a space trucker, pure and simple. Pack the cargo, get it there fast, get paid, repeat. Life is simple and good.",
+      "current_ko": "레이저 무기나 기동성 같은 건 저기 잘난 조종사들이나 신경 쓰라죠. 당신은 그저 평범한 우주 운송업자일 뿐입니다. 화물을 싣고, 신속하게 운송하고, 보수를 받고, 반복합니다. 인생이 뭐 별거 있나요.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40608",
+        "form_id": "0022EC75",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Settled Systems is no stranger to warfare, and if there's one thing armed conflict relies on it's trained warriors with guns and guts. You had both. Simple, bloody work... and you were great at it.",
+      "current_ko": "개척 성계에서는 분쟁이 흔하게 벌어지며, 무력 분쟁에서 가장 중요한 자원은 총과 배짱을 갖춘 훈련된 전사입니다. 당신은 두 가지를 모두 지녔습니다. 단순하고 피비린내 나는 일... 당신은 그 일을 훌륭하게 해냈습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40722",
+        "form_id": "0022EC70",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Masterless and unbound, you wandered the Galaxy as a blade for hire. To some, you were a simple mercenary. To others, a hero. And to a select few... a nightmare they could never wake from.",
+      "current_ko": "주인 없이 자유로운 몸으로, 당신은 은하계를 떠도는 용병이었습니다. 누군가에게는 평범한 용병이었고, 누군가에게는 영웅이었으며, 또 선택받은 소수에게는 결코 깨어날 수 없는 악몽 그 자체였습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40606",
+        "form_id": "0022EC74",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "There was a time when all you wanted to be was a titan of industry, maybe a ship designer, or megacorp exec. Thankfully, that skillset never goes out of style in the Galaxy.",
+      "current_ko": "한때 당신의 꿈은 산업의 거물이 되거나, 함선 설계자, 혹은 거대 기업의 임원이 되는 것이었습니다. 다행히도 그 기술은 은하계 어디에서나 환영받는 능력이죠.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40618",
+        "form_id": "0022EC7A",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Wayfarer, wanderer, seeker... transient. You've been called many things during your travels, and learned something those others could never understand - the journey IS the destination.",
+      "current_ko": "나그네, 방랑자, 구도자, 거쳐 가는 자... 수많은 이명으로 불려 온 당신은 여행 도중 범인은 결코 이해 못 할 깨달음을 얻었습니다. 여정 그 자체가 목적지라는 것을.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40604",
+        "form_id": "0022EC73",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You were always disgusted by suckers killing themselves to make an \"honest wage.\" As soon as you were old enough to hold a weapon, you took what you wanted from anyone unlucky enough to have it.",
+      "current_ko": "당신은 예전부터 정직한 밥벌이로 먹고사는 호구들을 경멸해 왔습니다. 당신은 무기를 다룰 나이가 되자마자, 단순히 그것을 소유한 죄 밖에 없는 불쌍한 이들에게서 원하는 물건을 무력으로 탈취하고 살았습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40614",
+        "form_id": "0022EC78",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The discovery of the Galaxy' many oxygen-rich planets and moons meant humans could live just about anywhere... if they had the know how. You did, and utilized it to great effect.",
+      "current_ko": "은하계 곳곳에서 산소가 풍부한 행성과 위성이 발견되면서, 노하우만 있다면 인간은 어디서든 살 수 있게 되었습니다. 당신은 그 노하우를 갖추고 있었고, 이를 십분 활용했습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40716",
+        "form_id": "0022EC77",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "While the unrefined masses scarfed down Chunks by the shipload, you catered to those with a more... discerning palate. In your kitchen, countless alien species became true culinary masterpieces.",
+      "current_ko": "우매한 대중들이 입에 청크를 쑤셔 넣기 바쁠 때, 당신은 좀 더... 까다로운 입맛의 소유자들을 상대했습니다. 당신의 주방에서, 수많은 외계 식재료가 진정한 미식의 걸작으로 재탄생했습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40439",
+        "form_id": "0022EC7F",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Settled Systems is home to untold alien species. And while none of them have yet proven sentient, that never deterred you. So you sought out and studied them for whatever gifts they offered.",
+      "current_ko": "개척 성계에는 여전히 발견되기만을 기다리는 외계 동식물이 수도 없이 남아있습니다. 비록 지성이 있는 종은 아직 발견되지 않았지만, 당신은 신경 쓰지 않았습니다. 당신의 열정 아래 무수히 많은 생명체가 이름을 얻었고, 세간에 외계 동식물의 흥미로운 습성과 특성이 알려졌습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40718",
+        "form_id": "0022EC6E",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "From Nar Shaddaa to Imperial Center, the megacorps stand as monuments to power, prestige and profit. You've worked both for and against them, on the inside and out, often sacrificing conscience for credits.",
+      "current_ko": "나르 샤다부터 제국 중심부까지, 거대 기업들은 권력과 명성, 그리고 이윤의 상징으로 우뚝 서 있습니다. 당신은 그들의 안팎에서 일하며 때로는 그들을 위해, 때로는 그들에 맞서 싸웠고, 종종 크레딧을 위해 양심을 저버리기도 했습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40624",
+        "form_id": "0022EC7D",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Droids? Mere toys. Biotech Implants? Good for parlor tricks. The Clone War may have made implants and upgrades available to veterans, but you once saw a greater future. Humans and droids, as one. ",
+      "current_ko": "드로이드라고요? 그저 장난감일 뿐이죠. 생체 임플란트요? 재주 부리기엔 좋겠네요. 클론 전쟁으로 참전 용사들에게 임플란트와 업그레이드가 보급되었을지 몰라도, 당신은 더 큰 미래를 보았습니다. 인간과 드로이드가 하나가 되는 미래를 말이죠. ",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40622",
+        "form_id": "0022EC7C",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You've worked the line at the toughest clubs in the Galaxy. Back then, you learned that most non-lethal confrontations can be solved one of two ways: a strong right hook, or a more strongly secured door.",
+      "current_ko": "당신은 은하계에서 가장 거친 클럽들의 입구를 지켰습니다. 그 시절, 당신은 비살상적인 대립을 해결하는 두 가지 방법을 배웠죠. 강력한 오른손 훅을 날리거나, 문을 더 튼튼하게 잠그는 것뿐입니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40634",
+        "form_id": "0022EC81",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "From the Voxyn of Dantooine to the Rakghouls that plague the whole of the Galaxy, hostile alien life abounds. You've learned the skills to track them, find them, and take them down.",
+      "current_ko": "단투인의 복신부터 은하계 전역을 괴롭히는 락굴까지, 적대적인 외계 생명체는 어디에나 존재합니다. 당신은 그들을 추적하고, 찾아내어, 처치하는 기술을 익혔습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40610",
+        "form_id": "0022EC76",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "They said exploration is a lost art. You didn't listen. As the major factions argued over the space they desperately tried to control, you were busy uncovering the wonders of the Galaxy.",
+      "current_ko": "사람들은 탐험이 잊힌 예술이라고 말했지만, 당신은 귀담아듣지 않았습니다. 주요 세력들이 저마다의 영토를 차지하려고 다투는 동안, 당신은 은하계의 경이로움을 밝혀내는 데 몰두했습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40616",
+        "form_id": "0022EC79",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Wherever there are wanted individuals, there are those who profit from their capture. And your quarry knows that in the vastness of space, they can run... but they can't hide.",
+      "current_ko": "현상 수배가 걸린 이들이 있다면, 수배범을 잡아 한몫 챙기는 이들도 있기 마련입니다. 하필 당신에게 찍힌 수배범도 잘 알고 있습니다. 광활한 우주를 도망다녀봤자... 숨을 수 없다는 것을.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40632",
+        "form_id": "0022EC80",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Leave it to human beings to fight over something as infinite as outer space. That's where you come in. You've never been afraid to take on the enemy... but you'd much rather take care of your friends.",
+      "current_ko": "우주처럼 무한한 것을 차지하기 위해 죽고 죽이다니, 인간은 역시 어리석군요. 이제 당신이 나설 차례입니다. 비록 당신은 적과의 교전을 두려워한 적은 없지만... 적을 죽이기보단 동료를 구하고 싶었습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "40626",
+        "form_id": "0022EC7E",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starfield_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You sold your skills to the highest bidder, taking contracts from border skirmishes to shipboard interdictions. You kept your own rules of engagement and got the job done.",
+      "current_ko": "당신은 국경 분쟁부터 함선 간 차단까지 최고 입찰자에게 기술을 팔았습니다. 당신은 자신만의 교전 규칙을 지키며 임무를 완수했습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC81",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Galaxy is no stranger to warfare, and if there's one thing armed conflict relies on it's trained warriors with blasters and guts. You had both. Simple, bloody work... and you were great at it.",
+      "current_ko": "은하계는 전쟁에 익숙하며, 무력 충돌이 의존하는 한 가지는 블라스터와 배짱을 갖춘 훈련된 전사들입니다. 당신은 둘 다 가지고 있었습니다. 단순하고 피비린내 나는 일이었지만... 당신은 그것을 아주 잘 해냈습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC70",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Galaxy is home to untold alien species. Whether they were giant beasts or small critters, you sought them out and studied them for whatever gifts they offered.",
+      "current_ko": "은하계는 수많은 외계 종족의 고향이다. 거대한 짐승이든 작은 생물이든, 당신은 그들을 찾아 연구하고 그들이 제공하는 모든 선물을 얻었다.",
+      "proposed_ko": "은하계는 수많은 외계 종족의 고향입니다. 거대한 짐승이든 작은 생물이든, 당신은 그들을 찾아 연구하고 그들이 제공하는 모든 선물을 얻었습니다.",
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC6E",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "They said exploration is a lost art. You didn't listen. As the major factions argued over the space they desperately tried to control, you were busy uncovering the wonders of the Unknown Regions.",
+      "current_ko": "탐험은 잃어버린 예술이라고들 합니다. 당신은 귀담아듣지 않았습니다. 주요 세력들이 통제하려는 공간을 두고 다투는 동안, 당신은 미지의 영역의 경이로움을 발견하느라 바빴습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC79",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "From Nar Shaddaa to Coruscant, these city planets stand as monuments to power, prestige and profit. However, their infrastructure is often outdated and unsafe, and you exploited that on the inside and out, often sacrificing conscience for credits.",
+      "current_ko": "나르 샤다에서 코러산트까지, 이 도시 행성들은 권력, 명성, 이익의 기념비로 서 있습니다. 그러나 그들의 인프라는 종종 낡고 안전하지 않으며, 당신은 안팎에서 그것을 이용해 양심을 희생하며 크레딧을 챙겼습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC7D",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Years of mechanical training taught you rapid diagnostics and disciplined maintenance. You calibrate thrusters, purge fuel lines, and bring systems back from red to flight-ready.",
+      "current_ko": "수년간의 기계 훈련은 빠른 진단과 절제된 유지 보수를 가르쳐 주었습니다. 당신은 추진기를 보정하고, 연료 라인을 퍼지하며, 시스템을 비행 준비 상태로 되돌립니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC7A",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Stimpaks? Mere toys. Droids? Good for parlor tricks. The Clone Wars may have made implants and upgrades available to veterans, but you once saw a greater future. Humans and machines, as one. ",
+      "current_ko": "스팀팩? 장난감일 뿐입니다. 드로이드? 재주 부리기나 좋죠. 클론 전쟁은 베테랑들에게 임플란트와 업그레이드를 제공했을지 모르지만, 당신은 한때 더 큰 미래를 보았습니다. 인간과 기계가 하나가 되는 미래를요.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC7C",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Leave it to people to fight over something as infinite as outer space. That's where you come in. You've never been afraid to take on the enemy... but you'd much rather take care of your friends.",
+      "current_ko": "끝없는 우주를 두고 싸우는 것은 인간의 몫으로 남겨두세요. 그게 바로 당신이 필요한 이유입니다. 당신은 적과 맞서는 것을 두려워한 적이 없지만... 친구들을 돌보는 것을 훨씬 더 좋아합니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC7E",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Masterless and unbound, you wandered the Outer Rim as a blade for hire. To some, you were a simple mercenary. To others, a hero. And to a select few... a nightmare they could never wake from.",
+      "current_ko": "주인도 없고 얽매이지도 않은 채, 당신은 아우터 림을 떠도는 용병이었습니다. 누군가에게 당신은 단순한 용병이었고, 누군가에게는 영웅이었습니다. 그리고 소수의 사람들에게는... 절대 깨어날 수 없는 악몽이었습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC74",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Good? Bad? Whose right is it to say? If there's anything you've learned while moving product through the Galaxy, it's this: space may look black, but it's really one big shade of grey.",
+      "current_ko": "좋고 나쁨? 누가 그것을 말할 권리가 있을까요? 은하계 전역에 물건을 운송하면서 배운 것이 있다면, 우주는 검게 보일지 몰라도 실제로는 거대한 회색 지대라는 것입니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC6F",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You were always disgusted by suckers killing themselves to make an \"honest wage.\" As soon as you were old enough to hold a weapon, you took what you wanted from anyone unlucky enough to have it.",
+      "current_ko": "당신은 예전부터 정직한 밥벌이로 먹고사는 호구들을 경멸해 왔습니다. 당신은 무기를 다룰 나이가 되자마자, 단순히 그것을 소유한 죄 밖에 없는 불쌍한 이들에게서 원하는 물건을 무력으로 탈취하고 살았습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC78",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Wherever there are wanted individuals, there are those who profit from their capture. And your quarry knows that in the vastness of the Galaxy, they can run... but they can't hide.",
+      "current_ko": "수배자가 있는 곳에는 그들을 잡아 이익을 얻는 자들이 있습니다. 그리고 당신의 사냥감은 은하계의 광활함 속에서 도망칠 수는 있어도... 숨을 수는 없다는 것을 알고 있습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC80",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "An elected voice in a fractured era, you use leverage and back-channel talks to secure brief truces, relief routes, and exchanges that spare lives.",
+      "current_ko": "분열된 시대의 선출된 목소리로서, 당신은 지렛대와 막후 협상을 통해 짧은 휴전, 구호 경로, 생명을 구하는 교환을 성사시킨다.",
+      "proposed_ko": "분열된 시대의 선출된 목소리로서, 당신은 지렛대와 막후 협상을 통해 짧은 휴전, 구호 경로, 생명을 구하는 교환을 성사시킵니다.",
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC7B",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Years spent mapping posture and leverage taught you where balance fails. You read small tells such as the set of a shoulder or the slack of a knee and aim for the hinge that closes a fight. Efficiency is your ethic.",
+      "current_ko": "자세와 지렛대 원리를 연구하며 보낸 세월은 당신에게 균형이 무너지는 지점을 가르쳐 주었다. 어깨의 위치나 무릎의 느슨함 같은 작은 징후를 읽고 싸움을 끝낼 관절을 노린다. 효율성이 당신의 철학이다.",
+      "proposed_ko": "자세와 지렛대 원리를 연구하며 보낸 세월은 당신에게 균형이 무너지는 지점을 가르쳐 주었습니다. 어깨의 위치나 무릎의 느슨함 같은 작은 징후를 읽고 싸움을 끝낼 관절을 노립니다. 효율성이 당신의 철학입니다.",
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC71",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You always enjoyed learning, but nothing could compare to the joy of teaching others. As people spread throughout the stars, there was never a lack of knowledge to obtain, and you gladly assisted.",
+      "current_ko": "당신은 항상 배우는 것을 즐겼지만, 다른 사람들을 가르치는 기쁨과는 비교할 수 없었습니다. 사람들이 별들 사이로 퍼져 나가면서 얻을 지식은 끝이 없었고, 당신은 기꺼이 그들을 도왔습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC72",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "An Imperial blockade starved your homeworld of food imports. You stretched rations, repurposed scraps, and kept others fed through strict schedules and clean prep.",
+      "current_ko": "제국군의 봉쇄로 당신의 고향 행성은 식량 수입이 끊겨 굶주렸다. 당신은 배급량을 조절하고, 남은 찌꺼기를 재활용하고, 엄격한 일정과 청결한 조리로 사람들을 먹여 살렸다.",
+      "proposed_ko": "제국군의 봉쇄로 당신의 고향 행성은 식량 수입이 끊겨 굶주렸습니다. 당신은 배급량을 조절하고, 남은 찌꺼기를 재활용하고, 엄격한 일정과 청결한 조리로 사람들을 먹여 살렸습니다.",
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC7F",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raised on an Outer Rim homestead, you kept moisture vaporators tuned, rotated hardy grains and pulses, and managed broken down ag-droids through the seasons. Scarcity taught rationing, repair, and self reliance.",
+      "current_ko": "아우터 림의 농장에서 자란 당신은 수분 증발기를 조정하고, 강인한 곡물과 콩류를 재배하며, 고장 난 농업용 드로이드를 관리하며 계절을 보냈습니다. 부족함은 배급, 수리, 자립심을 가르쳐 주었습니다.",
+      "proposed_ko": null,
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC77",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "From the Wampas to the Rancor, hostile and exotic beasts are spread throughout the Galaxy. You've learned the skills to track them, find them, and take them down.",
+      "current_ko": "왐파부터 랭코까지, 적대적이고 이국적인 야수들이 은하계 전역에 퍼져 있다. 당신은 그들을 추적하고, 발견하고, 제압하는 기술을 배웠다.",
+      "proposed_ko": "왐파부터 랭코까지, 적대적이고 이국적인 야수들이 은하계 전역에 퍼져 있습니다. 당신은 그들을 추적하고, 발견하고, 제압하는 기술을 배웠습니다.",
+      "location": {
+        "group": "1",
+        "string_id": "0",
+        "form_id": "0022EC76",
+        "record": "PERK",
+        "field": "DESC",
+        "index": "0",
+        "kind": "sst",
+        "sst": "starwarsgenesisoverridepatch_en_ko.sst"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Galaxy is home to untold alien species. Whether they were giant beasts or small critters, you sought them out and studied them for whatever gifts they offered.",
+      "current_ko": "은하계는 수많은 외계 종족의 고향이다. 거대한 짐승이든 작은 생물이든, 당신은 그들을 찾아 연구하고 그들이 제공하는 모든 선물을 얻었다.",
+      "proposed_ko": "은하계는 수많은 외계 종족의 고향입니다. 거대한 짐승이든 작은 생물이든, 당신은 그들을 찾아 연구하고 그들이 제공하는 모든 선물을 얻었습니다.",
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288750,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC6E",
+        "field": "DESC"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Good? Bad? Whose right is it to say? If there's anything you've learned while moving product through the Galaxy, it's this: space may look black, but it's really one big shade of grey.",
+      "current_ko": "좋고 나쁨? 누가 그것을 말할 권리가 있을까요? 은하계 전역에 물건을 운송하면서 배운 것이 있다면, 우주는 검게 보일지 몰라도 실제로는 거대한 회색 지대라는 것입니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288751,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC6F",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "The Galaxy is no stranger to warfare, and if there's one thing armed conflict relies on it's trained warriors with blasters and guts. You had both. Simple, bloody work... and you were great at it.",
+      "current_ko": "은하계는 전쟁에 익숙하며, 무력 충돌이 의존하는 한 가지는 블라스터와 배짱을 갖춘 훈련된 전사들입니다. 당신은 둘 다 가지고 있었습니다. 단순하고 피비린내 나는 일이었지만... 당신은 그것을 아주 잘 해냈습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288752,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC70",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Years spent mapping posture and leverage taught you where balance fails. You read small tells such as the set of a shoulder or the slack of a knee and aim for the hinge that closes a fight. Efficiency is your ethic.",
+      "current_ko": "자세와 지렛대 원리를 연구하며 보낸 세월은 당신에게 균형이 무너지는 지점을 가르쳐 주었다. 어깨의 위치나 무릎의 느슨함 같은 작은 징후를 읽고 싸움을 끝낼 관절을 노린다. 효율성이 당신의 철학이다.",
+      "proposed_ko": "자세와 지렛대 원리를 연구하며 보낸 세월은 당신에게 균형이 무너지는 지점을 가르쳐 주었습니다. 어깨의 위치나 무릎의 느슨함 같은 작은 징후를 읽고 싸움을 끝낼 관절을 노립니다. 효율성이 당신의 철학입니다.",
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288753,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC71",
+        "field": "DESC"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You always enjoyed learning, but nothing could compare to the joy of teaching others. As people spread throughout the stars, there was never a lack of knowledge to obtain, and you gladly assisted.",
+      "current_ko": "당신은 항상 배우는 것을 즐겼지만, 다른 사람들을 가르치는 기쁨과는 비교할 수 없었습니다. 사람들이 별들 사이로 퍼져 나가면서 얻을 지식은 끝이 없었고, 당신은 기꺼이 그들을 도왔습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288754,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC72",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Masterless and unbound, you wandered the Outer Rim as a blade for hire. To some, you were a simple mercenary. To others, a hero. And to a select few... a nightmare they could never wake from.",
+      "current_ko": "주인도 없고 얽매이지도 않은 채, 당신은 아우터 림을 떠도는 용병이었습니다. 누군가에게 당신은 단순한 용병이었고, 누군가에게는 영웅이었습니다. 그리고 소수의 사람들에게는... 절대 깨어날 수 없는 악몽이었습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288756,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC74",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "From the Wampas to the Rancor, hostile and exotic beasts are spread throughout the Galaxy. You've learned the skills to track them, find them, and take them down.",
+      "current_ko": "왐파부터 랭코까지, 적대적이고 이국적인 야수들이 은하계 전역에 퍼져 있다. 당신은 그들을 추적하고, 발견하고, 제압하는 기술을 배웠다.",
+      "proposed_ko": "왐파부터 랭코까지, 적대적이고 이국적인 야수들이 은하계 전역에 퍼져 있습니다. 당신은 그들을 추적하고, 발견하고, 제압하는 기술을 배웠습니다.",
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288758,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC76",
+        "field": "DESC"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Raised on an Outer Rim homestead, you kept moisture vaporators tuned, rotated hardy grains and pulses, and managed broken down ag-droids through the seasons. Scarcity taught rationing, repair, and self reliance.",
+      "current_ko": "아우터 림의 농장에서 자란 당신은 수분 증발기를 조정하고, 강인한 곡물과 콩류를 재배하며, 고장 난 농업용 드로이드를 관리하며 계절을 보냈습니다. 부족함은 배급, 수리, 자립심을 가르쳐 주었습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288759,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC77",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You were always disgusted by suckers killing themselves to make an \"honest wage.\" As soon as you were old enough to hold a weapon, you took what you wanted from anyone unlucky enough to have it.",
+      "current_ko": "당신은 예전부터 정직한 밥벌이로 먹고사는 호구들을 경멸해 왔습니다. 당신은 무기를 다룰 나이가 되자마자, 단순히 그것을 소유한 죄 밖에 없는 불쌍한 이들에게서 원하는 물건을 무력으로 탈취하고 살았습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288760,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC78",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "They said exploration is a lost art. You didn't listen. As the major factions argued over the space they desperately tried to control, you were busy uncovering the wonders of the Unknown Regions.",
+      "current_ko": "탐험은 잃어버린 예술이라고들 합니다. 당신은 귀담아듣지 않았습니다. 주요 세력들이 통제하려는 공간을 두고 다투는 동안, 당신은 미지의 영역의 경이로움을 발견하느라 바빴습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288761,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC79",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Years of mechanical training taught you rapid diagnostics and disciplined maintenance. You calibrate thrusters, purge fuel lines, and bring systems back from red to flight-ready.",
+      "current_ko": "수년간의 기계 훈련은 빠른 진단과 절제된 유지 보수를 가르쳐 주었습니다. 당신은 추진기를 보정하고, 연료 라인을 퍼지하며, 시스템을 비행 준비 상태로 되돌립니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288762,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC7A",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "An elected voice in a fractured era, you use leverage and back-channel talks to secure brief truces, relief routes, and exchanges that spare lives.",
+      "current_ko": "분열된 시대의 선출된 목소리로서, 당신은 지렛대와 막후 협상을 통해 짧은 휴전, 구호 경로, 생명을 구하는 교환을 성사시킨다.",
+      "proposed_ko": "분열된 시대의 선출된 목소리로서, 당신은 지렛대와 막후 협상을 통해 짧은 휴전, 구호 경로, 생명을 구하는 교환을 성사시킵니다.",
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288763,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC7B",
+        "field": "DESC"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Stimpaks? Mere toys. Droids? Good for parlor tricks. The Clone Wars may have made implants and upgrades available to veterans, but you once saw a greater future. Humans and machines, as one. ",
+      "current_ko": "스팀팩? 장난감일 뿐입니다. 드로이드? 재주 부리기나 좋죠. 클론 전쟁은 베테랑들에게 임플란트와 업그레이드를 제공했을지 모르지만, 당신은 한때 더 큰 미래를 보았습니다. 인간과 기계가 하나가 되는 미래를요.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288764,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC7C",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "From Nar Shaddaa to Coruscant, these city planets stand as monuments to power, prestige and profit. However, their infrastructure is often outdated and unsafe, and you exploited that on the inside and out, often sacrificing conscience for credits.",
+      "current_ko": "나르 샤다에서 코러산트까지, 이 도시 행성들은 권력, 명성, 이익의 기념비로 서 있습니다. 그러나 그들의 인프라는 종종 낡고 안전하지 않으며, 당신은 안팎에서 그것을 이용해 양심을 희생하며 크레딧을 챙겼습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288765,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC7D",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Leave it to people to fight over something as infinite as outer space. That's where you come in. You've never been afraid to take on the enemy... but you'd much rather take care of your friends.",
+      "current_ko": "끝없는 우주를 두고 싸우는 것은 인간의 몫으로 남겨두세요. 그게 바로 당신이 필요한 이유입니다. 당신은 적과 맞서는 것을 두려워한 적이 없지만... 친구들을 돌보는 것을 훨씬 더 좋아합니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288766,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC7E",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "An Imperial blockade starved your homeworld of food imports. You stretched rations, repurposed scraps, and kept others fed through strict schedules and clean prep.",
+      "current_ko": "제국군의 봉쇄로 당신의 고향 행성은 식량 수입이 끊겨 굶주렸다. 당신은 배급량을 조절하고, 남은 찌꺼기를 재활용하고, 엄격한 일정과 청결한 조리로 사람들을 먹여 살렸다.",
+      "proposed_ko": "제국군의 봉쇄로 당신의 고향 행성은 식량 수입이 끊겨 굶주렸습니다. 당신은 배급량을 조절하고, 남은 찌꺼기를 재활용하고, 엄격한 일정과 청결한 조리로 사람들을 먹여 살렸습니다.",
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288767,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC7F",
+        "field": "DESC"
+      },
+      "review_status": "context_validated",
+      "reasons": [
+        "character_background_polite_register"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "Wherever there are wanted individuals, there are those who profit from their capture. And your quarry knows that in the vastness of the Galaxy, they can run... but they can't hide.",
+      "current_ko": "수배자가 있는 곳에는 그들을 잡아 이익을 얻는 자들이 있습니다. 그리고 당신의 사냥감은 은하계의 광활함 속에서 도망칠 수는 있어도... 숨을 수는 없다는 것을 알고 있습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288768,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC80",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    },
+    {
+      "source_en": "You sold your skills to the highest bidder, taking contracts from border skirmishes to shipboard interdictions. You kept your own rules of engagement and got the job done.",
+      "current_ko": "당신은 국경 분쟁부터 함선 간 차단까지 최고 입찰자에게 기술을 팔았습니다. 당신은 자신만의 교전 규칙을 지키며 임무를 완수했습니다.",
+      "proposed_ko": null,
+      "location": {
+        "kind": "plugin",
+        "target": "mods/Star Wars Genesis - Override Patch/StarWarsGenesisOverridePatch.esm",
+        "key": [
+          "PERK",
+          2288769,
+          "DESC",
+          0
+        ],
+        "record": "PERK",
+        "form_id": "0022EC81",
+        "field": "DESC"
+      },
+      "review_status": "context_keep",
+      "reasons": [],
+      "human_reviewed": false
+    }
+  ]
+}

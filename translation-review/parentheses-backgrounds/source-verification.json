@@ -1,0 +1,564 @@
+{
+  "files": [
+    {
+      "sst": "adoringgungan_en_ko.sst",
+      "sha256": "8aec3b4e34ff60ae53c079a0e59b648ed82907974331a89cd9396e24dbe7795d"
+    },
+    {
+      "sst": "adoringgunganspacesuitfix_en_ko.sst",
+      "sha256": "e98f338f716f301597810bc2f0ce618598efbffbaf0d87acba9eb98dc5d9b101"
+    },
+    {
+      "sst": "akilacityoasis_en_ko.sst",
+      "sha256": "e7bc2b93abbc36c3b4f65aacb4b6922bdda9457e890537d21969937f4393a095"
+    },
+    {
+      "sst": "all_trilogy_lightsabers_en_ko.sst",
+      "sha256": "670146c54c55470dbdc6c564e0256f743520547c9838c5a26645e26ac3ccee06"
+    },
+    {
+      "sst": "arc_vault_en_ko.sst",
+      "sha256": "9b1373bebf6eb5ffea077b80777b1dfdccab92fa7b0cec9a3a432416a7142720"
+    },
+    {
+      "sst": "ascension_en_ko.sst",
+      "sha256": "7eb014cf634941ce7d467189bccc73eaea9266a5fcf4d15c8f205ef4cd4cdf9e"
+    },
+    {
+      "sst": "assassindroidbountyhunterguild_en_ko.sst",
+      "sha256": "8090dea854f998b815ffd9a96d627c27bd1545df52072ba08c07e186bdba81b6"
+    },
+    {
+      "sst": "atst_en_ko.sst",
+      "sha256": "cdf84310a997a5983c7b43e00c7771aa669a08c19872f83dc3193f43542405bf"
+    },
+    {
+      "sst": "avontechshipyards_en_ko.sst",
+      "sha256": "f6c834a414f5e7580cfa327827cffb25461d36af49fe226ea1b5e39e5ada972d"
+    },
+    {
+      "sst": "battenswrecks_en_ko.sst",
+      "sha256": "27e64bcdc8448ccdcc23d56d324694c40eaeb77922b9f26a501d2ce6f39218a7"
+    },
+    {
+      "sst": "batuu_en_ko.sst",
+      "sha256": "3ff5e33345ad5ce4ce677221986169c0dda89282cba172762728e59a4a14d938"
+    },
+    {
+      "sst": "bd1_en_ko.sst",
+      "sha256": "575acec309eb2b08b9661c3f969287722225cb1f0e9d6965e61fee6b9f88014a"
+    },
+    {
+      "sst": "beskarfragmentonbountykill_en_ko.sst",
+      "sha256": "0d772d945e8ec46d6945cbd56c91de6ed253ef8dbd7ad57748d2c51e49eac6de"
+    },
+    {
+      "sst": "blastereffects_en_ko.sst",
+      "sha256": "ebeab26df0f998373bde647b22318998553eb4232fde19ed435995a1719c8f84"
+    },
+    {
+      "sst": "blueprintships-starfield_en_ko.sst",
+      "sha256": "faac145a5e5e82d8bbd60ae7a2d1816943e5576e2f8c171d3ba02637f9b4e219"
+    },
+    {
+      "sst": "bountyhuntersguild_en_ko.sst",
+      "sha256": "7fd6fc4051042e765b1d59d5877869440b354672f9761f9816bd2dca55659260"
+    },
+    {
+      "sst": "bountyhuntersguildnpcoutfitspatch_en_ko.sst",
+      "sha256": "ac62cb91736a8934ee749db1af5788a2dee967b0a17222555f34f009e3797e5d"
+    },
+    {
+      "sst": "breathewithoutbackpack_en_ko.sst",
+      "sha256": "00c2547e3a933fe5a21de34eddf6017382827a976489aaec1c6e9db1694d337a"
+    },
+    {
+      "sst": "caijvanda_en_ko.sst",
+      "sha256": "648e1e54d56545a50fd2e3742ad1815ced2f738270cf8cd1d896c957cf51e1b6"
+    },
+    {
+      "sst": "chewbacca_en_ko.sst",
+      "sha256": "e029a32acf4ec8a11ac98088db88cf87e4d9ae50c34718c307b08eec256ace92"
+    },
+    {
+      "sst": "clonewarremnants_en_ko.sst",
+      "sha256": "2ef0d43b582613585a2d9d2ee83d7329d68bd0e790d37f5735e5ce10f7134cb3"
+    },
+    {
+      "sst": "coruscantcity_en_ko.sst",
+      "sha256": "fd601af817168be87af27048adcff3e4a42bc1835d0d1ffcddcf76e9d4ba012a"
+    },
+    {
+      "sst": "delta-7_jedi_starfighter_2002_en_ko.sst",
+      "sha256": "7ff4de21e52be10b3af04fe2d21d1b2b7eeb1db7abf50ddee0e1ea7372440648"
+    },
+    {
+      "sst": "du_overtime_en_ko.sst",
+      "sha256": "ebb17ef4ff11de9e0819ff54a61f9165ab44e778895304402ba91d23439de4ba"
+    },
+    {
+      "sst": "du_takeover_en_ko.sst",
+      "sha256": "62fd63385be8c9d2207546a16765778beca05017c593d3cbd6fd6530ada2fb68"
+    },
+    {
+      "sst": "eaa_tafightorflight_en_ko.sst",
+      "sha256": "7952018cc73f738e0aeb1a2b9d5c45df25ff94a6ede2785088259961780bfbf9"
+    },
+    {
+      "sst": "eaasupplymissionfix_en_ko.sst",
+      "sha256": "66e2ec39a1e4d59ec6048a762d68052597250e4860c56ebddcd7736c30f9a876"
+    },
+    {
+      "sst": "endor_en_ko.sst",
+      "sha256": "0466e792d8652b9b0b268d233aedce936684408176976b6290485f1eaa3f050f"
+    },
+    {
+      "sst": "forcepowers_en_ko.sst",
+      "sha256": "04e969081ebeb5d51b425a299fbbf2f72a1f4bcf9e41fa8e96c1eeed26952780"
+    },
+    {
+      "sst": "forcepowertrainer_en_ko.sst",
+      "sha256": "98d39928fab1d4b5460c8fe6521e6d9baa3d57ac96cc3da8c98dbba1040a82d6"
+    },
+    {
+      "sst": "freestar rebels_en_ko.sst",
+      "sha256": "8b7560712bd5c6006ffa191851a6f15525ceb77c399c63e716e4488848d607eb"
+    },
+    {
+      "sst": "fugitivehideout_en_ko.sst",
+      "sha256": "32825b07d5e38568258455daff3a61a3a144e7b1af89d6fe63be92f55e29f9e7"
+    },
+    {
+      "sst": "genesisfreelanes_en_ko.sst",
+      "sha256": "dd10d52151bbdb901c9bf8da8d58fea639619b374afef6bdbf509534c2f6655f"
+    },
+    {
+      "sst": "greedo_en_ko.sst",
+      "sha256": "2e7e63056e986f11e5b373c8d1666721fa22e5d0aff187827394e9f032e7e3e2"
+    },
+    {
+      "sst": "grindterrafbo_en_ko.sst",
+      "sha256": "ae975aa17935acff759f8f12bb533cebca383f62a2b949e8d4dc8315ae02ed1c"
+    },
+    {
+      "sst": "grindterralocations_en_ko.sst",
+      "sha256": "bdbf5d73dbed5cc3d2d5db3afead2910e4beedd7bc63582b9a252e8dcec0365f"
+    },
+    {
+      "sst": "ho_crewslots_en_ko.sst",
+      "sha256": "0a68277ad83692911f2a7a22dcc4244ca4b1dfda461b71c3aed611772259e00d"
+    },
+    {
+      "sst": "hondo ohnaka and crew_en_ko.sst",
+      "sha256": "41354ce8ffe3fda5d335b716bb7b4e5d1f4e8b03b59a5eec81a3b5cd91203e1d"
+    },
+    {
+      "sst": "hondo_ohnaka_en_ko.sst",
+      "sha256": "ff43f2c014a1a10c7984fb2d1a1f3515495290c583160df7e2d839a3b204e7f3"
+    },
+    {
+      "sst": "imperialcommandoboss_en_ko.sst",
+      "sha256": "9b384f486ce8a55a16b5f727ff748b80ee23a7bda564109ba327998b9f97e68d"
+    },
+    {
+      "sst": "improvedfollowerbehavior_en_ko.sst",
+      "sha256": "e9437fafd183209ca799b5ceade033da6aa86f970945b931e0248c3b4efe928c"
+    },
+    {
+      "sst": "j-type_327_nubian_royal_starship_1999_en_ko.sst",
+      "sha256": "fd09b3a6b8b841abfddc42e2bbc4725f725bae4106ec3bf3b74a815943fadee0"
+    },
+    {
+      "sst": "kellic_en_ko.sst",
+      "sha256": "08efdad0cd34e350119e1f4d3259950c0c9900fc82d135b88524bf8f1717804d"
+    },
+    {
+      "sst": "kestrodeletedroidskins_en_ko.sst",
+      "sha256": "7cc95afd5da70fe704b5281553ac03f13d0bbbed559ebd23d769058ae9c8c73f"
+    },
+    {
+      "sst": "kotor droids_en_ko.sst",
+      "sha256": "27c4bcfd7df997bbe5eabd65fbe65b65c752769c2620b409751335637d3c94a1"
+    },
+    {
+      "sst": "manaan_en_ko.sst",
+      "sha256": "ad1e26704b071ead55e2d11376785585232f9c921d3b2ddb131f568d3221d424"
+    },
+    {
+      "sst": "mandalorianforge_en_ko.sst",
+      "sha256": "e3ff3e4aae31b2f27df2336ca0bf363ef79680cecb0a33ba4193797d7ae5e2c3"
+    },
+    {
+      "sst": "mojo_jetpackcontroller_en_ko.sst",
+      "sha256": "d13175a5f7312df466e04c6b49bcaef889de9f8771edad779a8c46ff83ec761b"
+    },
+    {
+      "sst": "mojostc_en_ko.sst",
+      "sha256": "11f114c8c0973e5aa3d1192c32b49371e60ce707c4d92695037b944c138c17a7"
+    },
+    {
+      "sst": "moseisley___en_ko.sst",
+      "sha256": "901284830ab48c3e3a61351427393a15eeba2712095c5d7bdc662ccf0d193577"
+    },
+    {
+      "sst": "mustafar_en_ko.sst",
+      "sha256": "53aac16051628958e48afc2215ef072c372227ea25f0d560854089a392583b1a"
+    },
+    {
+      "sst": "naboo_n-1_starfighter_1999_en_ko.sst",
+      "sha256": "8f93825c5e9a77fd87ca41574e8d4658c6a1544f627608b8615040bd7ce38d6f"
+    },
+    {
+      "sst": "neonentertainerreplacer_en_ko.sst",
+      "sha256": "0ae188ce850317f241d2745e6dad8dd8765203b05627d81a65782f953e756aed"
+    },
+    {
+      "sst": "nix_en_ko.sst",
+      "sha256": "bf2f0102855e01fb2d293ade28043801d73bbf6b3f782be3f8dc93c7e9aa975d"
+    },
+    {
+      "sst": "odx_antares_en_ko.sst",
+      "sha256": "8c4bfd348f44931e57dc787fc497ade0a4866f731d030d33edd944177ca9fd07"
+    },
+    {
+      "sst": "playershipfixesgenesis_en_ko.sst",
+      "sha256": "07bd5f6271f98cd2123659546483add4e4e58689a30491907641a34fe1546a89"
+    },
+    {
+      "sst": "r2d2_en_ko.sst",
+      "sha256": "2891b995c16b7dd26fa4d67763664c44712c4bbac78625214be3104b631c8c8f"
+    },
+    {
+      "sst": "rakghoulinfestation_en_ko.sst",
+      "sha256": "ffe21441fdf555f02e7cf64e88af3aeb114f89a6a26df9ea5cd1ab458e43c3f0"
+    },
+    {
+      "sst": "rancor_en_ko.sst",
+      "sha256": "036f693aec471d46be3a8b084cbb7c23b77dbd40d90ebdc0c901481023a57bda"
+    },
+    {
+      "sst": "realisticstarwarsblasters_en_ko.sst",
+      "sha256": "87464bb2e4ed9eec82d6e053292ffad8b1b023efd773c0264895b81848a75377"
+    },
+    {
+      "sst": "reimaginedlodge_en_ko.sst",
+      "sha256": "fc7bf6212228d3b97872f8d41c38275297417e120571bbe7cc1331a35f375a70"
+    },
+    {
+      "sst": "royalweathers_en_ko.sst",
+      "sha256": "673489ec98379b04b4b57d33fc385415db500800f1966f9ab6f462e6f28c7f63"
+    },
+    {
+      "sst": "rvnomadcave_en_ko.sst",
+      "sha256": "f97c16fbcc054baa2c5c8f38a7c07ac8ad724adf2f7fcf98403347a523e6a592"
+    },
+    {
+      "sst": "samantha says - dynamic repair bill_en_ko.sst",
+      "sha256": "1266626e555b7655ca354e46b027e2b96f094ef14fdc00a10cafc1a4372834cd"
+    },
+    {
+      "sst": "sfbgs003_en_ko.sst",
+      "sha256": "cfbec8c1c7b2b73a91e181282cd347be14d8e646927421b02617164abe693ef6"
+    },
+    {
+      "sst": "sfbgs004_en_ko.sst",
+      "sha256": "cf8620e5a2b8dbcdabe697bf02efa7c82a4c83ca7fdcf6067e742d44e9159798"
+    },
+    {
+      "sst": "sfbgs007_en_ko.sst",
+      "sha256": "458d78a70bf0e88143219cda6ae746adc0255f7c71c94044ae877ad3318bb13a"
+    },
+    {
+      "sst": "shadow collective_en_ko.sst",
+      "sha256": "c0d136059dfa0dca6326d90879651bca1a55ced865303379960905452e315306"
+    },
+    {
+      "sst": "shatteredspace_en_ko.sst",
+      "sha256": "d1c26d3154af3e2f21a319fe0cbb283d2a31f34b2399e2c199eaa56717c6cd73"
+    },
+    {
+      "sst": "ship power fix_en_ko.sst",
+      "sha256": "a6b782ae7a1558b607c433262706ee240058891be516e9d8629be154fb2e688c"
+    },
+    {
+      "sst": "shipvendorframework_en_ko.sst",
+      "sha256": "510bf3f8566d049f86af3cb487245014b86a1d53535710670d346ab982fc50a3"
+    },
+    {
+      "sst": "sithtrooper_en_ko.sst",
+      "sha256": "88e87f833a9c48946ec36548dcc1a75584493368ee893c3df0cec8f24d6f9e2d"
+    },
+    {
+      "sst": "skkfaststartnewgame_en_ko.sst",
+      "sha256": "1c8913360a493082de4ea7812dfad9145a34311bbe603d72df1f13807cee8a51"
+    },
+    {
+      "sst": "speederpatcher_en_ko.sst",
+      "sha256": "fc5deaae11ecf09de186b6eac82d6e04618b6a7f2929dccd7dacc4ffdea9e1db"
+    },
+    {
+      "sst": "star wars blasters dlc addon_en_ko.sst",
+      "sha256": "453f1f2e5d1df747b0ed2a72354c84739e3a5b14d1cee1bd2b39cb4fa9598a01"
+    },
+    {
+      "sst": "star wars blasters_en_ko.sst",
+      "sha256": "7277463dd0dd0e5c4c7333aac33b84e3400353bad6e46028d795bad399a6ed8e"
+    },
+    {
+      "sst": "star wars turrets_en_ko.sst",
+      "sha256": "32ef8a8e8d4d38c16602a6a9ad51ca36935cbae97ec4b8acf4f93c735be54439"
+    },
+    {
+      "sst": "starfield completed - unusualsosfix_en_ko.sst",
+      "sha256": "2b6cfdb9ed80dfdde045889cf8a96d81aea306a38dd1fd22a61061c99f64a9f4"
+    },
+    {
+      "sst": "starfield_en_ko.sst",
+      "sha256": "1c3be93b9a5477278729604d5be89d81d632a0e3e103b57bfbfa3b6fa81edd72"
+    },
+    {
+      "sst": "starshardrunestones_en_ko.sst",
+      "sha256": "0b6aee9daabbe915ccd608ad21a241ee8e43ff0849b2f82f4450d4b01ed4d157"
+    },
+    {
+      "sst": "starshards_en_ko.sst",
+      "sha256": "0a1de9503076ac11dc134ed7cfb393f2118d5f2c28c91ae99653bcd28eb8de46"
+    },
+    {
+      "sst": "starwars-k79-s80_en_ko.sst",
+      "sha256": "426c616846147a1bca38051854dc7a308b09ef83d0dc0e69ecb47b199118a12f"
+    },
+    {
+      "sst": "starwars_vardos_en_ko.sst",
+      "sha256": "18b251b3e87cf55115650e1aeef8f38388fefd8749926b3e1a85acd3ae8b0789"
+    },
+    {
+      "sst": "starwarscapitalships_en_ko.sst",
+      "sha256": "22e854caacdf02023114bf81ffa6b14e58b081dd7e7b5890d754d3c20aa1ca3d"
+    },
+    {
+      "sst": "starwarscapitalshipsai_en_ko.sst",
+      "sha256": "111a231b971a3823360df015e4f6680d9c5139a0a11d8a6a4cdede2472221cba"
+    },
+    {
+      "sst": "starwarscityships_en_ko.sst",
+      "sha256": "aa7dfad9290b764d2b77d7c7654d221752be6c0764d00f7295a9a32af9c545f9"
+    },
+    {
+      "sst": "starwarscriminalquestline_en_ko.sst",
+      "sha256": "ec4b857ae7f4334d4a47ec169bdd8b048aa2463c9e4365c15ab47e9058770c95"
+    },
+    {
+      "sst": "starwarsfactionexpansion_en_ko.sst",
+      "sha256": "323f5f4f21332d690520a84b25d23b4958f9933efacc6da25fe5b77526e12e92"
+    },
+    {
+      "sst": "starwarsgenesisarmorcompendium_en_ko.sst",
+      "sha256": "cffa14ddd758665c4aa1a9dbb4f688c7629fb74810c5df30a3a3b63028cfae1c"
+    },
+    {
+      "sst": "starwarsgenesisccrowds_en_ko.sst",
+      "sha256": "5c6dc1acf92d66f123bc1e79e85c337bc76bcc76ecff8eba170d18c0996342ae"
+    },
+    {
+      "sst": "starwarsgenesisgalaxypatcher_en_ko.sst",
+      "sha256": "00a63355f08d5944aebbbeda8641d33b5deaa36e9b6b70b363cfb713849f2eeb"
+    },
+    {
+      "sst": "starwarsgenesislightsabers_en_ko.sst",
+      "sha256": "0913a3447cf56522906cba5429d459b3b62196d67dab3268dcbe4b2dacb8219c"
+    },
+    {
+      "sst": "starwarsgenesislocations_en_ko.sst",
+      "sha256": "34db5a9e743a7f8f4650abb2ab43711780249f5d02a62e55118239cb309be8c3"
+    },
+    {
+      "sst": "starwarsgenesisoverridepatch_en_ko.sst",
+      "sha256": "c3deb54984a7232e9f898b5b57bc1820c83fae82b05d790326f4f136d18534a5"
+    },
+    {
+      "sst": "starwarsgenesisplanets_en_ko.sst",
+      "sha256": "026f9c969893d218318663660666d7d9dd8fa0b2fb141598b0c64c25e04ca9a6"
+    },
+    {
+      "sst": "starwarsgenesissidequests_en_ko.sst",
+      "sha256": "1ec5a8b6229e359d377c7f36727525b087e45c664266b03808125abc57169fa6"
+    },
+    {
+      "sst": "starwarsgenesisstandalonelocations_en_ko.sst",
+      "sha256": "9469972a3b87d28b7799c284f0c7d43e8a0a78ce37218b6005975bd5b7d762df"
+    },
+    {
+      "sst": "starwarsgenesisvanillabugfixes_en_ko.sst",
+      "sha256": "0c5c899e736d3cffb06c338483c0ff3fc03314d4c551f8b1f04b655e10d517f9"
+    },
+    {
+      "sst": "starwarsiac_en_ko.sst",
+      "sha256": "ba626520c2b75182e34d69a765d65ed497136a51f2b2bf7dc4d8f8b75f64a134"
+    },
+    {
+      "sst": "starwarsimperialquestline_en_ko.sst",
+      "sha256": "5edfb3710520ab8eadbdfaf5893c92032542922d7378b5bba42277afa60a1578"
+    },
+    {
+      "sst": "starwarsmapmarkers_en_ko.sst",
+      "sha256": "381c9353cde6d594dd58e0f8f60ae80440def09b3db9e3d695d2d4d441a03bcc"
+    },
+    {
+      "sst": "starwarspropreplacement_en_ko.sst",
+      "sha256": "d639e82f2d4a4aeb7926dadf4b4616ce912dd53a5476c6389e98f7564c797007"
+    },
+    {
+      "sst": "starwarsrebelquestline_en_ko.sst",
+      "sha256": "58166dd142f7d159858ed91ee0e4925530ee931eedc46e5ca29499b13ec9ad02"
+    },
+    {
+      "sst": "starwarsshippack_en_ko.sst",
+      "sha256": "061215579dfa23dc209069a7540062ee4c1a5691ae25c20201ae9a9a5b2e10c8"
+    },
+    {
+      "sst": "starwarsshipreplacer_en_ko.sst",
+      "sha256": "e23e7f1d057ea334db607a704c520ce2e0ab1612e4ca76654d03b0923d69a601"
+    },
+    {
+      "sst": "starwarsshipvendorframework_en_ko.sst",
+      "sha256": "52a9f619d166321da977ed650150b54f6b99ed19ead371bdcc4ec90eb26c0d83"
+    },
+    {
+      "sst": "starwarsuniquebosses_en_ko.sst",
+      "sha256": "2a2d7593651de8f82893137746667233006ee3ce7f75aa284a0bb277f2edf456"
+    },
+    {
+      "sst": "suitpowercores_en_ko.sst",
+      "sha256": "74822fdfd1c93c1f7f48daf0c8b08573f092b10eff361079448d6b4b98f3dc28"
+    },
+    {
+      "sst": "svf-darkstarastrodynamics-patch_en_ko.sst",
+      "sha256": "aa61dba23403ea292f032f2e0b18645315d2f85e1b6c024b91c4183f2b8e920c"
+    },
+    {
+      "sst": "svf-falklandsystems-patch_en_ko.sst",
+      "sha256": "928305918265bef6a7cb3c30afd74d6affc89206505ae92c287316cdff832245"
+    },
+    {
+      "sst": "svf-shatteredspace-patch_en_ko.sst",
+      "sha256": "7e4e995342cb0294f7ea8432619f0553e4a7fc35c9ff4459607b5767db7026cf"
+    },
+    {
+      "sst": "svf-watchtower-patch_en_ko.sst",
+      "sha256": "e4cf0c221838a10aa23067b209bae826ff8ef7d49c44313474a3a77670616b1e"
+    },
+    {
+      "sst": "sw alien player_en_ko.sst",
+      "sha256": "69e4961ef2044be84120341e40164c65bede01b72adc8cc65722bb8318f39428"
+    },
+    {
+      "sst": "sw aliens_en_ko.sst",
+      "sha256": "acf687f1c5e59b80fd6ebced444e3d2bdc3ac4d24b0bf70b7b795425e9a45d90"
+    },
+    {
+      "sst": "sw blasters_en_ko.sst",
+      "sha256": "47e3f9e0247bbd1f6dd2899a9818bcc7cadef5db1310a7ce0a908d8a5ccce033"
+    },
+    {
+      "sst": "sw droids_en_ko.sst",
+      "sha256": "8cd018c65c89ffcac89810f885c04745635f337dff725fdbc0098a0fe6b04077"
+    },
+    {
+      "sst": "sw gangs_en_ko.sst",
+      "sha256": "5dff4ecf9d8a03cf87349b28d0f33b4c4cae41581eaa9d9cee7ddccffd96748b"
+    },
+    {
+      "sst": "sw rebel leaders_en_ko.sst",
+      "sha256": "445627313abfade215c776c403f00455034116bf6b30c6b73258af9c33714cdc"
+    },
+    {
+      "sst": "sw resources_en_ko.sst",
+      "sha256": "14255a466102a192767975f15e44137f670927b6bc9e1e4b1a751cfead597476"
+    },
+    {
+      "sst": "sw spacer overhaul_en_ko.sst",
+      "sha256": "adc073428c026d884b639b602de9c3af96a7b375c05b996450b7c57b7e78d013"
+    },
+    {
+      "sst": "sw_dataspike_en_ko.sst",
+      "sha256": "55a9725c05092d4a4863f7eb34274d0a84d474fafeac4cdb77aa9b14e1f7cc5e"
+    },
+    {
+      "sst": "swnewgalaxy_en_ko.sst",
+      "sha256": "c0bd94aecbf5f40cdc88525e34ab0ddb797f501107dd293fafc5fd6953b7bac4"
+    },
+    {
+      "sst": "t-2ramsidianyacht_en_ko.sst",
+      "sha256": "4d004370140885ad961164f451aca095004d9988e3282e1e27871cab1e801aab"
+    },
+    {
+      "sst": "t_65b_x_wing_starfighter_en_ko.sst",
+      "sha256": "a426e0945f837adf61c2af6c54b4e6cc0fe4bfd757be12a40768726f908a906a"
+    },
+    {
+      "sst": "tatooine_en_ko.sst",
+      "sha256": "a23238348fce877ba9456620f0f12269139e5a4573c838a71f3038e298522063"
+    },
+    {
+      "sst": "terrifying terrormorphs_en_ko.sst",
+      "sha256": "94e0cad28f500faf04987b69e91002900e27585f232da3833d2b028fbfe55fd3"
+    },
+    {
+      "sst": "the_mandalorian_n-1_starfighter_2021_en_ko.sst",
+      "sha256": "179a3a91a69b687d169f3a1d9c7b4d327ab2ef21077141daf98ab271dbe53383"
+    },
+    {
+      "sst": "thesavagemaidensea_en_ko.sst",
+      "sha256": "6105dec2e9c4ed11c92cf383a2521ba8b6ab96688799c5ee4ebe1ca0929f0cfa"
+    },
+    {
+      "sst": "thesniper9-firespray31_en_ko.sst",
+      "sha256": "c342ce8841bb7c54118cbadc7f6d89fdd504fa941d4f44002af2256288755724"
+    },
+    {
+      "sst": "thesniper9-swarmorpack_en_ko.sst",
+      "sha256": "49ecc8d316bfcafd09685fb44f461ed847a38b7d6416e91bdf74f66b878b1f0a"
+    },
+    {
+      "sst": "thesniper9-swvehiclepack_en_ko.sst",
+      "sha256": "82945b7fd0cd03a2ca1cf58cab9435db9751f0e1b7200b648489c80e9842d16e"
+    },
+    {
+      "sst": "thetrackersalliancedelayed_en_ko.sst",
+      "sha256": "e51316eb342f55d96ef5219fe0422451f4669cbac2a5486a90d70fd31381b644"
+    },
+    {
+      "sst": "thewell_apartment_z_en_ko.sst",
+      "sha256": "1de787d8694340681cfb2ae3b1003e62c0d4f75798052f2f566d1f80283aa71b"
+    },
+    {
+      "sst": "tie_advanced_x1_1977_en_ko.sst",
+      "sha256": "8b93e1db15b1f59184deeda335425dd8b4f78b6c57123feb1c7c2c8d5bd66230"
+    },
+    {
+      "sst": "trackeralliance_hq_overhaul_en_ko.sst",
+      "sha256": "4e56b9ea04774fba8bd222a4738de87a553accdab11120a20d41d62b2fe08d4b"
+    },
+    {
+      "sst": "trandoshan mercs_en_ko.sst",
+      "sha256": "2920cfb74e6456a47bd5e3e93a46734a730dc00b852d5e4c61594a676d20194c"
+    },
+    {
+      "sst": "uc empire_en_ko.sst",
+      "sha256": "430594948aef0f4e72c8474773e3d082a474f4ff1c0cab1a55dae7979dbe5266"
+    },
+    {
+      "sst": "vardossystem_en_ko.sst",
+      "sha256": "88ea56b6c8434322c50cac8c267cbe26f2613d7dbeb68406ef8ca98529f56d59"
+    },
+    {
+      "sst": "yt-1300_millennium_falcon_1977_en_ko.sst",
+      "sha256": "2df17caee5aa446600655f93190fda893f6ca9f603d23bba8a4c7f878ebe375e"
+    },
+    {
+      "sst": "yuuzhan_vong_en_ko.sst",
+      "sha256": "31f6fa6b9defaa87a7c219236073987ce48d4d2df1a5bedcdeda28b1d5f72141"
+    }
+  ]
+}

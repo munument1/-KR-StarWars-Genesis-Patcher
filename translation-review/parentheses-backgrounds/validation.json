@@ -1,0 +1,14 @@
+{
+  "older_upgrade_inputs_verified": 25,
+  "clean_and_all_upgrades_identical": true,
+  "generation_statuses": {
+    "prepared": 12,
+    "already_applied": 173
+  },
+  "exe_embedded_payload_verified": true,
+  "exe_game_statuses": {
+    "already_applied": 185
+  },
+  "local_game_files_verified": true,
+  "sst_originals_modified": false
+}

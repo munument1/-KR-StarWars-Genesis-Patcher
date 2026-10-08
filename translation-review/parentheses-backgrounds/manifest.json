@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "counts": {
+    "sst_files": 140,
+    "sst_rows": 253340,
+    "recipe_rows": 248199,
+    "fallback_rows": 20135
+  },
+  "sst_changed": 234,
+  "recipe_changed": 221,
+  "candidate_locations": 673,
+  "structural_errors": [],
+  "batches": [
+    {
+      "file": "sst-final-0001.json",
+      "sha256": "09998d86b76960b2187b71c5e56d15d7273dba7cf8266a7a07a7a326906633f7"
+    }
+  ]
+}

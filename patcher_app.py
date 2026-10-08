@@ -11,13 +11,13 @@ def package_dir():
 class App:
     def __init__(self,root):
         self.root=root;self.events=queue.Queue();self.stage=None;self.busy=False
-        root.title('Star Wars Genesis 한글 패처 · v0.2.2 시험판');root.geometry('780x560');root.minsize(700,500)
+        root.title('Star Wars Genesis 한글 패처 · v0.2.3 시험판');root.geometry('780x560');root.minsize(700,500)
         root.protocol('WM_DELETE_WINDOW',self.close)
         style=ttk.Style();style.theme_use('clam')
         self.game=tk.StringVar();self.state=tk.StringVar(value='Genesis의 Game 폴더를 선택해 주세요.')
         frame=ttk.Frame(root,padding=20);frame.pack(fill='both',expand=True)
         ttk.Label(frame,text='STAR WARS GENESIS  ·  한국어 패치',font=('맑은 고딕',17,'bold')).pack(anchor='w')
-        ttk.Label(frame,text='8.8.32용 v0.2.2 시험판 · 기존 한패 활용 + 전체 용어 검수 + 상호작용 열기 · Pretendard 한글 폰트',wraplength=720).pack(anchor='w',pady=(8,5))
+        ttk.Label(frame,text='8.8.32용 v0.2.3 시험판 · 영문 괄호 병기 정리 + 캐릭터 배경 존댓말 · Pretendard 한글 폰트',wraplength=720).pack(anchor='w',pady=(8,5))
         ttk.Label(frame,text='AI·Codex 번역 검토와 메뉴·한글 폰트·행성 이름 HUD 출력 확인을 반영했습니다. 전체 퀘스트 검증은 진행 전입니다.',wraplength=720).pack(anchor='w',pady=(0,16))
         row=ttk.Frame(frame);row.pack(fill='x')
         self.entry=ttk.Entry(row,textvariable=self.game);self.entry.pack(side='left',fill='x',expand=True)
