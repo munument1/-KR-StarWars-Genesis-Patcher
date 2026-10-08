@@ -64,7 +64,7 @@ def main():
         # The underlying patcher itself requires exact placeholders and newline retention.
         check_translation(source,revised)
         if revised==current:raise ValueError('No content changed at '+key_str)
-        if source.count('\n')!=revised.count('\n') or source.count('\r')!=revised.count('\r'):
+        if current.count('\n')!=revised.count('\n') or current.count('\r')!=revised.count('\r'):
             raise ValueError('Line break drift')
         results.append({'target':file,'key':key,'source_en':source,'current_ko':current,'proposed_ko':revised,
                         'approved_occurrences':[d['id'] for d in rules],
