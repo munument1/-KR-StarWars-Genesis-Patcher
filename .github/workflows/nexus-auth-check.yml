@@ -35,7 +35,7 @@ jobs:
             const user = await get('/v1/users/validate.json');
             const mod = await get('/v1/games/starfield/mods/18396.json');
             if (!mod.uid) throw new Error('Missing mod UID');
-            if (String(user.user_id) !== String(mod.uploaded_by?.member_id)) {
+            if (String(user.user_id) !== String(mod.user?.member_id)) {
               throw new Error('The API key account is not this mod owner. Verify contributor upload permissions before enabling publishing.');
             }
             const files = (await get(`/v3/mods/${mod.uid}/files`)).data.mod_files;
