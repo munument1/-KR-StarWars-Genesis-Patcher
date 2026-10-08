@@ -6,6 +6,10 @@ on:
     paths:
       - scripts/audit_genesis_parentheses.py
       - .github/workflows/audit-genesis-parentheses.yml
+  pull_request:
+    paths:
+      - scripts/audit_genesis_parentheses.py
+      - .github/workflows/audit-genesis-parentheses.yml
   workflow_dispatch:
 permissions:
   contents: read
