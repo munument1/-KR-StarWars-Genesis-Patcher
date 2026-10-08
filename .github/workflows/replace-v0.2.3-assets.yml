@@ -1,0 +1,57 @@
+name: Replace verified v0.2.3 assets
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/replace-v0.2.3-assets.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: windows-2025
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Verify payload and installer tests
+        run: |
+          python -m unittest test_installer_backend test_patch_engine
+          python patcher_app.py --self-check source-self-check.json
+          python -c "import pathlib,json,hashlib; p=pathlib.Path('installer-data'); m=json.loads((p/'manifest.json').read_text()); refs={h for r in m['operations'] for h in [r['blob']]+[x['blob'] for x in r.get('upgrade_from',[])]}; actual={x.name for x in (p/'blobs').iterdir() if x.is_file()}; assert refs==actual; assert all(hashlib.sha256((p/'blobs'/h).read_bytes()).hexdigest()==h for h in refs)"
+      - name: Build Windows executable
+        run: |
+          python -m pip install -r requirements-build.txt
+          python -m PyInstaller --noconfirm --onefile --windowed --name GenesisKRPatcher --add-data "installer-data;installer-data" patcher_app.py
+      - name: Verify executable and assemble ZIP
+        run: |
+          python -c "import subprocess,json,pathlib; exe=pathlib.Path('dist/GenesisKRPatcher.exe'); assert exe.read_bytes()[:2]==b'MZ'; subprocess.run([str(exe.resolve()),'--self-check',str(pathlib.Path('exe-self-check.json').resolve())],check=True,timeout=180); s=json.loads(pathlib.Path('exe-self-check.json').read_text()); assert s['embedded_payload_verified']; assert s['operations']==185"
+          New-Item -ItemType Directory -Path package -Force
+          Copy-Item dist/GenesisKRPatcher.exe package/
+          Copy-Item README.md package/사용방법.txt
+          Copy-Item docs/Pretendard-LICENSE.txt package/
+          python -c "import zipfile,pathlib,hashlib; out=pathlib.Path('GenesisKRPatcher-v0.2.3.zip'); z=zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED); [z.write(p,p.name) for p in pathlib.Path('package').iterdir()]; z.close(); z=zipfile.ZipFile(out); assert z.testzip() is None; assert set(z.namelist())=={'GenesisKRPatcher.exe','사용방법.txt','Pretendard-LICENSE.txt'}; pathlib.Path('SHA256SUMS-v0.2.3.txt').write_text(hashlib.sha256(out.read_bytes()).hexdigest()+'  '+out.name+'\n',encoding='ascii')"
+      - name: Back up existing release files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download v0.2.3 --repo "${{ github.repository }}" --dir previous-assets --pattern "GenesisKRPatcher-v0.2.3.zip" --pattern "SHA256SUMS-v0.2.3.txt"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: previous-v0.2.3-assets
+          path: previous-assets/*
+          if-no-files-found: error
+          retention-days: 30
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-v0.2.3-assets
+          path: |
+            GenesisKRPatcher-v0.2.3.zip
+            SHA256SUMS-v0.2.3.txt
+            source-self-check.json
+            exe-self-check.json
+          if-no-files-found: error
+      - name: Replace existing assets only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload v0.2.3 GenesisKRPatcher-v0.2.3.zip SHA256SUMS-v0.2.3.txt --clobber --repo "${{ github.repository }}"
