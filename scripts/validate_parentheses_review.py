@@ -5,6 +5,8 @@ import argparse,contextlib,csv,gzip,hashlib,io,json,tempfile
 from collections import defaultdict
 from pathlib import Path
 import audit_genesis_parentheses_broad as broad
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from patch_engine import check_translation
 
 def main():
