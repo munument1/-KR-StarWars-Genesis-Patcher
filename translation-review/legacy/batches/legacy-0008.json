@@ -227,10 +227,10 @@
         "바유 헛(Bayu the Hutt) 그놈은 정말 개자식이야."
       ],
       "current_patch_ko": "바유 헛(Bayu the Hutt) 그놈은 정말 개자식이야.",
-      "proposed_ko": "바유 헛 그놈은 정말 개자식이야.",
-      "review_status": "retranslated",
+      "proposed_ko": null,
+      "review_status": "pending",
       "review_flags": [],
-      "review_notes": "영문·한국어가 같은 명칭인 병기에서 영문만 제거. 자동 제안이며 사람·게임 내 검수 전.",
+      "review_notes": "",
       "human_reviewed": false,
       "in_game_verified": false,
       "locations": [
