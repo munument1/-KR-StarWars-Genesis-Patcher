@@ -1,0 +1,48 @@
+name: Check Nexus upload credentials
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - .github/workflows/nexus-auth-check.yml
+      - .github/workflows/nexus-publish.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify API key and upload target (read only)
+        uses: actions/github-script@v7
+        env:
+          NEXUS_API_KEY: ${{ secrets.NEXUSMODS_API_KEY }}
+          NEXUS_FILE_ID: ${{ vars.NEXUSMODS_FILE_ID }}
+        with:
+          script: |
+            const key = process.env.NEXUS_API_KEY;
+            if (!key) throw new Error('NEXUSMODS_API_KEY must be a Repository secret, not a Variable.');
+            core.setSecret(key);
+            async function get(path) {
+              const response = await fetch('https://api.nexusmods.com' + path, {
+                headers: { apikey: key, 'User-Agent': 'KR-Patcher-Release-Sync' },
+                redirect: 'error'
+              });
+              if (!response.ok) throw new Error(`Nexus authentication/read failed: HTTP ${response.status} at ${path}`);
+              return response.json();
+            }
+            const user = await get('/v1/users/validate.json');
+            const mod = await get('/v1/games/starfield/mods/18396.json');
+            if (!mod.uid) throw new Error('Missing mod UID');
+            if (String(user.user_id) !== String(mod.uploaded_by?.member_id)) {
+              throw new Error('The API key account is not this mod owner. Verify contributor upload permissions before enabling publishing.');
+            }
+            const files = (await get(`/v3/mods/${mod.uid}/files`)).data.mod_files;
+            const configured = process.env.NEXUS_FILE_ID;
+            const candidates = files.filter(f => f.is_active && (!configured || String(f.id) === configured));
+            if (candidates.length !== 1) throw new Error('Set NEXUSMODS_FILE_ID to exactly one active upload API File ID');
+            const id = String(candidates[0].id);
+            const versions = (await get(`/v3/mod-files/${id}/versions`)).data.versions;
+            core.info(`Authenticated mod owner; upload API File ID: ${id}; readable versions: ${versions.length}`);
+            await core.summary.addHeading('Nexus credentials verified').addRaw('API authentication, mod ownership, file selection and version lookup passed. No file was uploaded.').write();
