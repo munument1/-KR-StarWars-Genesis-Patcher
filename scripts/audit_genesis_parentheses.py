@@ -1,137 +1,108 @@
-"""Audit bilingual parentheses in Genesis patcher translations without modifying recipes.
-
-Usage: python scripts/audit_genesis_parentheses.py --repo . --out parentheses-review.csv
-       python scripts/audit_genesis_parentheses.py --repo . --out full-review.csv --include-legacy
-       python scripts/audit_genesis_parentheses.py --self-test
+"""Read-only review of bilingual parentheses in Genesis plugin translations.
+Base-game and DLC .strings/.dlstrings/.ilstrings are EXCLUDED by default.
+Usage: python scripts/audit_genesis_parentheses.py --repo . --out audit.csv --summary-json summary.json
 """
-import argparse
-import csv
-import gzip
-import hashlib
-import json
-import re
-from collections import Counter
+import argparse,csv,gzip,hashlib,json,re
+from collections import Counter,defaultdict
 from pathlib import Path
 
-HANGUL = re.compile(r'[가-힣]')
-LATIN = re.compile(r'[A-Za-z]')
-PARENS = re.compile(r'\(([^()\r\n]{1,100})\)')
-EN_SUFFIX = re.compile(r"([A-Za-z][\w'’./-]*(?:\s+[A-Za-z][\w'’./-]*){0,5})\s*$")
-KO_SUFFIX = re.compile(r"([가-힣][가-힣·'’-]*(?:\s+[가-힣][가-힣·'’-]*){0,5})\s*$")
-CODE = re.compile(r'(?:[A-Z]{2,}[0-9/-]*|[A-Z]{1,5}[-_]\d+[A-Za-z0-9/-]*)$')
-EXPLANATIONS = re.compile(r'^(?:요약|설명|참고|주의|버그 신고|작업 중|출시 예정|구|신|씨앗|동체|가죽|줄기|분비선|소형 포트)$')
+H=re.compile('[가-힣]'); E=re.compile('[A-Za-z]')
+P=re.compile(r'\(([^()\r\n]{1,110})\)')
+K=re.compile(r"([가-힣][가-힣·'’-]*(?:\s+[가-힣][가-힣·'’-]*){0,6})\s*$")
+N=re.compile(r"([A-Za-z][A-Za-z0-9'’./-]*(?:\s+[A-Za-z][A-Za-z0-9'’./-]*){0,5})\s*$")
+C=re.compile(r'(?:[A-Z]{1,7}[-_]?\d+[A-Za-z0-9/-]*|[A-Z]{2,8})')
+EX={'요약','설명','참고','주의','버그 신고','작업 중','출시 예정','구','신','씨앗','동체','가죽','줄기','분비선','소형 포트','완전 자동 조종 시스템'}
+STRINGS=('.strings','.dlstrings','.ilstrings')
+FIELDS=('file','key','direction','left_context','parenthetical','source_en','current_ko','proposed_ko','note')
 
-
-def candidates(translation, source):
-    """Yield review candidates, never assume semantic equivalence."""
-    for m in PARENS.finditer(translation):
-        inside = m.group(1).strip()
-        left = translation[max(0, m.start() - 95):m.start()]
-        if not left or '<' in inside or '>' in inside or '\\' in inside:
+def candidates(ko,en):
+    for match in P.finditer(ko):
+        inside=match[1].strip()
+        before=ko[max(0,match.start()-100):match.start()]
+        if not before or any(c in inside for c in '<>{}\\'):
             continue
-        if HANGUL.search(inside) and not LATIN.search(inside):
-            last = EN_SUFFIX.search(left)
-            if not last:
-                continue
-            original = last.group(1).strip()
-            if CODE.fullmatch(original.split()[-1]) or EXPLANATIONS.fullmatch(inside):
-                continue
-            direction = 'English(Korean)'
-        elif LATIN.search(inside) and not HANGUL.search(inside):
-            last = KO_SUFFIX.search(left)
-            if not last:
-                continue
-            original = last.group(1).strip()
-            if CODE.fullmatch(inside) or len(inside) <= 1:
-                continue
-            direction = 'Korean(English)'
-        else:
-            continue
-        yield {'direction': direction, 'left_context': original, 'parenthetical': inside,
-               'english_occurs_in_source': inside.casefold() in source.casefold() if direction == 'Korean(English)' else original.casefold() in source.casefold(),
-               'preview': translation[max(0, m.start() - 48):min(len(translation), m.end() + 48)]}
+        if H.search(inside) and not E.search(inside):
+            m=N.search(before)
+            if not m or C.fullmatch(m[1].strip()) or inside in EX:continue
+            left=m[1].strip()
+            if left.casefold() not in en.casefold():continue
+            start=match.start()-(len(before)-m.start(1))
+            suggestion=ko[:start]+inside+ko[match.end():]
+            direction='English(Korean)'
+        elif E.search(inside) and not H.search(inside):
+            m=K.search(before)
+            if not m or C.fullmatch(inside) or len(inside)<2:continue
+            if re.search(r'[/=<>%{}\[\]0-9]',inside):continue
+            if inside.casefold() not in en.casefold():continue
+            left=m[1].strip()
+            suggestion=ko[:match.start()]+ko[match.end():]
+            direction='Korean(English)'
+        else:continue
+        if suggestion!=ko:
+            yield {'direction':direction,'left_context':left,'parenthetical':inside,'proposed_ko':suggestion,
+                   'note':'Candidate ONLY. Verify same-name bilingual duplication; keep explanatory parentheses.'}
 
+def scan(repo,out,summary_path):
+    base=repo/'installer-data'
+    manifest=json.loads((base/'manifest.json').read_text(encoding='utf8'))
+    counts=Counter();examples=[];byfile=Counter()
+    with out.open('w',encoding='utf-8-sig',newline='') as stream:
+        writer=csv.DictWriter(stream,FIELDS);writer.writeheader()
+        for op in manifest['operations']:
+            if op['kind']!='text_recipe':
+                counts['non_translation_operations_excluded']+=1;continue
+            if op['target'].lower().endswith(STRINGS):
+                counts['base_dlc_strings_excluded']+=1;continue
+            counts['plugin_operations']+=1
+            raw=(base/'blobs'/op['blob']).read_bytes()
+            if hashlib.sha256(raw).hexdigest()!=op['blob']:
+                raise ValueError('Package blob checksum mismatch: '+op['target'])
+            recipe=json.loads(gzip.decompress(raw))
+            if recipe['kind']!='plugin':raise ValueError('Unexpected plugin recipe: '+op['target'])
+            for key,pair in recipe['translations']:
+                if len(pair)<2:continue
+                counts['plugin_translation_rows']+=1
+                src,translation=pair[:2]
+                for c in candidates(translation,src):
+                    counts['candidate_occurrences']+=1
+                    counts[c['direction']]+=1;byfile[op['target']]+=1
+                    row={'file':op['target'],'key':json.dumps(key,ensure_ascii=False),
+                         'source_en':src,'current_ko':translation,**c}
+                    writer.writerow(row)
+                    if len(examples)<80: examples.append(row)
+    result={'scope':'PLUGIN ONLY (base-game + DLC .strings/.dlstrings/.ilstrings excluded)',
+            'counts':dict(counts),'candidates_by_plugin':dict(byfile),
+            'sample_candidates':examples,'actual_text_changes':0,
+            'base_strings_unchanged':True}
+    summary_path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+    print('AUDIT_SUMMARY',json.dumps({k:v for k,v in result.items() if k!='sample_candidates'},ensure_ascii=False))
+    print('REVIEW_SAMPLES',json.dumps(examples[:60],ensure_ascii=False))
 
-def active_rows(repo):
-    base = repo / 'installer-data'
-    manifest = json.loads((base / 'manifest.json').read_text(encoding='utf-8'))
-    seen = set()
-    for op in manifest['operations']:
-        if op['kind'] != 'text_recipe' or op['blob'] in seen:
-            continue
-        seen.add(op['blob'])
-        path = base / 'blobs' / op['blob']
-        payload = path.read_bytes()
-        if hashlib.sha256(payload).hexdigest() != op['blob']:
-            raise ValueError('Recipe blob checksum mismatch: ' + str(path))
-        recipe = json.loads(gzip.decompress(payload))
-        for key, pair in recipe['translations']:
-            if len(pair) >= 2:
-                yield ('active', op['target'], json.dumps(key, ensure_ascii=False), pair[0], pair[1])
-
-
-def legacy_rows(repo):
-    base = repo / 'translation-review' / 'legacy'
-    manifest = json.loads((base / 'manifest.json').read_text(encoding='utf-8'))
-    for batch in manifest['batches']:
-        records = json.loads((base / batch['path']).read_text(encoding='utf-8'))['items']
-        for entry in records:
-            yield ('legacy', batch['path'], entry['id'], entry['source_en'], entry['current_patch_ko'])
-
-
-def audit(rows, csv_path):
-    counts = Counter()
-    with csv_path.open('w', encoding='utf-8-sig', newline='') as out:
-        writer = csv.DictWriter(out, fieldnames=('scope', 'file', 'key', 'direction', 'left_context', 'parenthetical', 'english_occurs_in_source', 'preview'))
-        writer.writeheader()
-        for scope, file, key, source, translation in rows:
-            counts['records_scanned'] += 1
-            for candidate in candidates(translation, source):
-                writer.writerow({'scope': scope, 'file': file, 'key': key, **candidate})
-                counts['candidates'] += 1
-                counts[candidate['direction']] += 1
-    return counts
-
-
-def self_test():
-    checks = [
-        ('헤이드리안(Hadrian)', 'Hadrian', 'Korean(English)'),
-        ('Dantooine(단투인)', 'Dantooine', 'English(Korean)'),
-        ('단투인(Dantooine)', 'Dantooine', 'Korean(English)'),
-        ('번역(요약)', 'Translation', None),
-        ('CAPS(완전 자동 조종 시스템)', 'CAPS', None),
-        ('A-280 (버그 신고)', 'A-280 (report this as a bug)', None),
-        ('은하 뉴스 네트워크(GNN)', 'Galactic News Network (GNN)', None),
-        ('X-윙 (S) 원자로 (C)', 'X-wing (S) Reactor (C)', None),
-        ('우주 너머 (<Alias=Planet>)', 'From Beyond (<Alias=Planet>)', None),
-    ]
-    for translation, source, expected in checks:
-        got = [c['direction'] for c in candidates(translation, source)]
-        assert got == ([] if expected is None else [expected]), (translation, got)
-    print(f'PASS: {len(checks)} candidate/exclusion tests')
-
+def test():
+    cases=[('헤이드리안(Hadrian)','Hadrian','헤이드리안'),
+           ('Dantooine(단투인)','Dantooine','단투인'),
+           ('단투인(Dantooine)','Dantooine','단투인'),
+           ('Darth Vader(다스 베이더)에게','Darth Vader','다스 베이더에게'),
+           ('번역(요약)','Translation',None),
+           ('CAPS(완전 자동 조종 시스템)','CAPS',None),
+           ('A-280 (버그 신고)','A-280 (report this as a bug)',None),
+           ('은하 뉴스 네트워크(GNN)','Galactic News Network (GNN)',None),
+           ('X-윙 (S) 원자로 (C)','X-wing (S) Reactor (C)',None),
+           ('우주 너머 (<Alias=Planet>)','From Beyond (<Alias=Planet>)',None)]
+    for ko,en,expected in cases:
+        found=list(candidates(ko,en))
+        got=found[0]['proposed_ko'] if found else None
+        assert got==expected,(ko,expected,got)
+    print('PASS',len(cases),'tests')
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--repo', type=Path, default=Path('.'))
-    parser.add_argument('--out', type=Path)
-    parser.add_argument('--include-legacy', action='store_true')
-    parser.add_argument('--self-test', action='store_true')
-    args = parser.parse_args()
-    if args.self_test:
-        self_test()
-        return
-    if not args.out:
-        parser.error('--out CSV path is required')
-    import itertools
-    rows = active_rows(args.repo)
-    if args.include_legacy:
-        rows = itertools.chain(rows, legacy_rows(args.repo))
-    result = audit(rows, args.out)
-    print(json.dumps(dict(result), ensure_ascii=False))
-    print('Review CSV written:', args.out)
-    print('No installer-data files, hashes, or existing translations were modified.')
-
-
-if __name__ == '__main__':
-    main()
+    p=argparse.ArgumentParser()
+    p.add_argument('--repo',type=Path,default=Path('.'))
+    p.add_argument('--out',type=Path)
+    p.add_argument('--summary-json',type=Path)
+    p.add_argument('--self-test',action='store_true')
+    args=p.parse_args()
+    if args.self_test:test();return
+    if not args.out or not args.summary_json:p.error('--out and --summary-json are required')
+    scan(args.repo,args.out,args.summary_json)
+if __name__=='__main__':main()
