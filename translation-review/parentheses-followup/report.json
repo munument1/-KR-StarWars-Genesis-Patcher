@@ -1,0 +1,16 @@
+{
+  "previous_removed_recipe_locations": 216,
+  "additional_confirmed_recipe_locations": 10,
+  "additional_targets": {
+    "TheSniper9-swvehiclepack.esm": 4,
+    "StarWarsGenesisOverridePatch.esm": 1,
+    "starfield_en.ilstrings": 2,
+    "starfield_en.strings": 3
+  },
+  "broad_recipe_bracket_candidates": 1181,
+  "broad_candidates_include_controls_and_summaries": true,
+  "exertion_and_save_installed_verified": true,
+  "sst_originals_not_applied": true,
+  "followup_game_modified": false,
+  "followup_release_published": false
+}
