@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "installed_plugins": 158,
+    "installed_plugin_text_fields": 56056,
+    "installed_strings_files": 39,
+    "installed_strings_rows": 234990,
+    "ui_or_bat_files": 2,
+    "sst_files": 140,
+    "active_sst_rows": 253340,
+    "inactive_sst_rows": 34714
+  },
+  "bracket_candidates": {
+    "live_plugin": 228,
+    "live_strings": 1035,
+    "ui_or_bat": 16,
+    "active_sst": 923,
+    "inactive_sst": 264
+  },
+  "image_caption_candidates": 0,
+  "unique_live_contexts": 1157,
+  "new_confirmed_locations": 5,
+  "prior_pending_locations": 10,
+  "new_preview_files": 2,
+  "game_modified": false,
+  "sst_modified": false,
+  "release_modified": false,
+  "preview_validation_passed": true
+}

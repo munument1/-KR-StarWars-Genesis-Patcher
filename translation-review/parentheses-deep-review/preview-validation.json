@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "target": "mods/Star Wars - Name Replacement Overhaul/strings/sfbgs00d_en.dlstrings",
+      "input_sha256": "6124b881c5d5579331af6d96d5ba973c4e7a29e34437f3060140ad49968d22a0",
+      "output_sha256": "56a6a332cf9f812c37136989c34a30af6c354f305394666493ffa945be587e96",
+      "changed_locations": 1
+    },
+    {
+      "target": "mods/Star Wars Genesis - HUD Pack/interface/translate_en.txt",
+      "input_sha256": "0f17e045f7a97a8b6c5b2b11e64d9ef51643d4410d994bb1797e0bf87caefce0",
+      "output_sha256": "8340ac6c817a610c528ad96f0d0c526fc803b7921ffd316656a6642b16f3e98d",
+      "changed_locations": 4
+    }
+  ],
+  "game_modified": false
+}
